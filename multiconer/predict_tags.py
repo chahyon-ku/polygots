@@ -3,7 +3,7 @@ import time
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
-from utils.utils import parse_args, get_reader, load_model, get_out_filename, get_tagset
+from lib.utils import parse_args, get_reader, load_model, get_out_filename, get_tagset
 
 if __name__ == '__main__':
     timestamp = time.time()

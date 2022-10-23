@@ -1,5 +1,6 @@
 import argparse
 import os
+import sys
 import time
 
 import torch
@@ -8,9 +9,9 @@ from pytorch_lightning import seed_everything
 import pytorch_lightning as pl
 from pytorch_lightning.callbacks import LearningRateMonitor, EarlyStopping
 
-from log import logger
-from model.ner_model import NERBaseAnnotator
-from utils.reader import CoNLLReader
+from lib.log import logger
+from lib.ner_model import NERBaseAnnotator
+from lib.reader import CoNLLReader
 
 conll_iob = {'B-ORG': 0, 'I-ORG': 1, 'B-MISC': 2, 'I-MISC': 3, 'B-LOC': 4, 'I-LOC': 5, 'B-PER': 6, 'I-PER': 7, 'O': 8}
 wnut_iob = {'B-CORP': 0, 'I-CORP': 1, 'B-CW': 2, 'I-CW': 3, 'B-GRP': 4, 'I-GRP': 5, 'B-LOC': 6, 'I-LOC': 7, 'B-PER': 8, 'I-PER': 9, 'B-PROD': 10, 'I-PROD': 11, 'O': 12}
@@ -19,11 +20,12 @@ weibo_iob = {'O': 0,  'B-PER.NOM': 1,  'E-PER.NOM': 2,  'B-LOC.NAM': 3,  'E-LOC.
 msra_iob = {'O': 0,  'S-NS': 1,  'B-NS': 2,  'E-NS': 3,  'B-NT': 4,  'M-NT': 5,  'E-NT': 6,  'M-NS': 7,  'B-NR': 8,  'M-NR': 9,  'E-NR': 10,  'S-NR': 11,  'S-NT': 12}
 ontonotes_iob = {'E-PER': 0,  'E-GPE': 1,  'E-LOC': 2,  'M-ORG': 3,  'E-ORG': 4,  'S-ORG': 5,  'B-GPE': 6,  'O': 7,  'M-PER': 8,  'M-LOC': 9,  'B-PER': 10,  'M-GPE': 11,  'S-LOC': 12,  'B-ORG': 13,  'S-PER': 14,  'B-LOC': 15,  'S-GPE': 16}
 
+
 def parse_args():
     p = argparse.ArgumentParser(description='Model configuration.', add_help=False)
-    p.add_argument('--train', type=str, help='Path to the train data.', default=None)
-    p.add_argument('--test', type=str, help='Path to the test data.', default=None)
-    p.add_argument('--dev', type=str, help='Path to the dev data.', default=None)
+    p.add_argument('--train', type=str, help='Path to the train data.', default='../data/MULTI_Multilingual/multi_train.conll')
+    p.add_argument('--test', type=str, help='Path to the test data.', default='../data/MULTI_Multilingual/multi_test.conll')
+    p.add_argument('--dev', type=str, help='Path to the dev data.', default='../data/MULTI_Multilingual/multi_dev.conll')
 
     p.add_argument('--out_dir', type=str, help='Output directory.', default='.')
     p.add_argument('--iob_tagging', type=str, help='IOB tagging scheme', default='wnut')
@@ -31,16 +33,16 @@ def parse_args():
     p.add_argument('--max_instances', type=int, help='Maximum number of instances', default=-1)
     p.add_argument('--max_length', type=int, help='Maximum number of tokens per instance.', default=50)
 
-    p.add_argument('--encoder_model', type=str, help='Pretrained encoder model to use', default='xlm-roberta-large')
+    p.add_argument('--encoder_model', type=str, help='Pretrained encoder model to use', default='xlm-roberta-base')
     p.add_argument('--model', type=str, help='Model path.', default=None)
-    p.add_argument('--model_name', type=str, help='Model name.', default=None)
+    p.add_argument('--model_name', type=str, help='Model name.', default='xlmr_ner')
     p.add_argument('--stage', type=str, help='Training stage', default='fit')
     p.add_argument('--prefix', type=str, help='Prefix for storing evaluation files.', default='test')
 
-    p.add_argument('--batch_size', type=int, help='Batch size.', default=128)
+    p.add_argument('--batch_size', type=int, help='Batch size.', default=32)
     p.add_argument('--gpus', type=int, help='Number of GPUs.', default=1)
     p.add_argument('--cuda', type=str, help='Cuda Device', default='cuda:0')
-    p.add_argument('--epochs', type=int, help='Number of epochs for training.', default=5)
+    p.add_argument('--epochs', type=int, help='Number of epochs for training.', default=10)
     p.add_argument('--lr', type=float, help='Learning rate', default=1e-5)
     p.add_argument('--dropout', type=float, help='Dropout rate', default=0.1)
 
@@ -128,12 +130,13 @@ def train_model(model, out_dir='', epochs=10, gpus=1):
 def get_trainer(gpus=4, is_test=False, out_dir=None, epochs=10):
     seed_everything(42)
     if is_test:
-        return pl.Trainer(gpus=1) if torch.cuda.is_available() else pl.Trainer(val_check_interval=100)
+        return pl.Trainer(accelerator='gpu', gpus=1) if torch.cuda.is_available() else pl.Trainer(val_check_interval=100)
 
     if torch.cuda.is_available():
-        trainer = pl.Trainer(gpus=gpus, deterministic=True, max_epochs=epochs, callbacks=[get_model_earlystopping_callback()],
-                             default_root_dir=out_dir, distributed_backend='ddp', checkpoint_callback=False)
-        trainer.callbacks.append(get_lr_logger())
+        strategy = 'ddp' if sys.platform == 'linux' else None
+        trainer = pl.Trainer(accelerator='gpu', gpus=gpus, deterministic=False, max_epochs=epochs,
+                             callbacks=[get_model_earlystopping_callback(), get_lr_logger()],
+                             default_root_dir=out_dir, strategy=strategy, enable_checkpointing=False)
     else:
         trainer = pl.Trainer(max_epochs=epochs, default_root_dir=out_dir)
 

@@ -3,7 +3,7 @@ import itertools
 
 
 def get_ner_reader(data):
-    fin = gzip.open(data, 'rt') if data.endswith('.gz') else open(data, 'rt')
+    fin = gzip.open(data, 'rt') if data.endswith('.gz') else open(data, 'rt', encoding='utf-8')
     for is_divider, lines in itertools.groupby(fin, _is_divider):
         if is_divider:
             continue

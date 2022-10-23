@@ -1,62 +1,49 @@
-from typing import List, Any
-from itertools import compress
-
-import pytorch_lightning.core.lightning as pl
-
+import typing
+import itertools
 import torch
-import torch.nn.functional as F
-import numpy as np
-
-from allennlp.modules import ConditionalRandomField
-from allennlp.modules.conditional_random_field import allowed_transitions
-from torch import nn
-from torch.utils.data import DataLoader
-from transformers import get_linear_schedule_with_warmup, AutoModel
-
-from log import logger
-from utils.metric import SpanF1
-from utils.reader_utils import extract_spans, get_tags
+import numpy
+import allennlp.modules
+import transformers
+import lib.metric
+import lib.reader_utils
 
 
-class NERBaseAnnotator(pl.LightningModule):
+class NERModel(torch.nn.Module):
     def __init__(self,
-                 train_data=None,
-                 dev_data=None,
                  lr=1e-5,
                  dropout_rate=0.1,
                  batch_size=16,
                  tag_to_id=None,
-                 stage='fit',
                  pad_token_id=1,
                  encoder_model='xlm-roberta-large',
-                 num_gpus=1):
-        super(NERBaseAnnotator, self).__init__()
-
-        self.train_data = train_data
-        self.dev_data = dev_data
-
+                 num_gpus=1,
+                 num_workers=4):
+        super(NERModel, self).__init__()
         self.id_to_tag = {v: k for k, v in tag_to_id.items()}
         self.tag_to_id = tag_to_id
         self.batch_size = batch_size
 
-        self.stage = stage
         self.num_gpus = num_gpus
+        self.num_workers = num_workers
         self.target_size = len(self.id_to_tag)
 
         # set the default baseline model here
         self.pad_token_id = pad_token_id
 
         self.encoder_model = encoder_model
-        self.encoder = AutoModel.from_pretrained(encoder_model, return_dict=True)
+        self.encoder = transformers.AutoModel.from_pretrained(encoder_model, return_dict=True)
 
-        self.feedforward = nn.Linear(in_features=self.encoder.config.hidden_size, out_features=self.target_size)
+        self.feedforward = torch.nn.Linear(in_features=self.encoder.config.hidden_size, out_features=self.target_size)
 
-        self.crf_layer = ConditionalRandomField(num_tags=self.target_size, constraints=allowed_transitions(constraint_type="BIO", labels=self.id_to_tag))
+        self.crf_layer = allennlp.modules.\
+            ConditionalRandomField(num_tags=self.target_size,
+                                   constraints=allennlp.modules.conditional_random_field.
+                                   allowed_transitions(constraint_type="BIO", labels=self.id_to_tag))
 
         self.lr = lr
-        self.dropout = nn.Dropout(dropout_rate)
+        self.dropout = torch.nn.Dropout(dropout_rate)
 
-        self.span_f1 = SpanF1()
+        self.span_f1 = lib.metric.SpanF1()
         self.setup_model(self.stage)
         self.save_hyperparameters('pad_token_id', 'encoder_model')
 
@@ -92,7 +79,12 @@ class NERBaseAnnotator(pl.LightningModule):
     def configure_optimizers(self):
         optimizer = torch.optim.AdamW(self.parameters(), lr=self.lr, weight_decay=0.01)
         if self.stage == 'fit':
-            scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=self.warmup_steps, num_training_steps=self.total_steps)
+            warmup_lr = torch.optim.lr_scheduler.LinearLR(optimizer, start_factor=1e-6, end_factor=1,
+                                                          total_iters=self.warmup_steps)
+            train_lr = torch.optim.lr_scheduler.LinearLR(optimizer, start_factor=1, end_factor=1e-6,
+                                                         total_iters=self.total_steps - self.warmup_steps)
+
+            scheduler = torch.optim.lr_scheduler.SequentialLR(optimizer, [warmup_lr, train_lr], [self.warmup_steps])
             scheduler = {
                 'scheduler': scheduler,
                 'interval': 'step',
@@ -102,18 +94,18 @@ class NERBaseAnnotator(pl.LightningModule):
         return [optimizer]
 
     def train_dataloader(self):
-        loader = DataLoader(self.train_data, batch_size=self.batch_size, collate_fn=self.collate_batch, num_workers=10)
+        loader = torch.utils.data.DataLoader(self.train_data, batch_size=self.batch_size, collate_fn=self.collate_batch, num_workers=self.num_workers)
         return loader
 
     def val_dataloader(self):
         if self.dev_data is None:
             return None
-        loader = DataLoader(self.dev_data, batch_size=self.batch_size, collate_fn=self.collate_batch, num_workers=10)
+        loader = torch.utils.data.DataLoader(self.dev_data, batch_size=self.batch_size, collate_fn=self.collate_batch, num_workers=self.num_workers)
         return loader
 
     def test_epoch_end(self, outputs):
         pred_results = self.span_f1.get_metric()
-        avg_loss = np.mean([preds['loss'].item() for preds in outputs])
+        avg_loss = numpy.mean([preds['loss'].item() for preds in outputs])
         self.log_metrics(pred_results, loss=avg_loss, on_step=False, on_epoch=True)
 
         out = {"test_loss": avg_loss, "results": pred_results}
@@ -121,12 +113,12 @@ class NERBaseAnnotator(pl.LightningModule):
 
     def training_epoch_end(self, outputs: List[Any]) -> None:
         pred_results = self.span_f1.get_metric(True)
-        avg_loss = np.mean([preds['loss'].item() for preds in outputs])
+        avg_loss = numpy.mean([preds['loss'].item() for preds in outputs])
         self.log_metrics(pred_results, loss=avg_loss, suffix='', on_step=False, on_epoch=True)
 
     def validation_epoch_end(self, outputs: List[Any]) -> None:
         pred_results = self.span_f1.get_metric(True)
-        avg_loss = np.mean([preds['loss'].item() for preds in outputs])
+        avg_loss = numpy.mean([preds['loss'].item() for preds in outputs])
         self.log_metrics(pred_results, loss=avg_loss, suffix='val_', on_step=False, on_epoch=True)
 
     def validation_step(self, batch, batch_idx):
@@ -156,11 +148,11 @@ class NERBaseAnnotator(pl.LightningModule):
 
         embedded_text_input = self.encoder(input_ids=tokens, attention_mask=mask)
         embedded_text_input = embedded_text_input.last_hidden_state
-        embedded_text_input = self.dropout(F.leaky_relu(embedded_text_input))
+        embedded_text_input = self.dropout(torch.nn.functional.leaky_relu(embedded_text_input))
 
         # project the token representation for classification
         token_scores = self.feedforward(embedded_text_input)
-        token_scores = F.log_softmax(token_scores, dim=-1)
+        token_scores = torch.nn.functional.log_softmax(token_scores, dim=-1)
 
         # compute the log-likelihood loss and compute the best NER annotation sequence
         output = self._compute_token_tags(token_scores=token_scores, mask=mask, tags=tags, metadata=metadata, batch_size=batch_size, mode=mode)
@@ -175,7 +167,7 @@ class NERBaseAnnotator(pl.LightningModule):
         for i in range(batch_size):
             tag_seq, _ = best_path[i]
             pred_tags.append([self.id_to_tag[x] for x in tag_seq])
-            pred_results.append(extract_spans([self.id_to_tag[x] for x in tag_seq if x in self.id_to_tag]))
+            pred_results.append(lib.reader_utils.extract_spans([self.id_to_tag[x] for x in tag_seq if x in self.id_to_tag]))
 
         self.span_f1(pred_results, metadata)
         output = {"loss": loss, "results": self.span_f1.get_metric()}
@@ -190,5 +182,5 @@ class NERBaseAnnotator(pl.LightningModule):
         batch = tokens, tags, mask, token_mask, metadata
 
         pred_tags = self.perform_forward_step(batch, mode='predict')['token_tags']
-        tag_results = [compress(pred_tags_, mask_) for pred_tags_, mask_ in zip(pred_tags, token_mask)]
+        tag_results = [itertools.compress(pred_tags_, mask_) for pred_tags_, mask_ in zip(pred_tags, token_mask)]
         return tag_results

@@ -1,22 +1,15 @@
 import torch
-from torch.utils.data import Dataset
-
-from transformers import AutoTokenizer
-
-from log import logger
-from utils.reader_utils import get_ner_reader, extract_spans, _assign_ner_tags
-
-import os
-
-os.environ["TOKENIZERS_PARALLELISM"] = "false"
+import transformers
+import lib.log
+import lib.reader_utils
 
 
-class CoNLLReader(Dataset):
+class CoNLLReader(torch.utils.data.Dataset):
     def __init__(self, max_instances=-1, max_length=50, target_vocab=None, pretrained_dir='', encoder_model='xlm-roberta-large'):
         self._max_instances = max_instances
         self._max_length = max_length
 
-        self.tokenizer = AutoTokenizer.from_pretrained(pretrained_dir + encoder_model)
+        self.tokenizer = transformers.AutoTokenizer.from_pretrained(pretrained_dir + encoder_model)
 
         self.pad_token = self.tokenizer.special_tokens_map['pad_token']
         self.pad_token_id = self.tokenizer.get_vocab()[self.pad_token]
@@ -39,10 +32,10 @@ class CoNLLReader(Dataset):
 
     def read_data(self, data):
         dataset_name = data if isinstance(data, str) else 'dataframe'
-        logger.info('Reading file {}'.format(dataset_name))
+        lib.log.logger.info('Reading file {}'.format(dataset_name))
         instance_idx = 0
 
-        for fields, metadata in get_ner_reader(data=data):
+        for fields, metadata in lib.reader_utils.get_ner_reader(data=data):
             if self._max_instances != -1 and instance_idx > self._max_instances:
                 break
             sentence_str, tokens_sub_rep, token_masks_rep, coded_ner_, gold_spans_, mask = self.parse_line_for_ner(fields=fields)
@@ -54,12 +47,12 @@ class CoNLLReader(Dataset):
 
             self.instances.append((tokens_tensor, mask_rep, token_masks_rep, gold_spans_, tag_tensor))
             instance_idx += 1
-        logger.info('Finished reading {:d} instances from file {}'.format(len(self.instances), dataset_name))
+        lib.log.logger.info('Finished reading {:d} instances from file {}'.format(len(self.instances), dataset_name))
 
     def parse_line_for_ner(self, fields):
         tokens_, ner_tags = fields[0], fields[-1]
         sentence_str, tokens_sub_rep, ner_tags_rep, token_masks_rep, mask = self.parse_tokens_for_ner(tokens_, ner_tags)
-        gold_spans_ = extract_spans(ner_tags_rep)
+        gold_spans_ = lib.reader_utils.extract_spans(ner_tags_rep)
         coded_ner_ = [self.label_to_id[tag] if tag in self.label_to_id else self.label_to_id['O'] for tag in ner_tags_rep]
 
         return sentence_str, tokens_sub_rep, token_masks_rep, coded_ner_, gold_spans_, mask
@@ -78,7 +71,7 @@ class CoNLLReader(Dataset):
 
             # if we have a NER here, in the case of B, the first NER tag is the B tag, the rest are I tags.
             ner_tag = ner_tags[idx]
-            tags, masks = _assign_ner_tags(ner_tag, rep_)
+            tags, masks = lib.reader_utils.assign_ner_tags(ner_tag, rep_)
 
             ner_tags_rep.extend(tags)
             token_masks_rep.extend(masks)
