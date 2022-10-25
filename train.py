@@ -50,7 +50,7 @@ if __name__ == '__main__':
 
     # model
     os.makedirs(args.cache_dir, exist_ok=True)
-    model = lib.model.NERModel(args.encoder_model, args.cache_dir, args.wnut_iob)
+    model = lib.model.NERModel(args.encoder_model, args.cache_dir, wnut_iob)
     model = model.cuda()
 
     # optim
