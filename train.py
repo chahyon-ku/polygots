@@ -39,11 +39,11 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # data
-    train_data = lib.dataset.CoNLLDataset(args.train_data, wnut_iob)
+    train_data = lib.dataset.CoNLLDataset(args.train_data, wnut_iob, args.encoder_model, args.cache_dir)
     train_loader = torch.utils.data.DataLoader(train_data, batch_size=args.batch_size, shuffle=True,
                                                num_workers=args.num_workers, collate_fn=train_data.collate_batch,
                                                pin_memory=True)
-    valid_data = lib.dataset.CoNLLDataset(args.valid_data, wnut_iob)
+    valid_data = lib.dataset.CoNLLDataset(args.valid_data, wnut_iob, args.encoder_model, args.cache_dir)
     valid_loader = torch.utils.data.DataLoader(valid_data, batch_size=args.batch_size, shuffle=False,
                                                num_workers=args.num_workers, collate_fn=valid_data.collate_batch,
                                                pin_memory=True)
@@ -64,8 +64,9 @@ if __name__ == '__main__':
     # train
     summary_writer = tensorboardX.SummaryWriter(args.log_dir)
     if args.resume is not None:
-        torch.load(args.resume)
-        model.load_state_dict()
+        state_dicts = torch.load(args.resume)
+        model.load_state_dict(state_dicts['model'])
+        optim.load_state_dict(state_dicts['optim'])
 
     global_step = 0
     epoch_postfix = collections.OrderedDict({})
