@@ -72,6 +72,7 @@ if __name__ == '__main__':
     epoch_postfix = collections.OrderedDict({})
     epoch_tqdm = tqdm.tqdm(range(args.n_epochs))
     for epoch in epoch_tqdm:
+        model.reset_metrics()
         train_tqdm = tqdm.tqdm(enumerate(train_loader), total=len(train_loader), leave=False)
         for i_train, batch in train_tqdm:
             epoch_tqdm.set_postfix(epoch_postfix)
@@ -85,7 +86,7 @@ if __name__ == '__main__':
 
             with torch.no_grad():
                 epoch_postfix['train_loss'] = output['loss'].item()
-                epoch_postfix['train_f1'] = output['result']['MD@F1'].item()
+                epoch_postfix['train_f1'] = output['results']['MD@F1'].item()
                 summary_writer.add_scalar('train_loss', epoch_postfix['train_loss'], global_step)
                 summary_writer.add_scalar('train_f1', epoch_postfix['train_f1'], global_step)
                 for metric_name, metric_value in output['results'].items():
@@ -94,6 +95,7 @@ if __name__ == '__main__':
 
         with torch.no_grad():
             if (epoch + 1) % args.f_valid == 0:
+                model.reset_metrics()
                 valid_losses = []
                 for i_train, batch in enumerate(valid_loader):
                     tokens, tags, mask, token_mask, metadata = [e.to(args.device) if i_e < 4 else e for i_e, e in enumerate(batch)]
@@ -101,11 +103,12 @@ if __name__ == '__main__':
                     token_scores = model(tokens, mask)
                     output = model.compute_results(token_scores, mask, tags, metadata)
 
-                    batch_loss = output['loss'].item()
-                    valid_losses.append(batch_loss)
-                valid_loss = numpy.mean(valid_losses)
-                epoch_postfix['valid_loss'] = valid_loss
-                summary_writer.add_scalar('valid_loss', valid_loss, global_step)
+                    valid_losses.append(output['loss'].item())
+                epoch_postfix['valid_loss'] = numpy.mean(valid_losses)
+                epoch_postfix['valid_f1'] = output['results']['MD@F1'].item()
+                summary_writer.add_scalar('valid_loss', epoch_postfix['valid_loss'], global_step)
+                for metric_name, metric_value in output['results'].items():
+                    summary_writer.add_scalar(metric_name, metric_value, global_step)
 
             if (epoch + 1) % args.f_save == 0:
                 os.makedirs(args.log_dir, exist_ok=True)
