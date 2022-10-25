@@ -4,25 +4,20 @@ import lib.log
 import lib.reader_utils
 
 
-class CoNLLReader(torch.utils.data.Dataset):
-    def __init__(self, max_instances=-1, max_length=50, target_vocab=None, pretrained_dir='', encoder_model='xlm-roberta-large'):
+class CoNLLDataset(torch.utils.data.Dataset):
+    def __init__(self, data, target_vocab, encoder_model, cache_dir, max_instances=-1, max_length=50):
         self._max_instances = max_instances
         self._max_length = max_length
 
-        self.tokenizer = transformers.AutoTokenizer.from_pretrained(pretrained_dir + encoder_model)
+        self.tokenizer = transformers.AutoTokenizer.from_pretrained(encoder_model, cache_dir=cache_dir)
 
         self.pad_token = self.tokenizer.special_tokens_map['pad_token']
         self.pad_token_id = self.tokenizer.get_vocab()[self.pad_token]
         self.sep_token = self.tokenizer.special_tokens_map['sep_token']
 
-        self.label_to_id = {} if target_vocab is None else target_vocab
+        self.tag_to_id = {} if target_vocab is None else target_vocab
         self.instances = []
-
-    def get_target_size(self):
-        return len(set(self.label_to_id.values()))
-
-    def get_target_vocab(self):
-        return self.label_to_id
+        self.read_data(data)
 
     def __len__(self):
         return len(self.instances)
@@ -53,7 +48,7 @@ class CoNLLReader(torch.utils.data.Dataset):
         tokens_, ner_tags = fields[0], fields[-1]
         sentence_str, tokens_sub_rep, ner_tags_rep, token_masks_rep, mask = self.parse_tokens_for_ner(tokens_, ner_tags)
         gold_spans_ = lib.reader_utils.extract_spans(ner_tags_rep)
-        coded_ner_ = [self.label_to_id[tag] if tag in self.label_to_id else self.label_to_id['O'] for tag in ner_tags_rep]
+        coded_ner_ = [self.tag_to_id[tag] if tag in self.tag_to_id else self.tag_to_id['O'] for tag in ner_tags_rep]
 
         return sentence_str, tokens_sub_rep, token_masks_rep, coded_ner_, gold_spans_, mask
 
@@ -81,3 +76,24 @@ class CoNLLReader(torch.utils.data.Dataset):
         token_masks_rep.append(False)
         mask = [True] * len(tokens_sub_rep)
         return sentence_str, tokens_sub_rep, ner_tags_rep, token_masks_rep, mask
+
+    def collate_batch(self, batch):
+        batch_ = list(zip(*batch))
+        tokens, masks, token_masks, gold_spans, tags = batch_[0], batch_[1], batch_[2], batch_[3], batch_[4]
+
+        max_len = max([len(token) for token in tokens])
+        token_tensor = torch.empty(size=(len(tokens), max_len), dtype=torch.long).fill_(self.pad_token_id)
+        tag_tensor = torch.empty(size=(len(tokens), max_len), dtype=torch.long).fill_(self.tag_to_id['O'])
+        mask_tensor = torch.zeros(size=(len(tokens), max_len), dtype=torch.bool)
+        token_masks_tensor = torch.zeros(size=(len(tokens), max_len), dtype=torch.bool)
+
+        for i in range(len(tokens)):
+            tokens_ = tokens[i]
+            seq_len = len(tokens_)
+
+            token_tensor[i, :seq_len] = tokens_
+            tag_tensor[i, :seq_len] = tags[i]
+            mask_tensor[i, :seq_len] = masks[i]
+            token_masks_tensor[i, :seq_len] = token_masks[i]
+
+        return token_tensor, tag_tensor, mask_tensor, token_masks_tensor, gold_spans
