@@ -105,7 +105,7 @@ if __name__ == '__main__':
 
                     valid_losses.append(output['loss'].item())
                 epoch_postfix['valid_loss'] = numpy.mean(valid_losses)
-                epoch_postfix['valid_f1'] = output['results']['MD@F1']
+                epoch_postfix['valid_f1'] = output['results']['MD@F1'].item()
                 summary_writer.add_scalar('valid_loss', epoch_postfix['valid_loss'], global_step)
                 for metric_name, metric_value in output['results'].items():
                     summary_writer.add_scalar(metric_name, metric_value, global_step)

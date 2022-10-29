@@ -45,16 +45,17 @@ if __name__ == '__main__':
         state_dicts = torch.load(args.resume)
         model.load_state_dict(state_dicts['model'])
 
+    test_postfix = collections.OrderedDict({})
     test_tqdm = tqdm.tqdm(enumerate(test_loader), total=len(test_loader), leave=False)
     with torch.no_grad():
         losses = []
         results = []
         for i_batch, batch in test_tqdm:
+            test_tqdm.set_postfix(test_postfix)
             tokens, tags, mask, token_mask, metadata = [e.to(args.device) if i_e < 4 else e for i_e, e in enumerate(batch)]
 
             token_scores = model(tokens, mask)
             output = model.compute_results(token_scores, mask, tags, metadata)
 
-            test_loss = output['loss']
-            test_f1 = output['results']['MD@F1']
-            print(test_loss, test_f1)
+            test_postfix['train_loss'] = output['loss'].item()
+            test_postfix['train_f1'] = output['results']['MD@F1']
