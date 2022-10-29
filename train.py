@@ -90,7 +90,7 @@ if __name__ == '__main__':
                 summary_writer.add_scalar('train_loss', epoch_postfix['train_loss'], global_step)
                 summary_writer.add_scalar('train_f1', epoch_postfix['train_f1'], global_step)
                 for metric_name, metric_value in output['results'].items():
-                    summary_writer.add_scalar(metric_name, metric_value, global_step)
+                    summary_writer.add_scalar(f'train_{metric_name}', metric_value, global_step)
                 global_step += 1
 
         with torch.no_grad():
@@ -108,7 +108,7 @@ if __name__ == '__main__':
                 epoch_postfix['valid_f1'] = output['results']['MD-F1'].item()
                 summary_writer.add_scalar('valid_loss', epoch_postfix['valid_loss'], global_step)
                 for metric_name, metric_value in output['results'].items():
-                    summary_writer.add_scalar(metric_name, metric_value, global_step)
+                    summary_writer.add_scalar(f'valid_{metric_name}', metric_value, global_step)
 
             if (epoch + 1) % args.f_save == 0:
                 os.makedirs(args.log_dir, exist_ok=True)
