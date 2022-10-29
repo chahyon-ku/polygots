@@ -25,7 +25,7 @@ if __name__ == '__main__':
     parser.add_argument('--cache_dir', type=str, default='cache')
 
     # train
-    parser.add_argument('--resume', type=str, default='logs/10-25 12-10/10.pt')
+    parser.add_argument('--resume', type=str, default='logs/10-25 12-10/9.pt')
     parser.add_argument('--device', type=str, default='cuda')
     args = parser.parse_args()
 
@@ -44,7 +44,6 @@ if __name__ == '__main__':
     if args.resume is not None:
         state_dicts = torch.load(args.resume)
         model.load_state_dict(state_dicts['model'])
-        optim.load_state_dict(state_dicts['optim'])
 
     test_tqdm = tqdm.tqdm(enumerate(test_loader), total=len(test_loader), leave=False)
     with torch.no_grad():
@@ -56,11 +55,6 @@ if __name__ == '__main__':
             token_scores = model(tokens, mask)
             output = model.compute_results(token_scores, mask, tags, metadata)
 
-            losses.append()
-            epoch_postfix['train_loss'] = output['loss'].item()
-            epoch_postfix['train_f1'] = output['result']['MD@F1'].item()
-            summary_writer.add_scalar('train_loss', epoch_postfix['train_loss'], global_step)
-            summary_writer.add_scalar('train_f1', epoch_postfix['train_f1'], global_step)
-            for metric_name, metric_value in output['results'].items():
-                summary_writer.add_scalar(metric_name, metric_value, global_step)
-            global_step += 1
+            test_loss = output['loss']
+            test_f1 = output['results']['MD@F1']
+            print(test_loss, test_f1)
