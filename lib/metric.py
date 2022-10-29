@@ -49,17 +49,17 @@ class SpanF1(Metric):
             precision, recall, f1_measure = self.compute_prf_metrics(true_positives=self._TP[tag],
                                                                      false_negatives=self._GT[tag] - self._TP[tag],
                                                                      false_positives=self._FP[tag])
-            all_metrics['P@{}'.format(tag)] = precision
-            all_metrics['R@{}'.format(tag)] = recall
-            all_metrics['F1@{}'.format(tag)] = f1_measure
+            all_metrics['P-{}'.format(tag)] = precision
+            all_metrics['R-{}'.format(tag)] = recall
+            all_metrics['F1-{}'.format(tag)] = f1_measure
 
         # Compute the precision, recall and f1 for all spans jointly.
         precision, recall, f1_measure = self.compute_prf_metrics(true_positives=sum(self._TP.values()),
                                                                  false_positives=sum(self._FP.values()),
                                                                  false_negatives=sum(self._GT.values())-sum(self._TP.values()))
-        all_metrics["micro@P"] = precision
-        all_metrics["micro@R"] = recall
-        all_metrics["micro@F1"] = f1_measure
+        all_metrics["micro-P"] = precision
+        all_metrics["micro-R"] = recall
+        all_metrics["micro-F1"] = f1_measure
 
         if self._num_gold_mentions == 0:
             entity_recall = 0.0
@@ -71,9 +71,9 @@ class SpanF1(Metric):
         else:
             entity_precision = self._num_recalled_mentions / float(self._num_predicted_mentions)
 
-        all_metrics['MD@R'] = entity_recall
-        all_metrics['MD@P'] = entity_precision
-        all_metrics['MD@F1'] = 2. * ((entity_precision * entity_recall) / (entity_precision + entity_recall + 1e-13))
+        all_metrics['MD-R'] = entity_recall
+        all_metrics['MD-P'] = entity_precision
+        all_metrics['MD-F1'] = 2. * ((entity_precision * entity_recall) / (entity_precision + entity_recall + 1e-13))
         all_metrics['ALLTRUE'] = float(self._num_gold_mentions)
         all_metrics['ALLRECALLED'] = float(self._num_recalled_mentions)
         all_metrics['ALLPRED'] = float(self._num_predicted_mentions)
