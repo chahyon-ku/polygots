@@ -76,14 +76,5 @@ class NERModel(torch.nn.Module):
             output['token_tags'] = pred_tags
         return output
 
-    def predict_tags(self, batch, device='cuda:0'):
-        tokens, tags, mask, token_mask, metadata = batch
-        tokens, mask, token_mask, tags = tokens.to(device), mask.to(device), token_mask.to(device), tags.to(device)
-        batch = tokens, tags, mask, token_mask, metadata
-
-        pred_tags = self.perform_forward_step(batch, mode='predict')['token_tags']
-        tag_results = [itertools.compress(pred_tags_, mask_) for pred_tags_, mask_ in zip(pred_tags, token_mask)]
-        return tag_results
-
     def reset_metrics(self):
         self.span_f1.reset()

@@ -10,14 +10,14 @@ import lib
 import tqdm
 
 
-wnut_iob = {'B-CORP': 0, 'I-CORP': 1, 'B-CW': 2, 'I-CW': 3, 'B-GRP': 4, 'I-GRP': 5, 'B-LOC': 6, 'I-LOC': 7, 'B-PER': 8, 'I-PER': 9, 'B-PROD': 10, 'I-PROD': 11, 'O': 12}
-
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     # data
     parser.add_argument('--train_data', type=str, default='data/MultiCoNER2/en-train.conll')
     parser.add_argument('--valid_data', type=str, default='data/MultiCoNER2/en-dev.conll')
+    # parser.add_argument('--train_data', type=str, default='data/MultiCoNER/EN-English/en_train.conll')
+    # parser.add_argument('--valid_data', type=str, default='data/MultiCoNER/EN-English/en_dev.conll')
+    parser.add_argument('--data_version', type=str, default=2, choices=(1, 2))
     parser.add_argument('--batch_size', type=int, default=16)
     parser.add_argument('--num_workers', type=int, default=4)
 
@@ -33,24 +33,25 @@ if __name__ == '__main__':
     parser.add_argument('--log_dir', type=str, default='logs/'+datetime.datetime.now().strftime('%m-%d %H-%M'))
     parser.add_argument('--resume', type=str, default=None)
     parser.add_argument('--device', type=str, default='cuda')
-    parser.add_argument('--n_epochs', type=int, default=10)
+    parser.add_argument('--n_epochs', type=int, default=20)
     parser.add_argument('--f_valid', type=int, default=1)
-    parser.add_argument('--f_save', type=int, default=1)
+    parser.add_argument('--f_save', type=int, default=5)
     args = parser.parse_args()
 
     # data
-    train_data = lib.dataset.CoNLLDataset(args.train_data, wnut_iob, args.encoder_model, args.cache_dir)
+    target_vocab = lib.dataset.tags_v1 if args.data_version == 1 else lib.dataset.tags_v2
+    train_data = lib.dataset.CoNLLDataset(args.train_data, target_vocab, args.encoder_model, args.cache_dir)
     train_loader = torch.utils.data.DataLoader(train_data, batch_size=args.batch_size, shuffle=True,
                                                num_workers=args.num_workers, collate_fn=train_data.collate_batch,
                                                pin_memory=True)
-    valid_data = lib.dataset.CoNLLDataset(args.valid_data, wnut_iob, args.encoder_model, args.cache_dir)
+    valid_data = lib.dataset.CoNLLDataset(args.valid_data, target_vocab, args.encoder_model, args.cache_dir)
     valid_loader = torch.utils.data.DataLoader(valid_data, batch_size=args.batch_size, shuffle=False,
                                                num_workers=args.num_workers, collate_fn=valid_data.collate_batch,
                                                pin_memory=True)
 
     # model
     os.makedirs(args.cache_dir, exist_ok=True)
-    model = lib.model.NERModel(args.encoder_model, args.cache_dir, wnut_iob)
+    model = lib.model.NERModel(args.encoder_model, args.cache_dir, target_vocab)
     model = model.cuda()
 
     # optim
@@ -88,9 +89,10 @@ if __name__ == '__main__':
                 epoch_postfix['train_loss'] = output['loss'].item()
                 epoch_postfix['train_f1'] = output['results']['MD-F1']
                 summary_writer.add_scalar('train_loss', epoch_postfix['train_loss'], global_step)
-                summary_writer.add_scalar('train_f1', epoch_postfix['train_f1'], global_step)
+                # summary_writer.add_scalar('train_f1', epoch_postfix['train_f1'], global_step)
                 for metric_name, metric_value in output['results'].items():
                     summary_writer.add_scalar(f'train_{metric_name}', metric_value, global_step)
+                summary_writer.flush()
                 global_step += 1
 
         with torch.no_grad():
@@ -105,10 +107,12 @@ if __name__ == '__main__':
 
                     valid_losses.append(output['loss'].item())
                 epoch_postfix['valid_loss'] = numpy.mean(valid_losses)
-                epoch_postfix['valid_f1'] = output['results']['MD-F1'].item()
+                epoch_postfix['valid_f1'] = output['results']['MD-F1']
                 summary_writer.add_scalar('valid_loss', epoch_postfix['valid_loss'], global_step)
+                # summary_writer.add_scalar('valid_f1', epoch_postfix['valid_f1'], global_step)
                 for metric_name, metric_value in output['results'].items():
                     summary_writer.add_scalar(f'valid_{metric_name}', metric_value, global_step)
+                summary_writer.flush()
 
             if (epoch + 1) % args.f_save == 0:
                 os.makedirs(args.log_dir, exist_ok=True)

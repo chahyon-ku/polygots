@@ -4,6 +4,10 @@ import lib.log
 import lib.reader_utils
 
 
+tags_v1 = {'B-CORP': 0, 'I-CORP': 1, 'B-CW': 2, 'I-CW': 3, 'B-GRP': 4, 'I-GRP': 5, 'B-LOC': 6, 'I-LOC': 7, 'B-PER': 8, 'I-PER': 9, 'B-PROD': 10, 'I-PROD': 11, 'O': 12}
+tags_v2 = {'O': 0, 'I-Artist': 1, 'B-Artist': 2, 'I-OtherPER': 3, 'I-VisualWork': 4, 'B-HumanSettlement': 5, 'I-MusicalWork': 6, 'I-Athlete': 7, 'B-OtherPER': 8, 'I-WrittenWork': 9, 'I-ORG': 10, 'B-Athlete': 11, 'I-Politician': 12, 'I-SportsGRP': 13, 'B-ORG': 14, 'I-MusicalGRP': 15, 'B-VisualWork': 16, 'B-MusicalWork': 17, 'B-Politician': 18, 'I-Facility': 19, 'B-MusicalGRP': 20, 'B-WrittenWork': 21, 'B-SportsGRP': 22, 'B-Facility': 23, 'B-OtherPROD': 24, 'I-HumanSettlement': 25, 'B-Software': 26, 'I-Scientist': 27, 'I-OtherLOC': 28, 'B-PublicCorp': 29, 'I-ArtWork': 30, 'I-PublicCorp': 31, 'I-OtherPROD': 32, 'I-SportsManager': 33, 'I-Cleric': 34, 'I-AerospaceManufacturer': 35, 'B-Disease': 36, 'B-Medication/Vaccine': 37, 'B-Scientist': 38, 'I-Software': 39, 'B-Food': 40, 'I-Station': 41, 'B-Vehicle': 42, 'B-SportsManager': 43, 'B-CarManufacturer': 44, 'B-Cleric': 45, 'B-AnatomicalStructure': 46, 'B-Drink': 47, 'B-Station': 48, 'I-CarManufacturer': 49, 'B-AerospaceManufacturer': 50, 'B-OtherLOC': 51, 'B-MedicalProcedure': 52, 'I-Vehicle': 53, 'B-Symptom': 54, 'B-Clothing': 55, 'B-ArtWork': 56, 'I-Symptom': 57, 'I-Disease': 58, 'I-PrivateCorp': 59, 'I-Drink': 60, 'B-PrivateCorp': 61, 'I-AnatomicalStructure': 62, 'I-Food': 63, 'I-MedicalProcedure': 64, 'I-Medication/Vaccine': 65, 'I-Clothing': 66}
+
+
 class CoNLLDataset(torch.utils.data.Dataset):
     def __init__(self, data, target_vocab, encoder_model, cache_dir, max_instances=-1, max_length=50):
         self._max_instances = max_instances
