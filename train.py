@@ -13,8 +13,9 @@ import tqdm
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     # data
-    parser.add_argument('--train_data', type=str, default='data/MultiCoNER2/en-train.conll')
-    parser.add_argument('--valid_data', type=str, default='data/MultiCoNER2/en-dev.conll')
+    parser.add_argument('--train_data', type=str, default='data/es-mulda.conll')
+    # parser.add_argument('--train_data', type=str, default='data/MultiCoNER2/es-train.conll')
+    parser.add_argument('--valid_data', type=str, default='data/MultiCoNER2/es-dev.conll')
     # parser.add_argument('--train_data', type=str, default='data/MultiCoNER/EN-English/en_train.conll')
     # parser.add_argument('--valid_data', type=str, default='data/MultiCoNER/EN-English/en_dev.conll')
     parser.add_argument('--data_version', type=str, default=2, choices=(1, 2))
@@ -56,11 +57,6 @@ if __name__ == '__main__':
 
     # optim
     optim = torch.optim.AdamW(model.parameters(), lr=args.lr, weight_decay=args.weight_decay)
-    # warmup_lr = torch.optim.lr_scheduler.LinearLR(optimizer, start_factor=1e-6, end_factor=1,
-    #                                               total_iters=warmup_steps)
-    # train_lr = torch.optim.lr_scheduler.LinearLR(optimizer, start_factor=1, end_factor=1e-6,
-    #                                              total_iters=total_steps - warmup_steps)
-    # scheduler = torch.optim.lr_scheduler.SequentialLR(optimizer, [warmup_lr, train_lr], [warmup_steps])
 
     # train
     summary_writer = tensorboardX.SummaryWriter(args.log_dir)
