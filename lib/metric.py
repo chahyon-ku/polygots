@@ -1,8 +1,10 @@
 from collections import defaultdict
 from typing import Set
 from overrides import overrides
-
 from allennlp.training.metrics.metric import Metric
+
+
+# From MultiCoNER baseline
 
 
 class SpanF1(Metric):

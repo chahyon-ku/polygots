@@ -1,6 +1,9 @@
 import logging
 
 
+# From MultiCoNER baseline
+
+
 def setup_custom_logger(name, level='INFO'):
     formatter = logging.Formatter(fmt='%(asctime)s - %(levelname)s - %(module)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 
