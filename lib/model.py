@@ -82,37 +82,8 @@ def get_mlm(encoder_model, cache_dir, device):
     return encoder
 
 
-class MaskedLanguageModel(torch.nn.Module):
-    def __init__(self, encoder_model, cache_dir, tag_to_id, dropout_rate=0.1, pad_token_id=1):
-        super(MaskedLanguageModel, self).__init__()
-
-        self.encoder_model = encoder_model
-        self.encoder = transformers.AutoModelForMaskedLM.from_pretrained(encoder_model, cache_dir=cache_dir, return_dict=True)
-        self.encoder.resize_token_embeddings(250050)
-        self.dropout = torch.nn.Dropout(dropout_rate)
-
-    def forward(self, input_ids, attention_masks):
-        embedded_text_input = self.encoder(input_ids=input_ids, attention_mask=attention_masks)
-        # embedded_text_input = embedded_text_input.last_hidden_state
-        # embedded_text_input = self.dropout(torch.nn.functional.leaky_relu(embedded_text_input))
-        return embedded_text_input
-
-
-class CausalLanguageModel(torch.nn.Module):
-    def __init__(self, encoder_model, cache_dir, dropout_rate=0.1, pad_token_id=1):
-        super(CausalLanguageModel, self).__init__()
-        self.target_size = len(self.id_to_tag)
-
-        self.pad_token_id = pad_token_id
-
-        self.encoder_model = encoder_model
-        self.encoder = transformers.AutoModelForCausalLM.from_pretrained(encoder_model, cache_dir=cache_dir, return_dict=True)
-
-        self.crf_layer = allennlp.modules.\
-            ConditionalRandomField(num_tags=self.target_size,
-                                   constraints=allennlp.modules.conditional_random_field.
-                                   allowed_transitions(constraint_type="BIO", labels=self.id_to_tag))
-
-        self.dropout = torch.nn.Dropout(dropout_rate)
-
-        self.span_f1 = lib.metric.SpanF1()
+def get_clm(encoder_model, cache_dir, device):
+    encoder = transformers.XLMRobertaForCausalLM.from_pretrained(encoder_model, cache_dir=cache_dir, return_dict=True)
+    encoder = encoder.to(device)
+    encoder.resize_token_embeddings(250100)
+    return encoder

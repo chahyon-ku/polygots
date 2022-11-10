@@ -70,7 +70,6 @@ def main():
                 summary_writer.add_scalar('train_loss', epoch_postfix['train_loss'], global_step)
                 summary_writer.flush()
                 global_step += 1
-            break
 
         with torch.no_grad():
             if (epoch + 1) % args.f_valid == 0:
