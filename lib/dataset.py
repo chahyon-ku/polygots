@@ -172,27 +172,30 @@ class MLMDataset(torch.utils.data.Dataset):
 
         for i_sample, (input_ids, attention_masks, special_tokens_mask) in \
                 enumerate(zip(batch_input_ids, batch_attention_mask, batch_special_tokens_mask)):
-            labels = input_ids.clone()
+            masked_input_ids = input_ids.clone()
             seq_len = len(input_ids)
 
             mapping = []
             for i_id, id in enumerate(input_ids):
+                id = id.item()
                 if special_tokens_mask[i_id]:
                     continue
-                id = id.item()
                 if id in self.tokenizer.additional_special_tokens_ids:
                     continue
                 token = self.tokenizer.convert_ids_to_tokens(id)
+                # start of a word
                 if token.startswith('▁'):
                     mapping.append([])
+                if len(mapping) == 0:
+                    print(self.tokenizer.convert_ids_to_tokens(input_ids))
                 mapping[-1].append(i_id)
             for indices in mapping:
-                if np.random.binomial(1, self.mlm_prob):
-                    input_ids[indices] = self.tokenizer.mask_token_id
+                if np.random.random(1) < self.mlm_prob:
+                    masked_input_ids[indices] = self.tokenizer.mask_token_id
 
-            batch_input_ids_tensor[i_sample, :seq_len] = input_ids
+            batch_input_ids_tensor[i_sample, :seq_len] = masked_input_ids
             batch_attention_masks_tensor[i_sample, :seq_len] = attention_masks
-            batch_labels_tensor[i_sample, :seq_len] = labels
+            batch_labels_tensor[i_sample, :seq_len] = input_ids
 
         return batch_input_ids_tensor, batch_attention_masks_tensor, batch_labels_tensor
 
