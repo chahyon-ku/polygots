@@ -1,5 +1,6 @@
 import argparse
 import collections
+import json
 import os
 
 import numpy as np
@@ -9,10 +10,22 @@ import lib
 import tqdm
 
 
+def post_process(s, tag_list):
+    for tag in tag_list:
+        if tag != 'O':
+            s = s.replace(tag, f' {tag} ')
+    s = s.replace('<s>', '')
+    s = s.replace('</s>', '')
+    s = s.replace('<pad>', '')
+    s = ' '.join(s.split())
+    return s
+
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--data_path', type=str, default='data/MultiCoNER2/en-train.conll')
-    parser.add_argument('--num_workers', type=int, default=0)
+    parser.add_argument('--num_workers', type=int, default=1)
     parser.add_argument('--batch_size', type=int, default=4)
     parser.add_argument('--mlm_prob', type=float,  default=0.15)
 
@@ -22,38 +35,51 @@ def main():
     parser.add_argument('--device', type=str, default='cuda', choices=('cpu', 'cuda'))
     parser.add_argument('--mode', type=str, default='daga', choices=('daga', 'melm', 'word'))
 
-    parser.add_argument('--lr', type=float, default=1e-6)
-
-    # train
-    parser.add_argument('--log_dir', type=str, default='logs/mlm_en_20')
-    parser.add_argument('--n_epochs', type=int, default=20)
-    parser.add_argument('--f_valid', type=int, default=1)
-    parser.add_argument('--f_save', type=int, default=1)
-    parser.add_argument('--dst_path', type=str, default='data/de-aug.conll')
+    # generate
+    parser.add_argument('--model_path', type=str, default='logs/en/mlm_en_20/19.pt')
+    parser.add_argument('--output_dir', type=str, default='output/mlm/en')
     args = parser.parse_args()
 
     # data
-    train_data = lib.dataset.MLMDataset(args.train_path, lib.dataset.tags_v2, args.model_name, args.cache_dir, args.mlm_prob)
-    train_loader = torch.utils.data.DataLoader(train_data, batch_size=args.batch_size, shuffle=True,
-                                               num_workers=args.num_workers, collate_fn=train_data.collate_batch,
-                                               pin_memory=True)
+    data = lib.dataset.MLMDatasetv2(args.data_path, lib.dataset.tags_v2, args.model_name, args.cache_dir, args.mlm_prob,
+                                    True)
+    loader = torch.utils.data.DataLoader(data, batch_size=args.batch_size, shuffle=False,
+                                         num_workers=args.num_workers, collate_fn=data.collate_batch,
+                                         pin_memory=True)
 
     model = lib.model.get_mlm(args.model_name, args.cache_dir, args.device)
-    optim = torch.optim.AdamW(model.parameters(), args.lr)
+    model.load_state_dict(torch.load(args.model_path))
 
-    # train
-    os.makedirs(args.log_dir, exist_ok=True)
-    summary_writer = tensorboardX.SummaryWriter(args.log_dir)
+    tag_list = list(lib.dataset.tags_v2.keys())
 
-    global_step = 0
-    data_tqdm = tqdm.tqdm(enumerate(train_loader), total=len(train_loader), leave=False)
-    for i_batch, batch in data_tqdm:
-        batch = [e.to(args.device) for e in batch]
-        input_ids, attention_mask, labels = batch
+    with torch.no_grad():
+        generated = []
 
-        output = model(input_ids, attention_mask, labels=labels)
-        print(output)
-        break
+        os.makedirs(args.output_dir, exist_ok=True)
+        data_tqdm = tqdm.tqdm(enumerate(loader), total=len(loader), leave=False)
+        for i_batch, batch in data_tqdm:
+            batch = [e.to(args.device) for e in batch]
+            input_ids, attention_mask, labels = batch
+
+            output = model(input_ids, attention_mask, labels=labels)
+
+            k = 5
+            masked_indices = torch.where(input_ids == data.tokenizer.mask_token_id)
+            masked_logits = output.logits[masked_indices]
+            _, masked_topk_ids = torch.topk(masked_logits, k)
+
+            generated_ids = labels.clone()
+            generated_ids[masked_indices] = masked_topk_ids[:, 0]
+            for i_sample, sample_ids in enumerate(generated_ids):
+                source_str = data.tokenizer.decode(labels[i_sample])
+                source_str = post_process(source_str, tag_list)
+                sample_str = data.tokenizer.decode(sample_ids)
+                sample_str = post_process(sample_str, tag_list)
+                generated.append({'source': source_str, 'sample': sample_str})
+
+    os.makedirs(args.output_dir, exist_ok=True)
+    with open(os.path.join(args.output_dir, 'samples.json'), 'w', encoding='utf-8') as f:
+        json.dump(generated, f, indent=1)
 
 
 if __name__ == '__main__':

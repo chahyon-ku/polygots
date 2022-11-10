@@ -200,9 +200,9 @@ class MLMDataset(torch.utils.data.Dataset):
         return batch_input_ids_tensor, batch_attention_masks_tensor, batch_labels_tensor
 
 
-class MLMDataset(torch.utils.data.Dataset):
-    def __init__(self, data, target_vocab, encoder_model, cache_dir, mlm_prob, max_instances=-1, max_length=50):
-        super(MLMDataset, self).__init__()
+class MLMDatasetv2(torch.utils.data.Dataset):
+    def __init__(self, data, target_vocab, encoder_model, cache_dir, mlm_prob, mask_all_entities, max_instances=-1, max_length=50):
+        super(MLMDatasetv2, self).__init__()
         self._max_instances = max_instances
         self._max_length = max_length
 
@@ -211,7 +211,7 @@ class MLMDataset(torch.utils.data.Dataset):
                                                                     additional_special_tokens=additional_special_tokens)
 
         self.mlm_prob = mlm_prob
-
+        self.mask_all_entities = mask_all_entities
         self.instances = []
         self.read_data(data)
 
@@ -264,22 +264,28 @@ class MLMDataset(torch.utils.data.Dataset):
             masked_input_ids = input_ids.clone()
             seq_len = len(input_ids)
 
+            is_ne = []
             mapping = []
+            is_prev_ner = False
             for i_id, id in enumerate(input_ids):
                 id = id.item()
                 if special_tokens_mask[i_id]:
                     continue
                 if id in self.tokenizer.additional_special_tokens_ids:
+                    is_prev_ner = True
                     continue
                 token = self.tokenizer.convert_ids_to_tokens(id)
                 # start of a word
                 if token.startswith('▁'):
+                    is_ne.append(is_prev_ner)
                     mapping.append([])
-                if len(mapping) == 0:
-                    print(self.tokenizer.convert_ids_to_tokens(input_ids))
                 mapping[-1].append(i_id)
+                is_prev_ner = False
+
+            if self.mask_all_entities:
+                mapping = [mapping[i_mapping] for i_mapping in range(len(mapping)) if is_ne[i_mapping]]
             for indices in mapping:
-                if np.random.random(1) < self.mlm_prob:
+                if self.mask_all_entities or np.random.random(1) < self.mlm_prob:
                     masked_input_ids[indices] = self.tokenizer.mask_token_id
 
             batch_input_ids_tensor[i_sample, :seq_len] = masked_input_ids
@@ -298,7 +304,6 @@ class CLMDataset(torch.utils.data.Dataset):
         additional_special_tokens = list(target_vocab.keys())[1:]
         self.tokenizer = transformers.AutoTokenizer.from_pretrained(encoder_model, cache_dir=cache_dir,
                                                                     additional_special_tokens=additional_special_tokens)
-
 
         self.instances = []
         self.read_data(data)
