@@ -4,8 +4,8 @@ import json
 import os
 from google.cloud import translate_v2 as translate
 import tqdm
-
 import lib.dataset
+
 
 coner_tags_quotes = [f'\"{tag}' for tag in lib.dataset.tags_v2.keys()]
 coner_tags_dash = [f'{tag}-' for tag in lib.dataset.tags_v2.keys()]
@@ -77,10 +77,10 @@ def unlinearize(sentence):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--source', type=str, default='en')
-    parser.add_argument('--target', type=str, default='fr')
+    parser.add_argument('--source', type=str, default='fr')
+    parser.add_argument('--target', type=str, default='en')
     parser.add_argument('--source_dir', type=str, default='data/MultiCoNER2')
-    parser.add_argument('--output_dir', type=str, default='output/translation/')
+    parser.add_argument('--output_dir', type=str, default='output/translation2/')
     parser.add_argument('--account_json', type=str, default='google_api.json')
     args = parser.parse_args()
 
@@ -107,15 +107,15 @@ def main():
     # sentences = list(sentences[:10])
     sources = [preprocess(sentence) for sentence in sentences]
 
-    # results = []
-    # batch_size = 100
-    # for i in tqdm.tqdm(range(len(sources) // batch_size + 1)):
-    #     start = batch_size * i
-    #     end = min(batch_size * (i + 1), len(sources))
-    #     results.extend(translator.translate(list(sources[start:end]), args.target, 'html', args.source))
-    # os.makedirs(os.path.join(args.output_dir, f'{args.source}-{args.target}'), exist_ok=True)
-    # with open(os.path.join(args.output_dir, f'{args.source}-{args.target}/results.txt'), 'w', encoding='utf-8') as f:
-    #     json.dump(results, f, indent=1)
+    results = []
+    batch_size = 100
+    for i in tqdm.tqdm(range(len(sources) // batch_size + 1)):
+        start = batch_size * i
+        end = min(batch_size * (i + 1), len(sources))
+        results.extend(translator.translate(list(sources[start:end]), args.target, 'html', args.source))
+    os.makedirs(os.path.join(args.output_dir, f'{args.source}-{args.target}'), exist_ok=True)
+    with open(os.path.join(args.output_dir, f'{args.source}-{args.target}/results.txt'), 'w', encoding='utf-8') as f:
+        json.dump(results, f, indent=1)
     with open(os.path.join(args.output_dir, f'{args.source}-{args.target}/results.txt'), 'r', encoding='utf-8') as f:
         results = json.load(f)
 
