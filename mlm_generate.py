@@ -36,8 +36,8 @@ def main():
     parser.add_argument('--mode', type=str, default='daga', choices=('daga', 'melm', 'word'))
 
     # generate
-    parser.add_argument('--model_path', type=str, default='logs/en/mlm_en_20/19.pt')
-    parser.add_argument('--output_dir', type=str, default='output/mlm/en')
+    parser.add_argument('--model_path', type=str, default='logs/fr/mlm_fr_80/79.pt')
+    parser.add_argument('--output_dir', type=str, default='output/mlm/fr')
     args = parser.parse_args()
 
     # data
