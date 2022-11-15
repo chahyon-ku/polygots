@@ -59,7 +59,7 @@ def main():
             input_ids, attention_mask, lang_ids = batch
 
             optim.zero_grad()
-            print(input_ids.shape)
+            #print(input_ids.shape)
             output = model(input_ids, attention_mask, langs=lang_ids, labels=input_ids)
             output.loss.backward()
             optim.step()
