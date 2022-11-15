@@ -296,7 +296,7 @@ class MLMDatasetv2(torch.utils.data.Dataset):
 
 
 class CLMDataset(torch.utils.data.Dataset):
-    def __init__(self, data, target_vocab, encoder_model, cache_dir, max_instances=-1, max_length=50):
+    def __init__(self, data, target_vocab, encoder_model, cache_dir, lang_code, max_instances=-1, max_length=50):
         super(CLMDataset, self).__init__()
         self._max_instances = max_instances
         self._max_length = max_length
@@ -307,6 +307,7 @@ class CLMDataset(torch.utils.data.Dataset):
 
         self.instances = []
         self.read_data(data)
+        self.lang_id = self.tokenizer.lang2id[lang_code]
 
     def __len__(self):
         return len(self.instances)
@@ -350,6 +351,7 @@ class CLMDataset(torch.utils.data.Dataset):
         max_len = max([len(input_ids) for input_ids in batch_input_ids])
         batch_input_ids_tensor = torch.empty(size=(batch_size, max_len), dtype=torch.long).fill_(self.tokenizer.pad_token_id)
         batch_attention_masks_tensor = torch.empty(size=(batch_size, max_len), dtype=torch.bool).fill_(False)
+        batch_lang_ids_tensor = torch.empty(size=(batch_size, max_len), dtype=torch.long).fill_(self.lang_id)
 
         for i_sample, (input_ids, attention_masks, special_tokens_mask) in \
                 enumerate(zip(batch_input_ids, batch_attention_mask, batch_special_tokens_mask)):
@@ -358,4 +360,4 @@ class CLMDataset(torch.utils.data.Dataset):
             batch_input_ids_tensor[i_sample, :seq_len] = input_ids
             batch_attention_masks_tensor[i_sample, :seq_len] = attention_masks
 
-        return batch_input_ids_tensor, batch_attention_masks_tensor
+        return batch_input_ids_tensor, batch_attention_masks_tensor, batch_lang_ids_tensor

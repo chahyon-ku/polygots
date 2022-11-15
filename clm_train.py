@@ -17,8 +17,7 @@ def main():
     parser.add_argument('--batch_size', type=int, default=4)
     parser.add_argument('--mlm_prob', type=float,  default=0.15)
 
-    parser.add_argument('--model_name', type=str, default='xlm-roberta-base', choices=('xlm-roberta-base',
-                                                                                       'xlm-roberta-large'))
+    parser.add_argument('--model_name', type=str, default='xlm-clm-enfr-1024', choices=('xlm-clm-enfr-1024'))
     parser.add_argument('--cache_dir', type=str, default='cache')
     parser.add_argument('--device', type=str, default='cuda', choices=('cpu', 'cuda'))
     parser.add_argument('--mode', type=str, default='daga', choices=('daga', 'melm', 'word'))
@@ -33,11 +32,12 @@ def main():
     args = parser.parse_args()
 
     # data
-    train_data = lib.dataset.CLMDataset(args.train_path, lib.dataset.tags_v2, args.model_name, args.cache_dir)
+    lang_code = 'en' if 'en' in args.valid_path else 'fr'
+    train_data = lib.dataset.CLMDataset(args.train_path, lib.dataset.tags_v2, args.model_name, args.cache_dir, lang_code)
     train_loader = torch.utils.data.DataLoader(train_data, batch_size=args.batch_size, shuffle=True,
                                                num_workers=args.num_workers, collate_fn=train_data.collate_batch,
                                                pin_memory=True)
-    valid_data = lib.dataset.CLMDataset(args.valid_path, lib.dataset.tags_v2, args.model_name, args.cache_dir)
+    valid_data = lib.dataset.CLMDataset(args.valid_path, lib.dataset.tags_v2, args.model_name, args.cache_dir, lang_code)
     valid_loader = torch.utils.data.DataLoader(valid_data, batch_size=args.batch_size, shuffle=False,
                                                num_workers=args.num_workers, collate_fn=valid_data.collate_batch,
                                                pin_memory=True)
@@ -56,10 +56,11 @@ def main():
         train_tqdm = tqdm.tqdm(enumerate(train_loader), total=len(train_loader), leave=False)
         for i_train, batch in train_tqdm:
             batch = [e.to(args.device) for e in batch]
-            input_ids, attention_mask = batch
+            input_ids, attention_mask, lang_ids = batch
 
             optim.zero_grad()
-            output = model(input_ids, attention_mask, labels=input_ids)
+            print(input_ids.shape)
+            output = model(input_ids, attention_mask, langs=lang_ids, labels=input_ids)
             output.loss.backward()
             optim.step()
 
@@ -69,15 +70,14 @@ def main():
                 summary_writer.add_scalar('train_loss', epoch_postfix['train_loss'], global_step)
                 summary_writer.flush()
                 global_step += 1
-            break
 
         with torch.no_grad():
             if (epoch + 1) % args.f_valid == 0:
                 valid_losses = []
                 for i_train, batch in enumerate(valid_loader):
                     batch = [e.to(args.device) for e in batch]
-                    input_ids, attention_mask = batch
-                    output = model(input_ids, attention_mask, labels=input_ids)
+                    input_ids, attention_mask, lang_ids = batch
+                    output = model(input_ids, attention_mask, langs=lang_ids, labels=input_ids)
 
                     valid_losses.append(output.loss.item())
                     epoch_postfix['valid_loss'] = output.loss.item()

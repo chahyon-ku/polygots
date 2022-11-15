@@ -83,7 +83,7 @@ def get_mlm(encoder_model, cache_dir, device):
 
 
 def get_clm(encoder_model, cache_dir, device):
-    encoder = transformers.XLMRobertaForCausalLM.from_pretrained(encoder_model, cache_dir=cache_dir, return_dict=True)
+    encoder = transformers.XLMWithLMHeadModel.from_pretrained(encoder_model, cache_dir=cache_dir, return_dict=True)
     encoder = encoder.to(device)
-    encoder.resize_token_embeddings(250100)
+    encoder.resize_token_embeddings(encoder.config.vocab_size + 200)
     return encoder
