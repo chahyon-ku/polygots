@@ -34,13 +34,13 @@ def main():
     args = parser.parse_args()
 
     # data
-    train_data = lib.dataset.MLMDataset(args.train_path, lib.dataset.tags_v2, args.model_name, args.cache_dir, args.mlm_prob,
-                                        True)
+    train_data = lib.dataset.MLMDatasetv2(args.train_path, lib.dataset.tags_v2, args.model_name, args.cache_dir, args.mlm_prob,
+                                          True)
     train_loader = torch.utils.data.DataLoader(train_data, batch_size=args.batch_size, shuffle=True,
                                                num_workers=args.num_workers, collate_fn=train_data.collate_batch,
                                                pin_memory=True)
-    valid_data = lib.dataset.MLMDataset(args.valid_path, lib.dataset.tags_v2, args.model_name, args.cache_dir, args.mlm_prob,
-                                        True)
+    valid_data = lib.dataset.MLMDatasetv2(args.valid_path, lib.dataset.tags_v2, args.model_name, args.cache_dir, args.mlm_prob,
+                                          True)
     valid_loader = torch.utils.data.DataLoader(valid_data, batch_size=args.batch_size, shuffle=False,
                                                num_workers=args.num_workers, collate_fn=valid_data.collate_batch,
                                                pin_memory=True)
