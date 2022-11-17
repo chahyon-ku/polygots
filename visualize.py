@@ -23,8 +23,8 @@ def read_conll(file_name):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--data_path', type=str, default='data/MultiCoNER2/en-dev.conll')
-    parser.add_argument('--pred_path', type=str, default='output/base_coner2_en_40/en-dev-pred.conll')
-    parser.add_argument('--output_path', type=str, default='output/base_coner2_en_40/en-dev-diff.conll')
+    parser.add_argument('--pred_path', type=str, default='output/transv2/base_en-london-trans_20/en-dev-pred.conll')
+    parser.add_argument('--output_path', type=str, default='output/transv2/base_en-london-trans_20/en-dev-diff.conll')
     args = parser.parse_args()
 
     data = read_conll(args.data_path)

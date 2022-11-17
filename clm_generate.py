@@ -25,14 +25,13 @@ def post_process(s, tag_list):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model_name', type=str, default='xlm-roberta-base', choices=('xlm-roberta-base',
-                                                                                       'xlm-roberta-large'))
+    parser.add_argument('--model_name', type=str, default='xlm-clm-enfr-1024', choices=('xlm-clm-enfr-1024'))
+
     parser.add_argument('--cache_dir', type=str, default='cache')
     parser.add_argument('--device', type=str, default='cuda', choices=('cpu', 'cuda'))
-    parser.add_argument('--mode', type=str, default='daga', choices=('daga', 'melm', 'word'))
 
     # generate
-    parser.add_argument('--model_path', type=str, default='logs/en/clm_en_40/39.pt')
+    parser.add_argument('--model_path', type=str, default='logs/clm/clm_en_40/39.pt')
     parser.add_argument('--output_dir', type=str, default='output/clm/en')
     parser.add_argument('--n_samples', type=int, default=100)
     args = parser.parse_args()
@@ -42,16 +41,17 @@ def main():
                                                            additional_special_tokens=additional_special_tokens)
 
     model = lib.model.get_clm(args.model_name, args.cache_dir, args.device)
-    # model.load_state_dict(torch.load(args.model_path))
+    model.load_state_dict(torch.load(args.model_path))
 
     with torch.no_grad():
         generated = []
-        input_ids = tokenizer.encode('I enjoy walking with', return_tensors='pt').to(args.device)
+        input_ids = tokenizer.encode('Hello, my dog is cute and ', return_tensors='pt').to(args.device)
+        print(input_ids)
         beam_outputs = model.generate(
             input_ids,
             max_length=50,
             num_beams=5,
-            no_repeat_ngram_size=2,
+            no_repeat_ngram_size=4,
             num_return_sequences=5,
             early_stopping=True
         )

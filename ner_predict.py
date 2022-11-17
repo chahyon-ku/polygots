@@ -20,11 +20,11 @@ if __name__ == '__main__':
     parser.add_argument('--cache_dir', type=str, default='cache')
 
     # predict
-    parser.add_argument('--resume', type=str, default='logs/base_coner2_en_40/39.pt')
+    parser.add_argument('--resume', type=str, default='logs/transv2/base_en-london-trans_20/19.pt')
     parser.add_argument('--device', type=str, default='cuda')
 
     # output
-    parser.add_argument('--output_path', type=str, default='output/base_coner2_en_40/en-dev-pred.conll')
+    parser.add_argument('--output_path', type=str, default='output/transv2/base_en-london-trans_20/en-dev-pred.conll')
     args = parser.parse_args()
 
     # data
