@@ -19,6 +19,8 @@ class CoNLLDataset(torch.utils.data.Dataset):
         self._max_instances = max_instances
         self._max_length = max_length
 
+        self.encoder_model = encoder_model
+        self.cache_dir = cache_dir
         self.tokenizer = transformers.AutoTokenizer.from_pretrained(encoder_model, cache_dir=cache_dir)
 
         self.pad_token = self.tokenizer.special_tokens_map['pad_token']
@@ -28,11 +30,14 @@ class CoNLLDataset(torch.utils.data.Dataset):
         self.tag_to_id = {} if target_vocab is None else target_vocab
         self.instances = []
         self.read_data(data)
+        self.tokenizer = None
 
     def __len__(self):
         return len(self.instances)
 
     def __getitem__(self, item):
+        if self.tokenizer is None:
+            self.tokenizer = transformers.AutoTokenizer.from_pretrained(self.encoder_model, cache_dir=self.cache_dir)
         return self.instances[item]
 
     def read_data(self, data):
@@ -125,11 +130,15 @@ class MLMDataset(torch.utils.data.Dataset):
 
         self.instances = []
         self.read_data(data)
+        self.tokenizer = None
 
     def __len__(self):
         return len(self.instances)
 
     def __getitem__(self, item):
+        if self.tokenizer is None:
+            self.tokenizer = transformers.AutoTokenizer.from_pretrained(self.encoder_model, cache_dir=self.cache_dir,
+                                                                        additional_special_tokens=self.additional_special_tokens)
         return self.instances[item]
 
     def read_data(self, data):
@@ -206,19 +215,25 @@ class MLMDatasetv2(torch.utils.data.Dataset):
         self._max_instances = max_instances
         self._max_length = max_length
 
-        additional_special_tokens = list(target_vocab.keys())[1:]
+        self.encoder_model = encoder_model
+        self.cache_dir = cache_dir
+        self.additional_special_tokens = list(target_vocab.keys())[1:]
         self.tokenizer = transformers.AutoTokenizer.from_pretrained(encoder_model, cache_dir=cache_dir,
-                                                                    additional_special_tokens=additional_special_tokens)
+                                                                    additional_special_tokens=self.additional_special_tokens)
 
         self.mlm_prob = mlm_prob
         self.mask_all_entities = mask_all_entities
         self.instances = []
         self.read_data(data)
+        self.tokenizer = None
 
     def __len__(self):
         return len(self.instances)
 
     def __getitem__(self, item):
+        if self.tokenizer is None:
+            self.tokenizer = transformers.AutoTokenizer.from_pretrained(self.encoder_model, cache_dir=self.cache_dir,
+                                                                        additional_special_tokens=self.additional_special_tokens)
         return self.instances[item]
 
     def read_data(self, data):

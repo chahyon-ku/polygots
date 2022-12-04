@@ -13,9 +13,9 @@ import tqdm
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     # data
-    parser.add_argument('--train_data', type=str, default='data/es-mulda.conll')
+    parser.add_argument('--train_data', type=str, default='data/fr-en-helsinki.conll')
     # parser.add_argument('--train_data', type=str, default='data/MultiCoNER2/es-train.conll')
-    parser.add_argument('--valid_data', type=str, default='data/MultiCoNER2/es-dev.conll')
+    parser.add_argument('--valid_data', type=str, default='data/MultiCoNER2/en-dev.conll')
     # parser.add_argument('--train_data', type=str, default='data/MultiCoNER/EN-English/en_train.conll')
     # parser.add_argument('--valid_data', type=str, default='data/MultiCoNER/EN-English/en_dev.conll')
     parser.add_argument('--data_version', type=str, default=2, choices=(1, 2))
@@ -34,7 +34,7 @@ if __name__ == '__main__':
     parser.add_argument('--log_dir', type=str, default='logs/'+datetime.datetime.now().strftime('%m-%d %H-%M'))
     parser.add_argument('--resume', type=str, default=None)
     parser.add_argument('--device', type=str, default='cuda')
-    parser.add_argument('--n_epochs', type=int, default=20)
+    parser.add_argument('--n_epochs', type=int, default=1)
     parser.add_argument('--f_valid', type=int, default=1)
     parser.add_argument('--f_save', type=int, default=5)
     args = parser.parse_args()
