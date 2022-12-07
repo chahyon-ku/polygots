@@ -36,7 +36,7 @@ if __name__ == '__main__':
     parser.add_argument('--device', type=str, default='cuda')
     parser.add_argument('--n_epochs', type=int, default=1)
     parser.add_argument('--f_valid', type=int, default=1)
-    parser.add_argument('--f_save', type=int, default=5)
+    parser.add_argument('--f_save', type=int, default=99999)
     args = parser.parse_args()
 
     # data
@@ -68,6 +68,7 @@ if __name__ == '__main__':
     global_step = 0
     epoch_postfix = collections.OrderedDict({})
     epoch_tqdm = tqdm.tqdm(range(args.n_epochs))
+    best_valid_loss = 999999
     for epoch in epoch_tqdm:
         model.reset_metrics()
         train_tqdm = tqdm.tqdm(enumerate(train_loader), total=len(train_loader), leave=False)
@@ -84,12 +85,12 @@ if __name__ == '__main__':
             with torch.no_grad():
                 epoch_postfix['train_loss'] = output['loss'].item()
                 epoch_postfix['train_f1'] = output['results']['MD-F1']
-                summary_writer.add_scalar('train_loss', epoch_postfix['train_loss'], global_step)
-                # summary_writer.add_scalar('train_f1', epoch_postfix['train_f1'], global_step)
-                for metric_name, metric_value in output['results'].items():
-                    summary_writer.add_scalar(f'train_{metric_name}', metric_value, global_step)
-                summary_writer.flush()
-                global_step += 1
+        summary_writer.add_scalar('train_loss', epoch_postfix['train_loss'], global_step)
+        # summary_writer.add_scalar('train_f1', epoch_postfix['train_f1'], global_step)
+        for metric_name, metric_value in output['results'].items():
+            summary_writer.add_scalar(f'train_{metric_name}', metric_value, global_step)
+        summary_writer.flush()
+        global_step += 1
 
         with torch.no_grad():
             if (epoch + 1) % args.f_valid == 0:
@@ -108,10 +109,19 @@ if __name__ == '__main__':
                 # summary_writer.add_scalar('valid_f1', epoch_postfix['valid_f1'], global_step)
                 for metric_name, metric_value in output['results'].items():
                     summary_writer.add_scalar(f'valid_{metric_name}', metric_value, global_step)
+
                 summary_writer.flush()
 
+            
+            os.makedirs(args.log_dir, exist_ok=True)
+            torch.save(model.state_dict,
+                        os.path.join(args.log_dir, f'last.pt'))
+
+            if epoch_postfix['valid_loss'] < best_valid_loss:
+                torch.save(model.state_dict,
+                           os.path.join(args.log_dir, f'best.pt'))
+
             if (epoch + 1) % args.f_save == 0:
-                os.makedirs(args.log_dir, exist_ok=True)
-                torch.save({'model': model.state_dict(), 'optim': optim.state_dict()},
+                torch.save(model.state_dict,
                            os.path.join(args.log_dir, f'{epoch}.pt'))
             train_tqdm.reset()

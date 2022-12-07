@@ -1,2 +1,4 @@
 /google_api.json
-/kbner/__pycache__/
+*/__pycache__/
+/logs
+/cache/
