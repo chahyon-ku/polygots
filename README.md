@@ -1,10 +1,10 @@
 # CSCI 5980-002: Natural Language Processing Final Project
 
 ## Team Members
-- [Chahyon Ku](ku000045@umn.edu)
-- [Asal Shavandi](shava006@umn.edu)
-- [Josh Spitzer-Resnick](spitz123@umn.edu)
-- [London Lowmanstone IV](lowma016@umn.edu)
+- Chahyon Ku (ku000045@umn.edu)
+- Asal Shavandi (shava006@umn.edu)
+- Josh Spitzer-Resnick (spitz123@umn.edu)
+- London Lowmanstone IV (lowma016@umn.edu)
 
 ## Project Description
 Translation techniques for improving NER performance on MultiCoNER II dataset.
@@ -22,6 +22,7 @@ Translation techniques for improving NER performance on MultiCoNER II dataset.
     │   ├── metric.py           # Metric calculation
     │   ├── model.py            # PyTorch model class
     │   └── reader_utils.py     # CONLL reader
+    ├── submit                  # Report
     ├── olds                    # Contains dropped files including clm, mlm, and linearized translate
     ├── logs                    # Training logs
     ├── preds                   # Predictions and evaluation results
@@ -36,5 +37,3 @@ Translation techniques for improving NER performance on MultiCoNER II dataset.
     ├── README.md               # This file
     └── ...
 
-## Data
-- [MultiCoNER II]
