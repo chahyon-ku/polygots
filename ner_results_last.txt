@@ -1,21 +1,50 @@
+name&  f1&  p&  r
+base/fr.eval&  0.8214&  0.8145&  0.8284
+midterm/fr-stable-partial.eval&  0.8229&  0.8160&  0.8299
+midterm/fr-stable-full.eval&  0.8070&  0.8006&  0.8136
+midterm/fr-partial.eval&  0.8073&  0.8121&  0.8025
+midterm/fr-full.eval&  0.8098&  0.8150&  0.8047
+final/fr-t5.eval&  0.7868&  0.7780&  0.7959
+final/fr-mulda-partial.eval&  0.8298&  0.8196&  0.8402
+final/fr-mulda-full.eval&  0.8224&  0.8261&  0.8188
+kb/fr-train-kb.eval&  0.8302&  0.8146&  0.8465
 
-base/fr.eval, 0.821415
-midterm/fr-full.eval, 0.809825
-midterm/fr-partial.eval, 0.807292
-midterm/fr-stable-full.eval, 0.807043
-midterm/fr-stable-partial.eval, 0.822882
-final/fr-mulda-full.eval, 0.822437
-kb/fr-train-kb.eval, 0.808294
-kb/fr-mulda-full-kb.eval, 0.808416
-kb/fr-mulda-partial-kb.eval, 0.818444
+base/en.eval&  0.7798&  0.7741&  0.7855
+midterm/en-stable-partial.eval&  0.7804&  0.7822&  0.7785
+midterm/en-stable-full.eval&  0.7953&  0.7889&  0.8017
+midterm/en-partial.eval&  0.7841&  0.7850&  0.7832
+midterm/en-full.eval&  0.7939&  0.7692&  0.8202
+final/en-mulda-partial.eval&  0.8063&  0.7986&  0.8140
+final/en-mulda-full.eval&  0.7898&  0.8046&  0.7755
+final/en-helsinki.eval&  0.7203&  0.7125&  0.7284
+kb/en-train-kb.eval&  0.7849&  0.7922&  0.7778
 
-base/en.eval, 0.779778
-midterm/en-full.eval, 0.793876
-midterm/en-partial.eval, 0.784087
-midterm/en-stable-full.eval, 0.795254
-midterm/en-stable-partial.eval, 0.780356
-final/en-mulda-full.eval, 0.789784
-final/en-mulda-partial.eval, 0.806267
-final/en-helsinki.eval, 0.720336
-kb/en-train-kb.eval, 0.739550
-kb/en-mulda-partial-kb.eval, 0.735893
+EN&  0.7798&  0.7741&  0.7855 \\\hline
+EN-M-P&  0.8063&  0.7986&  0.8140 \\\hline
+EN-M-F&  0.7898&  0.8046&  0.7755 \\\hline
+FR&  0.8214&  0.8145&  0.8284 \\\hline
+FR-M-P&  0.8298&  0.8196&  0.8402 \\\hline
+FR-M-F&  0.8224&  0.8261&  0.8188 \\\hline
+
+EN&  0.7798&  0.7741&  0.7855 \\\hline
+EN-S-P&  0.7804&  0.7822&  0.7785 \\\hline
+EN-S-F&  0.7953&  0.7889&  0.8017 \\\hline
+EN-L-P&  0.7841&  0.7850&  0.7832 \\\hline
+EN-L-F&  0.7939&  0.7692&  0.8202 \\\hline
+EN-H& 0.7203& 0.7125& 0.7284 \\\hline
+FR&  0.8214&  0.8145&  0.8284 \\\hline
+FR-S-P&  0.8229&  0.8160&  0.8299 \\\hline
+FR-S-F&  0.8070&  0.8006&  0.8136 \\\hline
+FR-L-P&  0.8073&  0.8121&  0.8025 \\\hline
+FR-L-F&  0.8098&  0.8150&  0.8047 \\\hline
+FR-T& 0.7868& 0.7780& 0.7959 \\\hline
+
+
+EN&  0.7798&  0.7741&  0.7855 \\\hline
+EN-KB&  0.7849&  0.7922&  0.7778 \\\hline
+EN-M-P-KB& \\\hline
+EN-M-F-KB& \\\hline
+FR&  0.8214&  0.8145&  0.8284 \\\hline
+FR-KB&  0.8302&  0.8146&  0.8465 \\\hline
+FR-M-P-KB& \\\hline
+FR-M-F-KB& \\\hline

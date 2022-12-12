@@ -12,23 +12,23 @@
 
 # for s in kb/en-train-kb kb/en-mulda-partial-kb kb/en-mulda-full-kb
 # do
-#     python ner_predict.py --num_workers 8 --test_data data/MultiCoNER2/en-dev.conll --resume ./logs/$s/last.pt --device cuda:0 --output_path preds/last/orig/$s.conll
+#     python ner_predict.py --num_workers 8 --test_data data/MultiCoNER2/en-dev.conll --resume ./logs/$s/last.pt --device cuda:1 --output_path preds/last/orig/$s.conll
 # done
 
 
 for s in kb/en-train-kb kb/en-mulda-partial-kb kb/en-mulda-full-kb
 do
-    python ner_predict.py --num_workers 8 --test_data data/kb/en-pred-kb.conll --resume ./logs/$s/last.pt --device cuda:0 --output_path preds/last/$s.conll
+    python ner_predict.py --num_workers 8 --test_data data/kb/en-pred-kb.conll --resume ./logs/$s/last.pt --device cuda:1 --output_path preds/last/$s.conll
 done
 
 
 # for s in kb/fr-train-kb kb/fr-mulda-partial-kb kb/fr-mulda-full-kb
 # do 
-#     python ner_predict.py --num_workers 8 --test_data data/MultiCoNER2/fr-dev.conll --resume ./logs/$s/last.pt --device cuda:0 --output_path preds/last/orig/$s.conll
+#     python ner_predict.py --num_workers 8 --test_data data/MultiCoNER2/fr-dev.conll --resume ./logs/$s/last.pt --device cuda:1 --output_path preds/last/orig/$s.conll
 # done
 
 
 for s in kb/fr-train-kb kb/fr-mulda-partial-kb kb/fr-mulda-full-kb
 do 
-    python ner_predict.py --num_workers 8 --test_data data/kb/fr-pred-kb.conll --resume ./logs/$s/last.pt --device cuda:0 --output_path preds/last/$s.conll
+    python ner_predict.py --num_workers 8 --test_data data/kb/fr-pred-kb.conll --resume ./logs/$s/last.pt --device cuda:1 --output_path preds/last/$s.conll
 done

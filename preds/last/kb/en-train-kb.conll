@@ -1,0 +1,15936 @@
+
+eli _ _ B-Scientist
+lilly _ _ I-Scientist
+founder _ _ O
+president _ _ O
+of _ _ O
+pharmaceutical _ _ O
+company _ _ O
+eli _ _ B-Scientist
+lilly _ _ I-Scientist
+and _ _ O
+company _ _ O
+
+
+
+christoph _ _ B-OtherPER
+haberland _ _ I-OtherPER
+designed _ _ O
+a _ _ O
+new _ _ O
+marble _ _ O
+pulpit _ _ O
+for _ _ O
+the _ _ O
+church _ _ O
+which _ _ O
+was _ _ O
+built _ _ O
+in _ _ O
+italy _ _ B-HumanSettlement
+in _ _ O
+1793 _ _ O
+. _ _ O
+
+
+
+he _ _ O
+was _ _ O
+succeeded _ _ O
+as _ _ O
+chancellor _ _ O
+by _ _ O
+sir _ _ B-Politician
+frank _ _ I-Politician
+kitto _ _ I-Politician
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+described _ _ O
+by _ _ O
+edward _ _ B-OtherPER
+meyrick _ _ I-OtherPER
+in _ _ O
+1915 _ _ O
+. _ _ O
+
+
+
+having _ _ O
+suffered _ _ O
+depredation _ _ O
+of _ _ O
+the _ _ O
+more _ _ O
+movable _ _ O
+stones _ _ O
+of _ _ O
+the _ _ O
+site _ _ O
+the _ _ O
+monument _ _ O
+was _ _ O
+excavated _ _ O
+by _ _ O
+w _ _ B-Scientist
+j _ _ I-Scientist
+hemp _ _ I-Scientist
+in _ _ O
+1928 _ _ O
+– _ _ O
+29 _ _ O
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+described _ _ O
+by _ _ O
+charles _ _ B-OtherPER
+joseph _ _ I-OtherPER
+gahan _ _ I-OtherPER
+in _ _ O
+1894 _ _ O
+. _ _ O
+
+
+
+two _ _ O
+important _ _ O
+voices _ _ O
+who _ _ O
+applied _ _ O
+incommensurability _ _ O
+to _ _ O
+historical _ _ O
+and _ _ O
+philosophical _ _ O
+notions _ _ O
+of _ _ O
+science _ _ O
+in _ _ O
+the _ _ O
+1960s _ _ O
+are _ _ O
+thomas _ _ B-Politician
+kuhn _ _ I-Politician
+and _ _ O
+paul _ _ B-Artist
+feyerabend _ _ I-Artist
+. _ _ O
+
+
+
+the _ _ O
+adoption _ _ O
+of _ _ O
+the _ _ O
+( _ _ O
+of _ _ O
+charles _ _ B-OtherPER
+v _ _ I-OtherPER
+) _ _ O
+in _ _ O
+1532 _ _ O
+made _ _ O
+inquisitional _ _ O
+procedures _ _ O
+empirical _ _ O
+law _ _ O
+. _ _ O
+
+
+
+from _ _ O
+1995 _ _ O
+to _ _ O
+2011 _ _ O
+deal _ _ B-OtherPER
+hudson _ _ I-OtherPER
+was _ _ O
+the _ _ O
+magazine _ _ O
+'s _ _ O
+publisher _ _ O
+. _ _ O
+
+
+
+he _ _ O
+inspired _ _ O
+medical _ _ O
+student _ _ O
+alexander _ _ B-OtherPER
+rich _ _ I-OtherPER
+to _ _ O
+pursue _ _ O
+an _ _ O
+academic _ _ O
+career _ _ O
+. _ _ O
+
+
+
+it _ _ O
+stars _ _ O
+tomokazu _ _ B-Artist
+sugita _ _ B-Artist
+daisuke _ _ B-Artist
+sakaguchi _ _ I-Artist
+rie _ _ B-Artist
+kugimiya _ _ I-Artist
+among _ _ O
+others _ _ O
+. _ _ O
+
+
+
+the _ _ O
+main _ _ O
+event _ _ O
+featured _ _ O
+thales _ _ B-Athlete
+leites _ _ I-Athlete
+taking _ _ O
+on _ _ O
+jesse _ _ B-OtherPER
+taylor _ _ I-OtherPER
+in _ _ O
+a _ _ O
+middleweight _ _ O
+bout _ _ O
+. _ _ O
+
+
+
+bigtha _ _ O
+is _ _ O
+one _ _ O
+of _ _ O
+the _ _ O
+eunuchs _ _ O
+who _ _ O
+served _ _ O
+king _ _ B-Politician
+xerxes _ _ I-Politician
+in _ _ O
+. _ _ O
+
+
+
+báetán _ _ B-OtherPER
+mac _ _ I-OtherPER
+muirchertaig _ _ I-OtherPER
+and _ _ O
+eochaid _ _ B-OtherPER
+mac _ _ I-OtherPER
+domnaill _ _ I-OtherPER
+569 _ _ O
+? _ _ O
+– _ _ O
+572 _ _ O
+/ _ _ O
+573 _ _ O
+
+
+
+in _ _ O
+doing _ _ O
+so _ _ O
+he _ _ O
+used _ _ O
+various _ _ O
+historiographical _ _ O
+works _ _ O
+by _ _ O
+juraj _ _ B-Artist
+ratkaj _ _ I-Artist
+miklós _ _ I-Artist
+istvánffy _ _ I-Artist
+. _ _ O
+
+
+
+he _ _ O
+was _ _ O
+accused _ _ O
+of _ _ O
+counter-revolutionary _ _ B-ORG
+activities _ _ O
+and _ _ O
+sentenced _ _ O
+to _ _ O
+death _ _ O
+. _ _ O
+
+
+
+when _ _ O
+the _ _ O
+project _ _ O
+was _ _ O
+initially _ _ O
+announced _ _ O
+in _ _ O
+1986 _ _ O
+the _ _ O
+course _ _ O
+was _ _ O
+to _ _ O
+be _ _ O
+designed _ _ O
+by _ _ O
+rees _ _ B-Scientist
+jones _ _ I-Scientist
+. _ _ O
+
+
+
+four _ _ O
+herms _ _ O
+support _ _ O
+the _ _ O
+central _ _ O
+balcony _ _ O
+sculpted _ _ O
+by _ _ O
+françois-léon _ _ B-Artist
+sicard _ _ I-Artist
+. _ _ O
+
+
+
+the _ _ O
+physician _ _ O
+and _ _ O
+encyclopédiste _ _ O
+jean-henri-nicolas _ _ B-Artist
+bouillet _ _ I-Artist
+was _ _ O
+his _ _ O
+son _ _ O
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+described _ _ O
+by _ _ O
+edward _ _ B-OtherPER
+meyrick _ _ I-OtherPER
+in _ _ O
+1928 _ _ O
+. _ _ O
+
+
+
+the _ _ O
+pipe _ _ B-OtherPROD
+organ _ _ I-OtherPROD
+is _ _ O
+a _ _ O
+1762 _ _ O
+work _ _ O
+by _ _ O
+johann _ _ B-Artist
+andreas _ _ I-Artist
+silbermann _ _ I-Artist
+. _ _ O
+
+
+
+bar _ _ O
+: _ _ O
+lynn _ _ O
+from _ _ O
+: _ _ O
+2015 _ _ O
+till _ _ O
+: _ _ O
+2018 _ _ O
+color _ _ O
+: _ _ O
+joint _ _ O
+text _ _ O
+: _ _ O
+alan _ _ B-Politician
+r. _ _ I-Politician
+lynn _ _ I-Politician
+
+
+
+it _ _ O
+was _ _ O
+built _ _ O
+1851 _ _ O
+1855 _ _ O
+by _ _ O
+benjamin _ _ B-OtherPER
+ferrey _ _ I-OtherPER
+who _ _ O
+had _ _ O
+been _ _ O
+a _ _ O
+pupil _ _ O
+of _ _ O
+pugin _ _ B-OtherPER
+. _ _ O
+
+
+
+the _ _ O
+next _ _ O
+boss _ _ O
+of _ _ O
+vis _ _ B-ORG
+was _ _ O
+his _ _ O
+brother _ _ O
+georgi _ _ B-OtherPER
+iliev _ _ I-OtherPER
+. _ _ O
+
+
+
+akira _ _ B-OtherPER
+nishiguchi _ _ I-OtherPER
+: _ _ O
+killed _ _ O
+five _ _ O
+people _ _ O
+and _ _ O
+engaged _ _ O
+in _ _ O
+fraud _ _ O
+; _ _ O
+executed _ _ O
+in _ _ O
+1970 _ _ O
+. _ _ O
+
+
+
+bari _ _ B-OtherPER
+weiss _ _ I-OtherPER
+( _ _ O
+born _ _ O
+1984 _ _ O
+) _ _ O
+opinion _ _ O
+writer _ _ O
+and _ _ O
+editor _ _ O
+
+
+
+it _ _ O
+was _ _ O
+designed _ _ O
+by _ _ O
+architect _ _ O
+w. _ _ B-OtherPER
+h. _ _ I-OtherPER
+weeks _ _ I-OtherPER
+. _ _ O
+
+
+
+2003 _ _ O
+: _ _ O
+rossi _ _ B-SportsGRP
+9 _ _ O
+biaggi _ _ B-Athlete
+3 _ _ O
+sete _ _ B-Athlete
+gibernau _ _ I-Athlete
+1 _ _ O
+( _ _ O
+13 _ _ O
+in _ _ O
+total _ _ O
+) _ _ O
+
+
+
+edwin _ _ B-OtherPER
+borchard _ _ I-OtherPER
+( _ _ O
+1884 _ _ O
+– _ _ O
+1951 _ _ O
+) _ _ O
+international _ _ O
+legal _ _ O
+scholar _ _ O
+and _ _ O
+jurist _ _ O
+
+
+
+it _ _ O
+was _ _ O
+described _ _ O
+by _ _ O
+strand _ _ B-OtherPER
+in _ _ O
+1912 _ _ O
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+described _ _ O
+by _ _ O
+johan _ _ B-OtherPER
+christian _ _ I-OtherPER
+fabricius _ _ I-OtherPER
+in _ _ O
+1775 _ _ O
+. _ _ O
+
+
+
+victor _ _ B-Artist
+davis _ _ I-Artist
+hanson _ _ I-Artist
+military _ _ O
+historian _ _ O
+author _ _ O
+and _ _ O
+classicist _ _ O
+
+
+
+his _ _ O
+three _ _ O
+daughters _ _ O
+married _ _ O
+prominent _ _ O
+men _ _ O
+one _ _ O
+of _ _ O
+whom _ _ O
+was _ _ O
+samuel _ _ B-OtherPER
+tudor _ _ I-OtherPER
+. _ _ O
+
+
+
+his _ _ O
+family _ _ O
+was _ _ O
+to _ _ O
+include _ _ O
+alfred _ _ B-OtherPER
+john _ _ I-OtherPER
+keene _ _ I-OtherPER
+who _ _ O
+was _ _ O
+a _ _ O
+local _ _ O
+painter _ _ O
+whose _ _ O
+work _ _ O
+is _ _ O
+displayed _ _ O
+in _ _ O
+the _ _ O
+derby _ _ B-Facility
+art _ _ I-Facility
+gallery _ _ I-Facility
+. _ _ O
+
+
+
+luigi _ _ O
+became _ _ O
+a _ _ O
+pupil _ _ O
+of _ _ O
+lorenzo _ _ B-OtherPER
+bartolini _ _ I-OtherPER
+. _ _ O
+
+
+
+he _ _ O
+then _ _ O
+decides _ _ O
+to _ _ O
+be _ _ O
+born _ _ O
+as _ _ O
+the _ _ O
+son _ _ O
+of _ _ O
+kausalyā _ _ B-OtherPER
+in _ _ O
+ayodhyā _ _ B-HumanSettlement
+. _ _ O
+300px _ _ O
+
+
+
+phoebe _ _ B-Politician
+couzins _ _ I-Politician
+spoke _ _ O
+before _ _ O
+the _ _ O
+legislature _ _ O
+for _ _ O
+women _ _ O
+'s _ _ O
+suffrage _ _ O
+. _ _ O
+
+
+
+their _ _ O
+son _ _ O
+rolf _ _ B-Politician
+jacobsen _ _ I-Politician
+became _ _ O
+a _ _ O
+jurist _ _ O
+and _ _ O
+national _ _ O
+politician _ _ O
+. _ _ O
+
+
+
+in _ _ O
+1928 _ _ O
+he _ _ O
+began _ _ O
+apprenticing _ _ O
+under _ _ O
+architect _ _ O
+richard _ _ B-OtherPER
+neutra _ _ I-OtherPER
+with _ _ O
+whom _ _ O
+he _ _ O
+was _ _ O
+associated _ _ O
+until _ _ O
+1932 _ _ O
+. _ _ O
+
+
+
+da _ _ B-OtherPER
+yanlin _ _ I-OtherPER
+a _ _ O
+distant _ _ O
+relative _ _ O
+of _ _ O
+the _ _ O
+defunct _ _ O
+balhae _ _ B-ORG
+regime _ _ I-ORG
+rebels _ _ I-ORG
+; _ _ O
+he _ _ O
+is _ _ O
+defeated _ _ O
+
+
+
+john _ _ B-Athlete
+sterling _ _ I-Athlete
+( _ _ O
+born _ _ O
+1948 _ _ O
+) _ _ O
+sportscaster _ _ O
+for _ _ O
+the _ _ O
+new _ _ B-SportsGRP
+york _ _ I-SportsGRP
+yankees _ _ I-SportsGRP
+
+
+
+the _ _ O
+first _ _ O
+committee _ _ O
+included _ _ O
+frances _ _ B-ORG
+power _ _ I-ORG
+cobbe _ _ B-Politician
+priscilla _ _ B-Politician
+bright _ _ I-Politician
+mclaren _ _ B-Politician
+lilias _ _ B-Politician
+ashworth _ _ B-Politician
+hallett _ _ B-Politician
+and _ _ O
+agnes _ _ B-Politician
+garrett _ _ I-Politician
+. _ _ O
+
+
+
+file _ _ O
+: _ _ O
+fbaracca _ _ O
+1 _ _ O
+. _ _ O
+jpg _ _ O
+| _ _ O
+count _ _ O
+francesco _ _ B-OtherPER
+baracca _ _ I-OtherPER
+and _ _ O
+his _ _ O
+spad _ _ B-OtherPROD
+s.vii _ _ I-OtherPROD
+with _ _ O
+the _ _ O
+that _ _ O
+inspired _ _ O
+the _ _ O
+ferrari _ _ B-CarManufacturer
+emblem _ _ O
+
+
+
+she _ _ O
+was _ _ O
+a _ _ O
+niece _ _ O
+of _ _ O
+the _ _ O
+greek _ _ B-ORG
+prime _ _ I-ORG
+minister _ _ I-ORG
+eleftherios _ _ B-Politician
+venizelos _ _ I-Politician
+who _ _ O
+married _ _ O
+her _ _ O
+aunt _ _ O
+philanthropist _ _ B-Politician
+helena _ _ I-Politician
+schilizzi _ _ I-Politician
+. _ _ O
+
+
+
+the _ _ O
+cup _ _ O
+is _ _ O
+named _ _ O
+after _ _ O
+joe _ _ B-SportsManager
+mcdonagh _ _ I-SportsManager
+. _ _ O
+
+
+
+josephine _ _ B-OtherPER
+herrick _ _ I-OtherPER
+photographer _ _ O
+humanitarian _ _ O
+entrepreneur _ _ O
+and _ _ O
+teacher _ _ O
+
+
+
+the _ _ O
+music _ _ O
+was _ _ O
+composed _ _ O
+by _ _ O
+m. _ _ B-Artist
+s. _ _ I-Artist
+viswanathan _ _ I-Artist
+and _ _ O
+lyrics _ _ O
+were _ _ O
+written _ _ O
+by _ _ O
+poovachal _ _ B-Artist
+khader _ _ I-Artist
+. _ _ O
+
+
+
+narain _ _ O
+pairs _ _ O
+up _ _ O
+with _ _ O
+pooja _ _ B-Artist
+for _ _ O
+the _ _ O
+first _ _ O
+time _ _ O
+. _ _ O
+
+
+
+they _ _ O
+also _ _ O
+worked _ _ O
+as _ _ O
+session _ _ O
+musicians _ _ O
+and _ _ O
+recorded _ _ O
+with _ _ O
+a _ _ O
+number _ _ O
+of _ _ O
+artists _ _ O
+and _ _ O
+recorded _ _ O
+an _ _ O
+album _ _ O
+with _ _ O
+oliver _ _ B-Artist
+nelson _ _ I-Artist
+. _ _ O
+
+
+
+blackett _ _ O
+apparently _ _ O
+had _ _ O
+many _ _ O
+acquaintances _ _ O
+including _ _ O
+poet _ _ O
+thomas _ _ B-Artist
+chatterton _ _ I-Artist
+. _ _ O
+
+
+
+the _ _ O
+track _ _ O
+was _ _ O
+given _ _ O
+the _ _ O
+working _ _ O
+title _ _ O
+sinatra _ _ B-WrittenWork
+in _ _ O
+reference _ _ O
+to _ _ O
+the _ _ O
+artist _ _ O
+whose _ _ O
+music _ _ O
+inspired _ _ O
+it _ _ O
+. _ _ O
+
+
+
+on _ _ O
+the _ _ O
+same _ _ O
+day _ _ O
+the _ _ O
+album _ _ O
+'s _ _ O
+first _ _ O
+single _ _ O
+like _ _ B-MusicalWork
+me _ _ I-MusicalWork
+featuring _ _ I-MusicalWork
+jeremih _ _ B-Artist
+was _ _ O
+released _ _ O
+. _ _ O
+
+
+
+everready _ _ O
+( _ _ O
+the _ _ O
+religion _ _ O
+) _ _ O
+is _ _ O
+the _ _ O
+fifth _ _ O
+studio _ _ O
+album _ _ O
+by _ _ O
+rapper _ _ O
+tech _ _ B-Artist
+n9ne _ _ I-Artist
+. _ _ O
+
+
+
+stuckist _ _ O
+artist _ _ O
+mark _ _ B-OtherPER
+d _ _ I-OtherPER
+used _ _ O
+on _ _ O
+a _ _ O
+protest _ _ O
+placard _ _ O
+. _ _ O
+
+
+
+the _ _ O
+game _ _ O
+was _ _ O
+not _ _ O
+affiliated _ _ O
+with _ _ O
+the _ _ O
+creators _ _ O
+of _ _ O
+the _ _ O
+show _ _ O
+itself _ _ O
+dan _ _ B-Artist
+povenmire _ _ I-Artist
+and _ _ O
+jeff _ _ B-OtherPER
+swampy _ _ I-OtherPER
+marsh _ _ I-OtherPER
+. _ _ O
+
+
+
+the _ _ O
+film _ _ O
+'s _ _ O
+score _ _ O
+and _ _ O
+songs _ _ O
+were _ _ O
+composed _ _ O
+and _ _ O
+conducted _ _ O
+by _ _ O
+dinesh _ _ B-Artist
+subasinghe _ _ I-Artist
+. _ _ O
+
+
+
+jeff _ _ B-Artist
+lang _ _ I-Artist
+( _ _ O
+born _ _ O
+1969 _ _ O
+) _ _ O
+songwriter _ _ O
+singer _ _ O
+and _ _ O
+slide _ _ O
+guitarist _ _ O
+
+
+
+all _ _ O
+songs _ _ O
+by _ _ O
+missing _ _ B-MusicalGRP
+persons _ _ I-MusicalGRP
+( _ _ O
+dale _ _ B-Artist
+bozzio _ _ I-Artist
+terry _ _ B-Artist
+bozzio _ _ I-Artist
+warren _ _ B-Artist
+cuccurullo _ _ I-Artist
+and _ _ O
+patrick _ _ B-Artist
+o'hearn _ _ I-Artist
+) _ _ O
+except _ _ O
+where _ _ O
+noted _ _ O
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+first _ _ O
+conceptualized _ _ O
+by _ _ O
+erving _ _ B-Artist
+goffman _ _ I-Artist
+in _ _ O
+1959 _ _ O
+in _ _ O
+the _ _ O
+presentation _ _ O
+of _ _ O
+self _ _ O
+in _ _ O
+everyday _ _ O
+life _ _ O
+and _ _ O
+then _ _ O
+was _ _ O
+expanded _ _ O
+upon _ _ O
+in _ _ O
+1967 _ _ O
+. _ _ O
+
+
+
+the _ _ O
+series _ _ O
+stars _ _ O
+sam _ _ B-Artist
+robards _ _ I-Artist
+brynn _ _ B-Artist
+thayer _ _ I-Artist
+leon _ _ B-Artist
+russom _ _ I-Artist
+and _ _ O
+andrew _ _ B-Artist
+cassese _ _ I-Artist
+. _ _ O
+
+
+
+his _ _ O
+brief _ _ O
+style _ _ O
+influenced _ _ O
+among _ _ O
+others _ _ O
+widukind _ _ B-OtherPER
+of _ _ I-OtherPER
+corvey _ _ I-OtherPER
+and _ _ O
+wipo _ _ B-OtherPER
+of _ _ I-OtherPER
+burgundy _ _ I-OtherPER
+. _ _ O
+
+
+
+he _ _ O
+cites _ _ O
+kevin _ _ B-Artist
+aviance _ _ I-Artist
+phylicia _ _ B-Artist
+rashad _ _ I-Artist
+and _ _ O
+beyoncé _ _ B-Artist
+as _ _ O
+artistic _ _ O
+inspirations _ _ O
+. _ _ O
+
+
+
+doris _ _ B-MusicalGRP
+day _ _ I-MusicalGRP
+included _ _ O
+in _ _ O
+the _ _ O
+album _ _ O
+billy _ _ B-MusicalWork
+rose _ _ I-MusicalWork
+'s _ _ I-MusicalWork
+jumbo _ _ I-MusicalWork
+
+
+
+a _ _ O
+1978 _ _ O
+opera _ _ B-MusicalWork
+version _ _ O
+was _ _ O
+composed _ _ O
+by _ _ O
+zlata _ _ B-Artist
+tkach _ _ I-Artist
+with _ _ O
+a _ _ O
+libretto _ _ B-WrittenWork
+by _ _ O
+poet _ _ O
+grigore _ _ B-Artist
+vieru _ _ I-Artist
+. _ _ O
+
+
+
+pat _ _ B-Artist
+flynn _ _ I-Artist
+– _ _ O
+lead _ _ O
+acoustic _ _ O
+guitar _ _ O
+background _ _ O
+vocals _ _ O
+
+
+
+william _ _ B-OtherPER
+john _ _ I-OtherPER
+fitzpatrick _ _ I-OtherPER
+in _ _ O
+the _ _ O
+dictionary _ _ B-WrittenWork
+of _ _ I-WrittenWork
+national _ _ I-WrittenWork
+biography _ _ I-WrittenWork
+stated _ _ O
+that _ _ O
+the _ _ O
+book _ _ O
+is _ _ O
+mainly _ _ O
+if _ _ O
+not _ _ O
+entirely _ _ O
+the _ _ O
+fruit _ _ O
+of _ _ O
+o _ _ O
+connor _ _ O
+s _ _ O
+imagination _ _ O
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+described _ _ O
+by _ _ O
+william _ _ B-Politician
+chapman _ _ I-Politician
+hewitson _ _ I-Politician
+in _ _ O
+1869 _ _ O
+. _ _ O
+
+
+
+adapt _ _ O
+is _ _ O
+a _ _ O
+2004 _ _ O
+studio _ _ O
+album _ _ O
+by _ _ O
+trace _ _ B-Artist
+bundy _ _ I-Artist
+. _ _ O
+
+
+
+chuck _ _ B-Artist
+ainlay _ _ I-Artist
+– _ _ O
+overdub _ _ O
+recording _ _ O
+mixing _ _ O
+
+
+
+frostrup _ _ O
+was _ _ O
+first _ _ O
+married _ _ O
+( _ _ O
+1979 _ _ O
+– _ _ O
+1984 _ _ O
+) _ _ O
+to _ _ O
+richard _ _ B-Artist
+jobson _ _ I-Artist
+lead _ _ O
+singer _ _ O
+with _ _ O
+the _ _ O
+punk _ _ O
+rock _ _ O
+group _ _ O
+skids _ _ B-MusicalGRP
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+written _ _ O
+by _ _ O
+tom _ _ B-Artist
+johnston _ _ I-Artist
+. _ _ O
+
+
+
+from _ _ B-MusicalWork
+a _ _ I-MusicalWork
+buick _ _ I-MusicalWork
+6 _ _ I-MusicalWork
+a _ _ O
+song _ _ O
+by _ _ O
+bob _ _ B-Artist
+dylan _ _ I-Artist
+that _ _ O
+references _ _ O
+the _ _ O
+car _ _ O
+in _ _ O
+the _ _ O
+title _ _ O
+
+
+
+history _ _ O
+later _ _ O
+repeated _ _ O
+itself _ _ O
+with _ _ O
+another _ _ O
+film _ _ O
+by _ _ O
+sokurov _ _ B-Artist
+days _ _ B-VisualWork
+of _ _ I-VisualWork
+eclipse _ _ I-VisualWork
+( _ _ O
+dni _ _ O
+zatmeniya _ _ O
+) _ _ O
+. _ _ O
+
+
+
+the _ _ O
+murders _ _ O
+were _ _ O
+the _ _ O
+subject _ _ O
+of _ _ O
+beverly _ _ B-Artist
+lowry _ _ I-Artist
+'s _ _ O
+2016 _ _ O
+nonfiction _ _ O
+book _ _ O
+who _ _ B-WrittenWork
+killed _ _ I-WrittenWork
+these _ _ I-WrittenWork
+girls _ _ I-WrittenWork
+? _ _ O
+
+
+
+the _ _ O
+music _ _ O
+was _ _ O
+written _ _ O
+by _ _ O
+johnny _ _ B-Artist
+marr _ _ I-Artist
+and _ _ O
+the _ _ O
+lyrics _ _ O
+by _ _ O
+morrissey _ _ B-Artist
+. _ _ O
+
+
+
+une _ _ O
+petite _ _ O
+qui _ _ O
+voit _ _ O
+grand _ _ O
+by _ _ O
+germaine _ _ B-Artist
+acremant _ _ I-Artist
+
+
+
+gordon _ _ B-VisualWork
+hunt _ _ I-VisualWork
+returned _ _ O
+as _ _ O
+the _ _ O
+game _ _ O
+'s _ _ O
+recording _ _ O
+director _ _ O
+with _ _ O
+kris _ _ B-Artist
+zimmerman _ _ I-Artist
+as _ _ O
+casting _ _ O
+director _ _ O
+. _ _ O
+
+
+
+vocal _ _ O
+artists _ _ O
+included _ _ O
+on _ _ O
+the _ _ O
+album _ _ O
+included _ _ O
+picasso _ _ B-Artist
+yuki _ _ B-Artist
+saito _ _ I-Artist
+sumi _ _ B-Artist
+shimamoto _ _ I-Artist
+and _ _ O
+takao _ _ B-Artist
+kisugi _ _ I-Artist
+. _ _ O
+
+
+
+boston _ _ O
+based _ _ O
+howie _ _ B-Artist
+carr _ _ I-Artist
+is _ _ O
+heard _ _ O
+on _ _ O
+weekday _ _ O
+afternoons _ _ O
+. _ _ O
+
+
+
+in _ _ O
+the _ _ O
+periodical _ _ B-WrittenWork
+christianity _ _ B-WrittenWork
+today _ _ I-WrittenWork
+the _ _ O
+philosopher _ _ O
+dallas _ _ B-OtherPER
+willard _ _ I-OtherPER
+wrote _ _ O
+: _ _ O
+
+
+
+jon _ _ O
+stewart _ _ O
+of _ _ O
+the _ _ O
+daily _ _ O
+show _ _ O
+praised _ _ O
+moveon _ _ B-ORG
+. _ _ O
+org _ _ O
+for _ _ O
+making _ _ O
+even _ _ O
+people _ _ O
+who _ _ O
+agree _ _ O
+with _ _ O
+you _ _ O
+cringe _ _ O
+. _ _ O
+
+
+
+nicholson _ _ O
+starred _ _ O
+in _ _ O
+five _ _ B-VisualWork
+easy _ _ I-VisualWork
+pieces _ _ I-VisualWork
+alongside _ _ O
+karen _ _ B-Artist
+black _ _ I-Artist
+in _ _ O
+1970 _ _ O
+in _ _ O
+what _ _ O
+became _ _ O
+his _ _ O
+persona _ _ O
+defining _ _ O
+role _ _ O
+. _ _ O
+
+
+
+also _ _ O
+in _ _ O
+1997 _ _ O
+came _ _ O
+the _ _ O
+cult _ _ O
+success _ _ O
+of _ _ O
+bent _ _ B-VisualWork
+starring _ _ O
+clive _ _ B-Artist
+owen _ _ I-Artist
+adapted _ _ O
+from _ _ O
+the _ _ O
+play _ _ O
+by _ _ O
+martin _ _ B-Artist
+sherman _ _ I-Artist
+. _ _ O
+
+
+
+the _ _ O
+supporting _ _ O
+cast _ _ O
+features _ _ O
+clu _ _ B-Artist
+gulager _ _ I-Artist
+claude _ _ B-Artist
+akins _ _ I-Artist
+and _ _ O
+norman _ _ B-Artist
+fell _ _ I-Artist
+. _ _ O
+
+
+
+spider-man _ _ B-VisualWork
+a _ _ O
+2002 _ _ O
+film _ _ O
+directed _ _ O
+by _ _ O
+sam _ _ B-Artist
+raimi _ _ I-Artist
+
+
+
+production _ _ O
+design _ _ O
+was _ _ O
+handled _ _ O
+by _ _ O
+t. _ _ B-Scientist
+muthuraj _ _ I-Scientist
+. _ _ O
+
+
+
+isaac _ _ B-OtherPER
+ibn _ _ I-OtherPER
+al-ahdab _ _ I-OtherPER
+( _ _ O
+1350 _ _ O
+– _ _ O
+1430 _ _ O
+) _ _ O
+mathematician _ _ O
+astronomer _ _ O
+and _ _ O
+poet _ _ O
+
+
+
+the _ _ O
+album _ _ O
+features _ _ O
+guest _ _ O
+contributions _ _ O
+from _ _ O
+guns _ _ B-MusicalGRP
+n' _ _ I-MusicalGRP
+roses _ _ I-MusicalGRP
+guitarist _ _ O
+ron _ _ B-Artist
+bumblefoot _ _ I-Artist
+thal _ _ I-Artist
+. _ _ O
+
+
+
+morning _ _ B-Athlete
+dew _ _ I-Athlete
+> _ _ O
+( _ _ O
+bonnie _ _ B-Artist
+dobson _ _ I-Artist
+tim _ _ B-Artist
+rose _ _ I-Artist
+) _ _ O
+– _ _ O
+12 _ _ O
+: _ _ O
+24 _ _ O
+
+
+
+rakim _ _ B-Artist
+allen _ _ I-Artist
+– _ _ O
+vocals _ _ O
+songwriting _ _ O
+composition _ _ O
+director _ _ O
+
+
+
+brad _ _ B-Artist
+shepherd _ _ I-Artist
+— _ _ O
+guitar _ _ O
+backing _ _ O
+vocals _ _ O
+harmonica _ _ O
+
+
+
+m. _ _ B-Athlete
+e. _ _ I-Athlete
+clifton _ _ I-Athlete
+james _ _ I-Athlete
+( _ _ O
+montgomery _ _ O
+'s _ _ O
+double _ _ O
+during _ _ O
+the _ _ O
+war _ _ O
+) _ _ O
+
+
+
+adolf _ _ B-Artist
+bernhard _ _ B-OtherPER
+marx _ _ I-OtherPER
+was _ _ O
+influential _ _ O
+in _ _ O
+formalising _ _ O
+concepts _ _ O
+about _ _ O
+composition _ _ O
+and _ _ O
+music _ _ O
+understanding _ _ O
+towards _ _ O
+the _ _ O
+second _ _ O
+half _ _ O
+of _ _ O
+the _ _ O
+19th _ _ O
+century _ _ O
+. _ _ O
+
+
+
+anne _ _ B-Artist
+dudley _ _ I-Artist
+– _ _ O
+organ _ _ O
+piano _ _ O
+conductor _ _ O
+keyboards _ _ O
+fender _ _ B-MusicalGRP
+rhodes _ _ I-MusicalGRP
+orchestral _ _ O
+arrangements _ _ O
+
+
+
+his _ _ O
+most _ _ O
+famous _ _ O
+pupil _ _ O
+was _ _ O
+soprano _ _ O
+růžena _ _ B-Artist
+maturová _ _ I-Artist
+. _ _ O
+
+
+
+middelburg _ _ O
+is _ _ O
+also _ _ O
+the _ _ O
+birthplace _ _ O
+of _ _ O
+playwright _ _ O
+athol _ _ B-Artist
+fugard _ _ I-Artist
+. _ _ O
+
+
+
+journey _ _ O
+is _ _ O
+the _ _ O
+second _ _ O
+album _ _ O
+released _ _ O
+by _ _ O
+record _ _ O
+producer _ _ O
+arif _ _ B-Artist
+mardin _ _ I-Artist
+as _ _ O
+leader _ _ O
+. _ _ O
+
+
+
+with _ _ B-Artist
+ron _ _ B-Artist
+carter _ _ I-Artist
+( _ _ O
+bass _ _ O
+) _ _ O
+billy _ _ B-Artist
+cobham _ _ I-Artist
+( _ _ O
+drums _ _ O
+) _ _ O
+airto _ _ B-Artist
+moreira _ _ I-Artist
+( _ _ O
+percussion _ _ O
+) _ _ O
+string _ _ B-MusicalGRP
+quartet _ _ I-MusicalGRP
+
+
+
+she _ _ O
+was _ _ O
+known _ _ O
+for _ _ O
+her _ _ O
+interpretations _ _ O
+of _ _ O
+the _ _ O
+works _ _ O
+of _ _ O
+richard _ _ B-Artist
+wagner _ _ I-Artist
+and _ _ O
+richard _ _ B-Artist
+strauss _ _ I-Artist
+. _ _ O
+
+
+
+in _ _ O
+2017 _ _ O
+she _ _ O
+was _ _ O
+seen _ _ O
+in _ _ O
+soundarya _ _ B-Artist
+rajnikanth _ _ I-Artist
+'s _ _ O
+film _ _ O
+velaiilla _ _ B-VisualWork
+pattadhari _ _ I-VisualWork
+2 _ _ I-VisualWork
+which _ _ O
+was _ _ O
+a _ _ O
+profitable _ _ O
+venture _ _ O
+. _ _ O
+
+
+
+jeff _ _ B-Artist
+gardner _ _ I-Artist
+actor _ _ O
+producer _ _ O
+theater _ _ O
+manager _ _ O
+
+
+
+in _ _ O
+the _ _ O
+audience _ _ O
+a _ _ O
+totally _ _ O
+drunken _ _ O
+jack _ _ B-Artist
+kerouac _ _ I-Artist
+refuses _ _ O
+to _ _ O
+read _ _ O
+his _ _ O
+own _ _ O
+work _ _ O
+but _ _ O
+cheers _ _ O
+on _ _ O
+the _ _ O
+others _ _ O
+shouting _ _ O
+yeah _ _ O
+! _ _ O
+
+
+
+later _ _ O
+he _ _ O
+played _ _ O
+a _ _ O
+cast _ _ O
+role _ _ O
+in _ _ O
+the _ _ O
+sitcom _ _ B-VisualWork
+you _ _ B-VisualWork
+again _ _ I-VisualWork
+? _ _ I-VisualWork
+with _ _ O
+jack _ _ B-Artist
+klugman _ _ I-Artist
+. _ _ O
+
+
+
+she _ _ O
+also _ _ O
+enjoyed _ _ O
+hans _ _ B-Artist
+christian _ _ I-Artist
+andersen _ _ I-Artist
+'s _ _ O
+fairytale _ _ B-WrittenWork
+the _ _ B-WrittenWork
+snow _ _ I-WrittenWork
+queen _ _ I-WrittenWork
+which _ _ O
+influenced _ _ O
+her _ _ O
+writing _ _ O
+. _ _ O
+
+
+
+in _ _ O
+2007 _ _ O
+it _ _ O
+signed _ _ O
+a _ _ O
+two _ _ O
+year _ _ O
+exclusive _ _ O
+contract _ _ O
+with _ _ O
+tory _ _ B-Artist
+lane _ _ I-Artist
+to _ _ O
+perform _ _ O
+in _ _ O
+and _ _ O
+direct _ _ O
+films _ _ O
+. _ _ O
+
+
+
+1976 _ _ O
+: _ _ O
+the _ _ B-VisualWork
+man _ _ I-VisualWork
+who _ _ I-VisualWork
+fell _ _ I-VisualWork
+to _ _ I-VisualWork
+earth _ _ I-VisualWork
+( _ _ O
+producer _ _ O
+with _ _ O
+michael _ _ B-Artist
+deeley _ _ I-Artist
+) _ _ O
+
+
+
+foreword _ _ O
+by _ _ O
+bryan _ _ B-Artist
+talbot _ _ I-Artist
+( _ _ O
+may _ _ O
+2009 _ _ O
+) _ _ O
+
+
+
+he _ _ O
+then _ _ O
+spent _ _ O
+five _ _ O
+months _ _ O
+rehearsing _ _ O
+including _ _ O
+working _ _ O
+with _ _ O
+producer _ _ O
+hal _ _ B-Artist
+prince _ _ I-Artist
+. _ _ O
+
+
+
+shortly _ _ O
+after _ _ O
+beginning _ _ O
+her _ _ O
+studies _ _ O
+with _ _ O
+balletmaster _ _ O
+gaétan _ _ B-Politician
+vestris _ _ I-Politician
+she _ _ O
+became _ _ O
+his _ _ O
+lover _ _ O
+. _ _ O
+
+
+
+the _ _ O
+special _ _ O
+also _ _ O
+featured _ _ O
+alice _ _ B-Artist
+in _ _ I-Artist
+chains _ _ I-Artist
+phil _ _ B-Artist
+anselmo _ _ I-Artist
+dave _ _ B-Artist
+navarro _ _ I-Artist
+rufus _ _ B-Artist
+wainwright _ _ I-Artist
+and _ _ O
+carrie _ _ B-Artist
+underwood _ _ I-Artist
+. _ _ O
+
+
+
+sixx _ _ O
+dated _ _ O
+tattoo _ _ O
+artist _ _ O
+kat _ _ B-OtherPER
+von _ _ I-OtherPER
+d _ _ I-OtherPER
+from _ _ O
+2008 _ _ O
+to _ _ O
+2010 _ _ O
+. _ _ O
+
+
+
+when _ _ B-MusicalWork
+i _ _ I-MusicalWork
+paint _ _ I-MusicalWork
+my _ _ I-MusicalWork
+masterpiece _ _ I-MusicalWork
+( _ _ O
+bob _ _ B-Artist
+dylan _ _ I-Artist
+) _ _ O
+– _ _ O
+5 _ _ O
+: _ _ O
+00 _ _ O
+
+
+
+martija _ _ O
+is _ _ O
+a _ _ O
+fan _ _ O
+of _ _ O
+justin _ _ B-Artist
+bieber _ _ I-Artist
+. _ _ O
+
+
+
+she _ _ O
+was _ _ O
+replaced _ _ O
+by _ _ O
+julia _ _ B-Artist
+mckenzie _ _ I-Artist
+from _ _ O
+the _ _ O
+fourth _ _ B-VisualWork
+series _ _ I-VisualWork
+onwards _ _ O
+. _ _ O
+
+
+
+the _ _ O
+critics _ _ O
+emil _ _ B-Artist
+staiger _ _ I-Artist
+gaston _ _ B-Artist
+bachelard _ _ I-Artist
+and _ _ O
+j. _ _ B-Artist
+hillis _ _ I-Artist
+miller _ _ I-Artist
+are _ _ O
+also _ _ O
+sometimes _ _ O
+associated _ _ O
+with _ _ O
+this _ _ O
+group _ _ O
+. _ _ O
+
+
+
+banks _ _ B-MusicalWork
+of _ _ I-MusicalWork
+the _ _ I-MusicalWork
+ohio _ _ I-MusicalWork
+( _ _ O
+john _ _ B-Artist
+farrar _ _ I-Artist
+bruce _ _ B-Artist
+welch _ _ I-Artist
+; _ _ O
+arranged _ _ O
+by _ _ O
+peter _ _ B-Artist
+sullivan _ _ I-Artist
+) _ _ O
+
+
+
+during _ _ O
+development _ _ O
+game _ _ O
+producer _ _ O
+tetsuya _ _ B-OtherPER
+mizuguchi _ _ I-OtherPER
+intended _ _ O
+lumines _ _ B-Software
+live _ _ I-Software
+! _ _ I-Software
+to _ _ O
+be _ _ O
+customizable _ _ O
+for _ _ O
+players _ _ O
+via _ _ O
+downloadable _ _ O
+content _ _ O
+( _ _ O
+dlc _ _ O
+) _ _ O
+. _ _ O
+
+
+
+she _ _ O
+was _ _ O
+introduced _ _ O
+to _ _ O
+jim _ _ B-Artist
+peterik _ _ I-Artist
+who _ _ O
+mentored _ _ O
+her _ _ O
+and _ _ O
+helped _ _ O
+with _ _ O
+her _ _ O
+first _ _ O
+two _ _ O
+albums _ _ O
+. _ _ O
+
+
+
+1968 _ _ O
+– _ _ O
+gabriele _ _ B-Artist
+ferzetti _ _ I-Artist
+– _ _ O
+we _ _ B-VisualWork
+still _ _ I-VisualWork
+kill _ _ I-VisualWork
+the _ _ I-VisualWork
+old _ _ I-VisualWork
+way _ _ I-VisualWork
+
+
+
+he _ _ O
+was _ _ O
+the _ _ O
+fifth _ _ O
+actor _ _ O
+to _ _ O
+reprise _ _ O
+the _ _ O
+role _ _ O
+followed _ _ O
+by _ _ O
+ben _ _ B-Artist
+hardy _ _ I-Artist
+in _ _ O
+2013 _ _ O
+. _ _ O
+
+
+
+she _ _ O
+was _ _ O
+also _ _ O
+a _ _ O
+sister _ _ O
+of _ _ O
+the _ _ O
+polymath _ _ O
+sociologist _ _ O
+franz _ _ B-OtherPER
+oppenheimer _ _ I-OtherPER
+( _ _ O
+1864 _ _ O
+1943 _ _ O
+) _ _ O
+. _ _ O
+
+
+
+arguably _ _ O
+her _ _ O
+most _ _ O
+memorable _ _ O
+role _ _ O
+was _ _ O
+in _ _ O
+meet _ _ B-VisualWork
+me _ _ I-VisualWork
+in _ _ I-VisualWork
+st. _ _ I-VisualWork
+louis _ _ I-VisualWork
+opposite _ _ O
+judy _ _ B-Artist
+garland _ _ I-Artist
+. _ _ O
+
+
+
+františek _ _ B-Artist
+vláčil _ _ I-Artist
+( _ _ O
+1924 _ _ O
+– _ _ O
+1999 _ _ O
+) _ _ O
+film _ _ O
+director _ _ O
+and _ _ O
+screenwriter _ _ O
+
+
+
+the _ _ O
+tour _ _ O
+was _ _ O
+documented _ _ O
+in _ _ O
+the _ _ O
+film _ _ O
+one _ _ B-VisualWork
+direction _ _ I-VisualWork
+: _ _ I-VisualWork
+this _ _ I-VisualWork
+is _ _ I-VisualWork
+us _ _ I-VisualWork
+directed _ _ O
+by _ _ O
+morgan _ _ B-Artist
+spurlock _ _ I-Artist
+. _ _ O
+
+
+
+this _ _ O
+movie _ _ O
+is _ _ O
+famous _ _ O
+for _ _ O
+the _ _ O
+erotic _ _ O
+first _ _ O
+night _ _ O
+song _ _ O
+picturised _ _ O
+on _ _ O
+nagma _ _ B-Artist
+. _ _ O
+
+
+
+caramoor _ _ O
+also _ _ O
+features _ _ O
+a _ _ O
+composer _ _ O
+in _ _ O
+residence _ _ O
+with _ _ O
+such _ _ O
+composers _ _ O
+as _ _ O
+john _ _ B-Artist
+musto _ _ I-Artist
+and _ _ O
+paquito _ _ B-Artist
+d'rivera _ _ I-Artist
+holding _ _ B-MusicalWork
+the _ _ I-MusicalWork
+post _ _ I-MusicalWork
+. _ _ O
+
+
+
+the _ _ O
+hospital _ _ O
+was _ _ O
+named _ _ O
+after _ _ O
+princess _ _ B-OtherPER
+margaret _ _ I-OtherPER
+sister _ _ O
+of _ _ O
+queen _ _ B-Artist
+elizabeth _ _ I-Artist
+ii _ _ I-Artist
+. _ _ O
+
+
+
+honored _ _ O
+guests _ _ O
+: _ _ O
+patrick _ _ B-Politician
+nielsen _ _ I-Politician
+hayden _ _ I-Politician
+teresa _ _ B-Politician
+nielsen _ _ I-Politician
+hayden _ _ I-Politician
+p. _ _ B-Artist
+c. _ _ I-Artist
+hodgell _ _ I-Artist
+larry _ _ B-Artist
+niven _ _ I-Artist
+john _ _ B-OtherPER
+sladek _ _ I-OtherPER
+
+
+
+hammond _ _ O
+was _ _ O
+drafted _ _ O
+by _ _ O
+the _ _ O
+cincinnati _ _ B-SportsGRP
+reds _ _ I-SportsGRP
+in _ _ O
+the _ _ O
+sixth _ _ O
+round _ _ O
+of _ _ O
+the _ _ O
+amateur _ _ O
+draft _ _ O
+. _ _ O
+
+
+
+spain _ _ B-SportsGRP
+won _ _ O
+the _ _ O
+tournament _ _ O
+and _ _ O
+took _ _ O
+its _ _ O
+seventeenth _ _ O
+title _ _ O
+overall _ _ O
+. _ _ O
+
+
+
+in _ _ O
+2019 _ _ O
+he _ _ O
+joined _ _ O
+the _ _ O
+pittsburgh _ _ B-SportsGRP
+pirates _ _ I-SportsGRP
+organization _ _ O
+and _ _ O
+served _ _ O
+as _ _ O
+the _ _ O
+hitting _ _ O
+coach _ _ O
+for _ _ O
+the _ _ O
+altoona _ _ B-Athlete
+curve _ _ I-Athlete
+. _ _ O
+
+
+
+she _ _ O
+was _ _ O
+a _ _ O
+member _ _ O
+of _ _ O
+sc _ _ B-SportsGRP
+dhfk _ _ I-SportsGRP
+leipzig _ _ I-SportsGRP
+sports _ _ O
+club _ _ O
+. _ _ O
+
+
+
+3rd _ _ O
+place _ _ O
+: _ _ O
+metallurg _ _ B-SportsGRP
+magnitogorsk _ _ I-SportsGRP
+– _ _ O
+avangard _ _ B-SportsGRP
+omsk _ _ I-SportsGRP
+1 _ _ O
+: _ _ O
+1 _ _ O
+2 _ _ O
+: _ _ O
+0 _ _ O
+
+
+
+howard _ _ O
+played _ _ O
+college _ _ O
+baseball _ _ O
+for _ _ O
+the _ _ O
+byu _ _ B-SportsGRP
+cougars _ _ I-SportsGRP
+. _ _ O
+
+
+
+he _ _ O
+has _ _ O
+previously _ _ O
+played _ _ O
+for _ _ O
+the _ _ O
+st. _ _ B-SportsGRP
+louis _ _ I-SportsGRP
+blues _ _ I-SportsGRP
+pittsburgh _ _ B-SportsGRP
+penguins _ _ I-SportsGRP
+and _ _ O
+vegas _ _ B-SportsGRP
+golden _ _ I-SportsGRP
+knights _ _ I-SportsGRP
+. _ _ O
+
+
+
+reserve _ _ O
+teams _ _ O
+play _ _ O
+in _ _ O
+the _ _ O
+same _ _ O
+league _ _ O
+system _ _ O
+as _ _ O
+their _ _ O
+parent _ _ O
+clubs _ _ O
+. _ _ O
+
+
+
+baldur _ _ B-Athlete
+bett _ _ I-Athlete
+also _ _ O
+left _ _ O
+the _ _ O
+squad _ _ O
+at _ _ O
+the _ _ O
+end _ _ O
+of _ _ O
+the _ _ O
+season _ _ O
+and _ _ O
+joined _ _ O
+rivals _ _ O
+valur _ _ B-SportsGRP
+on _ _ O
+a _ _ O
+free _ _ O
+transfer _ _ O
+. _ _ O
+
+
+
+the _ _ O
+seattle _ _ B-SportsGRP
+seahawks _ _ I-SportsGRP
+had _ _ O
+offered _ _ O
+him _ _ O
+comparable _ _ O
+money _ _ O
+but _ _ O
+with _ _ O
+an _ _ O
+extra _ _ O
+year _ _ O
+and _ _ O
+back _ _ O
+loaded _ _ O
+the _ _ O
+whole _ _ O
+deal _ _ O
+. _ _ O
+
+
+
+he _ _ O
+played _ _ O
+in _ _ O
+9 _ _ O
+games _ _ O
+for _ _ O
+the _ _ O
+1906 _ _ O
+st. _ _ B-SportsGRP
+louis _ _ I-SportsGRP
+cardinals _ _ I-SportsGRP
+. _ _ O
+
+
+
+he _ _ O
+debuted _ _ O
+for _ _ O
+gloucestershire _ _ B-SportsGRP
+in _ _ O
+1887 _ _ O
+at _ _ O
+the _ _ O
+age _ _ O
+of _ _ O
+17 _ _ O
+. _ _ O
+
+
+
+to _ _ O
+san _ _ B-SportsGRP
+jose _ _ I-SportsGRP
+sharks _ _ I-SportsGRP
+3rd _ _ O
+round _ _ O
+draft _ _ O
+pick2 _ _ O
+( _ _ O
+85 _ _ O
+tom _ _ B-Athlete
+sestito _ _ I-Athlete
+) _ _ O
+
+
+
+west _ _ O
+has _ _ O
+also _ _ O
+been _ _ O
+a _ _ O
+member _ _ O
+of _ _ O
+the _ _ O
+cleveland _ _ B-SportsGRP
+browns _ _ I-SportsGRP
+. _ _ O
+
+
+
+the _ _ O
+race _ _ O
+was _ _ O
+won _ _ O
+by _ _ O
+primož _ _ B-Athlete
+roglič _ _ I-Athlete
+of _ _ O
+slovenia _ _ B-HumanSettlement
+. _ _ O
+
+
+
+the _ _ O
+reigning _ _ O
+national _ _ O
+champions _ _ O
+are _ _ O
+the _ _ O
+nc _ _ B-SportsGRP
+state _ _ I-SportsGRP
+wolfpack _ _ I-SportsGRP
+. _ _ O
+
+
+
+they _ _ O
+were _ _ O
+a _ _ O
+member _ _ O
+of _ _ O
+the _ _ O
+stade _ _ B-ORG
+français _ _ I-ORG
+sports _ _ I-ORG
+association _ _ I-ORG
+. _ _ O
+
+
+
+romano _ _ O
+played _ _ O
+for _ _ O
+the _ _ O
+peterborough _ _ B-SportsGRP
+petes _ _ I-SportsGRP
+in _ _ O
+the _ _ O
+following _ _ O
+season _ _ O
+where _ _ O
+he _ _ O
+scored _ _ O
+36 _ _ O
+goals _ _ O
+in _ _ O
+65 _ _ O
+games _ _ O
+. _ _ O
+
+
+
+he _ _ O
+was _ _ O
+held _ _ O
+scoreless _ _ O
+at _ _ O
+right _ _ O
+wing _ _ O
+forward _ _ O
+in _ _ O
+the _ _ O
+3 _ _ O
+21 _ _ O
+to _ _ O
+0 _ _ O
+16 _ _ O
+defeat _ _ O
+by _ _ O
+kilkenny _ _ B-SportsManager
+. _ _ O
+
+
+
+he _ _ O
+is _ _ O
+followed _ _ O
+by _ _ O
+wally _ _ B-Athlete
+hammond _ _ I-Athlete
+with _ _ O
+905 _ _ O
+runs _ _ O
+scored _ _ O
+in _ _ O
+the _ _ O
+1928–29 _ _ B-WrittenWork
+ashes _ _ O
+series _ _ O
+. _ _ O
+
+
+
+he _ _ O
+is _ _ O
+currently _ _ O
+a _ _ O
+wide _ _ O
+receivers _ _ O
+coach _ _ O
+for _ _ O
+the _ _ O
+buffalo _ _ B-SportsGRP
+bills _ _ I-SportsGRP
+. _ _ O
+
+
+
+she _ _ O
+has _ _ O
+11 _ _ O
+caps _ _ O
+in _ _ O
+national _ _ B-SportsGRP
+team _ _ O
+from _ _ O
+2001 _ _ O
+to _ _ O
+2008 _ _ O
+. _ _ O
+
+
+
+they _ _ O
+got _ _ O
+off _ _ O
+to _ _ O
+another _ _ O
+strong _ _ O
+start _ _ O
+in _ _ O
+1989 _ _ O
+with _ _ O
+road _ _ O
+victories _ _ O
+over _ _ O
+the _ _ O
+detroit _ _ B-SportsGRP
+lions _ _ I-SportsGRP
+and _ _ O
+seattle _ _ B-SportsGRP
+seahawks _ _ I-SportsGRP
+then _ _ O
+suffered _ _ O
+a _ _ O
+rash _ _ O
+of _ _ O
+injuries _ _ O
+. _ _ O
+
+
+
+depardieu _ _ B-Athlete
+in _ _ O
+the _ _ O
+role _ _ O
+that _ _ O
+gets _ _ O
+him _ _ O
+into _ _ O
+a _ _ O
+new _ _ B-SportsGRP
+york _ _ I-SportsGRP
+yankees _ _ I-SportsGRP
+cap _ _ I-SportsGRP
+proves _ _ O
+that _ _ O
+he _ _ O
+is _ _ O
+nothing _ _ O
+if _ _ O
+not _ _ O
+a _ _ O
+sport _ _ O
+. _ _ O
+. _ _ O
+. _ _ O
+
+
+
+he _ _ O
+played _ _ O
+for _ _ O
+the _ _ O
+detroit _ _ B-SportsGRP
+tigers _ _ I-SportsGRP
+and _ _ O
+cincinnati _ _ B-SportsGRP
+reds _ _ I-SportsGRP
+. _ _ O
+
+
+
+the _ _ O
+first _ _ O
+four _ _ O
+teams _ _ O
+in _ _ O
+each _ _ O
+group _ _ O
+( _ _ O
+excluding _ _ O
+reserve _ _ B-SportsGRP
+teams _ _ I-SportsGRP
+) _ _ O
+took _ _ O
+part _ _ O
+in _ _ O
+the _ _ O
+play _ _ O
+off _ _ O
+. _ _ O
+
+
+
+between _ _ O
+2006 _ _ O
+and _ _ O
+2008 _ _ O
+he _ _ O
+played _ _ O
+two _ _ O
+seasons _ _ O
+with _ _ O
+the _ _ O
+south _ _ B-SportsGRP
+dragons _ _ I-SportsGRP
+. _ _ O
+
+
+
+his _ _ O
+teammate _ _ O
+mark _ _ B-Athlete
+webber _ _ I-Athlete
+finished _ _ O
+second _ _ O
+and _ _ O
+ferrari _ _ B-SportsGRP
+'s _ _ O
+fernando _ _ B-Athlete
+alonso _ _ I-Athlete
+third _ _ O
+. _ _ O
+
+
+
+he _ _ O
+was _ _ O
+the _ _ O
+captain _ _ O
+of _ _ O
+the _ _ O
+pakistan _ _ B-SportsGRP
+national _ _ I-SportsGRP
+cricket _ _ I-SportsGRP
+team _ _ I-SportsGRP
+from _ _ O
+2007 _ _ O
+to _ _ O
+2009 _ _ O
+. _ _ O
+
+
+
+he _ _ O
+played _ _ O
+briefly _ _ O
+for _ _ O
+the _ _ O
+philadelphia _ _ B-SportsGRP
+phillies _ _ I-SportsGRP
+as _ _ O
+an _ _ O
+unsigned _ _ O
+non _ _ O
+roster _ _ O
+invitee _ _ O
+during _ _ O
+spring _ _ O
+training _ _ O
+in _ _ O
+1991 _ _ O
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+described _ _ O
+by _ _ O
+pieter _ _ B-OtherPER
+cramer _ _ I-OtherPER
+in _ _ O
+1780 _ _ O
+. _ _ O
+
+
+
+the _ _ O
+sitter _ _ O
+is _ _ O
+sir _ _ B-OtherPER
+thomas _ _ I-OtherPER
+lestrange _ _ I-OtherPER
+a _ _ O
+minor _ _ O
+courtier _ _ O
+and _ _ O
+wealthy _ _ O
+landowner _ _ O
+. _ _ O
+
+
+
+she _ _ O
+should _ _ O
+not _ _ O
+be _ _ O
+confused _ _ O
+with _ _ O
+salome _ _ B-Artist
+whose _ _ O
+mother _ _ O
+was _ _ O
+herodias _ _ B-OtherPER
+and _ _ O
+who _ _ O
+is _ _ O
+alleged _ _ O
+to _ _ O
+have _ _ O
+played _ _ O
+a _ _ O
+role _ _ O
+in _ _ O
+the _ _ O
+death _ _ O
+of _ _ O
+john _ _ B-OtherPER
+the _ _ I-OtherPER
+baptist _ _ I-OtherPER
+. _ _ O
+
+
+
+stéphane _ _ B-Athlete
+houdet _ _ I-Athlete
+/ _ _ O
+shingo _ _ B-Athlete
+kunieda _ _ I-Athlete
+defeated _ _ O
+robin _ _ B-Athlete
+ammerlaan _ _ I-Athlete
+/ _ _ O
+stefan _ _ B-Athlete
+olsson _ _ I-Athlete
+6 _ _ O
+– _ _ O
+0 _ _ O
+5 _ _ O
+– _ _ O
+7 _ _ O
+[ _ _ O
+10 _ _ O
+– _ _ O
+8 _ _ O
+] _ _ O
+
+
+
+the _ _ O
+standout _ _ O
+match _ _ O
+of _ _ O
+this _ _ O
+championship _ _ O
+however _ _ O
+was _ _ O
+the _ _ O
+quarter _ _ O
+final _ _ O
+between _ _ O
+chris _ _ B-Athlete
+mason _ _ I-Athlete
+and _ _ O
+martin _ _ B-Athlete
+adams _ _ I-Athlete
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+described _ _ O
+by _ _ O
+hervé _ _ B-OtherPER
+de _ _ I-OtherPER
+toulgoët _ _ I-OtherPER
+in _ _ O
+1994 _ _ O
+. _ _ O
+
+
+
+2011 _ _ O
+: _ _ O
+1st _ _ O
+round _ _ O
+( _ _ O
+lost _ _ O
+to _ _ O
+wayne _ _ B-OtherPER
+jones _ _ I-OtherPER
+1 _ _ O
+– _ _ O
+3 _ _ O
+) _ _ O
+
+
+
+its _ _ O
+cathedral _ _ O
+dedicated _ _ O
+to _ _ O
+john _ _ B-OtherPER
+the _ _ I-OtherPER
+baptist _ _ I-OtherPER
+was _ _ O
+first _ _ O
+mentioned _ _ O
+in _ _ O
+1490 _ _ O
+. _ _ O
+
+
+
+the _ _ O
+genus _ _ O
+was _ _ O
+erected _ _ O
+by _ _ O
+alexey _ _ B-OtherPER
+diakonoff _ _ I-OtherPER
+in _ _ O
+1960 _ _ O
+. _ _ O
+
+
+
+rose _ _ B-OtherPER
+dugdale _ _ I-OtherPER
+political _ _ O
+activist _ _ O
+and _ _ O
+prominent _ _ O
+member _ _ O
+of _ _ O
+the _ _ O
+provisional _ _ B-ORG
+irish _ _ I-ORG
+republican _ _ I-ORG
+army _ _ I-ORG
+
+
+
+the _ _ O
+quarter _ _ O
+finals _ _ O
+were _ _ O
+prefaced _ _ O
+by _ _ O
+a _ _ O
+women _ _ O
+'s _ _ O
+exhibition _ _ O
+four _ _ O
+player _ _ O
+tournament _ _ O
+won _ _ O
+by _ _ O
+reanne _ _ B-Athlete
+evans _ _ I-Athlete
+. _ _ O
+
+
+
+however _ _ O
+he _ _ O
+defied _ _ O
+expectations _ _ O
+and _ _ O
+reached _ _ O
+the _ _ O
+final _ _ O
+again _ _ O
+en _ _ O
+route _ _ O
+edging _ _ O
+out _ _ O
+a _ _ O
+young _ _ O
+stephen _ _ B-OtherPER
+hendry _ _ I-OtherPER
+13 _ _ O
+– _ _ O
+12 _ _ O
+in _ _ O
+a _ _ O
+close _ _ O
+quarter _ _ O
+final _ _ O
+. _ _ O
+
+
+
+under _ _ O
+consideration _ _ O
+was _ _ O
+mary _ _ B-OtherPER
+of _ _ I-OtherPER
+guise _ _ I-OtherPER
+widow _ _ O
+of _ _ O
+louis _ _ B-Politician
+ii _ _ I-Politician
+d'orléans _ _ I-Politician
+, _ _ I-Politician
+duke _ _ I-Politician
+of _ _ I-Politician
+longueville _ _ I-Politician
+. _ _ O
+
+
+
+reigning _ _ O
+world _ _ O
+champion _ _ O
+judd _ _ B-Athlete
+trump _ _ I-Athlete
+was _ _ O
+also _ _ O
+defeated _ _ O
+in _ _ O
+the _ _ O
+first _ _ O
+round _ _ O
+of _ _ O
+qualifying _ _ O
+losing _ _ O
+3 _ _ O
+– _ _ O
+5 _ _ O
+to _ _ O
+ian _ _ B-Athlete
+burns _ _ I-Athlete
+. _ _ O
+
+
+
+marco _ _ O
+began _ _ O
+to _ _ O
+pull _ _ O
+away _ _ O
+as _ _ O
+michael _ _ B-Athlete
+now _ _ O
+assumed _ _ O
+a _ _ O
+blocking _ _ O
+role _ _ O
+to _ _ O
+protect _ _ O
+his _ _ O
+son _ _ O
+'s _ _ O
+lead _ _ O
+. _ _ O
+
+
+
+it _ _ O
+is _ _ O
+known _ _ O
+almost _ _ O
+exclusively _ _ O
+from _ _ O
+material _ _ O
+collected _ _ O
+by _ _ O
+anton _ _ B-OtherPER
+hermann _ _ I-OtherPER
+fassl _ _ I-OtherPER
+in _ _ O
+1907 _ _ O
+and _ _ O
+1908 _ _ O
+in _ _ O
+western _ _ O
+colombia _ _ B-HumanSettlement
+. _ _ O
+
+
+
+he _ _ O
+became _ _ O
+a _ _ O
+close _ _ O
+friend _ _ O
+to _ _ O
+ronald _ _ B-Athlete
+de _ _ I-Athlete
+boer _ _ I-Athlete
+during _ _ O
+his _ _ O
+spell _ _ O
+in _ _ O
+amsterdam _ _ B-HumanSettlement
+. _ _ O
+
+
+
+mclaughlin _ _ O
+left _ _ O
+the _ _ O
+event _ _ O
+continuing _ _ O
+to _ _ O
+hold _ _ O
+his _ _ O
+championship _ _ O
+lead _ _ O
+over _ _ O
+jamie _ _ B-OtherPER
+whincup _ _ I-OtherPER
+by _ _ O
+31 _ _ O
+points _ _ O
+. _ _ O
+
+
+
+mark _ _ B-OtherPER
+edmondson _ _ I-OtherPER
+won _ _ O
+the _ _ O
+title _ _ O
+defeating _ _ O
+roscoe _ _ B-OtherPER
+tanner _ _ I-OtherPER
+6 _ _ O
+– _ _ O
+3 _ _ O
+5 _ _ O
+– _ _ O
+7 _ _ O
+6 _ _ O
+– _ _ O
+4 _ _ O
+in _ _ O
+the _ _ O
+final _ _ O
+. _ _ O
+
+
+
+qb _ _ O
+marc _ _ B-Athlete
+wilson _ _ I-Athlete
+had _ _ O
+undergone _ _ O
+an _ _ O
+emergency _ _ O
+appendectomy _ _ B-MedicalProcedure
+and _ _ O
+had _ _ O
+lost _ _ O
+weight _ _ O
+during _ _ O
+the _ _ O
+week _ _ O
+of _ _ O
+the _ _ O
+game _ _ O
+. _ _ O
+
+
+
+mariusz _ _ O
+'s _ _ O
+next _ _ O
+opponent _ _ O
+was _ _ O
+bob _ _ B-Athlete
+sapp _ _ I-Athlete
+. _ _ O
+
+
+
+colts _ _ O
+linebacker _ _ O
+shaquille _ _ B-Athlete
+leonard _ _ I-Athlete
+had _ _ O
+9 _ _ O
+solo _ _ O
+tackles _ _ O
+and _ _ O
+3 _ _ O
+assists _ _ O
+. _ _ O
+
+
+
+it _ _ O
+is _ _ O
+a _ _ O
+sequel _ _ O
+to _ _ O
+the _ _ O
+2002 _ _ O
+'s _ _ O
+half _ _ B-VisualWork
+past _ _ I-VisualWork
+dead _ _ I-VisualWork
+starring _ _ O
+steven _ _ B-Artist
+seagal _ _ I-Artist
+and _ _ O
+ja _ _ B-Artist
+rule _ _ I-Artist
+. _ _ O
+
+
+
+producer _ _ O
+avi _ _ B-VisualWork
+arad _ _ I-VisualWork
+director _ _ O
+sam _ _ B-Artist
+raimi _ _ I-Artist
+and _ _ O
+actor _ _ O
+tobey _ _ B-Artist
+maguire _ _ I-Artist
+all _ _ O
+make _ _ O
+cameo _ _ O
+appearances _ _ O
+. _ _ O
+
+
+
+mickey _ _ B-Athlete
+redmond _ _ I-Athlete
+( _ _ O
+born _ _ O
+1947 _ _ O
+) _ _ O
+former _ _ O
+professional _ _ O
+hockey _ _ O
+player _ _ O
+
+
+
+lewis _ _ B-Athlete
+hamilton _ _ I-Athlete
+won _ _ O
+the _ _ O
+race _ _ O
+ahead _ _ O
+of _ _ O
+his _ _ O
+teammate _ _ O
+valtteri _ _ B-Athlete
+bottas _ _ I-Athlete
+and _ _ O
+ferrari _ _ B-CarManufacturer
+'s _ _ O
+sebastian _ _ B-Athlete
+vettel _ _ I-Athlete
+. _ _ O
+
+
+
+october _ _ O
+8 _ _ O
+– _ _ O
+raffi _ _ B-Athlete
+torres _ _ I-Athlete
+ice _ _ O
+hockey _ _ O
+player _ _ O
+
+
+
+jimmy _ _ B-Athlete
+connors _ _ I-Athlete
+won _ _ O
+the _ _ O
+singles _ _ O
+title _ _ O
+and _ _ O
+earned _ _ O
+$ _ _ O
+8,000 _ _ O
+first _ _ O
+prize _ _ O
+money _ _ O
+. _ _ O
+
+
+
+this _ _ O
+by _ _ O
+election _ _ O
+was _ _ O
+caused _ _ O
+by _ _ O
+the _ _ O
+resignation _ _ O
+of _ _ O
+bruce _ _ B-Politician
+pie _ _ I-Politician
+. _ _ O
+
+
+
+fourth _ _ O
+round _ _ O
+lost _ _ O
+to _ _ O
+flavia _ _ B-Athlete
+pennetta _ _ I-Athlete
+[ _ _ O
+28 _ _ O
+] _ _ O
+
+
+
+jana _ _ B-Athlete
+fett _ _ I-Athlete
+won _ _ O
+the _ _ O
+title _ _ O
+defeating _ _ O
+luksika _ _ B-Athlete
+kumkhum _ _ I-Athlete
+in _ _ O
+the _ _ O
+final _ _ O
+6 _ _ O
+– _ _ O
+4 _ _ O
+4 _ _ O
+– _ _ O
+6 _ _ O
+6 _ _ O
+– _ _ O
+4 _ _ O
+. _ _ O
+
+
+
+andrew _ _ B-Athlete
+cashner _ _ I-Athlete
+20th _ _ O
+round _ _ O
+617th _ _ O
+overall _ _ O
+by _ _ O
+the _ _ O
+atlanta _ _ B-SportsGRP
+braves _ _ I-SportsGRP
+but _ _ O
+did _ _ O
+not _ _ O
+sign _ _ O
+
+
+
+she _ _ O
+made _ _ O
+some _ _ O
+forays _ _ O
+into _ _ O
+the _ _ O
+world _ _ O
+of _ _ O
+cinema _ _ O
+and _ _ O
+song _ _ O
+to _ _ O
+share _ _ O
+the _ _ O
+stage _ _ O
+with _ _ O
+julio _ _ B-Artist
+iglesias _ _ I-Artist
+. _ _ O
+
+
+
+toivo _ _ B-Athlete
+salonen _ _ I-Athlete
+( _ _ O
+cortina _ _ O
+d _ _ O
+ampezzo _ _ O
+1956 _ _ O
+speed _ _ O
+skating _ _ O
+) _ _ O
+
+
+
+hauger _ _ O
+'s _ _ O
+closest _ _ O
+challenger _ _ O
+gianluca _ _ B-Athlete
+petecof _ _ I-Athlete
+won _ _ O
+four _ _ O
+races _ _ O
+and _ _ O
+roman _ _ B-Athlete
+staněk _ _ I-Athlete
+joshua _ _ B-Athlete
+dürksen _ _ I-Athlete
+and _ _ O
+giorgio _ _ B-Athlete
+carrara _ _ I-Athlete
+won _ _ O
+one _ _ O
+race _ _ O
+each _ _ O
+. _ _ O
+
+
+
+however _ _ O
+when _ _ O
+autumn _ _ O
+came _ _ O
+the _ _ O
+side _ _ O
+lost _ _ O
+him _ _ O
+and _ _ O
+his _ _ O
+partner _ _ O
+ronaldo _ _ B-Athlete
+to _ _ O
+heavy _ _ O
+injuries _ _ O
+. _ _ O
+
+
+
+andré _ _ B-Athlete
+lemoine _ _ I-Athlete
+came _ _ O
+closest _ _ O
+with _ _ O
+a _ _ O
+fourth _ _ O
+place _ _ O
+finish _ _ O
+in _ _ O
+the _ _ O
+parallel _ _ O
+bars _ _ O
+. _ _ O
+
+
+
+he _ _ O
+lost _ _ O
+in _ _ O
+the _ _ O
+opening _ _ O
+round _ _ O
+to _ _ O
+top _ _ O
+seed _ _ O
+ivan _ _ B-Athlete
+lendl _ _ I-Athlete
+in _ _ O
+straight _ _ O
+sets _ _ O
+. _ _ O
+
+
+
+they _ _ O
+will _ _ O
+be _ _ O
+led _ _ O
+by _ _ O
+seventh _ _ O
+year _ _ O
+head _ _ O
+coach _ _ O
+todd _ _ B-SportsManager
+cooley _ _ I-SportsManager
+. _ _ O
+
+
+
+he _ _ O
+was _ _ O
+replaced _ _ O
+by _ _ O
+pinch _ _ B-SportsGRP
+runner _ _ O
+terrance _ _ B-Athlete
+gore _ _ I-Athlete
+. _ _ O
+
+
+
+sidney _ _ B-Athlete
+rivera _ _ I-Athlete
+( _ _ O
+born _ _ O
+1993 _ _ O
+) _ _ O
+professional _ _ O
+soccer _ _ O
+player _ _ O
+
+
+
+second _ _ O
+seeded _ _ O
+nick _ _ B-Athlete
+kyrgios _ _ I-Athlete
+won _ _ O
+the _ _ O
+singles _ _ O
+title _ _ O
+. _ _ O
+
+
+
+men _ _ O
+'s _ _ O
+singles _ _ O
+: _ _ O
+novak _ _ B-Athlete
+djokovic _ _ I-Athlete
+def _ _ O
+. _ _ O
+nick _ _ B-Athlete
+kyrgios _ _ I-Athlete
+4 _ _ O
+– _ _ O
+6 _ _ O
+6 _ _ O
+– _ _ O
+3 _ _ O
+6 _ _ O
+– _ _ O
+4 _ _ O
+7 _ _ O
+– _ _ O
+6 _ _ O
+( _ _ O
+7 _ _ O
+– _ _ O
+3 _ _ O
+) _ _ O
+. _ _ O
+
+
+
+november _ _ O
+9 _ _ O
+– _ _ O
+alex _ _ B-Athlete
+kirilloff _ _ I-Athlete
+baseball _ _ O
+outfielder _ _ O
+
+
+
+2004 _ _ O
+– _ _ O
+05 _ _ O
+eurelijus _ _ B-Athlete
+žukauskas _ _ I-Athlete
+( _ _ O
+ülker _ _ O
+) _ _ O
+: _ _ O
+1.82 _ _ O
+( _ _ O
+in _ _ O
+22 _ _ O
+games _ _ O
+) _ _ O
+
+
+
+anastasia _ _ B-Athlete
+myskina _ _ I-Athlete
+won _ _ O
+the _ _ O
+title _ _ O
+defeating _ _ O
+elena _ _ B-Athlete
+likhovtseva _ _ I-Athlete
+6 _ _ O
+– _ _ O
+3 _ _ O
+6 _ _ O
+– _ _ O
+1 _ _ O
+in _ _ O
+an _ _ O
+all _ _ O
+russian _ _ O
+final _ _ O
+. _ _ O
+
+
+
+the _ _ O
+course _ _ O
+was _ _ O
+designed _ _ O
+in _ _ O
+1982 _ _ O
+by _ _ O
+fellow _ _ O
+founder _ _ O
+arnold _ _ B-OtherPER
+palmer _ _ I-OtherPER
+. _ _ O
+
+
+
+dale _ _ B-Athlete
+earnhardt _ _ I-Athlete
+of _ _ O
+richard _ _ B-SportsGRP
+childress _ _ I-SportsGRP
+racing _ _ I-SportsGRP
+won _ _ O
+the _ _ O
+pole _ _ O
+and _ _ O
+led _ _ O
+all _ _ O
+70 _ _ O
+laps _ _ O
+to _ _ O
+win _ _ O
+the _ _ O
+race _ _ O
+and _ _ O
+collect _ _ O
+a _ _ O
+total _ _ O
+purse _ _ O
+of _ _ O
+. _ _ O
+
+
+
+the _ _ O
+winning _ _ O
+point _ _ O
+was _ _ O
+gained _ _ O
+by _ _ O
+meg _ _ B-Athlete
+mallon _ _ I-Athlete
+in _ _ O
+her _ _ O
+win _ _ O
+over _ _ O
+karen _ _ B-Athlete
+stupples _ _ I-Athlete
+. _ _ O
+
+
+
+angela _ _ B-Athlete
+haynes _ _ I-Athlete
+ahsha _ _ B-Athlete
+rolle _ _ I-Athlete
+6 _ _ O
+– _ _ O
+3 _ _ O
+6 _ _ O
+– _ _ O
+7 _ _ O
+[ _ _ O
+10 _ _ O
+– _ _ O
+7 _ _ O
+] _ _ O
+
+
+
+his _ _ O
+voice _ _ O
+has _ _ O
+been _ _ O
+favorably _ _ O
+compared _ _ O
+with _ _ O
+singers _ _ O
+bruce _ _ B-Artist
+dickinson _ _ I-Artist
+daniel _ _ B-Artist
+gildenlöw _ _ I-Artist
+and _ _ O
+ronnie _ _ B-Artist
+james _ _ I-Artist
+dio _ _ I-Artist
+. _ _ O
+
+
+
+teammate _ _ O
+roberto _ _ B-SportsManager
+bonano _ _ I-SportsManager
+who _ _ O
+stepped _ _ O
+up _ _ O
+in _ _ O
+his _ _ O
+defense _ _ O
+was _ _ O
+also _ _ O
+suspended _ _ O
+; _ _ O
+both _ _ O
+retired _ _ O
+shortly _ _ O
+afterwards _ _ O
+. _ _ O
+
+
+
+he _ _ O
+held _ _ O
+a _ _ O
+co _ _ O
+lead _ _ O
+after _ _ O
+the _ _ O
+54 _ _ O
+hole _ _ O
+stage _ _ O
+with _ _ O
+harris _ _ B-Athlete
+english _ _ I-Athlete
+but _ _ O
+could _ _ O
+only _ _ O
+shoot _ _ O
+a _ _ O
+level _ _ O
+par _ _ O
+final _ _ O
+round _ _ O
+to _ _ O
+enter _ _ O
+the _ _ O
+playoff _ _ O
+. _ _ O
+
+
+
+among _ _ O
+the _ _ O
+key _ _ O
+players _ _ O
+in _ _ O
+the _ _ O
+success _ _ O
+were _ _ O
+roy _ _ B-Athlete
+makaay _ _ I-Athlete
+and _ _ O
+playmaker _ _ O
+michael _ _ B-SportsManager
+ballack _ _ I-SportsManager
+. _ _ O
+
+
+
+it _ _ O
+published _ _ O
+work _ _ O
+by _ _ O
+writers _ _ O
+such _ _ O
+as _ _ O
+upton _ _ B-Artist
+sinclair _ _ I-Artist
+stephen _ _ B-Artist
+crane _ _ I-Artist
+and _ _ O
+hamlin _ _ B-Artist
+garland _ _ I-Artist
+. _ _ O
+
+
+
+the _ _ B-Athlete
+iron _ _ I-Athlete
+sheik _ _ I-Athlete
+( _ _ O
+orange _ _ O
+or _ _ O
+yellow _ _ O
+designs _ _ O
+on _ _ O
+tights _ _ O
+) _ _ O
+
+
+
+other _ _ O
+poker _ _ O
+sites _ _ O
+namely _ _ O
+pokerstars _ _ O
+tom _ _ B-Athlete
+mcevoy _ _ I-Athlete
+followed _ _ O
+suit _ _ O
+by _ _ O
+pushing _ _ O
+their _ _ O
+own _ _ O
+poker _ _ O
+professionals _ _ O
+. _ _ O
+
+
+
+later _ _ O
+in _ _ O
+the _ _ O
+race _ _ O
+he _ _ O
+suffered _ _ O
+a _ _ O
+damaged _ _ O
+rear _ _ O
+wing _ _ O
+assembly _ _ O
+after _ _ O
+being _ _ O
+hit _ _ O
+by _ _ O
+charlie _ _ B-SportsManager
+kimball _ _ I-SportsManager
+. _ _ O
+
+
+
+facebook _ _ O
+receives _ _ O
+its _ _ O
+first _ _ O
+investment _ _ O
+from _ _ O
+peter _ _ B-Scientist
+thiel _ _ I-Scientist
+for _ _ O
+us _ _ O
+$ _ _ O
+500,000 _ _ O
+. _ _ O
+
+
+
+his _ _ O
+career _ _ O
+was _ _ O
+ended _ _ O
+due _ _ O
+to _ _ O
+a _ _ O
+broken _ _ O
+leg _ _ O
+suffered _ _ O
+in _ _ O
+a _ _ O
+collision _ _ O
+with _ _ O
+william _ _ B-Athlete
+foulke _ _ I-Athlete
+. _ _ O
+
+
+
+ernie _ _ B-Athlete
+els _ _ I-Athlete
+( _ _ O
+11 _ _ O
+12 _ _ O
+13 _ _ O
+) _ _ O
+lee _ _ B-Athlete
+janzen _ _ I-Athlete
+( _ _ O
+9 _ _ O
+10 _ _ O
+12 _ _ O
+13 _ _ O
+) _ _ O
+tom _ _ B-Athlete
+kite _ _ I-Athlete
+corey _ _ I-Athlete
+pavin _ _ I-Athlete
+( _ _ O
+9 _ _ O
+10 _ _ O
+12 _ _ O
+13 _ _ O
+) _ _ O
+payne _ _ B-Athlete
+stewart _ _ I-Athlete
+( _ _ O
+12 _ _ O
+13 _ _ O
+) _ _ O
+
+
+
+john _ _ B-Athlete
+bromwich _ _ I-Athlete
+/ _ _ O
+adrian _ _ B-Athlete
+quist _ _ I-Athlete
+defeated _ _ O
+geoff _ _ B-Athlete
+brown _ _ I-Athlete
+/ _ _ O
+bill _ _ B-Athlete
+sidwell _ _ I-Athlete
+7 _ _ O
+– _ _ O
+5 _ _ O
+3 _ _ O
+– _ _ O
+6 _ _ O
+6 _ _ O
+– _ _ O
+3 _ _ O
+3 _ _ O
+– _ _ O
+6 _ _ O
+6 _ _ O
+– _ _ O
+2 _ _ O
+
+
+
+his _ _ O
+algorithm _ _ O
+was _ _ O
+improved _ _ O
+by _ _ O
+a. _ _ B-Scientist
+o. _ _ I-Scientist
+l. _ _ I-Scientist
+atkin _ _ I-Scientist
+and _ _ O
+noam _ _ B-OtherPER
+elkies _ _ I-OtherPER
+. _ _ O
+
+
+
+levinsky _ _ O
+is _ _ O
+best _ _ O
+remembered _ _ O
+for _ _ O
+freezing _ _ O
+in _ _ O
+his _ _ O
+fight _ _ O
+with _ _ O
+joe _ _ B-Athlete
+louis _ _ I-Athlete
+who _ _ O
+knocked _ _ O
+him _ _ O
+out _ _ O
+in _ _ O
+the _ _ O
+first _ _ O
+round _ _ O
+. _ _ O
+
+
+
+blackjack _ _ B-Athlete
+mulligan _ _ I-Athlete
+professional _ _ O
+wrestler _ _ O
+( _ _ O
+born _ _ O
+1942 _ _ O
+) _ _ O
+
+
+
+defending _ _ O
+world _ _ O
+champion _ _ O
+sébastien _ _ B-Athlete
+ogier _ _ I-Athlete
+nosed _ _ O
+his _ _ O
+c3 _ _ O
+into _ _ O
+the _ _ O
+bank _ _ O
+and _ _ O
+lost _ _ O
+about _ _ O
+ten _ _ O
+seconds _ _ O
+. _ _ O
+
+
+
+he _ _ O
+was _ _ O
+replaced _ _ O
+in _ _ O
+the _ _ O
+team _ _ O
+by _ _ O
+julien _ _ B-Athlete
+mertine _ _ I-Athlete
+and _ _ O
+went _ _ O
+through _ _ O
+a _ _ O
+new _ _ O
+dry _ _ O
+spell _ _ O
+. _ _ O
+
+
+
+the _ _ O
+group _ _ O
+collected _ _ O
+the _ _ O
+set _ _ O
+of _ _ O
+climber _ _ O
+'s _ _ O
+points _ _ O
+for _ _ O
+the _ _ O
+day _ _ O
+with _ _ O
+aitor _ _ B-Athlete
+hernández _ _ I-Athlete
+collecting _ _ O
+the _ _ O
+maximum _ _ O
+to _ _ O
+take _ _ O
+the _ _ O
+red _ _ O
+jersey _ _ O
+. _ _ O
+
+
+
+postal _ _ O
+privatization _ _ O
+rebel _ _ O
+in _ _ O
+2005 _ _ O
+joined _ _ O
+new _ _ O
+party _ _ O
+nippon _ _ B-HumanSettlement
+
+
+
+seven _ _ O
+soldiers _ _ O
+and _ _ O
+a _ _ O
+jeep _ _ O
+were _ _ O
+used _ _ O
+to _ _ O
+dig _ _ O
+down _ _ O
+of _ _ O
+cable _ _ O
+. _ _ O
+
+
+
+carlson _ _ O
+who _ _ O
+was _ _ O
+on _ _ O
+the _ _ O
+nation _ _ O
+'s _ _ O
+most _ _ O
+wanted _ _ O
+list _ _ O
+was _ _ O
+killed _ _ O
+by _ _ O
+a _ _ O
+single _ _ O
+shot _ _ O
+fired _ _ O
+by _ _ O
+an _ _ O
+fbi _ _ B-ORG
+agent _ _ I-ORG
+. _ _ O
+
+
+
+it _ _ O
+is _ _ O
+the _ _ O
+172nd _ _ O
+entry _ _ O
+in _ _ O
+the _ _ O
+series _ _ O
+released _ _ O
+by _ _ O
+columbia _ _ B-ORG
+pictures _ _ I-ORG
+starring _ _ O
+the _ _ O
+comedians _ _ O
+who _ _ O
+released _ _ O
+190 _ _ O
+shorts _ _ O
+for _ _ O
+the _ _ O
+studio _ _ O
+between _ _ O
+1934 _ _ O
+and _ _ O
+1959 _ _ O
+. _ _ O
+
+
+
+bjp _ _ O
+: _ _ O
+25 _ _ O
+congress _ _ B-ORG
+: _ _ O
+1 _ _ O
+jd(s) _ _ B-ORG
+: _ _ O
+1 _ _ O
+independent _ _ O
+: _ _ O
+1 _ _ O
+
+
+
+it _ _ O
+was _ _ O
+the _ _ O
+first _ _ O
+federal _ _ B-ORG
+ministry _ _ I-ORG
+formed _ _ O
+by _ _ O
+the _ _ O
+australian _ _ B-ORG
+labor _ _ I-ORG
+party _ _ I-ORG
+. _ _ O
+
+
+
+according _ _ O
+to _ _ O
+the _ _ O
+australian _ _ B-ORG
+criminal _ _ I-ORG
+intelligence _ _ I-ORG
+commission _ _ I-ORG
+there _ _ O
+are _ _ O
+( _ _ O
+at _ _ O
+least _ _ O
+) _ _ O
+38 _ _ O
+outlaw _ _ O
+motorcycle _ _ O
+gangs _ _ O
+operating _ _ O
+across _ _ O
+the _ _ O
+nation _ _ O
+as _ _ O
+of _ _ O
+2020 _ _ O
+. _ _ O
+
+
+
+all _ _ O
+were _ _ O
+accused _ _ O
+of _ _ O
+being _ _ O
+part _ _ O
+of _ _ O
+the _ _ O
+ku _ _ B-ORG
+klux _ _ I-ORG
+klan _ _ I-ORG
+. _ _ O
+
+
+
+during _ _ O
+the _ _ O
+late _ _ O
+1980s _ _ O
+gang _ _ B-ORG
+activity _ _ O
+had _ _ O
+caused _ _ O
+the _ _ O
+crime _ _ O
+rate _ _ O
+to _ _ O
+soar _ _ O
+at _ _ O
+the _ _ O
+tower _ _ O
+and _ _ O
+the _ _ O
+surrounding _ _ O
+neighbourhood _ _ O
+. _ _ O
+
+
+
+in _ _ O
+2001 _ _ O
+the _ _ O
+global _ _ B-ORG
+greens _ _ I-ORG
+were _ _ O
+organized _ _ O
+as _ _ O
+an _ _ O
+international _ _ O
+green _ _ O
+movement _ _ O
+. _ _ O
+
+
+
+in _ _ O
+2012 _ _ O
+he _ _ O
+was _ _ O
+one _ _ O
+of _ _ O
+the _ _ O
+founders _ _ O
+of _ _ O
+the _ _ O
+union _ _ B-ORG
+of _ _ I-ORG
+democrats _ _ I-ORG
+and _ _ I-ORG
+independents _ _ I-ORG
+( _ _ O
+udi _ _ O
+) _ _ O
+. _ _ O
+
+
+
+incumbent _ _ O
+rebecca _ _ B-Politician
+otto _ _ I-Politician
+of _ _ O
+the _ _ O
+minnesota _ _ B-ORG
+democratic–farmer–labor _ _ I-ORG
+party _ _ I-ORG
+( _ _ O
+dfl _ _ O
+) _ _ O
+was _ _ O
+re _ _ O
+elected _ _ O
+to _ _ O
+a _ _ O
+second _ _ O
+term _ _ O
+. _ _ O
+
+
+
+in _ _ O
+1998 _ _ O
+child _ _ B-ORG
+and _ _ I-ORG
+adolescent _ _ I-ORG
+mental _ _ I-ORG
+health _ _ I-ORG
+services _ _ I-ORG
+( _ _ O
+camhs _ _ O
+) _ _ O
+began _ _ O
+to _ _ O
+be _ _ O
+established _ _ O
+taking _ _ O
+over _ _ O
+from _ _ O
+an _ _ O
+earlier _ _ O
+multidisciplinary _ _ O
+child _ _ O
+guidance _ _ O
+approach _ _ O
+. _ _ O
+
+
+
+due _ _ O
+to _ _ O
+its _ _ O
+membership _ _ O
+in _ _ O
+the _ _ O
+broad _ _ B-ORG
+front _ _ I-ORG
+the _ _ O
+party _ _ O
+has _ _ O
+endorsed _ _ O
+the _ _ O
+candidates _ _ O
+of _ _ O
+other _ _ O
+parties _ _ O
+on _ _ O
+several _ _ O
+occasions _ _ O
+. _ _ O
+
+
+
+hercules _ _ O
+is _ _ O
+a _ _ O
+character _ _ O
+appearing _ _ O
+in _ _ O
+american _ _ B-WrittenWork
+comic _ _ I-WrittenWork
+books _ _ I-WrittenWork
+published _ _ O
+by _ _ O
+marvel _ _ B-ORG
+comics _ _ I-ORG
+. _ _ O
+
+
+
+she _ _ O
+walked _ _ O
+the _ _ O
+runway _ _ O
+for _ _ O
+victoria _ _ B-ORG
+'s _ _ I-ORG
+secret _ _ I-ORG
+s _ _ O
+annual _ _ O
+fashion _ _ O
+show _ _ O
+in _ _ O
+2002 _ _ O
+and _ _ O
+2003 _ _ O
+. _ _ O
+
+
+
+durrington _ _ O
+has _ _ O
+had _ _ O
+an _ _ O
+active _ _ O
+community _ _ O
+of _ _ O
+jehovah _ _ B-ORG
+'s _ _ I-ORG
+witnesses _ _ I-ORG
+since _ _ O
+the _ _ O
+1960s _ _ O
+. _ _ O
+
+
+
+after _ _ O
+graduating _ _ O
+from _ _ O
+school _ _ O
+he _ _ O
+worked _ _ O
+in _ _ O
+the _ _ O
+otaru _ _ B-HumanSettlement
+branch _ _ O
+of _ _ O
+the _ _ O
+hokkaido _ _ B-ORG
+takushoku _ _ B-ORG
+bank _ _ I-ORG
+. _ _ O
+
+
+
+kiswe _ _ O
+is _ _ O
+a _ _ O
+startup _ _ B-PrivateCorp
+company _ _ I-PrivateCorp
+that _ _ O
+makes _ _ O
+live _ _ O
+streaming _ _ O
+technology _ _ O
+for _ _ O
+live _ _ O
+sports _ _ O
+entertainment _ _ O
+and _ _ O
+video _ _ O
+. _ _ O
+
+
+
+the _ _ O
+development _ _ O
+of _ _ O
+the _ _ O
+hydrogen _ _ O
+powered _ _ O
+rickshaw _ _ O
+happened _ _ O
+with _ _ O
+support _ _ O
+from _ _ O
+the _ _ O
+international _ _ B-ORG
+centre _ _ I-ORG
+for _ _ I-ORG
+hydrogen _ _ I-ORG
+energy _ _ I-ORG
+technologies _ _ I-ORG
+. _ _ O
+
+
+
+it _ _ O
+earned _ _ O
+a _ _ O
+ratings _ _ O
+share _ _ O
+of _ _ O
+1.1 _ _ O
+among _ _ O
+adults _ _ O
+aged _ _ O
+18 _ _ O
+to _ _ O
+49 _ _ O
+a _ _ O
+tie _ _ O
+with _ _ O
+the _ _ O
+series _ _ O
+premiere _ _ O
+of _ _ O
+the _ _ O
+cbs _ _ B-VisualWork
+show _ _ I-VisualWork
+made _ _ I-VisualWork
+in _ _ I-VisualWork
+jersey _ _ I-VisualWork
+. _ _ O
+
+
+
+the _ _ O
+association _ _ O
+was _ _ O
+recognized _ _ O
+by _ _ O
+the _ _ O
+world _ _ B-ORG
+organization _ _ I-ORG
+of _ _ I-ORG
+the _ _ I-ORG
+scout _ _ I-ORG
+movement _ _ I-ORG
+from _ _ O
+1957 _ _ O
+to _ _ O
+1975 _ _ O
+. _ _ O
+
+
+
+arthur _ _ B-Politician
+scargill _ _ I-Politician
+b _ _ O
+. _ _ O
+1938 _ _ O
+trade _ _ O
+union _ _ O
+was _ _ O
+born _ _ O
+and _ _ O
+went _ _ O
+to _ _ O
+school _ _ O
+here _ _ O
+. _ _ O
+
+
+
+according _ _ O
+to _ _ O
+the _ _ O
+united _ _ B-ORG
+states _ _ I-ORG
+census _ _ I-ORG
+bureau _ _ I-ORG
+the _ _ O
+village _ _ O
+has _ _ O
+a _ _ O
+total _ _ O
+area _ _ O
+of _ _ O
+all _ _ O
+land _ _ O
+. _ _ O
+
+
+
+kumar _ _ O
+was _ _ O
+the _ _ O
+deputy _ _ O
+leader _ _ O
+of _ _ O
+a _ _ O
+nine _ _ O
+member _ _ O
+indian _ _ B-ORG
+everest _ _ I-ORG
+expedition _ _ I-ORG
+in _ _ O
+1965 _ _ B-WrittenWork
+that _ _ O
+successfully _ _ O
+summited _ _ O
+the _ _ O
+mountain _ _ O
+. _ _ O
+
+
+
+a _ _ O
+republican _ _ B-ORG
+he _ _ O
+was _ _ O
+chairman _ _ O
+of _ _ O
+the _ _ O
+state _ _ O
+party _ _ O
+and _ _ O
+national _ _ O
+convention _ _ O
+delegate _ _ O
+in _ _ O
+1892 _ _ O
+. _ _ O
+
+
+
+purina _ _ B-OtherPROD
+one _ _ I-OtherPROD
+a _ _ O
+line _ _ O
+of _ _ O
+pet _ _ O
+food _ _ O
+products _ _ O
+
+
+
+his _ _ O
+collections _ _ O
+were _ _ O
+sent _ _ O
+to _ _ O
+kew _ _ B-Politician
+some _ _ O
+of _ _ O
+the _ _ O
+contents _ _ O
+being _ _ O
+shared _ _ O
+amongst _ _ O
+his _ _ O
+scientific _ _ O
+friends _ _ O
+. _ _ O
+
+
+
+after _ _ O
+completing _ _ O
+his _ _ O
+studies _ _ O
+he _ _ O
+did _ _ O
+his _ _ O
+military _ _ O
+service _ _ O
+in _ _ O
+the _ _ O
+austrian _ _ B-ORG
+armed _ _ I-ORG
+forces _ _ I-ORG
+. _ _ O
+
+
+
+produced _ _ O
+by _ _ O
+ekta _ _ B-Artist
+kapoor _ _ I-Artist
+under _ _ O
+the _ _ O
+production _ _ O
+company _ _ O
+name _ _ O
+balaji _ _ B-ORG
+telefilms _ _ I-ORG
+. _ _ O
+
+
+
+according _ _ O
+to _ _ O
+the _ _ O
+united _ _ B-ORG
+states _ _ I-ORG
+census _ _ I-ORG
+bureau _ _ I-ORG
+the _ _ O
+township _ _ O
+has _ _ O
+a _ _ O
+total _ _ O
+area _ _ O
+of _ _ O
+all _ _ O
+land _ _ O
+. _ _ O
+
+
+
+the _ _ O
+game _ _ O
+was _ _ O
+televised _ _ O
+nationally _ _ O
+by _ _ O
+cbs _ _ B-ORG
+with _ _ O
+jim _ _ B-Athlete
+nantz _ _ I-Athlete
+handling _ _ O
+play _ _ O
+by _ _ O
+play _ _ O
+duties _ _ O
+. _ _ O
+
+
+
+between _ _ O
+2016 _ _ O
+and _ _ O
+2018 _ _ O
+the _ _ O
+number _ _ O
+of _ _ O
+12 _ _ O
+to _ _ O
+15 _ _ O
+year _ _ O
+olds _ _ O
+who _ _ O
+reported _ _ O
+being _ _ O
+bullied _ _ O
+over _ _ O
+social _ _ B-Software
+media _ _ O
+rose _ _ O
+from _ _ O
+6 _ _ O
+% _ _ O
+to _ _ O
+11 _ _ O
+% _ _ O
+in _ _ O
+the _ _ O
+region _ _ O
+covered _ _ O
+by _ _ O
+ofcom _ _ B-Software
+. _ _ O
+
+
+
+today _ _ O
+the _ _ O
+peace _ _ B-ORG
+corps _ _ I-ORG
+religious _ _ O
+groups _ _ O
+and _ _ O
+charities _ _ O
+feed _ _ O
+hungry _ _ O
+people _ _ O
+all _ _ O
+over _ _ O
+the _ _ O
+world _ _ O
+especially _ _ O
+in _ _ O
+countries _ _ O
+hardest _ _ O
+hit _ _ O
+by _ _ O
+famine _ _ O
+. _ _ O
+
+
+
+she _ _ O
+became _ _ O
+leader _ _ O
+of _ _ O
+the _ _ O
+liberal _ _ B-ORG
+democrat _ _ I-ORG
+group _ _ I-ORG
+in _ _ O
+1997 _ _ O
+with _ _ O
+a _ _ O
+break _ _ O
+from _ _ O
+2007 _ _ O
+to _ _ O
+2008 _ _ O
+. _ _ O
+
+
+
+he _ _ O
+became _ _ O
+a _ _ O
+member _ _ O
+of _ _ O
+the _ _ O
+underground _ _ O
+romanian _ _ B-ORG
+communist _ _ I-ORG
+party _ _ I-ORG
+in _ _ O
+1936 _ _ O
+. _ _ O
+
+
+
+the _ _ O
+party _ _ B-ORG
+breakdown _ _ O
+of _ _ O
+the _ _ O
+final _ _ O
+municipal _ _ O
+council _ _ O
+was _ _ O
+as _ _ O
+follows _ _ O
+: _ _ O
+
+
+
+all _ _ O
+teams _ _ O
+had _ _ O
+to _ _ O
+utilize _ _ O
+toyota _ _ B-CarManufacturer
+engines _ _ O
+. _ _ O
+
+
+
+according _ _ O
+to _ _ O
+the _ _ O
+united _ _ B-ORG
+states _ _ I-ORG
+census _ _ I-ORG
+bureau _ _ I-ORG
+the _ _ O
+township _ _ O
+has _ _ O
+a _ _ O
+total _ _ O
+area _ _ O
+of _ _ O
+of _ _ O
+which _ _ O
+is _ _ O
+land _ _ O
+and _ _ O
+( _ _ O
+1.63 _ _ O
+% _ _ O
+) _ _ O
+is _ _ O
+water _ _ O
+. _ _ O
+
+
+
+bawag _ _ B-ORG
+p.s.k. _ _ I-ORG
+( _ _ O
+) _ _ O
+is _ _ O
+the _ _ O
+fourth _ _ O
+largest _ _ O
+bank _ _ O
+in _ _ O
+austria _ _ B-HumanSettlement
+. _ _ O
+
+
+
+from _ _ O
+2011 _ _ O
+to _ _ O
+2014 _ _ O
+he _ _ O
+attended _ _ O
+university _ _ B-ORG
+college _ _ I-ORG
+london _ _ I-ORG
+where _ _ O
+he _ _ O
+studied _ _ O
+urbanisation _ _ O
+. _ _ O
+
+
+
+all _ _ O
+stations _ _ O
+are _ _ O
+within _ _ O
+kumamoto _ _ B-ORG
+prefecture _ _ I-ORG
+. _ _ O
+
+
+
+regimental _ _ B-OtherLOC
+museum _ _ I-OtherLOC
+for _ _ O
+the _ _ O
+48th _ _ B-ArtWork
+highlanders _ _ I-ArtWork
+of _ _ I-ArtWork
+canada _ _ I-ArtWork
+. _ _ O
+
+
+
+democrats _ _ O
+still _ _ O
+lead _ _ O
+in _ _ O
+registrants _ _ O
+with _ _ O
+28,181 _ _ O
+; _ _ O
+republicans _ _ B-ORG
+follow _ _ O
+with _ _ O
+16,218 _ _ O
+. _ _ O
+
+
+
+this _ _ O
+idea _ _ O
+however _ _ O
+was _ _ O
+reincarnated _ _ O
+ten _ _ O
+years _ _ O
+later _ _ O
+into _ _ O
+dreamworks' _ _ B-Software
+antz _ _ B-MusicalWork
+and _ _ O
+pixar _ _ B-Artist
+'s _ _ O
+a _ _ B-VisualWork
+bug _ _ I-VisualWork
+'s _ _ I-VisualWork
+life _ _ I-VisualWork
+. _ _ O
+
+
+
+bjerkmann _ _ O
+chaired _ _ O
+the _ _ O
+publishing _ _ O
+house _ _ O
+pax _ _ B-ORG
+forlag _ _ I-ORG
+during _ _ O
+its _ _ O
+first _ _ O
+eight _ _ O
+years _ _ O
+from _ _ O
+1964 _ _ O
+to _ _ O
+1972 _ _ O
+. _ _ O
+
+
+
+according _ _ O
+to _ _ O
+the _ _ O
+united _ _ B-ORG
+states _ _ I-ORG
+census _ _ I-ORG
+bureau _ _ I-ORG
+the _ _ O
+village _ _ O
+has _ _ O
+a _ _ O
+total _ _ O
+area _ _ O
+of _ _ O
+of _ _ O
+which _ _ O
+of _ _ O
+it _ _ O
+is _ _ O
+land _ _ O
+and _ _ O
+is _ _ O
+water _ _ O
+. _ _ O
+
+
+
+mitrović _ _ O
+became _ _ O
+a _ _ O
+member _ _ O
+of _ _ O
+the _ _ O
+alliance _ _ B-ORG
+of _ _ I-ORG
+independent _ _ I-ORG
+social _ _ I-ORG
+democrats _ _ I-ORG
+( _ _ O
+snsd _ _ O
+) _ _ O
+in _ _ O
+2005 _ _ O
+but _ _ O
+left _ _ O
+the _ _ O
+party _ _ O
+in _ _ O
+2012 _ _ O
+. _ _ O
+
+
+
+in _ _ O
+1849 _ _ O
+he _ _ O
+served _ _ O
+in _ _ O
+the _ _ O
+massachusetts _ _ B-ORG
+senate _ _ I-ORG
+. _ _ O
+
+
+
+whang _ _ O
+peng _ _ O
+was _ _ O
+honored _ _ O
+by _ _ O
+the _ _ O
+lions _ _ B-ORG
+clubs _ _ I-ORG
+international _ _ I-ORG
+and _ _ O
+the _ _ O
+china _ _ B-WrittenWork
+daily _ _ I-WrittenWork
+news _ _ I-WrittenWork
+. _ _ O
+
+
+
+indian _ _ O
+national _ _ B-ORG
+congress _ _ I-ORG
+has _ _ O
+swept _ _ O
+the _ _ O
+elections _ _ O
+by _ _ O
+bagging _ _ O
+37 _ _ O
+seats _ _ O
+. _ _ O
+
+
+
+both _ _ O
+countries _ _ O
+are _ _ O
+members _ _ O
+of _ _ O
+nato _ _ B-ORG
+. _ _ O
+
+
+
+particulate _ _ O
+matter _ _ O
+in _ _ O
+polluted _ _ O
+air _ _ O
+and _ _ O
+chemicals _ _ O
+such _ _ O
+as _ _ O
+chlorine _ _ B-Medication/Vaccine
+and _ _ O
+detergents _ _ O
+which _ _ O
+can _ _ O
+normally _ _ O
+be _ _ O
+tolerated _ _ O
+can _ _ O
+greatly _ _ O
+aggravate _ _ O
+the _ _ O
+condition _ _ O
+. _ _ O
+
+
+
+without _ _ O
+oxygen _ _ O
+pyruvate _ _ O
+( _ _ O
+pyruvic _ _ B-Medication/Vaccine
+acid _ _ I-Medication/Vaccine
+) _ _ O
+is _ _ O
+not _ _ O
+metabolized _ _ O
+by _ _ O
+cellular _ _ O
+respiration _ _ O
+but _ _ O
+undergoes _ _ O
+a _ _ O
+process _ _ O
+of _ _ O
+fermentation _ _ O
+. _ _ O
+
+
+
+potent _ _ O
+pure _ _ O
+opioid _ _ O
+antagonists _ _ O
+such _ _ O
+as _ _ O
+naltrexone _ _ B-Medication/Vaccine
+or _ _ O
+nalmefene _ _ B-Medication/Vaccine
+are _ _ O
+recommended _ _ O
+in _ _ O
+the _ _ O
+event _ _ O
+of _ _ O
+accidental _ _ O
+human _ _ O
+exposure _ _ O
+to _ _ O
+thiafentanil _ _ B-Medication/Vaccine
+. _ _ O
+
+
+
+hormone _ _ B-Medication/Vaccine
+a _ _ O
+chemical _ _ O
+that _ _ O
+sends _ _ O
+messages _ _ O
+in _ _ O
+a _ _ O
+plant _ _ O
+or _ _ O
+animal _ _ O
+
+
+
+the _ _ O
+chosen _ _ O
+methods _ _ O
+were _ _ O
+pharmacological _ _ O
+( _ _ O
+often _ _ O
+mifepristone _ _ B-Medication/Vaccine
+and _ _ O
+misoprostol _ _ B-Medication/Vaccine
+79 _ _ O
+% _ _ O
+) _ _ O
+the _ _ O
+rest _ _ O
+being _ _ O
+surgical _ _ O
+. _ _ O
+
+
+
+treatment _ _ O
+usually _ _ O
+involves _ _ O
+amphotericin _ _ B-Disease
+b _ _ I-Disease
+and _ _ O
+surgery _ _ O
+. _ _ O
+
+
+
+liniments _ _ O
+are _ _ O
+sometimes _ _ O
+used _ _ O
+to _ _ O
+increase _ _ O
+heat _ _ O
+to _ _ O
+an _ _ O
+area _ _ O
+. _ _ O
+
+
+
+its _ _ O
+primary _ _ O
+uses _ _ O
+are _ _ O
+as _ _ O
+a _ _ O
+diuretic _ _ B-Medication/Vaccine
+( _ _ O
+or _ _ O
+water _ _ O
+pill _ _ O
+) _ _ O
+and _ _ O
+to _ _ O
+treat _ _ O
+symptoms _ _ O
+of _ _ O
+the _ _ O
+common _ _ B-Disease
+cold _ _ I-Disease
+. _ _ O
+
+
+
+in _ _ O
+the _ _ O
+experiments _ _ O
+the _ _ O
+subjects _ _ O
+were _ _ O
+exposed _ _ O
+to _ _ O
+additional _ _ O
+burning _ _ O
+experimental _ _ O
+antibiotic _ _ O
+treatment _ _ O
+and _ _ O
+injections _ _ O
+of _ _ O
+radioactive _ _ O
+isotopes _ _ O
+. _ _ O
+
+
+
+these _ _ O
+are _ _ O
+popular _ _ O
+for _ _ O
+administration _ _ O
+of _ _ O
+opioids _ _ B-Medication/Vaccine
+such _ _ O
+as _ _ O
+fentanyl _ _ B-Medication/Vaccine
+or _ _ O
+local _ _ O
+anesthetics _ _ O
+such _ _ O
+as _ _ O
+lidocaine _ _ B-Medication/Vaccine
+. _ _ O
+
+
+
+gregory _ _ B-OtherPER
+goodwin _ _ I-OtherPER
+pincus _ _ I-OtherPER
+( _ _ O
+1903 _ _ O
+– _ _ O
+1967 _ _ O
+) _ _ O
+together _ _ O
+with _ _ O
+min _ _ B-Scientist
+chueh _ _ I-Scientist
+chang _ _ I-Scientist
+( _ _ O
+1908 _ _ O
+– _ _ O
+1991 _ _ O
+) _ _ O
+u.s. _ _ O
+/ _ _ O
+china _ _ O
+– _ _ O
+combined _ _ O
+oral _ _ O
+contraceptive _ _ O
+pill _ _ O
+
+
+
+it _ _ O
+has _ _ O
+greater _ _ O
+efficacy _ _ O
+at _ _ O
+the _ _ O
+5 _ _ O
+ht1a _ _ O
+receptors _ _ O
+than _ _ O
+other _ _ O
+antipsychotics _ _ O
+such _ _ O
+as _ _ O
+clozapine _ _ B-Medication/Vaccine
+aripiprazole _ _ B-Medication/Vaccine
+and _ _ O
+ziprasidone _ _ B-Medication/Vaccine
+. _ _ O
+
+
+
+the _ _ O
+protein _ _ O
+sequence _ _ O
+contains _ _ O
+mixed _ _ O
+positive _ _ O
+and _ _ O
+negative _ _ O
+charge _ _ O
+clusters _ _ O
+one _ _ O
+of _ _ O
+each _ _ O
+which _ _ O
+are _ _ O
+high _ _ O
+in _ _ O
+glutamine _ _ B-Medication/Vaccine
+( _ _ O
+glu _ _ O
+) _ _ O
+. _ _ O
+
+
+
+telangiectasia _ _ O
+in _ _ O
+the _ _ O
+legs _ _ O
+is _ _ O
+often _ _ O
+related _ _ O
+to _ _ O
+the _ _ O
+presence _ _ O
+of _ _ O
+venous _ _ O
+reflux _ _ B-Symptom
+within _ _ O
+underlying _ _ O
+varicose _ _ B-Disease
+veins _ _ I-Disease
+. _ _ O
+
+
+
+a _ _ O
+defect _ _ O
+in _ _ O
+the _ _ O
+degradation _ _ O
+of _ _ O
+glucocerebrosides _ _ O
+is _ _ O
+gaucher _ _ B-Disease
+'s _ _ I-Disease
+disease _ _ I-Disease
+. _ _ O
+
+
+
+in _ _ O
+particular _ _ O
+he _ _ O
+worked _ _ O
+on _ _ O
+the _ _ O
+laser _ _ O
+photocoagulation _ _ O
+of _ _ O
+threshold _ _ O
+retinopathy _ _ B-Disease
+of _ _ I-Disease
+prematurity _ _ I-Disease
+. _ _ O
+
+
+
+the _ _ O
+species _ _ O
+has _ _ O
+undergone _ _ O
+catastrophic _ _ O
+declines _ _ O
+due _ _ O
+to _ _ O
+the _ _ O
+amphibian _ _ B-Disease
+disease _ _ I-Disease
+chytridiomycosis _ _ B-Disease
+and _ _ O
+the _ _ O
+volcanic _ _ O
+eruption _ _ O
+in _ _ O
+1997 _ _ O
+. _ _ O
+
+
+
+when _ _ O
+niacin _ _ O
+is _ _ O
+used _ _ O
+as _ _ O
+a _ _ O
+medicine _ _ O
+to _ _ O
+treat _ _ O
+elevated _ _ O
+cholesterol _ _ O
+and _ _ O
+triglycerides _ _ O
+daily _ _ O
+doses _ _ O
+range _ _ O
+from _ _ O
+500 _ _ O
+to _ _ O
+3,000 _ _ O
+mg _ _ O
+/ _ _ O
+day _ _ O
+. _ _ O
+
+
+
+in _ _ O
+addition _ _ O
+to _ _ O
+schizophrenia _ _ B-Disease
+ulotaront _ _ O
+is _ _ O
+also _ _ O
+being _ _ O
+studied _ _ O
+for _ _ O
+the _ _ O
+treatment _ _ O
+of _ _ O
+psychosis _ _ O
+associated _ _ O
+with _ _ O
+parkinson _ _ B-Disease
+'s _ _ I-Disease
+disease _ _ I-Disease
+. _ _ O
+
+
+
+in _ _ O
+fungal _ _ O
+rhinosinusitis _ _ B-Disease
+the _ _ O
+organism _ _ O
+has _ _ O
+predilection _ _ O
+for _ _ O
+internal _ _ O
+elastic _ _ O
+lamina _ _ O
+during _ _ O
+phase _ _ O
+of _ _ O
+spread _ _ O
+. _ _ O
+
+
+
+cardiovascular _ _ O
+autonomic _ _ O
+dysfunction _ _ O
+such _ _ O
+as _ _ O
+postural _ _ B-Disease
+orthostatic _ _ I-Disease
+tachycardia _ _ I-Disease
+syndrome _ _ I-Disease
+
+
+
+she _ _ O
+died _ _ O
+of _ _ O
+pneumonia _ _ B-Disease
+at _ _ O
+the _ _ O
+beginning _ _ O
+of _ _ O
+the _ _ O
+20th _ _ O
+century _ _ O
+issue _ _ O
+14 _ _ O
+had _ _ O
+more _ _ O
+of _ _ O
+her _ _ O
+origin _ _ O
+revealed _ _ O
+. _ _ O
+
+
+
+the _ _ O
+use _ _ O
+of _ _ O
+pesticides _ _ O
+to _ _ O
+self-poison _ _ B-Symptom
+is _ _ O
+the _ _ O
+most _ _ O
+common _ _ O
+method _ _ O
+used _ _ O
+in _ _ O
+some _ _ O
+countries _ _ O
+. _ _ O
+
+
+
+sarno _ _ O
+considers _ _ O
+spinal _ _ B-AnatomicalStructure
+disc _ _ I-AnatomicalStructure
+herniations _ _ O
+to _ _ O
+generally _ _ O
+be _ _ O
+harmless _ _ O
+because _ _ O
+he _ _ O
+says _ _ O
+the _ _ O
+symptom _ _ O
+location _ _ O
+does _ _ O
+not _ _ O
+even _ _ O
+correlate _ _ O
+to _ _ O
+the _ _ O
+herniation _ _ O
+location _ _ O
+. _ _ O
+
+
+
+lumbar _ _ O
+spinal _ _ B-Symptom
+stenosis _ _ I-Symptom
+may _ _ O
+be _ _ O
+overlooked _ _ O
+especially _ _ O
+when _ _ O
+it _ _ O
+is _ _ O
+associated _ _ O
+with _ _ O
+disc _ _ O
+protrusion _ _ O
+or _ _ O
+herniation _ _ O
+. _ _ O
+
+
+
+polydactyly _ _ B-Disease
+is _ _ O
+the _ _ O
+presence _ _ O
+of _ _ O
+more _ _ O
+than _ _ O
+the _ _ O
+usual _ _ O
+number _ _ O
+of _ _ O
+fingers _ _ O
+. _ _ O
+
+
+
+polio _ _ O
+has _ _ O
+also _ _ O
+been _ _ O
+put _ _ O
+forward _ _ O
+as _ _ O
+a _ _ O
+cause _ _ O
+by _ _ O
+some _ _ O
+sources _ _ O
+. _ _ O
+
+
+
+smith _ _ O
+says _ _ O
+she _ _ O
+experiences _ _ O
+stage _ _ B-Symptom
+fright _ _ I-Symptom
+. _ _ O
+
+
+
+he _ _ O
+later _ _ O
+moved _ _ O
+to _ _ O
+cologne _ _ B-HumanSettlement
+to _ _ O
+continue _ _ O
+his _ _ O
+career _ _ O
+as _ _ O
+a _ _ O
+model _ _ O
+. _ _ O
+
+
+
+in _ _ O
+bosnia _ _ B-HumanSettlement
+and _ _ I-HumanSettlement
+herzegovina _ _ I-HumanSettlement
+it _ _ O
+was _ _ O
+partially _ _ O
+introduced _ _ O
+after _ _ O
+1878 _ _ O
+and _ _ O
+some _ _ O
+parts _ _ O
+are _ _ O
+still _ _ O
+in _ _ O
+use _ _ O
+even _ _ O
+after _ _ O
+this _ _ O
+country _ _ O
+'s _ _ O
+independence _ _ O
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+built _ _ O
+from _ _ O
+donated _ _ O
+lumber _ _ O
+from _ _ O
+nome _ _ B-ORG
+. _ _ O
+
+
+
+traffic _ _ O
+is _ _ O
+usually _ _ O
+heavy _ _ O
+between _ _ O
+hickory _ _ B-HumanSettlement
+and _ _ O
+lenoir _ _ B-HumanSettlement
+. _ _ O
+
+
+
+its _ _ O
+current _ _ O
+county _ _ O
+seat _ _ O
+is _ _ O
+yerington _ _ B-HumanSettlement
+. _ _ O
+
+
+
+it _ _ O
+is _ _ O
+said _ _ O
+that _ _ O
+he _ _ O
+afterwards _ _ O
+made _ _ O
+a _ _ O
+fortune _ _ O
+out _ _ O
+of _ _ O
+broken _ _ B-Facility
+hill _ _ O
+mining _ _ O
+speculations _ _ O
+. _ _ O
+
+
+
+he _ _ O
+completed _ _ O
+five _ _ O
+high _ _ O
+school _ _ O
+classes _ _ O
+in _ _ O
+bonn _ _ B-HumanSettlement
+and _ _ O
+received _ _ O
+numerous _ _ O
+awards _ _ O
+. _ _ O
+
+
+
+ahwaz _ _ O
+was _ _ O
+devastated _ _ O
+in _ _ O
+the _ _ O
+mongol _ _ B-HumanSettlement
+invasions _ _ O
+of _ _ O
+the _ _ O
+13th _ _ O
+and _ _ O
+14th _ _ O
+centuries _ _ O
+and _ _ O
+subsequently _ _ O
+declined _ _ O
+into _ _ O
+a _ _ O
+village _ _ O
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+one _ _ O
+of _ _ O
+the _ _ O
+successor _ _ O
+states _ _ O
+of _ _ O
+the _ _ O
+golden _ _ B-HumanSettlement
+horde _ _ I-HumanSettlement
+( _ _ O
+kipchak _ _ O
+khanate _ _ O
+) _ _ O
+and _ _ O
+it _ _ O
+came _ _ O
+to _ _ O
+an _ _ O
+end _ _ O
+when _ _ O
+it _ _ O
+was _ _ O
+conquered _ _ O
+by _ _ O
+the _ _ O
+tsardom _ _ B-HumanSettlement
+of _ _ I-HumanSettlement
+russia _ _ I-HumanSettlement
+. _ _ O
+
+
+
+he _ _ O
+is _ _ O
+a _ _ O
+resident _ _ O
+of _ _ O
+tavares _ _ B-HumanSettlement
+, _ _ I-HumanSettlement
+florida _ _ I-HumanSettlement
+. _ _ O
+
+
+
+members _ _ O
+of _ _ O
+the _ _ O
+family _ _ O
+now _ _ O
+live _ _ O
+primarily _ _ O
+in _ _ O
+norway _ _ B-HumanSettlement
+. _ _ O
+
+
+
+anthony _ _ O
+'s _ _ O
+love _ _ O
+interest _ _ O
+is _ _ O
+played _ _ O
+by _ _ O
+australia _ _ B-HumanSettlement
+model _ _ O
+kristy _ _ B-Artist
+hinze _ _ I-Artist
+. _ _ O
+
+
+
+it _ _ O
+also _ _ O
+used _ _ O
+the _ _ O
+same _ _ O
+technology _ _ O
+against _ _ O
+a _ _ O
+purported _ _ O
+chemical _ _ O
+weapons _ _ O
+facility _ _ O
+in _ _ O
+sudan _ _ B-HumanSettlement
+. _ _ O
+
+
+
+he _ _ O
+died _ _ O
+in _ _ O
+rotterdam _ _ B-HumanSettlement
+aged _ _ O
+66 _ _ O
+. _ _ O
+
+
+
+muhsal _ _ O
+was _ _ O
+raised _ _ O
+in _ _ O
+münster _ _ B-HumanSettlement
+and _ _ O
+bad _ _ B-HumanSettlement
+salzuflen _ _ I-HumanSettlement
+. _ _ O
+
+
+
+she _ _ O
+was _ _ O
+commissioned _ _ O
+in _ _ O
+1921 _ _ O
+and _ _ O
+operated _ _ O
+in _ _ O
+the _ _ O
+waters _ _ O
+of _ _ O
+japan _ _ B-HumanSettlement
+. _ _ O
+
+
+
+this _ _ O
+allowed _ _ O
+the _ _ O
+population _ _ O
+to _ _ O
+rebound _ _ O
+strongly _ _ O
+; _ _ O
+over _ _ O
+the _ _ O
+next _ _ O
+few _ _ O
+decades _ _ O
+it _ _ O
+became _ _ O
+increasingly _ _ O
+common _ _ O
+in _ _ O
+western _ _ O
+france _ _ B-HumanSettlement
+and _ _ O
+later _ _ O
+on _ _ O
+the _ _ O
+north _ _ O
+coast _ _ O
+. _ _ O
+
+
+
+they _ _ O
+moved _ _ O
+to _ _ O
+kozhikode _ _ B-HumanSettlement
+and _ _ O
+then _ _ O
+to _ _ O
+bangalore _ _ B-HumanSettlement
+and _ _ O
+canada _ _ B-HumanSettlement
+after _ _ O
+marriage _ _ O
+. _ _ O
+
+
+
+crosby _ _ O
+moved _ _ O
+to _ _ O
+wausau _ _ B-HumanSettlement
+, _ _ I-HumanSettlement
+wisconsin _ _ I-HumanSettlement
+where _ _ O
+he _ _ O
+practiced _ _ O
+law _ _ O
+. _ _ O
+
+
+
+its _ _ O
+administrative _ _ O
+centre _ _ O
+was _ _ O
+tobolsk _ _ B-HumanSettlement
+. _ _ O
+
+
+
+the _ _ O
+amnesty _ _ B-ORG
+of _ _ O
+1859 _ _ O
+permitted _ _ O
+him _ _ O
+to _ _ O
+return _ _ O
+to _ _ O
+paris _ _ B-HumanSettlement
+where _ _ O
+he _ _ O
+soon _ _ O
+drew _ _ O
+the _ _ O
+attention _ _ O
+of _ _ O
+the _ _ O
+police _ _ O
+to _ _ O
+his _ _ O
+presence _ _ O
+by _ _ O
+his _ _ O
+violent _ _ O
+articles _ _ O
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+first _ _ O
+described _ _ O
+by _ _ O
+paolo _ _ B-OtherPER
+marcello _ _ I-OtherPER
+brignoli _ _ I-OtherPER
+in _ _ O
+1979 _ _ O
+and _ _ O
+has _ _ O
+been _ _ O
+found _ _ O
+only _ _ O
+in _ _ O
+greece _ _ B-HumanSettlement
+. _ _ O
+
+
+
+they _ _ O
+played _ _ O
+home _ _ O
+games _ _ O
+at _ _ O
+the _ _ O
+redwood _ _ B-Facility
+bowl _ _ I-Facility
+in _ _ O
+arcata _ _ B-HumanSettlement
+, _ _ I-HumanSettlement
+california _ _ I-HumanSettlement
+. _ _ O
+
+
+
+beard _ _ O
+later _ _ O
+ran _ _ O
+a _ _ O
+washington _ _ B-HumanSettlement
+, _ _ I-HumanSettlement
+d.c. _ _ I-HumanSettlement
+based _ _ O
+import _ _ O
+export _ _ O
+business _ _ O
+and _ _ O
+was _ _ O
+at _ _ O
+one _ _ O
+time _ _ O
+a _ _ O
+resident _ _ O
+of _ _ O
+alexandria _ _ B-HumanSettlement
+, _ _ I-HumanSettlement
+virginia _ _ I-HumanSettlement
+. _ _ O
+
+
+
+doellingeria _ _ O
+infirma _ _ O
+is _ _ O
+widely _ _ O
+distributed _ _ O
+in _ _ O
+the _ _ O
+eastern _ _ O
+united _ _ B-HumanSettlement
+states _ _ I-HumanSettlement
+although _ _ O
+local _ _ O
+distribution _ _ O
+may _ _ O
+be _ _ O
+spotty _ _ O
+. _ _ O
+
+
+
+eastside _ _ O
+is _ _ O
+a _ _ O
+neighborhood _ _ O
+in _ _ O
+paterson _ _ B-Facility
+, _ _ I-Facility
+new _ _ I-Facility
+jersey _ _ I-Facility
+united _ _ B-HumanSettlement
+states _ _ I-HumanSettlement
+. _ _ O
+
+
+
+at _ _ O
+the _ _ O
+age _ _ O
+of _ _ O
+23 _ _ O
+he _ _ O
+opened _ _ O
+his _ _ O
+own _ _ O
+law _ _ O
+firm _ _ O
+in _ _ O
+caguas _ _ B-HumanSettlement
+working _ _ O
+as _ _ O
+a _ _ O
+criminal _ _ O
+lawyer _ _ O
+. _ _ O
+
+
+
+after _ _ O
+22 _ _ O
+boats _ _ O
+started _ _ O
+in _ _ O
+1923 _ _ O
+at _ _ O
+new _ _ B-HumanSettlement
+london _ _ I-HumanSettlement
+, _ _ I-HumanSettlement
+connecticut _ _ I-HumanSettlement
+and _ _ O
+every _ _ O
+boat _ _ O
+finished _ _ O
+. _ _ O
+
+
+
+the _ _ O
+supporters _ _ O
+of _ _ O
+the _ _ O
+club _ _ O
+are _ _ O
+mainly _ _ O
+from _ _ O
+the _ _ O
+city _ _ O
+of _ _ O
+győr _ _ B-HumanSettlement
+and _ _ O
+the _ _ O
+neighbouring _ _ O
+area _ _ O
+. _ _ O
+
+
+
+they _ _ O
+played _ _ O
+their _ _ O
+home _ _ O
+games _ _ O
+at _ _ O
+alfred _ _ B-Facility
+a. _ _ I-Facility
+mckethan _ _ I-Facility
+stadium _ _ I-Facility
+on _ _ O
+the _ _ O
+university _ _ O
+'s _ _ O
+gainesville _ _ B-HumanSettlement
+, _ _ I-HumanSettlement
+florida _ _ I-HumanSettlement
+campus _ _ O
+. _ _ O
+
+
+
+the _ _ O
+following _ _ O
+notable _ _ O
+businesses _ _ O
+and _ _ O
+organizations _ _ O
+can _ _ O
+be _ _ O
+found _ _ O
+in _ _ O
+the _ _ O
+jacksonville _ _ B-HumanSettlement
+, _ _ I-HumanSettlement
+florida _ _ I-HumanSettlement
+area _ _ O
+. _ _ O
+
+
+
+most _ _ O
+of _ _ O
+the _ _ O
+town _ _ O
+'s _ _ O
+land _ _ O
+is _ _ O
+currently _ _ O
+a _ _ O
+part _ _ O
+of _ _ O
+the _ _ O
+jurisdiction _ _ O
+of _ _ O
+the _ _ O
+city _ _ O
+of _ _ O
+petah _ _ B-HumanSettlement
+tikva _ _ I-HumanSettlement
+. _ _ O
+
+
+
+siliana _ _ O
+( _ _ O
+) _ _ O
+is _ _ O
+a _ _ O
+modern _ _ O
+farming _ _ O
+town _ _ O
+in _ _ O
+northern _ _ O
+tunisia _ _ B-HumanSettlement
+. _ _ O
+
+
+
+they _ _ O
+decide _ _ O
+to _ _ O
+marry _ _ O
+and _ _ O
+after _ _ O
+their _ _ O
+tryst _ _ O
+take _ _ O
+leave _ _ O
+of _ _ O
+the _ _ O
+brothel _ _ O
+leader _ _ O
+then _ _ O
+drive _ _ O
+away _ _ O
+for _ _ O
+surabaya _ _ B-HumanSettlement
+. _ _ O
+
+
+
+these _ _ O
+areas _ _ O
+were _ _ O
+lost _ _ O
+to _ _ O
+the _ _ O
+kingdom _ _ B-HumanSettlement
+of _ _ I-HumanSettlement
+mercia _ _ I-HumanSettlement
+. _ _ O
+
+
+
+it _ _ O
+lies _ _ O
+approximately _ _ O
+west _ _ O
+of _ _ O
+chorzele _ _ B-HumanSettlement
+north _ _ O
+of _ _ O
+przasnysz _ _ B-HumanSettlement
+and _ _ O
+north _ _ O
+of _ _ O
+warsaw _ _ B-HumanSettlement
+. _ _ O
+
+
+
+moravec _ _ O
+was _ _ O
+born _ _ O
+in _ _ O
+buffalo _ _ B-HumanSettlement
+, _ _ I-HumanSettlement
+new _ _ I-HumanSettlement
+york _ _ I-HumanSettlement
+and _ _ O
+subsequently _ _ O
+attended _ _ O
+the _ _ O
+lawrenceville _ _ B-Facility
+school _ _ I-Facility
+graduating _ _ O
+in _ _ O
+1975 _ _ O
+. _ _ O
+
+
+
+in _ _ O
+the _ _ O
+middle _ _ O
+of _ _ O
+the _ _ O
+medal _ _ O
+there _ _ O
+was _ _ O
+a _ _ O
+taegeuk _ _ O
+symbol _ _ O
+of _ _ O
+the _ _ O
+korean _ _ B-HumanSettlement
+empire _ _ I-HumanSettlement
+in _ _ O
+the _ _ O
+middle _ _ O
+. _ _ O
+
+
+
+the _ _ O
+previous _ _ O
+year _ _ O
+he _ _ O
+gave _ _ O
+a _ _ O
+recital _ _ O
+on _ _ O
+the _ _ O
+wanamaker _ _ B-OtherPROD
+organ _ _ O
+in _ _ O
+philadelphia _ _ B-HumanSettlement
+the _ _ O
+largest _ _ O
+functioning _ _ O
+musical _ _ O
+instrument _ _ O
+in _ _ O
+the _ _ O
+world _ _ O
+. _ _ O
+
+
+
+torossanguéhi _ _ O
+is _ _ O
+a _ _ O
+village _ _ O
+in _ _ O
+northeastern _ _ O
+ivory _ _ B-HumanSettlement
+coast _ _ I-HumanSettlement
+. _ _ O
+
+
+
+kōshō _ _ O
+ji _ _ O
+is _ _ O
+the _ _ O
+name _ _ O
+of _ _ O
+numerous _ _ O
+buddhist _ _ B-Facility
+temples _ _ I-Facility
+in _ _ O
+japan _ _ B-HumanSettlement
+. _ _ O
+
+
+
+in _ _ O
+1850 _ _ O
+at _ _ O
+age _ _ O
+22 _ _ O
+he _ _ O
+moved _ _ O
+to _ _ O
+san _ _ B-HumanSettlement
+jose _ _ I-HumanSettlement
+, _ _ I-HumanSettlement
+california _ _ I-HumanSettlement
+. _ _ O
+
+
+
+he _ _ O
+was _ _ O
+born _ _ O
+in _ _ O
+san _ _ B-HumanSettlement
+francisco _ _ I-HumanSettlement
+and _ _ O
+learned _ _ O
+to _ _ O
+play _ _ O
+saxophone _ _ O
+before _ _ O
+the _ _ O
+age _ _ O
+of _ _ O
+ten _ _ O
+. _ _ O
+
+
+
+in _ _ O
+barbados _ _ B-ORG
+a _ _ O
+loud _ _ O
+cricket _ _ O
+means _ _ O
+money _ _ O
+is _ _ O
+coming _ _ O
+in _ _ O
+; _ _ O
+hence _ _ O
+a _ _ O
+cricket _ _ O
+must _ _ O
+not _ _ O
+be _ _ O
+killed _ _ O
+or _ _ O
+evicted _ _ O
+if _ _ O
+it _ _ O
+chirps _ _ O
+inside _ _ O
+a _ _ O
+house _ _ O
+. _ _ O
+
+
+
+declared _ _ O
+in _ _ O
+a _ _ O
+symbolic _ _ O
+top _ _ O
+five _ _ O
+of _ _ O
+the _ _ O
+tournament _ _ O
+( _ _ O
+magnitogorsk _ _ B-HumanSettlement
+2012 _ _ O
+) _ _ O
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+shot _ _ O
+in _ _ O
+jerusalem _ _ B-HumanSettlement
+in _ _ O
+2006 _ _ O
+. _ _ O
+
+
+
+decebalus _ _ B-OtherPER
+king _ _ O
+of _ _ O
+dacia _ _ B-ORG
+( _ _ O
+suicide _ _ O
+being _ _ O
+pursued _ _ O
+by _ _ O
+the _ _ O
+romans _ _ O
+) _ _ O
+( _ _ O
+b _ _ O
+. _ _ O
+
+
+
+the _ _ O
+ming _ _ B-ORG
+dynasty _ _ I-ORG
+abolished _ _ O
+the _ _ O
+prime _ _ O
+minister _ _ O
+and _ _ O
+divided _ _ O
+the _ _ O
+power _ _ O
+into _ _ O
+six _ _ O
+parts _ _ O
+. _ _ O
+
+
+
+a _ _ O
+schooner _ _ B-Vehicle
+that _ _ O
+was _ _ O
+wrecked _ _ O
+near _ _ O
+ocean _ _ O
+shores _ _ O
+. _ _ O
+
+
+
+under _ _ B-Politician
+napoleon _ _ I-Politician
+and _ _ B-ORG
+the _ _ I-ORG
+consulate _ _ I-ORG
+( _ _ O
+1799 _ _ O
+– _ _ O
+1804 _ _ O
+) _ _ O
+the _ _ O
+law _ _ O
+was _ _ O
+soon _ _ O
+repealed _ _ O
+. _ _ O
+
+
+
+a _ _ O
+chaebol _ _ O
+( _ _ O
+; _ _ O
+) _ _ O
+is _ _ O
+a _ _ O
+large _ _ O
+industrial _ _ O
+south _ _ B-HumanSettlement
+korean _ _ I-HumanSettlement
+conglomerate _ _ O
+run _ _ O
+and _ _ O
+controlled _ _ O
+by _ _ O
+an _ _ O
+individual _ _ O
+or _ _ O
+family _ _ O
+. _ _ O
+
+
+
+it _ _ O
+is _ _ O
+endemic _ _ O
+to _ _ O
+australia _ _ B-HumanSettlement
+. _ _ O
+
+
+
+eevee _ _ O
+is _ _ O
+a _ _ O
+4 _ _ O
+piece _ _ O
+band _ _ O
+from _ _ O
+davao _ _ B-MusicalGRP
+city _ _ I-MusicalGRP
+. _ _ O
+
+
+
+heinrich _ _ O
+'s _ _ O
+father _ _ O
+was _ _ O
+the _ _ O
+german _ _ B-HumanSettlement
+publisher _ _ O
+friedrich _ _ B-OtherPER
+arnold _ _ I-OtherPER
+brockhaus _ _ I-OtherPER
+( _ _ O
+1772 _ _ O
+1823 _ _ O
+) _ _ O
+. _ _ O
+
+
+
+the _ _ O
+album _ _ O
+moved _ _ O
+15,000 _ _ O
+copies _ _ O
+within _ _ O
+the _ _ O
+united _ _ B-HumanSettlement
+states _ _ I-HumanSettlement
+during _ _ O
+its _ _ O
+first _ _ O
+week _ _ O
+. _ _ O
+
+
+
+kuba _ _ O
+art _ _ O
+comprises _ _ O
+a _ _ O
+diverse _ _ O
+array _ _ O
+of _ _ O
+media _ _ O
+much _ _ O
+of _ _ O
+which _ _ O
+was _ _ O
+created _ _ O
+for _ _ O
+the _ _ O
+courts _ _ O
+of _ _ O
+chiefs _ _ O
+and _ _ O
+kings _ _ O
+of _ _ O
+the _ _ O
+kuba _ _ B-HumanSettlement
+kingdom _ _ I-HumanSettlement
+. _ _ O
+
+
+
+it _ _ O
+is _ _ O
+a _ _ O
+document _ _ O
+of _ _ O
+the _ _ O
+pair _ _ O
+'s _ _ O
+second _ _ O
+tour _ _ O
+as _ _ O
+headliners _ _ O
+which _ _ O
+took _ _ O
+them _ _ O
+through _ _ O
+the _ _ O
+united _ _ B-HumanSettlement
+kingdom _ _ I-HumanSettlement
+during _ _ O
+the _ _ O
+autumn _ _ O
+of _ _ O
+1975 _ _ O
+. _ _ O
+
+
+
+marks _ _ O
+was _ _ O
+born _ _ O
+in _ _ O
+mount _ _ B-Facility
+vernon _ _ I-Facility
+, _ _ I-Facility
+new _ _ I-Facility
+york _ _ I-Facility
+. _ _ O
+
+
+
+lusaka _ _ B-HumanSettlement
+has _ _ O
+been _ _ O
+considered _ _ O
+a _ _ O
+poorly _ _ O
+planned _ _ O
+city _ _ O
+which _ _ O
+grew _ _ O
+slowly _ _ O
+and _ _ O
+in _ _ O
+ways _ _ O
+its _ _ O
+planners _ _ O
+failed _ _ O
+to _ _ O
+anticipate _ _ O
+. _ _ O
+
+
+
+in _ _ O
+1314 _ _ O
+a _ _ O
+complaint _ _ O
+was _ _ O
+lodged _ _ O
+about _ _ O
+two _ _ O
+brothers _ _ O
+misappropriating _ _ O
+property _ _ O
+at _ _ O
+shoreditch _ _ B-Facility
+. _ _ O
+
+
+
+he _ _ O
+was _ _ O
+interred _ _ O
+in _ _ O
+the _ _ O
+congressional _ _ O
+cemetery _ _ O
+washington _ _ B-HumanSettlement
+, _ _ I-HumanSettlement
+d.c. _ _ I-HumanSettlement
+
+
+
+prince _ _ B-OtherPER
+william _ _ I-OtherPER
+, _ _ I-OtherPER
+duke _ _ I-OtherPER
+of _ _ I-OtherPER
+cumberland _ _ I-OtherPER
+( _ _ O
+1721 _ _ O
+– _ _ O
+1765 _ _ O
+) _ _ O
+: _ _ O
+statue _ _ O
+in _ _ O
+cavendish _ _ B-Facility
+square _ _ I-Facility
+london _ _ I-Facility
+erected _ _ O
+1770 _ _ O
+removed _ _ O
+1868 _ _ O
+
+
+
+kokomian _ _ O
+( _ _ O
+also _ _ O
+spelled _ _ O
+kokomia _ _ O
+) _ _ O
+is _ _ O
+a _ _ O
+town _ _ O
+in _ _ O
+the _ _ O
+far _ _ O
+east _ _ O
+of _ _ O
+ivory _ _ B-HumanSettlement
+coast _ _ I-HumanSettlement
+. _ _ O
+
+
+
+he _ _ O
+was _ _ O
+later _ _ O
+in _ _ O
+dublin _ _ B-HumanSettlement
+as _ _ O
+part _ _ O
+of _ _ O
+the _ _ O
+smock _ _ B-MusicalGRP
+alley _ _ I-MusicalGRP
+theatre _ _ O
+organisation _ _ O
+. _ _ O
+
+
+
+in _ _ O
+sweden _ _ B-HumanSettlement
+brass _ _ O
+knuckles _ _ O
+are _ _ O
+legal _ _ O
+to _ _ O
+purchase _ _ O
+and _ _ O
+own _ _ O
+( _ _ O
+for _ _ O
+people _ _ O
+21 _ _ O
+years _ _ O
+of _ _ O
+age _ _ O
+) _ _ O
+but _ _ O
+are _ _ O
+not _ _ O
+legal _ _ O
+to _ _ O
+sell _ _ O
+in _ _ O
+stores _ _ O
+or _ _ O
+carry _ _ O
+in _ _ O
+public _ _ O
+. _ _ O
+
+
+
+boat _ _ O
+trips _ _ O
+from _ _ O
+nearby _ _ O
+port _ _ B-HumanSettlement
+townsend _ _ I-HumanSettlement
+, _ _ I-HumanSettlement
+washington _ _ I-HumanSettlement
+provide _ _ O
+ecotourism _ _ O
+visits _ _ O
+for _ _ O
+viewing _ _ O
+wildlife _ _ O
+from _ _ O
+the _ _ O
+adjacent _ _ O
+waters _ _ O
+. _ _ O
+
+
+
+slovac _ _ O
+is _ _ O
+a _ _ O
+village _ _ O
+situated _ _ O
+in _ _ O
+lajkovac _ _ B-HumanSettlement
+municipality _ _ O
+in _ _ O
+serbia _ _ B-HumanSettlement
+. _ _ O
+
+
+
+his _ _ O
+more _ _ O
+recent _ _ O
+years _ _ O
+have _ _ O
+been _ _ O
+taken _ _ O
+up _ _ O
+as _ _ O
+a _ _ O
+freelance _ _ O
+director _ _ O
+and _ _ O
+drama _ _ O
+practitioner _ _ O
+and _ _ O
+he _ _ O
+currently _ _ O
+lives _ _ O
+in _ _ O
+spain _ _ B-HumanSettlement
+. _ _ O
+
+
+
+this _ _ O
+album _ _ O
+tackled _ _ O
+the _ _ O
+serious _ _ O
+water _ _ O
+shortage _ _ O
+that _ _ O
+the _ _ O
+singer _ _ O
+'s _ _ O
+home _ _ O
+city _ _ O
+cape _ _ B-HumanSettlement
+town _ _ I-HumanSettlement
+faced _ _ O
+during _ _ O
+that _ _ O
+time _ _ O
+. _ _ O
+
+
+
+habiger _ _ O
+was _ _ O
+born _ _ O
+in _ _ O
+joliet _ _ B-HumanSettlement
+, _ _ I-HumanSettlement
+illinois _ _ I-HumanSettlement
+. _ _ O
+
+
+
+tauron _ _ O
+polska _ _ O
+energia _ _ O
+s.a. _ _ O
+is _ _ O
+an _ _ O
+energy _ _ O
+holding _ _ O
+company _ _ O
+in _ _ O
+poland _ _ B-HumanSettlement
+. _ _ O
+
+
+
+she _ _ O
+is _ _ O
+a _ _ O
+native _ _ O
+of _ _ O
+prince _ _ B-HumanSettlement
+albert _ _ I-HumanSettlement
+, _ _ I-HumanSettlement
+saskatchewan _ _ I-HumanSettlement
+where _ _ O
+she _ _ O
+also _ _ O
+works _ _ O
+as _ _ O
+a _ _ O
+music _ _ O
+teacher _ _ O
+. _ _ O
+
+
+
+williams _ _ O
+was _ _ O
+elected _ _ O
+portland _ _ B-HumanSettlement
+'s _ _ O
+mayor _ _ O
+serving _ _ O
+from _ _ O
+1902 _ _ O
+to _ _ O
+1905 _ _ O
+. _ _ O
+
+
+
+he _ _ O
+died _ _ O
+in _ _ O
+burbank _ _ B-HumanSettlement
+, _ _ I-HumanSettlement
+california _ _ I-HumanSettlement
+of _ _ O
+emphysema _ _ O
+at _ _ O
+age _ _ O
+seventy _ _ O
+eight _ _ O
+. _ _ O
+
+
+
+in _ _ O
+the _ _ O
+18th _ _ O
+century _ _ O
+the _ _ O
+village _ _ O
+was _ _ O
+annexed _ _ O
+by _ _ O
+prussia _ _ B-HumanSettlement
+and _ _ O
+from _ _ O
+1871 _ _ O
+to _ _ O
+1945 _ _ O
+it _ _ O
+also _ _ O
+formed _ _ O
+part _ _ O
+of _ _ O
+germany _ _ B-HumanSettlement
+. _ _ O
+
+
+
+found _ _ O
+in _ _ O
+venezuela _ _ B-HumanSettlement
+it _ _ O
+was _ _ O
+described _ _ O
+as _ _ O
+new _ _ O
+to _ _ O
+science _ _ O
+in _ _ O
+1983 _ _ O
+by _ _ O
+mycologist _ _ O
+rolf _ _ B-OtherPER
+singer _ _ I-OtherPER
+. _ _ O
+
+
+
+it _ _ O
+is _ _ O
+found _ _ O
+on _ _ O
+madagascar _ _ B-HumanSettlement
+. _ _ O
+
+
+
+due _ _ O
+to _ _ O
+controversy _ _ O
+in _ _ O
+2016 _ _ O
+the _ _ O
+statue _ _ O
+was _ _ O
+moved _ _ O
+from _ _ O
+its _ _ O
+original _ _ O
+location _ _ O
+to _ _ O
+brandenburg _ _ B-HumanSettlement
+, _ _ I-HumanSettlement
+kentucky _ _ I-HumanSettlement
+. _ _ O
+
+
+
+shills _ _ O
+are _ _ O
+primarily _ _ O
+for _ _ O
+message _ _ O
+delivery _ _ O
+but _ _ O
+they _ _ O
+can _ _ O
+also _ _ O
+be _ _ O
+used _ _ O
+to _ _ O
+drive _ _ O
+up _ _ O
+prices _ _ O
+in _ _ O
+auctions _ _ O
+such _ _ O
+as _ _ O
+ebay _ _ B-Software
+auctions _ _ O
+. _ _ O
+
+
+
+the _ _ O
+song _ _ O
+inspired _ _ O
+the _ _ O
+album _ _ O
+'s _ _ O
+cover _ _ O
+art _ _ O
+which _ _ O
+featured _ _ O
+a _ _ O
+woolworths _ _ B-PublicCorp
+store _ _ O
+front _ _ O
+. _ _ O
+
+
+
+daniel _ _ B-OtherPER
+a. _ _ I-OtherPER
+d'aniello _ _ I-OtherPER
+billionaire _ _ O
+businessman _ _ O
+cofounder _ _ O
+and _ _ O
+chairman _ _ O
+of _ _ O
+the _ _ O
+carlyle _ _ B-PublicCorp
+group _ _ I-PublicCorp
+
+
+
+the _ _ O
+fund _ _ O
+was _ _ O
+founded _ _ O
+in _ _ O
+2007 _ _ O
+by _ _ O
+the _ _ O
+president _ _ O
+and _ _ O
+co _ _ O
+owner _ _ O
+of _ _ O
+the _ _ O
+oil _ _ O
+company _ _ O
+lukoil _ _ B-AerospaceManufacturer
+vagit _ _ B-OtherPER
+alekperov _ _ I-OtherPER
+. _ _ O
+
+
+
+social _ _ O
+media _ _ O
+sites _ _ O
+and _ _ O
+search _ _ O
+engines _ _ O
+such _ _ O
+as _ _ O
+facebook _ _ B-Software
+and _ _ O
+google _ _ B-Software
+received _ _ O
+criticism _ _ O
+for _ _ O
+facilitating _ _ O
+the _ _ O
+spread _ _ O
+of _ _ O
+fake _ _ O
+news _ _ O
+. _ _ O
+
+
+
+in _ _ O
+2009 _ _ O
+the _ _ O
+company _ _ O
+was _ _ O
+acquired _ _ O
+by _ _ O
+alstom _ _ B-PublicCorp
+for _ _ O
+€ _ _ O
+350million _ _ O
+. _ _ O
+
+
+
+after _ _ O
+the _ _ O
+completion _ _ O
+of _ _ O
+his _ _ O
+education _ _ O
+he _ _ O
+worked _ _ O
+on _ _ O
+the _ _ O
+construction _ _ O
+of _ _ O
+the _ _ O
+novolipetsk _ _ B-Facility
+metallurgical _ _ I-Facility
+combine _ _ I-Facility
+. _ _ O
+
+
+
+george _ _ B-Politician
+kaiser _ _ I-Politician
+chairman _ _ O
+of _ _ O
+bok _ _ B-PublicCorp
+financial _ _ I-PublicCorp
+corporation _ _ I-PublicCorp
+philanthropist _ _ O
+ranked _ _ O
+as _ _ O
+one _ _ O
+of _ _ O
+the _ _ O
+richest _ _ O
+people _ _ O
+in _ _ O
+the _ _ O
+world _ _ O
+
+
+
+the _ _ O
+station _ _ O
+was _ _ O
+owned _ _ O
+by _ _ O
+iheartmedia _ _ B-PublicCorp
+. _ _ O
+
+
+
+it _ _ O
+is _ _ O
+part _ _ O
+of _ _ O
+uralvagonzavod _ _ B-OtherLOC
+. _ _ O
+
+
+
+finnair _ _ B-AerospaceManufacturer
+and _ _ O
+norwegian _ _ B-ORG
+air _ _ I-ORG
+shuttle _ _ I-ORG
+provide _ _ O
+frequent _ _ O
+service _ _ O
+over _ _ O
+the _ _ O
+day _ _ O
+between _ _ O
+helsinki _ _ B-Station
+airport _ _ I-Station
+and _ _ O
+oulu _ _ B-Station
+airport _ _ I-Station
+. _ _ O
+
+
+
+the _ _ O
+payment _ _ O
+system _ _ O
+is _ _ O
+protected _ _ O
+by _ _ O
+symantec _ _ B-PublicCorp
+'s _ _ O
+verisign _ _ B-Software
+security _ _ I-Software
+. _ _ O
+
+
+
+ziegler _ _ O
+is _ _ O
+featured _ _ O
+in _ _ O
+a _ _ O
+2017 _ _ O
+dance _ _ O
+advertisement _ _ O
+for _ _ O
+general _ _ B-PublicCorp
+electric _ _ I-PublicCorp
+. _ _ O
+
+
+
+b _ _ O
+/ _ _ O
+e _ _ O
+benefits _ _ O
+from _ _ O
+rival _ _ O
+zodiac _ _ B-AerospaceManufacturer
+aerospace _ _ I-AerospaceManufacturer
+'s _ _ O
+delivery _ _ O
+troubles _ _ O
+. _ _ O
+
+
+
+it _ _ O
+is _ _ O
+owned _ _ O
+by _ _ O
+bure _ _ B-PublicCorp
+equity _ _ I-PublicCorp
+. _ _ O
+
+
+
+it _ _ O
+is _ _ O
+partially _ _ O
+owned _ _ O
+by _ _ O
+the _ _ O
+west _ _ B-ORG
+japan _ _ I-ORG
+railway _ _ I-ORG
+company _ _ I-ORG
+. _ _ O
+
+
+
+the _ _ O
+station _ _ O
+is _ _ O
+owned _ _ O
+by _ _ O
+cumulus _ _ B-PublicCorp
+media _ _ I-PublicCorp
+. _ _ O
+
+
+
+since _ _ O
+then _ _ O
+she _ _ O
+has _ _ O
+turned _ _ O
+to _ _ O
+acting _ _ O
+and _ _ O
+was _ _ O
+in _ _ O
+the _ _ O
+lead _ _ O
+role _ _ O
+in _ _ O
+apgujeong _ _ B-VisualWork
+midnight _ _ B-VisualWork
+sun _ _ I-VisualWork
+. _ _ O
+
+
+
+the _ _ O
+cast _ _ B-VisualWork
+of _ _ I-VisualWork
+heroes _ _ I-VisualWork
+( _ _ O
+multiple _ _ O
+covers _ _ O
+) _ _ O
+
+
+
+bobcat _ _ B-VisualWork
+goldthwait _ _ I-VisualWork
+'s _ _ I-VisualWork
+misfits _ _ I-VisualWork
+& _ _ I-VisualWork
+monsters _ _ I-VisualWork
+( _ _ O
+misfits _ _ O
+& _ _ O
+monsters _ _ O
+) _ _ O
+( _ _ O
+2018 _ _ O
+– _ _ O
+present _ _ O
+) _ _ O
+
+
+
+it _ _ O
+was _ _ O
+followed _ _ O
+by _ _ O
+another _ _ O
+sequel _ _ O
+topper _ _ B-VisualWork
+returns _ _ I-VisualWork
+. _ _ O
+
+
+
+the _ _ B-VisualWork
+starlost _ _ I-VisualWork
+a _ _ O
+canada _ _ O
+/ _ _ O
+us _ _ O
+tv _ _ O
+series _ _ O
+from _ _ O
+1973 _ _ O
+has _ _ O
+a _ _ O
+similar _ _ O
+premise _ _ O
+
+
+
+the _ _ O
+race _ _ O
+was _ _ O
+broadcast _ _ O
+on _ _ O
+cbs _ _ B-ORG
+
+
+
+atheist _ _ O
+was _ _ O
+later _ _ O
+adapted _ _ O
+into _ _ O
+a _ _ O
+1974 _ _ O
+film _ _ O
+which _ _ O
+was _ _ O
+directed _ _ O
+by _ _ O
+sjumandjaja _ _ B-Artist
+and _ _ O
+co _ _ O
+starred _ _ O
+christine _ _ B-Artist
+hakim _ _ I-Artist
+and _ _ O
+. _ _ O
+
+
+
+3.13 _ _ O
+– _ _ O
+the _ _ B-VisualWork
+man _ _ I-VisualWork
+from _ _ I-VisualWork
+tallahassee _ _ I-VisualWork
+( _ _ O
+with _ _ O
+pinkner _ _ O
+) _ _ O
+
+
+
+millson _ _ O
+met _ _ O
+his _ _ O
+second _ _ O
+wife _ _ O
+sarah-jane _ _ B-Artist
+potts _ _ I-Artist
+in _ _ O
+2011 _ _ O
+while _ _ O
+they _ _ O
+were _ _ O
+cast _ _ O
+members _ _ O
+on _ _ O
+holby _ _ B-VisualWork
+city _ _ I-VisualWork
+a _ _ O
+medical _ _ B-VisualWork
+drama _ _ O
+television _ _ O
+series _ _ O
+. _ _ O
+
+
+
+wes _ _ B-Artist
+anderson _ _ I-Artist
+'s _ _ O
+film _ _ O
+the _ _ B-VisualWork
+grand _ _ I-VisualWork
+budapest _ _ I-VisualWork
+hotel _ _ I-VisualWork
+opened _ _ O
+the _ _ O
+festival _ _ O
+. _ _ O
+
+
+
+the _ _ O
+1932 _ _ O
+film _ _ O
+scarface _ _ B-VisualWork
+was _ _ O
+based _ _ O
+on _ _ O
+it _ _ O
+. _ _ O
+
+
+
+she _ _ O
+undertook _ _ O
+television _ _ O
+roles _ _ O
+including _ _ O
+the _ _ O
+eponymous _ _ O
+role _ _ O
+on _ _ O
+the _ _ O
+abc _ _ B-ORG
+comedy _ _ O
+drama _ _ O
+ugly _ _ B-VisualWork
+betty _ _ I-VisualWork
+( _ _ O
+2006 _ _ O
+– _ _ O
+2010 _ _ O
+) _ _ O
+. _ _ O
+
+
+
+scheider _ _ O
+starred _ _ O
+in _ _ O
+last _ _ B-VisualWork
+embrace _ _ I-VisualWork
+a _ _ O
+thriller _ _ O
+directed _ _ O
+by _ _ O
+jonathan _ _ B-Artist
+demme _ _ I-Artist
+. _ _ O
+
+
+
+ginuwine _ _ O
+was _ _ O
+originally _ _ O
+cast _ _ O
+in _ _ O
+the _ _ O
+2004 _ _ O
+film _ _ O
+you _ _ B-VisualWork
+got _ _ I-VisualWork
+served _ _ I-VisualWork
+. _ _ O
+
+
+
+others _ _ O
+like _ _ O
+bless _ _ B-VisualWork
+the _ _ I-VisualWork
+harts _ _ I-VisualWork
+and _ _ O
+clone _ _ B-VisualWork
+high _ _ I-VisualWork
+have _ _ O
+more _ _ O
+tame _ _ O
+themes _ _ O
+but _ _ O
+still _ _ O
+are _ _ O
+nt _ _ O
+meant _ _ O
+for _ _ O
+children _ _ O
+. _ _ O
+
+
+
+another _ _ O
+important _ _ O
+stylistic _ _ O
+influence _ _ O
+was _ _ O
+the _ _ O
+experimental _ _ O
+oeuvre _ _ O
+of _ _ O
+kenneth _ _ B-Artist
+anger _ _ I-Artist
+and _ _ O
+in _ _ O
+particular _ _ O
+inauguration _ _ O
+of _ _ O
+the _ _ O
+pleasure _ _ B-Facility
+dome _ _ I-Facility
+. _ _ O
+
+
+
+he _ _ O
+also _ _ O
+produced _ _ O
+the _ _ O
+soundtrack _ _ O
+for _ _ O
+its _ _ O
+sequel _ _ O
+the _ _ B-VisualWork
+bitch _ _ I-VisualWork
+in _ _ O
+1979 _ _ O
+. _ _ O
+
+
+
+the _ _ O
+same _ _ O
+year _ _ O
+she _ _ O
+portrayed _ _ O
+beatrice _ _ B-OtherPER
+hastings _ _ I-OtherPER
+in _ _ O
+modigliani _ _ B-VisualWork
+which _ _ O
+starred _ _ O
+andy _ _ B-Artist
+garcía _ _ I-Artist
+. _ _ O
+
+
+
+he _ _ O
+wrote _ _ O
+the _ _ B-WrittenWork
+last _ _ I-WrittenWork
+run _ _ I-WrittenWork
+which _ _ O
+he _ _ O
+called _ _ O
+an _ _ O
+attempt _ _ O
+to _ _ O
+use _ _ O
+the _ _ O
+melodramatic _ _ O
+crime _ _ O
+chase _ _ O
+to _ _ O
+deal _ _ O
+with _ _ O
+whatever _ _ O
+the _ _ O
+hero _ _ O
+'s _ _ O
+preoccupations _ _ O
+might _ _ O
+be _ _ O
+. _ _ O
+
+
+
+the _ _ O
+soap _ _ O
+has _ _ O
+also _ _ O
+produced _ _ O
+a _ _ O
+number _ _ O
+of _ _ O
+charity _ _ O
+specials _ _ O
+for _ _ O
+children _ _ B-ORG
+in _ _ I-ORG
+need _ _ I-ORG
+. _ _ O
+
+
+
+short _ _ O
+cutscenes _ _ O
+appear _ _ O
+at _ _ O
+the _ _ O
+beginning _ _ O
+and _ _ O
+end _ _ O
+of _ _ O
+the _ _ O
+game _ _ O
+as _ _ O
+well _ _ O
+as _ _ O
+after _ _ O
+certain _ _ O
+levels _ _ O
+. _ _ O
+
+
+
+isis _ _ O
+was _ _ O
+voiced _ _ O
+by _ _ O
+frank _ _ B-Artist
+welker _ _ I-Artist
+for _ _ O
+most _ _ O
+of _ _ O
+the _ _ O
+character _ _ O
+'s _ _ O
+appearances _ _ O
+and _ _ O
+by _ _ O
+dee _ _ B-Artist
+bradley _ _ I-Artist
+baker _ _ I-Artist
+for _ _ O
+the _ _ O
+animated _ _ O
+web _ _ O
+series _ _ O
+gotham _ _ B-VisualWork
+girls _ _ I-VisualWork
+. _ _ O
+
+
+
+he _ _ O
+had _ _ O
+a _ _ O
+leading _ _ O
+role _ _ O
+in _ _ O
+the _ _ O
+well _ _ O
+received _ _ O
+1929 _ _ O
+musical _ _ O
+film _ _ O
+hallelujah _ _ B-VisualWork
+. _ _ O
+
+
+
+she _ _ O
+joined _ _ O
+the _ _ O
+daytime _ _ B-VisualWork
+talk _ _ I-VisualWork
+show _ _ I-VisualWork
+the _ _ B-VisualWork
+view _ _ I-VisualWork
+shortly _ _ O
+thereafter _ _ O
+co _ _ O
+hosting _ _ O
+it _ _ O
+until _ _ O
+2021 _ _ O
+. _ _ O
+
+
+
+malachovská _ _ O
+functioned _ _ O
+as _ _ O
+co _ _ O
+producer _ _ O
+on _ _ O
+the _ _ O
+2008 _ _ O
+václav _ _ B-Artist
+marhoul _ _ I-Artist
+film _ _ O
+tobruk _ _ B-VisualWork
+. _ _ O
+
+
+
+it _ _ O
+is _ _ O
+not _ _ O
+known _ _ O
+whether _ _ O
+the _ _ O
+film _ _ O
+currently _ _ O
+survives _ _ O
+in _ _ O
+its _ _ O
+entirety _ _ O
+. _ _ O
+
+
+
+huber _ _ O
+began _ _ O
+working _ _ O
+in _ _ O
+animation _ _ O
+in _ _ O
+1969 _ _ O
+as _ _ O
+an _ _ O
+assistant _ _ O
+to _ _ O
+hanna-barbera _ _ B-PrivateCorp
+on _ _ O
+the _ _ O
+perils _ _ O
+of _ _ O
+penelope _ _ B-OtherPROD
+pitstop _ _ I-OtherPROD
+. _ _ O
+
+
+
+1998 _ _ O
+one _ _ B-VisualWork
+true _ _ I-VisualWork
+thing _ _ I-VisualWork
+still _ _ O
+photographer _ _ O
+directed _ _ O
+by _ _ O
+carl _ _ B-Artist
+franklin _ _ I-Artist
+
+
+
+in _ _ O
+2010 _ _ O
+he _ _ O
+composed _ _ O
+the _ _ O
+music _ _ O
+for _ _ O
+the _ _ O
+movie _ _ O
+london _ _ B-VisualWork
+boulevard _ _ I-VisualWork
+starring _ _ O
+colin _ _ B-Artist
+farrell _ _ I-Artist
+ray _ _ B-Artist
+winstone _ _ I-Artist
+and _ _ O
+keira _ _ B-Artist
+knightley _ _ I-Artist
+. _ _ O
+
+
+
+sinfonia _ _ B-MusicalWork
+antartica _ _ I-MusicalWork
+( _ _ O
+symphony _ _ O
+no _ _ O
+. _ _ O
+7 _ _ O
+) _ _ O
+( _ _ O
+1949 _ _ O
+– _ _ O
+52 _ _ O
+) _ _ O
+( _ _ O
+partly _ _ O
+based _ _ O
+on _ _ O
+his _ _ O
+music _ _ O
+for _ _ O
+the _ _ O
+film _ _ O
+scott _ _ B-VisualWork
+of _ _ I-VisualWork
+the _ _ I-VisualWork
+antarctic _ _ I-VisualWork
+) _ _ O
+
+
+
+his _ _ O
+best _ _ O
+known _ _ O
+film _ _ O
+is _ _ O
+on _ _ B-VisualWork
+foot _ _ I-VisualWork
+, _ _ I-VisualWork
+on _ _ I-VisualWork
+horse _ _ I-VisualWork
+, _ _ I-VisualWork
+and _ _ I-VisualWork
+on _ _ I-VisualWork
+wheels _ _ I-VisualWork
+. _ _ O
+
+
+
+surprise _ _ O
+was _ _ O
+used _ _ O
+in _ _ O
+the _ _ O
+film _ _ O
+master _ _ B-VisualWork
+and _ _ I-VisualWork
+commander _ _ I-VisualWork
+: _ _ I-VisualWork
+the _ _ I-VisualWork
+far _ _ I-VisualWork
+side _ _ I-VisualWork
+of _ _ I-VisualWork
+the _ _ I-VisualWork
+world _ _ I-VisualWork
+. _ _ O
+
+
+
+pitch _ _ B-VisualWork
+perfect _ _ B-VisualWork
+2 _ _ I-VisualWork
+director _ _ O
+elizabeth _ _ B-Artist
+banks _ _ I-Artist
+was _ _ O
+in _ _ O
+talks _ _ O
+with _ _ O
+the _ _ O
+studio _ _ O
+to _ _ O
+direct _ _ O
+and _ _ O
+produce _ _ O
+the _ _ O
+project _ _ O
+. _ _ O
+
+
+
+in _ _ O
+films _ _ O
+o _ _ O
+neal _ _ O
+appeared _ _ O
+in _ _ O
+pinky _ _ B-VisualWork
+no _ _ I-VisualWork
+way _ _ I-VisualWork
+out _ _ I-VisualWork
+and _ _ O
+something _ _ B-VisualWork
+of _ _ I-VisualWork
+value _ _ I-VisualWork
+. _ _ O
+
+
+
+madventures _ _ B-VisualWork
+in _ _ O
+over _ _ O
+150 _ _ O
+countries _ _ O
+
+
+
+a _ _ O
+musical _ _ B-VisualWork
+film _ _ O
+was _ _ O
+produced _ _ O
+based _ _ O
+on _ _ O
+the _ _ O
+novel _ _ O
+in _ _ O
+1969 _ _ O
+. _ _ O
+
+
+
+he _ _ O
+is _ _ O
+the _ _ O
+main _ _ O
+character _ _ O
+in _ _ O
+the _ _ O
+black _ _ B-WrittenWork
+jack _ _ I-WrittenWork
+manga _ _ B-WrittenWork
+franchise _ _ O
+. _ _ O
+
+
+
+his _ _ O
+first _ _ O
+film _ _ O
+was _ _ O
+on _ _ B-VisualWork
+the _ _ I-VisualWork
+waterfront _ _ I-VisualWork
+in _ _ O
+1954 _ _ O
+. _ _ O
+
+
+
+the _ _ O
+film _ _ O
+was _ _ O
+followed _ _ O
+by _ _ O
+a _ _ B-VisualWork
+nightmare _ _ I-VisualWork
+on _ _ I-VisualWork
+elm _ _ I-VisualWork
+street _ _ I-VisualWork
+2 _ _ I-VisualWork
+: _ _ I-VisualWork
+freddy _ _ I-VisualWork
+'s _ _ I-VisualWork
+revenge _ _ I-VisualWork
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+the _ _ O
+studio _ _ O
+'s _ _ O
+second _ _ O
+short _ _ B-VisualWork
+film _ _ I-VisualWork
+after _ _ B-VisualWork
+the _ _ I-VisualWork
+chubbchubbs _ _ I-VisualWork
+! _ _ I-VisualWork
+. _ _ O
+
+
+
+in _ _ O
+1991 _ _ O
+he _ _ O
+played _ _ O
+julie _ _ B-Artist
+andrews _ _ I-Artist
+gay _ _ O
+son _ _ O
+in _ _ O
+the _ _ O
+abc _ _ B-ORG
+made _ _ O
+for _ _ O
+television _ _ O
+film _ _ O
+our _ _ B-VisualWork
+sons _ _ I-VisualWork
+. _ _ O
+
+
+
+mrs. _ _ B-VisualWork
+soffel _ _ I-VisualWork
+directed _ _ O
+by _ _ O
+gillian _ _ B-Artist
+armstrong _ _ I-Artist
+starring _ _ O
+diane _ _ B-Artist
+keaton _ _ I-Artist
+and _ _ O
+mel _ _ B-Artist
+gibson _ _ I-Artist
+
+
+
+she _ _ O
+is _ _ O
+known _ _ O
+for _ _ O
+her _ _ O
+roles _ _ O
+in _ _ O
+temper _ _ B-VisualWork
+and _ _ O
+jyothi _ _ B-VisualWork
+lakshmi _ _ I-VisualWork
+. _ _ O
+
+
+
+use _ _ O
+as _ _ O
+a _ _ O
+target _ _ B-Vehicle
+ship _ _ I-Vehicle
+for _ _ O
+training _ _ O
+or _ _ O
+testing _ _ O
+weapons _ _ O
+
+
+
+she _ _ O
+was _ _ O
+chased _ _ O
+and _ _ O
+intercepted _ _ O
+by _ _ O
+german _ _ B-Vehicle
+submarine _ _ I-Vehicle
+u-17 _ _ I-Vehicle
+. _ _ O
+
+
+
+solar _ _ O
+powered _ _ O
+cars _ _ O
+boats _ _ O
+and _ _ O
+airplanes _ _ O
+have _ _ O
+been _ _ O
+demonstrated _ _ O
+with _ _ O
+the _ _ O
+most _ _ O
+practical _ _ O
+and _ _ O
+likely _ _ O
+of _ _ O
+these _ _ O
+being _ _ O
+solar _ _ B-OtherPROD
+cars _ _ I-OtherPROD
+. _ _ O
+
+
+
+was _ _ O
+an _ _ O
+wooden _ _ O
+screw _ _ O
+gunboat _ _ B-Vehicle
+launched _ _ O
+in _ _ O
+1856 _ _ O
+and _ _ O
+sold _ _ O
+in _ _ O
+1875 _ _ O
+. _ _ O
+
+
+
+launched _ _ O
+1883 _ _ O
+was _ _ O
+a _ _ O
+protected _ _ B-Vehicle
+cruiser _ _ I-Vehicle
+. _ _ O
+
+
+
+although _ _ O
+the _ _ O
+airport _ _ O
+was _ _ O
+capable _ _ O
+of _ _ O
+handling _ _ O
+boeing _ _ B-OtherPROD
+767 _ _ I-OtherPROD
+aircraft _ _ O
+for _ _ O
+large _ _ O
+numbers _ _ O
+of _ _ O
+these _ _ O
+aircraft _ _ O
+significant _ _ O
+investment _ _ O
+would _ _ O
+have _ _ O
+been _ _ O
+needed _ _ O
+. _ _ O
+
+
+
+the _ _ O
+design _ _ O
+derived _ _ O
+from _ _ O
+the _ _ O
+earlier _ _ O
+lms _ _ B-Vehicle
+ivatt _ _ I-Vehicle
+class _ _ I-Vehicle
+2 _ _ I-Vehicle
+2-6-2t _ _ I-Vehicle
+. _ _ O
+
+
+
+the _ _ O
+first _ _ O
+bridge _ _ O
+replaced _ _ O
+an _ _ O
+earlier _ _ O
+ferry _ _ B-Vehicle
+service _ _ O
+consisting _ _ O
+of _ _ O
+rowing _ _ O
+boats _ _ O
+across _ _ O
+the _ _ O
+narrowest _ _ O
+section _ _ O
+of _ _ O
+water _ _ O
+. _ _ O
+
+
+
+another _ _ O
+class _ _ O
+47 _ _ O
+this _ _ O
+time _ _ O
+47815 _ _ O
+had _ _ O
+the _ _ O
+name _ _ O
+bestowed _ _ O
+on _ _ O
+it _ _ O
+in _ _ O
+2005 _ _ O
+; _ _ O
+it _ _ O
+is _ _ O
+currently _ _ O
+in _ _ O
+operation _ _ O
+with _ _ O
+riviera _ _ B-Vehicle
+trains _ _ I-Vehicle
+. _ _ O
+
+
+
+beep _ _ B-Vehicle
+a _ _ O
+locomotive _ _ O
+built _ _ O
+in _ _ O
+1970 _ _ O
+
+
+
+diesel _ _ O
+locomotives _ _ O
+will _ _ O
+run _ _ O
+on _ _ O
+the _ _ O
+line _ _ O
+initially _ _ O
+but _ _ O
+the _ _ O
+plans _ _ O
+will _ _ O
+provide _ _ O
+an _ _ O
+option _ _ O
+for _ _ O
+future _ _ O
+electrification _ _ O
+. _ _ O
+
+
+
+uss _ _ B-OtherPROD
+san _ _ I-OtherPROD
+marcos _ _ I-OtherPROD
+(lsd-25) _ _ I-OtherPROD
+casa _ _ O
+grande _ _ O
+class _ _ O
+dock _ _ O
+landing _ _ O
+ship _ _ O
+
+
+
+the _ _ O
+rope _ _ O
+available _ _ O
+at _ _ O
+the _ _ O
+time _ _ O
+proved _ _ O
+too _ _ O
+susceptible _ _ O
+to _ _ O
+wear _ _ O
+and _ _ O
+the _ _ O
+system _ _ O
+was _ _ O
+abandoned _ _ O
+in _ _ O
+favour _ _ O
+of _ _ O
+steam _ _ B-Vehicle
+locomotives _ _ I-Vehicle
+after _ _ O
+eight _ _ O
+years _ _ O
+. _ _ O
+
+
+
+lead _ _ O
+boat _ _ O
+of _ _ O
+a _ _ O
+class _ _ O
+of _ _ O
+27 _ _ O
+
+
+
+in _ _ O
+the _ _ O
+same _ _ O
+year _ _ O
+he _ _ O
+constructed _ _ O
+his _ _ O
+first _ _ O
+plane _ _ O
+czajka _ _ B-Vehicle
+a _ _ O
+trainer _ _ O
+glider _ _ O
+that _ _ O
+was _ _ O
+later _ _ O
+put _ _ O
+into _ _ O
+serialized _ _ O
+production _ _ O
+in _ _ O
+several _ _ O
+designs _ _ O
+. _ _ O
+
+
+
+the _ _ O
+brand _ _ O
+was _ _ O
+subsequently _ _ O
+used _ _ O
+for _ _ O
+the _ _ O
+mg _ _ B-OtherPROD
+xpower _ _ I-OtherPROD
+sv _ _ I-OtherPROD
+sports _ _ O
+car _ _ O
+in _ _ O
+2002 _ _ O
+. _ _ O
+
+
+
+hôtel-dieu _ _ B-Facility
+de _ _ I-Facility
+lyon _ _ I-Facility
+( _ _ O
+17th _ _ O
+and _ _ O
+18th _ _ O
+century _ _ O
+) _ _ O
+historical _ _ O
+hospital _ _ O
+with _ _ O
+a _ _ O
+baroque _ _ O
+chapel _ _ O
+; _ _ O
+
+
+
+the _ _ O
+redevelopment _ _ O
+of _ _ O
+changi _ _ B-Facility
+prison _ _ I-Facility
+starts _ _ O
+eventually _ _ O
+having _ _ O
+consolidated _ _ O
+clusters _ _ O
+and _ _ O
+facilities _ _ O
+to _ _ O
+optimise _ _ O
+land _ _ O
+use _ _ O
+. _ _ O
+
+
+
+premises _ _ O
+where _ _ O
+goods _ _ O
+for _ _ O
+sale _ _ O
+are _ _ O
+displayed _ _ O
+( _ _ O
+a _ _ O
+showroom _ _ B-Facility
+) _ _ O
+
+
+
+the _ _ O
+school _ _ O
+is _ _ O
+now _ _ O
+currently _ _ O
+named _ _ O
+as _ _ O
+santragachi _ _ B-HumanSettlement
+kedarnath _ _ B-Facility
+institution _ _ I-Facility
+, _ _ I-Facility
+howrah _ _ I-Facility
+. _ _ O
+
+
+
+nevertheless _ _ O
+debtors' _ _ B-Facility
+prison _ _ I-Facility
+was _ _ O
+a _ _ O
+common _ _ O
+end _ _ O
+. _ _ O
+
+
+
+the _ _ O
+episode _ _ O
+2 _ _ O
+scenes _ _ O
+within _ _ O
+the _ _ O
+cinema _ _ O
+were _ _ O
+filmed _ _ O
+at _ _ O
+penistone _ _ B-Facility
+paramount _ _ I-Facility
+cinema _ _ I-Facility
+. _ _ O
+
+
+
+this _ _ O
+river _ _ O
+route _ _ O
+allowed _ _ O
+the _ _ O
+monks _ _ O
+to _ _ O
+travel _ _ O
+to _ _ O
+the _ _ O
+solovetsky _ _ B-Facility
+monastery _ _ I-Facility
+and _ _ O
+other _ _ O
+centres _ _ O
+of _ _ O
+spiritual _ _ O
+life _ _ O
+. _ _ O
+
+
+
+wusab _ _ O
+'s _ _ O
+mosques _ _ B-Facility
+which _ _ O
+mostly _ _ O
+date _ _ O
+from _ _ O
+the _ _ O
+14th _ _ O
+century _ _ O
+are _ _ O
+typically _ _ O
+small _ _ O
+cube _ _ O
+shaped _ _ O
+and _ _ O
+windowless _ _ O
+. _ _ O
+
+
+
+the _ _ O
+most _ _ O
+recent _ _ O
+excavations _ _ O
+uncovered _ _ O
+a _ _ O
+large _ _ O
+dormitory _ _ B-Facility
+for _ _ O
+poor _ _ O
+pilgrims _ _ O
+with _ _ O
+separate _ _ O
+wings _ _ O
+for _ _ O
+men _ _ O
+and _ _ O
+for _ _ O
+women _ _ O
+and _ _ O
+children _ _ O
+. _ _ O
+
+
+
+it _ _ O
+replaced _ _ O
+a _ _ O
+barn _ _ B-Facility
+church _ _ O
+built _ _ O
+in _ _ O
+1846 _ _ O
+( _ _ O
+now _ _ O
+a _ _ O
+garage _ _ O
+) _ _ O
+. _ _ O
+
+
+
+the _ _ O
+palatial _ _ O
+residence _ _ O
+style _ _ O
+was _ _ O
+exemplified _ _ O
+by _ _ O
+the _ _ O
+wilanów _ _ B-Facility
+palace _ _ I-Facility
+constructed _ _ O
+between _ _ O
+1677 _ _ O
+and _ _ O
+1696 _ _ O
+. _ _ O
+
+
+
+basel _ _ O
+played _ _ O
+their _ _ O
+home _ _ O
+games _ _ O
+in _ _ O
+the _ _ O
+st. _ _ B-Facility
+jakob _ _ I-Facility
+stadium _ _ O
+. _ _ O
+
+
+
+they _ _ O
+built _ _ O
+a _ _ O
+monastery _ _ B-Facility
+and _ _ O
+developed _ _ O
+a _ _ O
+combined _ _ O
+defense _ _ O
+system _ _ O
+. _ _ O
+
+
+
+this _ _ O
+terminal _ _ O
+includes _ _ O
+a _ _ O
+small _ _ O
+food _ _ O
+court _ _ O
+serving _ _ O
+passengers _ _ O
+dishes _ _ O
+from _ _ O
+pei _ _ B-Drink
+wei _ _ I-Drink
+asian _ _ B-Drink
+diner _ _ I-Drink
+steak _ _ B-Food
+'n _ _ I-Food
+shake _ _ I-Food
+and _ _ O
+einstein _ _ B-Food
+bros. _ _ I-Food
+bagels _ _ O
+. _ _ O
+
+
+
+when _ _ O
+this _ _ O
+occurs _ _ O
+the _ _ O
+exhausted _ _ O
+mines _ _ O
+are _ _ O
+sometimes _ _ O
+converted _ _ O
+to _ _ O
+landfills _ _ O
+for _ _ O
+disposal _ _ O
+of _ _ O
+solid _ _ O
+wastes _ _ O
+. _ _ O
+
+
+
+the _ _ O
+village _ _ O
+still _ _ O
+has _ _ O
+one _ _ O
+inn _ _ O
+( _ _ O
+at _ _ O
+the _ _ O
+sulzhof _ _ O
+) _ _ O
+. _ _ O
+
+
+
+smith _ _ O
+'s _ _ O
+body _ _ O
+was _ _ O
+found _ _ O
+12 _ _ O
+days _ _ O
+later _ _ O
+in _ _ O
+washington _ _ B-HumanSettlement
+, _ _ I-HumanSettlement
+pennsylvania _ _ I-HumanSettlement
+. _ _ O
+
+
+
+he _ _ O
+played _ _ O
+six _ _ O
+games _ _ O
+at _ _ O
+the _ _ O
+new _ _ B-Facility
+recreation _ _ I-Facility
+ground _ _ I-Facility
+. _ _ O
+
+
+
+he _ _ O
+also _ _ O
+took _ _ O
+painting _ _ O
+classes _ _ O
+at _ _ O
+fernand _ _ B-Artist
+léger _ _ I-Artist
+’s _ _ O
+school _ _ O
+and _ _ O
+geography _ _ O
+and _ _ O
+philosophy _ _ O
+at _ _ O
+the _ _ O
+sorbonne _ _ B-Facility
+. _ _ O
+
+
+
+the _ _ O
+team _ _ O
+played _ _ O
+their _ _ O
+home _ _ O
+games _ _ O
+at _ _ O
+wvu _ _ B-Facility
+coliseum _ _ I-Facility
+in _ _ O
+morgantown _ _ B-HumanSettlement
+, _ _ I-HumanSettlement
+west _ _ I-HumanSettlement
+virginia _ _ I-HumanSettlement
+. _ _ O
+
+
+
+in _ _ O
+1937 _ _ O
+he _ _ O
+opened _ _ O
+his _ _ O
+magnificent _ _ O
+art _ _ O
+collection _ _ O
+to _ _ O
+the _ _ O
+public _ _ O
+and _ _ O
+in _ _ O
+1943 _ _ O
+donated _ _ O
+some _ _ O
+of _ _ O
+his _ _ O
+works _ _ O
+to _ _ O
+the _ _ O
+detroit _ _ B-Facility
+institute _ _ I-Facility
+of _ _ I-Facility
+arts _ _ I-Facility
+. _ _ O
+
+
+
+three _ _ O
+of _ _ O
+them _ _ O
+were _ _ O
+kept _ _ O
+at _ _ O
+the _ _ O
+lomnica _ _ B-Facility
+monastery _ _ I-Facility
+located _ _ O
+near _ _ O
+his _ _ O
+home _ _ O
+village _ _ O
+. _ _ O
+
+
+
+after _ _ O
+her _ _ O
+father _ _ O
+acquired _ _ O
+nysø _ _ B-Facility
+manor _ _ I-Facility
+in _ _ O
+1876 _ _ O
+she _ _ O
+lived _ _ O
+there _ _ O
+from _ _ O
+1877 _ _ O
+to _ _ O
+1879 _ _ O
+and _ _ O
+built _ _ O
+a _ _ O
+library _ _ O
+for _ _ O
+the _ _ O
+use _ _ O
+of _ _ O
+her _ _ O
+daughters _ _ O
+and _ _ O
+the _ _ O
+local _ _ O
+population _ _ O
+. _ _ O
+
+
+
+1 _ _ O
+mile _ _ O
+long _ _ O
+heritage _ _ B-OtherLOC
+railway _ _ I-OtherLOC
+with _ _ O
+fully _ _ O
+reconstructed _ _ O
+station _ _ O
+signal _ _ O
+box _ _ O
+and _ _ O
+railway _ _ O
+yard _ _ O
+. _ _ O
+
+
+
+he _ _ O
+made _ _ O
+four _ _ O
+starts _ _ O
+that _ _ O
+season _ _ O
+with _ _ O
+a _ _ O
+best _ _ O
+finish _ _ O
+of _ _ O
+fifth _ _ O
+at _ _ O
+oschersleben _ _ B-Facility
+. _ _ O
+
+
+
+in _ _ O
+2016 _ _ O
+he _ _ O
+joined _ _ O
+the _ _ O
+mikhailovsky _ _ B-MusicalGRP
+ballet _ _ I-MusicalGRP
+as _ _ O
+a _ _ O
+second _ _ O
+soloist _ _ O
+where _ _ O
+he _ _ O
+later _ _ O
+reached _ _ O
+the _ _ O
+rank _ _ O
+of _ _ O
+first _ _ O
+soloist _ _ O
+. _ _ O
+
+
+
+from _ _ O
+1985 _ _ O
+to _ _ O
+2004 _ _ O
+he _ _ O
+joined _ _ O
+ibm _ _ B-PublicCorp
+'s _ _ I-PublicCorp
+thomas _ _ B-Facility
+j. _ _ I-Facility
+watson _ _ I-Facility
+research _ _ I-Facility
+center _ _ I-Facility
+. _ _ O
+
+
+
+there _ _ O
+are _ _ O
+several _ _ O
+“ _ _ O
+biłgoraj _ _ O
+style _ _ O
+” _ _ O
+houses _ _ O
+and _ _ O
+in _ _ O
+the _ _ O
+area _ _ O
+numerous _ _ O
+wayside _ _ B-Facility
+shrines _ _ I-Facility
+can _ _ O
+be _ _ O
+found _ _ O
+. _ _ O
+
+
+
+castle _ _ B-Facility
+cornet _ _ I-Facility
+the _ _ O
+historic _ _ O
+fortress _ _ O
+that _ _ O
+guarded _ _ O
+the _ _ O
+strategic _ _ O
+entrance _ _ O
+to _ _ O
+the _ _ O
+port _ _ O
+. _ _ O
+
+
+
+he _ _ O
+was _ _ O
+always _ _ O
+a _ _ O
+reserve _ _ O
+keeper _ _ O
+at _ _ O
+vale _ _ B-Facility
+park _ _ I-Facility
+though _ _ O
+behind _ _ O
+first _ _ O
+alan _ _ B-Athlete
+boswell _ _ I-Athlete
+and _ _ O
+when _ _ O
+he _ _ O
+left _ _ O
+john _ _ B-SportsManager
+connaughton _ _ I-SportsManager
+. _ _ O
+
+
+
+nearby _ _ O
+st. _ _ B-Facility
+luke _ _ I-Facility
+'s _ _ I-Facility
+church _ _ I-Facility
+was _ _ O
+listed _ _ O
+on _ _ O
+the _ _ O
+national _ _ B-WrittenWork
+register _ _ I-WrittenWork
+of _ _ I-WrittenWork
+historic _ _ I-WrittenWork
+places _ _ I-WrittenWork
+in _ _ O
+1987 _ _ O
+. _ _ O
+
+
+
+keystone _ _ O
+on _ _ O
+the _ _ O
+main _ _ O
+entrance _ _ O
+to _ _ O
+the _ _ O
+palazzo _ _ B-Facility
+giusti _ _ I-Facility
+verona _ _ I-Facility
+] _ _ O
+] _ _ O
+
+
+
+the _ _ O
+metropolitan _ _ B-Facility
+museum _ _ I-Facility
+of _ _ I-Facility
+art _ _ I-Facility
+has _ _ O
+a _ _ O
+number _ _ O
+of _ _ O
+blue _ _ O
+faience _ _ O
+vases _ _ O
+and _ _ O
+chalices _ _ O
+from _ _ O
+ancient _ _ B-HumanSettlement
+egypt _ _ I-HumanSettlement
+in _ _ O
+its _ _ O
+collection _ _ O
+. _ _ O
+
+
+
+in _ _ O
+the _ _ O
+middle _ _ O
+of _ _ O
+the _ _ O
+arch _ _ O
+there _ _ O
+is _ _ O
+a _ _ O
+zarih _ _ B-Facility
+which _ _ O
+is _ _ O
+3.4 _ _ O
+m _ _ O
+long _ _ O
+and _ _ O
+2 _ _ O
+m _ _ O
+wide _ _ O
+. _ _ O
+
+
+
+cubbon _ _ B-Facility
+park _ _ I-Facility
+is _ _ O
+located _ _ O
+in _ _ O
+the _ _ O
+heart _ _ O
+of _ _ O
+the _ _ O
+city _ _ O
+and _ _ O
+spreads _ _ O
+over _ _ O
+300 _ _ O
+acres _ _ O
+( _ _ O
+1.2 _ _ O
+km2 _ _ O
+) _ _ O
+. _ _ O
+
+
+
+this _ _ O
+included _ _ O
+a _ _ O
+trail _ _ O
+near _ _ O
+what _ _ O
+was _ _ O
+then _ _ O
+the _ _ O
+newly _ _ O
+opened _ _ O
+crabtree _ _ B-Facility
+valley _ _ I-Facility
+mall _ _ I-Facility
+that _ _ O
+regularly _ _ O
+flooded _ _ O
+during _ _ O
+heavy _ _ O
+rain _ _ O
+. _ _ O
+
+
+
+in _ _ O
+1975 _ _ O
+the _ _ O
+series _ _ O
+moved _ _ O
+to _ _ O
+make _ _ O
+way _ _ O
+for _ _ O
+a _ _ O
+nightclub _ _ O
+that _ _ O
+became _ _ O
+known _ _ O
+as _ _ O
+studio _ _ B-OtherLOC
+54 _ _ I-OtherLOC
+. _ _ O
+
+
+
+the _ _ O
+resulting _ _ O
+plastic _ _ O
+sheets _ _ O
+are _ _ O
+now _ _ O
+in _ _ O
+the _ _ O
+collection _ _ O
+of _ _ O
+the _ _ O
+tate _ _ B-OtherPROD
+. _ _ O
+
+
+
+fort _ _ B-OtherPER
+margherita _ _ I-OtherPER
+also _ _ O
+in _ _ O
+kuching _ _ B-HumanSettlement
+was _ _ O
+named _ _ O
+after _ _ O
+her _ _ O
+. _ _ O
+
+
+
+she _ _ O
+also _ _ O
+teaches _ _ O
+voice _ _ O
+at _ _ O
+the _ _ O
+new _ _ B-MusicalGRP
+england _ _ I-MusicalGRP
+conservatory _ _ I-MusicalGRP
+. _ _ O
+
+
+
+it _ _ O
+is _ _ O
+cooked _ _ O
+on _ _ O
+a _ _ O
+large _ _ O
+flat _ _ O
+griddle _ _ B-OtherPROD
+. _ _ O
+
+
+
+elevators _ _ B-OtherPROD
+were _ _ O
+installed _ _ O
+in _ _ O
+the _ _ O
+building _ _ O
+in _ _ O
+1922 _ _ O
+. _ _ O
+
+
+
+christoffer _ _ B-Artist
+lundquist _ _ I-Artist
+– _ _ O
+background _ _ O
+vocals _ _ O
+bass _ _ O
+guitar _ _ O
+zither _ _ O
+tambourine _ _ O
+and _ _ O
+additional _ _ O
+snare _ _ O
+drum _ _ O
+
+
+
+possibly _ _ O
+the _ _ O
+same _ _ O
+sword _ _ O
+as _ _ O
+szczerbiec _ _ B-Vehicle
+which _ _ O
+is _ _ O
+preserved _ _ O
+. _ _ O
+
+
+
+the _ _ O
+production _ _ O
+version _ _ O
+differed _ _ O
+from _ _ O
+the _ _ O
+prototype _ _ O
+by _ _ O
+having _ _ O
+a _ _ O
+more _ _ O
+powerful _ _ O
+snecma _ _ B-OtherPROD
+atar _ _ I-OtherPROD
+101 _ _ I-OtherPROD
+engine _ _ O
+. _ _ O
+
+
+
+it _ _ O
+is _ _ O
+a _ _ O
+hawken _ _ B-OtherPROD
+style _ _ O
+with _ _ O
+a _ _ O
+snail _ _ B-OtherPROD
+breech _ _ O
+and _ _ O
+double _ _ O
+set _ _ O
+trigger _ _ O
+in _ _ O
+a _ _ O
+scroll _ _ B-OtherPROD
+guard _ _ I-OtherPROD
+. _ _ O
+
+
+
+although _ _ O
+motorcycles _ _ O
+such _ _ O
+as _ _ O
+the _ _ O
+honda _ _ B-OtherPROD
+cb750 _ _ I-OtherPROD
+feature _ _ O
+a _ _ O
+dry _ _ O
+sump _ _ O
+engine _ _ O
+modern _ _ O
+motorcycles _ _ O
+tend _ _ O
+to _ _ O
+use _ _ O
+a _ _ O
+wet _ _ O
+sump _ _ O
+design _ _ O
+. _ _ O
+
+
+
+op _ _ O
+. _ _ O
+5 _ _ O
+viviane _ _ B-Artist
+symphonic _ _ B-MusicalWork
+poem _ _ I-MusicalWork
+on _ _ I-MusicalWork
+a _ _ I-MusicalWork
+legend _ _ I-MusicalWork
+of _ _ I-MusicalWork
+the _ _ I-MusicalWork
+round _ _ I-MusicalWork
+table _ _ I-MusicalWork
+( _ _ O
+1882 _ _ O
+rev _ _ O
+. _ _ O
+1887 _ _ O
+) _ _ O
+
+
+
+its _ _ O
+poor _ _ O
+sales _ _ O
+are _ _ O
+generally _ _ O
+attributed _ _ O
+to _ _ O
+its _ _ O
+late _ _ O
+release _ _ O
+on _ _ O
+the _ _ O
+game _ _ B-Software
+boy _ _ I-Software
+color _ _ I-Software
+which _ _ O
+at _ _ O
+the _ _ O
+time _ _ O
+had _ _ O
+been _ _ O
+succeeded _ _ O
+by _ _ O
+the _ _ O
+game _ _ B-Software
+boy _ _ I-Software
+advance _ _ I-Software
+. _ _ O
+
+
+
+packard _ _ B-OtherPROD
+super _ _ I-OtherPROD
+eight _ _ I-OtherPROD
+( _ _ O
+1939 _ _ O
+– _ _ O
+1951 _ _ O
+) _ _ O
+( _ _ O
+rear _ _ O
+door _ _ O
+on _ _ O
+4 _ _ O
+door _ _ O
+sedans _ _ O
+) _ _ O
+
+
+
+ucsd _ _ O
+p _ _ O
+system _ _ O
+was _ _ O
+used _ _ O
+on _ _ O
+ibm _ _ B-OtherPROD
+personal _ _ I-OtherPROD
+computer _ _ I-OtherPROD
+apple _ _ B-OtherPROD
+ii _ _ I-OtherPROD
+and _ _ O
+other _ _ O
+zilog _ _ B-OtherPROD
+z80 _ _ I-OtherPROD
+mos _ _ O
+technology _ _ O
+6502 _ _ O
+motorola _ _ B-OtherPROD
+68000 _ _ I-OtherPROD
+based _ _ O
+machines _ _ O
+. _ _ O
+
+
+
+the _ _ O
+aircraft _ _ O
+controls _ _ O
+are _ _ O
+completely _ _ O
+fly-by-wire _ _ B-OtherPROD
+with _ _ O
+no _ _ O
+mechanical _ _ O
+control _ _ O
+between _ _ O
+pilot _ _ O
+and _ _ O
+flight _ _ O
+surfaces _ _ O
+. _ _ O
+
+
+
+it _ _ O
+disappeared _ _ O
+from _ _ O
+nearly _ _ O
+all _ _ O
+cars _ _ O
+in _ _ O
+the _ _ O
+1920s _ _ O
+although _ _ O
+total _ _ O
+loss _ _ O
+continued _ _ O
+in _ _ O
+small _ _ O
+low _ _ O
+power _ _ O
+stationary _ _ O
+engines _ _ O
+into _ _ O
+the _ _ O
+1950s _ _ O
+. _ _ O
+
+
+
+akon _ _ O
+learned _ _ O
+to _ _ O
+play _ _ O
+five _ _ O
+instruments _ _ O
+including _ _ O
+drums _ _ B-OtherPROD
+guitar _ _ B-OtherPROD
+and _ _ O
+djembe _ _ B-OtherPROD
+. _ _ O
+
+
+
+hybrid _ _ B-OtherPROD
+vehicles _ _ I-OtherPROD
+differ _ _ O
+from _ _ O
+dual _ _ O
+mode _ _ O
+vehicles _ _ O
+because _ _ O
+they _ _ O
+may _ _ O
+not _ _ O
+be _ _ O
+fed _ _ O
+by _ _ O
+another _ _ O
+energy _ _ O
+source _ _ O
+during _ _ O
+operation _ _ O
+. _ _ O
+
+
+
+efficiency _ _ O
+is _ _ O
+reached _ _ O
+with _ _ O
+a _ _ O
+robust _ _ O
+and _ _ O
+environmentally _ _ O
+responsible _ _ O
+mechanical _ _ B-OtherPROD
+system _ _ O
+. _ _ O
+
+
+
+protesters _ _ O
+responded _ _ O
+by _ _ O
+throwing _ _ O
+molotov _ _ B-OtherPROD
+cocktails _ _ I-OtherPROD
+swords _ _ O
+knives _ _ O
+rocks _ _ O
+poisoned _ _ O
+darts _ _ O
+and _ _ O
+bicycle _ _ O
+spokes _ _ O
+. _ _ O
+
+
+
+the _ _ O
+original _ _ O
+atari _ _ B-OtherPROD
+8-bit _ _ I-OtherPROD
+family _ _ I-OtherPROD
+version _ _ O
+is _ _ O
+16k _ _ O
+in _ _ O
+size _ _ O
+and _ _ O
+was _ _ O
+released _ _ O
+on _ _ O
+disk _ _ B-OtherPROD
+and _ _ O
+tape _ _ O
+in _ _ O
+1982 _ _ O
+. _ _ O
+
+
+
+it _ _ O
+utilised _ _ O
+the _ _ O
+wing _ _ O
+design _ _ O
+of _ _ O
+the _ _ O
+carmam _ _ B-OtherPROD
+aiglon _ _ I-OtherPROD
+but _ _ O
+had _ _ O
+an _ _ O
+all _ _ O
+new _ _ O
+fuselage _ _ O
+. _ _ O
+
+
+
+the _ _ O
+vehicle _ _ O
+'s _ _ O
+reusable _ _ O
+first _ _ O
+stage _ _ O
+will _ _ O
+use _ _ O
+a _ _ O
+battery _ _ B-OtherPROD
+powered _ _ O
+steam _ _ B-OtherPROD
+rocket _ _ I-OtherPROD
+to _ _ O
+propel _ _ O
+a _ _ O
+small _ _ O
+second _ _ O
+stage _ _ O
+to _ _ O
+an _ _ O
+altitude _ _ O
+of _ _ O
+7 _ _ O
+kilometers _ _ O
+. _ _ O
+
+
+
+mark _ _ B-OtherPROD
+39 _ _ I-OtherPROD
+nuclear _ _ I-OtherPROD
+bomb _ _ I-OtherPROD
+( _ _ O
+1958 _ _ O
+1962 _ _ O
+) _ _ O
+laydown _ _ O
+delivery _ _ O
+and _ _ O
+ground _ _ O
+burst _ _ O
+
+
+
+alignment _ _ O
+required _ _ O
+a _ _ O
+special _ _ O
+alignment _ _ O
+pack _ _ O
+an _ _ O
+oscilloscope _ _ B-OtherPROD
+an _ _ O
+alignment _ _ O
+tool _ _ O
+that _ _ O
+moved _ _ O
+the _ _ O
+read _ _ O
+/ _ _ O
+write _ _ O
+heads _ _ O
+and _ _ O
+patience _ _ O
+. _ _ O
+
+
+
+a _ _ O
+siphon _ _ B-OtherPROD
+makes _ _ O
+use _ _ O
+of _ _ O
+the _ _ O
+difference _ _ O
+in _ _ O
+the _ _ O
+height _ _ O
+between _ _ O
+the _ _ O
+intake _ _ O
+and _ _ O
+the _ _ O
+outlet _ _ O
+to _ _ O
+create _ _ O
+a _ _ O
+pressure _ _ O
+difference _ _ O
+needed _ _ O
+to _ _ O
+remove _ _ O
+excess _ _ O
+water _ _ O
+. _ _ O
+
+
+
+r. _ _ O
+daneel _ _ B-Artist
+olivaw _ _ I-Artist
+'s _ _ O
+role _ _ O
+in _ _ O
+the _ _ O
+events _ _ O
+of _ _ O
+that _ _ O
+novel _ _ O
+would _ _ O
+later _ _ O
+be _ _ O
+described _ _ O
+in _ _ O
+the _ _ O
+prequels _ _ O
+. _ _ O
+
+
+
+: _ _ O
+pulse _ _ O
+jet _ _ O
+( _ _ O
+argus _ _ B-OtherPROD
+as _ _ I-OtherPROD
+014 _ _ I-OtherPROD
+) _ _ O
+powered _ _ O
+interceptor _ _ O
+project _ _ O
+. _ _ O
+
+
+
+china _ _ B-HumanSettlement
+'s _ _ O
+electric _ _ B-OtherPROD
+motor _ _ I-OtherPROD
+industry _ _ O
+has _ _ O
+been _ _ O
+developed _ _ O
+for _ _ O
+60 _ _ O
+years _ _ O
+. _ _ O
+
+
+
+some _ _ O
+250 _ _ O
+high _ _ O
+speed _ _ O
+shinkansen _ _ B-OtherPROD
+trains _ _ O
+connect _ _ O
+major _ _ O
+cities _ _ O
+. _ _ O
+
+
+
+censer _ _ B-OtherPROD
+a _ _ O
+small _ _ O
+metal _ _ O
+or _ _ O
+stone _ _ O
+dish _ _ O
+used _ _ O
+for _ _ O
+burning _ _ O
+incense _ _ O
+
+
+
+by _ _ O
+1966 _ _ O
+the _ _ O
+train _ _ O
+lost _ _ O
+its _ _ O
+dining _ _ O
+car _ _ O
+which _ _ O
+in _ _ O
+the _ _ O
+early _ _ O
+1960s _ _ O
+had _ _ O
+been _ _ O
+downgraded _ _ O
+to _ _ O
+a _ _ O
+dinette _ _ B-OtherPROD
+. _ _ O
+
+
+
+charles _ _ B-Politician
+francis _ _ I-Politician
+adams _ _ I-Politician
+sr. _ _ I-Politician
+won _ _ O
+the _ _ O
+party _ _ O
+'s _ _ O
+vice _ _ O
+presidential _ _ O
+election _ _ O
+. _ _ O
+
+
+
+morrison _ _ O
+indicated _ _ O
+that _ _ O
+he _ _ O
+did _ _ O
+not _ _ O
+spend _ _ O
+any _ _ O
+money _ _ O
+on _ _ O
+this _ _ O
+campaign _ _ O
+and _ _ O
+finished _ _ O
+well _ _ O
+behind _ _ O
+glen _ _ B-Scientist
+murray _ _ I-Scientist
+the _ _ O
+winning _ _ O
+candidate _ _ O
+. _ _ O
+
+
+
+some _ _ O
+sources _ _ O
+claim _ _ O
+that _ _ O
+the _ _ O
+marriage _ _ O
+was _ _ O
+planned _ _ O
+by _ _ O
+manggūltai _ _ B-Politician
+as _ _ O
+the _ _ O
+rehabilitation _ _ O
+of _ _ O
+his _ _ O
+crimes _ _ O
+. _ _ O
+
+
+
+it _ _ O
+stars _ _ O
+mithun _ _ B-Artist
+chakraborty _ _ I-Artist
+moushumi _ _ B-Artist
+shabnur _ _ B-Artist
+ferdous _ _ I-Artist
+ahmed _ _ B-Artist
+prabir _ _ I-Artist
+mitra _ _ I-Artist
+and _ _ O
+ahmed _ _ B-Politician
+sharif _ _ I-Politician
+. _ _ O
+
+
+
+92 _ _ O
+) _ _ O
+frans _ _ B-Politician
+van _ _ I-Politician
+cauwelaert _ _ I-Politician
+( _ _ O
+1880 _ _ O
+– _ _ O
+1961 _ _ O
+) _ _ O
+politician _ _ O
+and _ _ O
+activist _ _ O
+. _ _ O
+
+
+
+gołymin _ _ O
+is _ _ O
+the _ _ O
+birthplace _ _ O
+of _ _ O
+politician _ _ O
+tomasz _ _ B-Politician
+nałęcz _ _ I-Politician
+. _ _ O
+
+
+
+passors _ _ O
+was _ _ O
+subsequently _ _ O
+inherited _ _ O
+by _ _ O
+sir _ _ B-OtherPER
+henry _ _ I-OtherPER
+cromwell _ _ I-OtherPER
+grandfather _ _ O
+of _ _ O
+oliver _ _ B-Artist
+cromwell _ _ I-Artist
+. _ _ O
+
+
+
+bullock _ _ O
+declined _ _ O
+to _ _ O
+run _ _ O
+for _ _ O
+reelection _ _ O
+in _ _ O
+1868 _ _ O
+promoting _ _ O
+henry _ _ B-Politician
+l. _ _ I-Politician
+dawes _ _ I-Politician
+as _ _ O
+his _ _ O
+successor _ _ O
+. _ _ O
+
+
+
+mojs _ _ O
+belonged _ _ O
+to _ _ O
+the _ _ O
+entourage _ _ O
+of _ _ O
+duke _ _ B-OtherPER
+béla _ _ I-OtherPER
+who _ _ O
+had _ _ O
+long _ _ O
+opposed _ _ O
+his _ _ O
+father _ _ O
+'s _ _ O
+useless _ _ O
+and _ _ O
+superfluous _ _ O
+perpetual _ _ O
+grants _ _ O
+. _ _ O
+
+
+
+he _ _ O
+had _ _ O
+been _ _ O
+imprisoned _ _ O
+in _ _ O
+the _ _ O
+1960s _ _ O
+due _ _ O
+to _ _ O
+his _ _ O
+association _ _ O
+with _ _ O
+peng _ _ B-Politician
+ming-min _ _ I-Politician
+and _ _ O
+roger _ _ B-Politician
+hsieh _ _ I-Politician
+. _ _ O
+
+
+
+szapáry _ _ O
+'s _ _ O
+project _ _ O
+was _ _ O
+resubmitted _ _ O
+with _ _ O
+sweeping _ _ O
+amendments _ _ O
+by _ _ O
+his _ _ O
+successor _ _ O
+kálmán _ _ B-Politician
+tisza _ _ I-Politician
+. _ _ O
+
+
+
+joseph _ _ B-Politician
+lyons _ _ I-Politician
+became _ _ O
+the _ _ O
+new _ _ O
+prime _ _ B-ORG
+minister _ _ I-ORG
+of _ _ I-ORG
+australia _ _ I-ORG
+as _ _ O
+james _ _ B-Politician
+scullin _ _ I-Politician
+resigned _ _ O
+in _ _ O
+the _ _ O
+wake _ _ O
+of _ _ O
+the _ _ O
+election _ _ O
+results _ _ O
+. _ _ O
+
+
+
+may _ _ O
+18 _ _ O
+– _ _ O
+edoardo _ _ B-Artist
+sanguineti _ _ I-Artist
+79 _ _ O
+poet _ _ O
+and _ _ O
+writer _ _ O
+
+
+
+he _ _ O
+was _ _ O
+the _ _ O
+great _ _ O
+great _ _ O
+grandson _ _ O
+of _ _ O
+henry _ _ B-Politician
+iii _ _ I-Politician
+of _ _ I-Politician
+england _ _ I-Politician
+. _ _ O
+
+
+
+cătărău _ _ O
+infiltrated _ _ O
+the _ _ O
+democratic _ _ B-ORG
+nationalist _ _ I-ORG
+party _ _ I-ORG
+( _ _ O
+pnd _ _ O
+) _ _ O
+of _ _ O
+nicolae _ _ B-Politician
+iorga _ _ I-Politician
+and _ _ O
+a. _ _ B-Politician
+c. _ _ I-Politician
+cuza _ _ I-Politician
+. _ _ O
+
+
+
+the _ _ O
+film _ _ O
+stars _ _ O
+mukesh _ _ B-Artist
+suma _ _ O
+sukumari _ _ B-Politician
+kalabhavan _ _ B-Politician
+mani _ _ I-Politician
+and _ _ O
+adoor _ _ B-Politician
+bhavani _ _ I-Politician
+in _ _ O
+the _ _ O
+lead _ _ O
+roles _ _ O
+. _ _ O
+
+
+
+: _ _ O
+6 _ _ O
+walter _ _ B-SportsManager
+johnson _ _ I-SportsManager
+( _ _ O
+1913 _ _ O
+– _ _ O
+1916 _ _ O
+1918 _ _ O
+1924 _ _ O
+) _ _ O
+
+
+
+bar _ _ O
+: _ _ O
+oo _ _ O
+from _ _ O
+: _ _ O
+1974 _ _ O
+till _ _ O
+: _ _ O
+1976 _ _ O
+color _ _ O
+: _ _ O
+red _ _ O
+text _ _ O
+: _ _ O
+tin _ _ B-OtherPER
+oo _ _ I-OtherPER
+
+
+
+the _ _ O
+title _ _ O
+track _ _ O
+was _ _ O
+inspired _ _ O
+in _ _ O
+part _ _ O
+by _ _ O
+the _ _ O
+alarming _ _ O
+rise _ _ O
+of _ _ O
+david _ _ B-OtherPER
+duke _ _ I-OtherPER
+. _ _ O
+
+
+
+the _ _ O
+10th _ _ O
+century _ _ O
+patria _ _ O
+of _ _ O
+constantinople _ _ B-OtherPER
+refer _ _ O
+to _ _ O
+two _ _ O
+under _ _ O
+theodosius _ _ B-OtherPER
+ii _ _ I-OtherPER
+( _ _ O
+) _ _ O
+but _ _ O
+this _ _ O
+is _ _ O
+most _ _ O
+likely _ _ O
+an _ _ O
+anachronism _ _ O
+. _ _ O
+
+
+
+prime _ _ O
+minister _ _ O
+david _ _ B-Politician
+cameron _ _ I-Politician
+insisted _ _ O
+that _ _ O
+it _ _ O
+was _ _ O
+a _ _ O
+lawful _ _ O
+act _ _ O
+of _ _ O
+self _ _ O
+defense _ _ O
+. _ _ O
+
+
+
+lord _ _ B-Politician
+clanricarde _ _ I-Politician
+had _ _ O
+evicted _ _ O
+many _ _ O
+tenants _ _ O
+and _ _ O
+became _ _ O
+the _ _ O
+main _ _ O
+target _ _ O
+. _ _ O
+
+
+
+from _ _ O
+: _ _ O
+1959 _ _ O
+till _ _ O
+: _ _ O
+1974 _ _ O
+color _ _ O
+: _ _ O
+alliance _ _ O
+text _ _ O
+: _ _ O
+fatimah _ _ B-Politician
+hashim _ _ I-Politician
+( _ _ O
+1959 _ _ O
+– _ _ O
+1974 _ _ O
+) _ _ O
+
+
+
+judith _ _ B-Politician
+schwentner _ _ I-Politician
+will _ _ O
+become _ _ O
+vice _ _ O
+mayor _ _ O
+and _ _ O
+councillor _ _ O
+for _ _ O
+transit _ _ O
+and _ _ O
+planning _ _ O
+. _ _ O
+
+
+
+admiral _ _ B-PublicCorp
+hood _ _ I-PublicCorp
+'s _ _ O
+share _ _ O
+was _ _ O
+£ _ _ O
+50,000 _ _ O
+( _ _ O
+equivalent _ _ O
+to _ _ O
+£ _ _ O
+in _ _ O
+) _ _ O
+. _ _ O
+
+
+
+his _ _ O
+six _ _ O
+wives _ _ O
+are _ _ O
+portrayed _ _ O
+by _ _ O
+different _ _ O
+actresses _ _ O
+among _ _ O
+them _ _ O
+frances _ _ B-Artist
+cuka _ _ I-Artist
+as _ _ O
+catherine _ _ B-OtherPER
+of _ _ I-OtherPER
+aragon _ _ I-OtherPER
+and _ _ O
+jane _ _ B-Artist
+asher _ _ I-Artist
+as _ _ O
+jane _ _ B-OtherPER
+seymour _ _ I-OtherPER
+. _ _ O
+
+
+
+he _ _ O
+became _ _ O
+the _ _ O
+first _ _ O
+privy _ _ O
+counselor _ _ O
+of _ _ O
+the _ _ O
+ruling _ _ O
+ch'oe _ _ B-OtherPER
+family _ _ O
+. _ _ O
+
+
+
+claudius _ _ B-OtherPER
+enlightened _ _ O
+reign _ _ O
+is _ _ O
+marred _ _ O
+by _ _ O
+the _ _ O
+betrayals _ _ O
+of _ _ O
+his _ _ O
+adulterous _ _ O
+wife _ _ O
+messalina _ _ B-OtherPER
+and _ _ O
+his _ _ O
+boyhood _ _ O
+friend _ _ O
+herod _ _ O
+agrippa _ _ B-OtherPER
+. _ _ O
+
+
+
+josé _ _ B-Artist
+antonio _ _ I-Artist
+abreu _ _ I-Artist
+classical _ _ O
+musician _ _ O
+and _ _ O
+founder _ _ O
+of _ _ O
+el _ _ B-MusicalGRP
+sistema _ _ I-MusicalGRP
+
+
+
+in _ _ O
+1933 _ _ O
+he _ _ O
+inherited _ _ O
+his _ _ O
+nephew _ _ O
+'s _ _ O
+titles _ _ O
+and _ _ O
+on _ _ O
+his _ _ O
+own _ _ O
+death _ _ O
+in _ _ O
+1936 _ _ O
+was _ _ O
+succeeded _ _ O
+by _ _ O
+his _ _ O
+eldest _ _ O
+son _ _ O
+geoffrey _ _ B-OtherPER
+. _ _ O
+
+
+
+in _ _ O
+1826 _ _ O
+he _ _ O
+sold _ _ O
+it _ _ O
+to _ _ O
+his _ _ O
+elder _ _ O
+brother _ _ O
+peder _ _ B-OtherPER
+brønnum _ _ I-OtherPER
+scavenius _ _ I-OtherPER
+. _ _ O
+
+
+
+sometimes _ _ O
+another _ _ O
+figure _ _ O
+who _ _ O
+may _ _ O
+be _ _ O
+herod _ _ O
+is _ _ O
+present _ _ O
+. _ _ O
+
+
+
+george _ _ B-Athlete
+bernard _ _ I-Athlete
+shaw _ _ I-Athlete
+douglas _ _ B-Athlete
+fairbanks _ _ I-Athlete
+mary _ _ B-OtherPER
+pickford _ _ I-OtherPER
+and _ _ O
+margaret _ _ B-Athlete
+thatcher _ _ I-Athlete
+are _ _ O
+some _ _ O
+of _ _ O
+the _ _ O
+famous _ _ O
+guests _ _ O
+who _ _ O
+stayed _ _ O
+at _ _ O
+the _ _ O
+hotel _ _ O
+. _ _ O
+
+
+
+in _ _ O
+past _ _ O
+the _ _ O
+location _ _ O
+was _ _ O
+a _ _ O
+transient _ _ O
+for _ _ O
+migrating _ _ O
+nomads _ _ O
+of _ _ O
+mohammad _ _ B-HumanSettlement
+khanlu _ _ I-HumanSettlement
+tribe _ _ O
+. _ _ O
+
+
+
+but _ _ O
+it _ _ O
+was _ _ O
+the _ _ O
+archaeologist _ _ O
+paolo _ _ B-OtherPER
+orsi _ _ I-OtherPER
+who _ _ O
+first _ _ O
+investigated _ _ O
+its _ _ O
+possible _ _ O
+functions _ _ O
+. _ _ O
+
+
+
+from _ _ O
+: _ _ O
+02 _ _ O
+/ _ _ O
+03 _ _ O
+/ _ _ O
+1995 _ _ O
+till _ _ O
+: _ _ O
+18 _ _ O
+/ _ _ O
+10 _ _ O
+/ _ _ O
+2000 _ _ O
+color _ _ O
+: _ _ O
+li _ _ O
+text _ _ O
+: _ _ O
+kate _ _ B-OtherPER
+carnell _ _ I-OtherPER
+( _ _ O
+1995 _ _ O
+– _ _ O
+2000 _ _ O
+) _ _ O
+
+
+
+he _ _ O
+finished _ _ O
+third _ _ O
+against _ _ O
+progressive _ _ B-ORG
+conservative _ _ I-ORG
+gilbert _ _ B-Politician
+chartrand _ _ I-Politician
+. _ _ O
+
+
+
+raskova _ _ O
+is _ _ O
+credited _ _ O
+with _ _ O
+using _ _ O
+her _ _ O
+personal _ _ O
+connections _ _ O
+with _ _ O
+joseph _ _ B-Politician
+stalin _ _ I-Politician
+to _ _ O
+convince _ _ O
+the _ _ O
+military _ _ O
+to _ _ O
+form _ _ O
+three _ _ O
+combat _ _ O
+regiments _ _ O
+for _ _ O
+women _ _ O
+. _ _ O
+
+
+
+in _ _ O
+1972 _ _ O
+the _ _ O
+home _ _ O
+was _ _ O
+added _ _ O
+to _ _ O
+the _ _ O
+national _ _ B-WrittenWork
+register _ _ I-WrittenWork
+of _ _ I-WrittenWork
+historic _ _ I-WrittenWork
+places _ _ I-WrittenWork
+. _ _ O
+
+
+
+yasunari _ _ B-VisualWork
+kawabata _ _ I-VisualWork
+( _ _ O
+川端 _ _ O
+康成 _ _ O
+) _ _ O
+– _ _ O
+snow _ _ B-VisualWork
+country _ _ I-VisualWork
+( _ _ O
+雪国 _ _ O
+yukiguni _ _ O
+) _ _ O
+
+
+
+handel _ _ O
+'s _ _ O
+1742 _ _ O
+oratorio _ _ B-WrittenWork
+messiah _ _ B-WrittenWork
+( _ _ O
+hwv _ _ O
+56 _ _ O
+) _ _ O
+cites _ _ O
+verses _ _ O
+1 _ _ O
+and _ _ O
+18 _ _ O
+according _ _ O
+to _ _ O
+the _ _ O
+king _ _ B-OtherPER
+james _ _ I-OtherPER
+version _ _ O
+. _ _ O
+
+
+
+hudgens _ _ O
+is _ _ O
+also _ _ O
+featured _ _ O
+in _ _ O
+maxim _ _ B-ORG
+s _ _ O
+lists _ _ O
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+listed _ _ O
+on _ _ O
+the _ _ O
+national _ _ B-WrittenWork
+register _ _ I-WrittenWork
+of _ _ I-WrittenWork
+historic _ _ I-WrittenWork
+places _ _ I-WrittenWork
+in _ _ O
+1983 _ _ O
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+listed _ _ O
+on _ _ O
+the _ _ O
+national _ _ B-WrittenWork
+register _ _ I-WrittenWork
+of _ _ I-WrittenWork
+historic _ _ I-WrittenWork
+places _ _ I-WrittenWork
+in _ _ O
+1980 _ _ O
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+first _ _ O
+described _ _ O
+by _ _ O
+johannes _ _ B-OtherPER
+winnertz _ _ I-OtherPER
+in _ _ O
+1853 _ _ O
+. _ _ O
+
+
+
+walker _ _ O
+had _ _ O
+also _ _ O
+submitted _ _ O
+poems _ _ O
+to _ _ O
+the _ _ B-WrittenWork
+new _ _ I-WrittenWork
+yorker _ _ I-WrittenWork
+where _ _ O
+howard _ _ B-Artist
+moss _ _ I-Artist
+made _ _ O
+his _ _ O
+work _ _ O
+welcome _ _ O
+. _ _ O
+
+
+
+for _ _ O
+the _ _ O
+kansas _ _ B-ORG
+city _ _ I-ORG
+star _ _ I-ORG
+it _ _ O
+offered _ _ O
+straight _ _ O
+c&w _ _ O
+minus _ _ O
+the _ _ O
+show _ _ B-ORG
+biz _ _ I-ORG
+pretension _ _ O
+. _ _ O
+
+
+
+the _ _ B-VisualWork
+avengers _ _ I-VisualWork
+vol _ _ O
+. _ _ O
+3 _ _ O
+61 _ _ O
+– _ _ O
+62 _ _ O
+
+
+
+he _ _ O
+was _ _ O
+a _ _ O
+parliamentary _ _ O
+sketch _ _ O
+writer _ _ O
+for _ _ O
+punch _ _ B-ORG
+from _ _ O
+1881 _ _ O
+. _ _ O
+
+
+
+he _ _ O
+worked _ _ O
+as _ _ O
+a _ _ O
+journalist _ _ O
+and _ _ O
+was _ _ O
+a _ _ O
+collaborator _ _ O
+for _ _ O
+the _ _ O
+newspaper _ _ O
+dagens _ _ B-WrittenWork
+nyheter _ _ I-WrittenWork
+. _ _ O
+
+
+
+baldauf _ _ O
+was _ _ O
+selected _ _ O
+as _ _ O
+the _ _ O
+most _ _ O
+influential _ _ O
+female _ _ O
+executive _ _ O
+in _ _ O
+the _ _ O
+year _ _ O
+1998 _ _ O
+by _ _ O
+fortune _ _ B-ORG
+. _ _ O
+
+
+
+he _ _ O
+was _ _ O
+also _ _ O
+the _ _ O
+founding _ _ O
+editor _ _ O
+of _ _ O
+the _ _ O
+popular _ _ O
+daily _ _ B-WrittenWork
+amader _ _ B-WrittenWork
+shomoy _ _ I-WrittenWork
+in _ _ O
+2003 _ _ O
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+listed _ _ O
+on _ _ O
+the _ _ O
+national _ _ B-WrittenWork
+register _ _ I-WrittenWork
+of _ _ I-WrittenWork
+historic _ _ I-WrittenWork
+places _ _ I-WrittenWork
+in _ _ O
+1995 _ _ O
+. _ _ O
+
+
+
+joseph _ _ B-Artist
+sattler _ _ I-Artist
+was _ _ O
+another _ _ O
+graphic _ _ O
+artist _ _ O
+who _ _ O
+contributed _ _ O
+to _ _ O
+the _ _ O
+style _ _ O
+through _ _ O
+another _ _ O
+artistic _ _ O
+journal _ _ O
+called _ _ O
+pan _ _ B-WrittenWork
+. _ _ O
+
+
+
+roger _ _ B-Artist
+ebert _ _ I-Artist
+of _ _ O
+the _ _ B-WrittenWork
+chicago _ _ B-WrittenWork
+sun-times _ _ I-WrittenWork
+likewise _ _ O
+rated _ _ O
+the _ _ O
+film _ _ O
+one _ _ O
+star _ _ O
+calling _ _ O
+it _ _ O
+a _ _ O
+realistic _ _ O
+drama _ _ O
+of _ _ O
+appalling _ _ O
+banality _ _ O
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+listed _ _ O
+on _ _ O
+the _ _ O
+national _ _ B-WrittenWork
+register _ _ I-WrittenWork
+of _ _ I-WrittenWork
+historic _ _ I-WrittenWork
+places _ _ I-WrittenWork
+in _ _ O
+1999 _ _ O
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+added _ _ O
+to _ _ O
+the _ _ O
+national _ _ B-WrittenWork
+register _ _ I-WrittenWork
+of _ _ I-WrittenWork
+historic _ _ I-WrittenWork
+places _ _ I-WrittenWork
+in _ _ O
+1978 _ _ O
+. _ _ O
+
+
+
+march _ _ O
+29 _ _ O
+– _ _ O
+gustavus _ _ B-OtherPER
+franklin _ _ I-OtherPER
+swift _ _ I-OtherPER
+businessman _ _ O
+( _ _ O
+born _ _ O
+1839 _ _ B-WrittenWork
+) _ _ O
+
+
+
+the _ _ O
+hindustan _ _ B-WrittenWork
+times _ _ I-WrittenWork
+said _ _ O
+the _ _ O
+film _ _ O
+had _ _ O
+a _ _ O
+ludicrous _ _ O
+script _ _ O
+and _ _ O
+wooden _ _ O
+acting _ _ O
+. _ _ O
+
+
+
+a _ _ B-WrittenWork
+rolling _ _ B-WrittenWork
+stone _ _ I-WrittenWork
+review _ _ I-WrittenWork
+described _ _ O
+the _ _ O
+guitar _ _ O
+lines _ _ O
+as _ _ O
+composed _ _ O
+of _ _ O
+elementary _ _ O
+riffs _ _ O
+. _ _ O
+
+
+
+alexander _ _ B-Artist
+shulgin _ _ I-Artist
+devoted _ _ O
+his _ _ O
+entire _ _ O
+career _ _ O
+to _ _ O
+self _ _ O
+experimentation _ _ O
+publishing _ _ O
+his _ _ O
+results _ _ O
+in _ _ O
+the _ _ O
+widely _ _ O
+acclaimed _ _ O
+books _ _ O
+pihkal _ _ B-WrittenWork
+and _ _ O
+tihkal _ _ B-WrittenWork
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+listed _ _ O
+on _ _ O
+the _ _ O
+national _ _ B-WrittenWork
+register _ _ I-WrittenWork
+of _ _ I-WrittenWork
+historic _ _ I-WrittenWork
+places _ _ I-WrittenWork
+in _ _ O
+2005 _ _ O
+. _ _ O
+
+
+
+gambaccini _ _ O
+claims _ _ O
+to _ _ O
+have _ _ O
+invented _ _ O
+the _ _ O
+term _ _ O
+brand _ _ O
+echh _ _ O
+which _ _ O
+later _ _ O
+became _ _ O
+widely _ _ O
+used _ _ O
+by _ _ O
+stan _ _ B-Politician
+lee _ _ I-Politician
+. _ _ O
+
+
+
+flight _ _ O
+testing _ _ O
+was _ _ O
+not _ _ O
+complete _ _ O
+until _ _ O
+1991 _ _ B-WrittenWork
+. _ _ O
+
+
+
+however _ _ O
+the _ _ O
+anchorage _ _ B-WrittenWork
+daily _ _ I-WrittenWork
+news _ _ I-WrittenWork
+was _ _ O
+unable _ _ O
+to _ _ O
+find _ _ O
+any _ _ O
+conclusive _ _ O
+information _ _ O
+to _ _ O
+support _ _ O
+this _ _ O
+claim _ _ O
+. _ _ O
+
+
+
+1946 _ _ O
+kölnische _ _ B-Facility
+rundschau _ _ I-Facility
+begins _ _ O
+publication _ _ O
+. _ _ O
+
+
+
+december _ _ O
+13 _ _ O
+– _ _ O
+chester _ _ B-Politician
+ronning _ _ I-Politician
+diplomat _ _ O
+and _ _ O
+politician _ _ O
+( _ _ O
+d _ _ O
+. _ _ O
+1984 _ _ B-WrittenWork
+) _ _ O
+
+
+
+another _ _ B-WrittenWork
+country _ _ I-WrittenWork
+is _ _ O
+also _ _ O
+the _ _ O
+title _ _ O
+of _ _ O
+a _ _ O
+1962 _ _ O
+novel _ _ O
+by _ _ O
+james _ _ B-Artist
+baldwin _ _ I-Artist
+which _ _ O
+includes _ _ O
+gay _ _ O
+and _ _ O
+bisexual _ _ O
+characters _ _ O
+. _ _ O
+
+
+
+the _ _ O
+building _ _ O
+was _ _ O
+listed _ _ O
+on _ _ O
+the _ _ O
+national _ _ B-WrittenWork
+register _ _ I-WrittenWork
+of _ _ I-WrittenWork
+historic _ _ I-WrittenWork
+places _ _ I-WrittenWork
+in _ _ O
+1982 _ _ O
+. _ _ O
+
+
+
+w. _ _ B-Artist
+b. _ _ I-Artist
+yeats _ _ I-Artist
+irish _ _ B-WrittenWork
+poet _ _ O
+published _ _ O
+in _ _ O
+the _ _ O
+united _ _ B-HumanSettlement
+kingdom _ _ I-HumanSettlement
+: _ _ O
+
+
+
+the _ _ O
+building _ _ O
+was _ _ O
+added _ _ O
+to _ _ O
+the _ _ O
+national _ _ B-WrittenWork
+register _ _ I-WrittenWork
+of _ _ I-WrittenWork
+historic _ _ I-WrittenWork
+places _ _ I-WrittenWork
+in _ _ O
+1986 _ _ O
+. _ _ O
+
+
+
+alexander _ _ O
+takes _ _ O
+control _ _ O
+of _ _ O
+the _ _ O
+guard _ _ O
+setting _ _ O
+himself _ _ O
+in _ _ O
+position _ _ O
+to _ _ O
+claim _ _ O
+the _ _ O
+throne _ _ O
+by _ _ O
+the _ _ O
+next _ _ O
+novel _ _ O
+in _ _ O
+the _ _ O
+series _ _ O
+the _ _ B-VisualWork
+persian _ _ I-VisualWork
+boy _ _ I-VisualWork
+. _ _ O
+
+
+
+the _ _ O
+game _ _ O
+received _ _ O
+5 _ _ O
+out _ _ O
+of _ _ O
+5 _ _ O
+stars _ _ O
+in _ _ O
+1992 _ _ O
+in _ _ O
+dragon _ _ B-Software
+. _ _ O
+
+
+
+the _ _ O
+battle _ _ O
+was _ _ O
+celebrated _ _ O
+by _ _ O
+the _ _ O
+doggerel _ _ B-ORG
+poet _ _ O
+william _ _ B-Artist
+mcgonagall _ _ I-Artist
+: _ _ O
+
+
+
+the _ _ O
+violence _ _ O
+was _ _ O
+often _ _ O
+exaggerated _ _ O
+in _ _ O
+dime _ _ B-ORG
+novels _ _ O
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+because _ _ O
+of _ _ O
+this _ _ O
+dual _ _ O
+significance _ _ O
+that _ _ O
+the _ _ O
+property _ _ O
+was _ _ O
+listed _ _ O
+on _ _ O
+the _ _ O
+national _ _ B-WrittenWork
+register _ _ I-WrittenWork
+of _ _ I-WrittenWork
+historic _ _ I-WrittenWork
+places _ _ I-WrittenWork
+in _ _ O
+2006 _ _ O
+. _ _ O
+
+
+
+a _ _ O
+show _ _ O
+spokesperson _ _ O
+told _ _ O
+the _ _ B-WrittenWork
+daily _ _ I-WrittenWork
+mirror _ _ I-WrittenWork
+that _ _ O
+the _ _ O
+appearance _ _ O
+would _ _ O
+be _ _ O
+emotional _ _ O
+and _ _ O
+incredibly _ _ O
+moving _ _ O
+. _ _ O
+
+
+
+the _ _ O
+species _ _ O
+was _ _ O
+first _ _ B-WrittenWork
+described _ _ I-WrittenWork
+by _ _ O
+augustus _ _ B-OtherPER
+radcliffe _ _ I-OtherPER
+grote _ _ I-OtherPER
+in _ _ O
+1878 _ _ O
+. _ _ O
+
+
+
+publishers _ _ B-WrittenWork
+weekly _ _ I-WrittenWork
+says _ _ O
+the _ _ O
+big _ _ O
+concepts _ _ O
+and _ _ O
+complex _ _ O
+story _ _ O
+effectively _ _ O
+pull _ _ O
+readers _ _ O
+into _ _ O
+intriguing _ _ O
+speculation _ _ O
+about _ _ O
+human _ _ O
+identity _ _ O
+and _ _ O
+potential _ _ O
+. _ _ O
+
+
+
+broken _ _ B-VisualWork
+sword _ _ I-VisualWork
+: _ _ I-VisualWork
+the _ _ I-VisualWork
+angel _ _ I-VisualWork
+of _ _ I-VisualWork
+death _ _ I-VisualWork
+the _ _ O
+fourth _ _ O
+instalment _ _ O
+in _ _ O
+the _ _ O
+series _ _ O
+
+
+
+cards _ _ O
+are _ _ O
+obtained _ _ O
+through _ _ O
+quests _ _ O
+or _ _ O
+through _ _ O
+the _ _ O
+game _ _ O
+'s _ _ O
+gacha _ _ B-Software
+system _ _ O
+. _ _ O
+
+
+
+anxiety _ _ O
+is _ _ O
+featured _ _ O
+in _ _ O
+the _ _ O
+2016 _ _ O
+video _ _ O
+game _ _ O
+forza _ _ B-Software
+horizon _ _ I-Software
+3 _ _ I-Software
+. _ _ O
+
+
+
+it _ _ O
+used _ _ O
+a _ _ O
+different _ _ O
+graphics _ _ B-OtherPROD
+engine _ _ I-OtherPROD
+. _ _ O
+
+
+
+credits _ _ O
+are _ _ O
+adapted _ _ O
+from _ _ O
+tidal _ _ B-Software
+. _ _ O
+
+
+
+word _ _ B-OtherPROD
+processor _ _ I-OtherPROD
+for _ _ O
+producing _ _ O
+and _ _ O
+editing _ _ O
+any _ _ O
+sort _ _ O
+of _ _ O
+printable _ _ O
+material _ _ O
+
+
+
+eve _ _ O
+a _ _ O
+playable _ _ O
+character _ _ O
+in _ _ O
+elsword _ _ B-Software
+. _ _ O
+
+
+
+minerva _ _ O
+a _ _ O
+character _ _ O
+in _ _ O
+the _ _ O
+final _ _ O
+cutscene _ _ O
+of _ _ O
+assassin _ _ B-VisualWork
+'s _ _ I-VisualWork
+creed _ _ I-VisualWork
+ii _ _ I-VisualWork
+
+
+
+the _ _ O
+publisher _ _ O
+also _ _ O
+offers _ _ O
+a _ _ O
+few _ _ O
+apps _ _ B-OtherPROD
+. _ _ O
+
+
+
+after _ _ O
+his _ _ O
+performance _ _ O
+in _ _ O
+star _ _ B-VisualWork
+wars _ _ I-VisualWork
+: _ _ I-VisualWork
+empire _ _ I-VisualWork
+at _ _ I-VisualWork
+war _ _ I-VisualWork
+he _ _ O
+was _ _ O
+succeeded _ _ O
+by _ _ O
+matt _ _ B-Artist
+sloan _ _ I-Artist
+. _ _ O
+
+
+
+the _ _ O
+series _ _ O
+is _ _ O
+also _ _ O
+available _ _ O
+for _ _ O
+digital _ _ O
+download _ _ O
+on _ _ O
+itunes _ _ B-Software
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+originally _ _ O
+released _ _ O
+for _ _ O
+the _ _ O
+amiga _ _ B-OtherPROD
+in _ _ O
+1988 _ _ O
+and _ _ O
+was _ _ O
+ported _ _ O
+for _ _ O
+the _ _ O
+atari _ _ B-OtherPROD
+st _ _ I-OtherPROD
+commodore _ _ I-OtherPROD
+64 _ _ I-OtherPROD
+and _ _ O
+ms-dos _ _ B-OtherPROD
+in _ _ O
+1989 _ _ O
+. _ _ O
+
+
+
+the _ _ O
+game _ _ O
+planescape _ _ B-Software
+: _ _ I-Software
+torment _ _ I-Software
+was _ _ O
+released _ _ O
+in _ _ O
+1999 _ _ O
+and _ _ O
+is _ _ O
+frequently _ _ O
+cited _ _ O
+as _ _ O
+among _ _ O
+the _ _ O
+best _ _ O
+written _ _ O
+games _ _ O
+in _ _ O
+history _ _ O
+. _ _ O
+
+
+
+this _ _ O
+allowed _ _ O
+him _ _ O
+to _ _ O
+focus _ _ O
+on _ _ O
+creating _ _ O
+his _ _ O
+next _ _ O
+company _ _ B-PrivateCorp
+telegram _ _ I-PrivateCorp
+focused _ _ O
+on _ _ O
+an _ _ O
+encrypted _ _ O
+messaging _ _ O
+service _ _ O
+of _ _ O
+the _ _ O
+same _ _ O
+name _ _ O
+. _ _ O
+
+
+
+he _ _ O
+moved _ _ O
+to _ _ O
+twitch _ _ B-Software
+under _ _ O
+the _ _ O
+same _ _ O
+name _ _ O
+. _ _ O
+
+
+
+it _ _ O
+shipped _ _ O
+150,000 _ _ O
+copies _ _ O
+in _ _ O
+its _ _ O
+first _ _ O
+month _ _ O
+of _ _ O
+release _ _ O
+at _ _ O
+which _ _ O
+time _ _ O
+it _ _ O
+was _ _ O
+on _ _ O
+track _ _ O
+to _ _ O
+top _ _ O
+the _ _ O
+sales _ _ O
+of _ _ O
+caesar _ _ B-Software
+ii _ _ I-Software
+. _ _ O
+
+
+
+os/360 _ _ B-OtherPROD
+assemblers _ _ O
+were _ _ O
+originally _ _ O
+designated _ _ O
+according _ _ O
+to _ _ O
+their _ _ O
+memory _ _ O
+requirements _ _ O
+. _ _ O
+
+
+
+k _ _ O
+meleon _ _ O
+'s _ _ O
+macros _ _ O
+are _ _ O
+a _ _ O
+type _ _ O
+of _ _ O
+small _ _ O
+browser _ _ B-Software
+extension _ _ O
+that _ _ O
+can _ _ O
+be _ _ O
+opened _ _ O
+in _ _ O
+a _ _ O
+text _ _ O
+editor _ _ O
+by _ _ O
+end _ _ B-Software
+users _ _ I-Software
+. _ _ O
+
+
+
+passing _ _ O
+at _ _ O
+the _ _ O
+internet _ _ B-OtherLOC
+archive _ _ I-OtherLOC
+( _ _ O
+scanned _ _ O
+book _ _ O
+original _ _ O
+edition _ _ O
+) _ _ O
+
+
+
+gallon _ _ O
+smashing _ _ O
+gained _ _ O
+popularity _ _ O
+in _ _ O
+2013 _ _ O
+after _ _ O
+three _ _ O
+teenagers _ _ O
+from _ _ O
+vienna _ _ B-HumanSettlement
+, _ _ I-HumanSettlement
+virginia _ _ I-HumanSettlement
+posted _ _ O
+videos _ _ O
+of _ _ O
+the _ _ O
+act _ _ O
+on _ _ O
+their _ _ O
+youtube _ _ B-Software
+channel _ _ O
+. _ _ O
+
+
+
+diagram _ _ O
+is _ _ O
+a _ _ O
+style _ _ O
+file _ _ O
+for _ _ O
+latex _ _ B-Software
+for _ _ O
+typesetting _ _ O
+chess _ _ O
+diagrams _ _ O
+. _ _ O
+
+
+
+also _ _ O
+working _ _ O
+to _ _ O
+this _ _ O
+end _ _ O
+ubisoft _ _ B-ORG
+montreal _ _ B-ORG
+were _ _ O
+supervising _ _ O
+the _ _ O
+online _ _ O
+multiplayer _ _ O
+portion _ _ O
+of _ _ O
+the _ _ O
+game _ _ O
+. _ _ O
+
+
+
+the _ _ O
+game _ _ O
+spawned _ _ O
+two _ _ O
+semi _ _ O
+sequels _ _ O
+dark _ _ B-VisualWork
+rift _ _ I-VisualWork
+and _ _ O
+cardinal _ _ B-VisualWork
+syn _ _ I-VisualWork
+. _ _ O
+
+
+
+although _ _ O
+it _ _ O
+was _ _ O
+smaller _ _ O
+than _ _ O
+the _ _ O
+rijksmuseum _ _ B-OtherLOC
+and _ _ O
+the _ _ O
+wereldmuseum _ _ B-ORG
+it _ _ O
+was _ _ O
+not _ _ O
+less _ _ O
+important _ _ O
+. _ _ O
+
+
+
+wellington _ _ O
+won _ _ O
+16 _ _ O
+to _ _ O
+11 _ _ O
+with _ _ O
+4000 _ _ O
+spectators _ _ O
+on _ _ O
+hand _ _ O
+at _ _ O
+athletic _ _ B-Facility
+park _ _ I-Facility
+. _ _ O
+
+
+
+since _ _ O
+1967 _ _ O
+they _ _ O
+are _ _ O
+displayed _ _ O
+as _ _ O
+a _ _ O
+part _ _ O
+of _ _ O
+diamond _ _ B-ORG
+fund _ _ I-ORG
+permanent _ _ O
+exposition _ _ O
+. _ _ O
+
+
+
+his _ _ O
+official _ _ O
+records _ _ O
+which _ _ O
+were _ _ O
+compiled _ _ O
+by _ _ O
+the _ _ O
+virginia _ _ B-ORG
+historical _ _ I-ORG
+society _ _ I-ORG
+in _ _ O
+1883 _ _ O
+are _ _ O
+left _ _ O
+in _ _ O
+five _ _ O
+volumes _ _ O
+. _ _ O
+
+
+
+the _ _ O
+maximum _ _ O
+payload _ _ O
+capacities _ _ O
+are _ _ O
+approximately _ _ O
+to _ _ O
+low _ _ B-OtherLOC
+earth _ _ I-OtherLOC
+orbit _ _ I-OtherLOC
+( _ _ O
+for _ _ O
+cz _ _ O
+5b _ _ O
+) _ _ O
+and _ _ O
+approximately _ _ O
+to _ _ O
+geostationary _ _ B-OtherLOC
+transfer _ _ I-OtherLOC
+orbit _ _ I-OtherLOC
+( _ _ O
+for _ _ O
+cz _ _ O
+5 _ _ O
+) _ _ O
+. _ _ O
+
+
+
+unoosa _ _ O
+'s _ _ O
+headquarters _ _ O
+are _ _ O
+located _ _ O
+at _ _ O
+the _ _ O
+united _ _ B-ORG
+nations _ _ I-ORG
+office _ _ I-ORG
+at _ _ O
+vienna _ _ B-HumanSettlement
+
+
+
+the _ _ O
+historic _ _ O
+station _ _ O
+building _ _ O
+in _ _ O
+2017 _ _ O
+following _ _ O
+the _ _ O
+closure _ _ O
+of _ _ O
+the _ _ O
+north _ _ B-OtherLOC
+woolwich _ _ I-OtherLOC
+old _ _ I-OtherLOC
+station _ _ I-OtherLOC
+museum _ _ I-OtherLOC
+
+
+
+it _ _ O
+also _ _ O
+oversees _ _ O
+the _ _ O
+wereldmuseum _ _ B-OtherLOC
+in _ _ O
+rotterdam _ _ B-HumanSettlement
+whose _ _ O
+collection _ _ O
+belongs _ _ O
+to _ _ O
+that _ _ O
+city _ _ O
+. _ _ O
+
+
+
+received _ _ O
+a _ _ O
+star _ _ O
+on _ _ O
+the _ _ O
+hollywood _ _ B-OtherLOC
+walk _ _ I-OtherLOC
+of _ _ I-OtherLOC
+fame _ _ I-OtherLOC
+in _ _ O
+2008 _ _ O
+. _ _ O
+
+
+
+walters _ _ O
+was _ _ O
+inducted _ _ O
+into _ _ O
+the _ _ O
+canadian _ _ B-SportsGRP
+golf _ _ I-SportsGRP
+hall _ _ I-SportsGRP
+of _ _ I-SportsGRP
+fame _ _ I-SportsGRP
+in _ _ O
+2008 _ _ O
+. _ _ O
+
+
+
+fewer _ _ O
+than _ _ O
+2,000 _ _ O
+photographic _ _ O
+plates _ _ O
+have _ _ O
+survived _ _ O
+and _ _ O
+are _ _ O
+currently _ _ O
+held _ _ O
+by _ _ O
+the _ _ O
+munich _ _ B-OtherLOC
+stadtmuseum _ _ I-OtherLOC
+. _ _ O
+
+
+
+one _ _ O
+of _ _ O
+her _ _ O
+anchors _ _ O
+( _ _ O
+along _ _ O
+with _ _ O
+one _ _ O
+of _ _ O
+ark _ _ B-OtherPER
+royal _ _ I-OtherPER
+s _ _ O
+) _ _ O
+stands _ _ O
+guard _ _ O
+at _ _ O
+the _ _ O
+entrance _ _ O
+to _ _ O
+the _ _ O
+fleet _ _ B-OtherLOC
+air _ _ I-OtherLOC
+arm _ _ I-OtherLOC
+museum _ _ I-OtherLOC
+in _ _ O
+yeovilton _ _ B-HumanSettlement
+. _ _ O
+
+
+
+brothers _ _ O
+was _ _ O
+awarded _ _ O
+a _ _ O
+football _ _ O
+scholarship _ _ O
+to _ _ O
+vanderbilt _ _ B-ORG
+university _ _ I-ORG
+. _ _ O
+
+
+
+vada _ _ O
+or _ _ O
+udid _ _ O
+vada _ _ O
+also _ _ O
+contain _ _ O
+black _ _ O
+gram _ _ O
+and _ _ O
+are _ _ O
+made _ _ O
+from _ _ O
+soaked _ _ O
+batter _ _ O
+and _ _ O
+deep _ _ O
+fried _ _ O
+in _ _ O
+cooking _ _ O
+oil _ _ O
+. _ _ O
+
+
+
+a _ _ O
+type _ _ O
+of _ _ O
+pizza _ _ B-Food
+with _ _ O
+a _ _ O
+thick _ _ O
+soft _ _ O
+crust _ _ O
+topped _ _ O
+with _ _ O
+tomato _ _ O
+sauce _ _ O
+onions _ _ O
+caciocavallo _ _ B-Food
+cheese _ _ O
+and _ _ O
+anchovies _ _ B-Food
+
+
+
+rice _ _ O
+puddings _ _ O
+( _ _ O
+various _ _ O
+) _ _ O
+( _ _ O
+esp _ _ O
+. _ _ O
+with _ _ O
+black _ _ O
+poppy _ _ O
+seeds _ _ O
+) _ _ O
+
+
+
+the _ _ O
+buttocks _ _ O
+are _ _ O
+salted _ _ O
+and _ _ O
+pressed _ _ O
+in _ _ O
+order _ _ O
+to _ _ O
+eventually _ _ O
+produce _ _ O
+ham _ _ B-Food
+. _ _ O
+
+
+
+lumb _ _ O
+appeared _ _ O
+in _ _ O
+television _ _ O
+advertisements _ _ O
+for _ _ O
+fry _ _ B-VisualWork
+'s _ _ I-VisualWork
+turkish _ _ I-VisualWork
+delight _ _ I-VisualWork
+. _ _ O
+
+
+
+lunch _ _ O
+includes _ _ O
+rice _ _ O
+sambar _ _ O
+curd _ _ O
+kuzhambu _ _ B-Food
+and _ _ O
+rasam _ _ B-Food
+. _ _ O
+
+
+
+beignet _ _ B-Food
+— _ _ O
+a _ _ O
+square _ _ O
+shaped _ _ O
+pastry _ _ O
+made _ _ O
+with _ _ O
+deep _ _ O
+fried _ _ O
+dough _ _ O
+and _ _ O
+topped _ _ O
+with _ _ O
+powdered _ _ O
+sugar _ _ O
+. _ _ O
+
+
+
+donkeys _ _ O
+obtain _ _ O
+most _ _ O
+of _ _ O
+their _ _ O
+energy _ _ O
+from _ _ O
+structural _ _ B-Medication/Vaccine
+carbohydrates _ _ I-Medication/Vaccine
+. _ _ O
+
+
+
+in _ _ O
+1994 _ _ O
+the _ _ O
+flavr _ _ B-Food
+savr _ _ I-Food
+tomato _ _ O
+was _ _ O
+released _ _ O
+the _ _ O
+first _ _ O
+commercialized _ _ O
+genetically _ _ O
+modified _ _ O
+food _ _ O
+. _ _ O
+
+
+
+volvopluteus _ _ O
+gloiocephalus _ _ O
+is _ _ O
+edible _ _ B-Food
+although _ _ O
+considered _ _ O
+watery _ _ O
+and _ _ O
+poor _ _ O
+in _ _ O
+quality _ _ O
+. _ _ O
+
+
+
+fitness _ _ B-MedicalProcedure
+a _ _ O
+brand _ _ O
+of _ _ O
+breakfast _ _ B-Food
+cereals _ _ O
+and _ _ O
+granola _ _ O
+bars _ _ O
+
+
+
+during _ _ O
+the _ _ O
+19th _ _ O
+century _ _ O
+it _ _ O
+became _ _ O
+a _ _ O
+fashionable _ _ O
+place _ _ O
+to _ _ O
+buy _ _ O
+cakes _ _ O
+and _ _ O
+ice _ _ O
+cream _ _ O
+and _ _ O
+was _ _ O
+well _ _ O
+known _ _ O
+for _ _ O
+its _ _ O
+range _ _ O
+of _ _ O
+multi _ _ O
+tiered _ _ O
+wedding _ _ O
+cakes _ _ O
+. _ _ O
+
+
+
+the _ _ O
+wood _ _ O
+has _ _ O
+a _ _ O
+characteristic _ _ O
+caramel _ _ B-Food
+odour _ _ O
+. _ _ O
+
+
+
+the _ _ O
+city _ _ O
+is _ _ O
+most _ _ O
+well _ _ O
+known _ _ O
+for _ _ O
+its _ _ O
+chili _ _ B-Food
+festival _ _ O
+held _ _ O
+every _ _ O
+autumn _ _ O
+which _ _ O
+draws _ _ O
+over _ _ O
+a _ _ O
+thousand _ _ O
+people _ _ O
+from _ _ O
+the _ _ O
+surrounding _ _ O
+area _ _ O
+. _ _ O
+
+
+
+in _ _ O
+the _ _ O
+u.s. _ _ O
+the _ _ O
+single _ _ O
+was _ _ O
+released _ _ O
+in _ _ O
+december _ _ O
+2001 _ _ O
+with _ _ O
+désenchantée _ _ B-MusicalWork
+as _ _ O
+a _ _ O
+double _ _ O
+a _ _ O
+single _ _ O
+. _ _ O
+
+
+
+in _ _ O
+1908 _ _ O
+he _ _ O
+conducted _ _ O
+the _ _ O
+paris _ _ B-HumanSettlement
+premiere _ _ O
+of _ _ O
+modest _ _ B-Artist
+mussorgsky _ _ I-Artist
+'s _ _ O
+opera _ _ O
+boris _ _ B-MusicalWork
+godunov _ _ I-MusicalWork
+. _ _ O
+
+
+
+upon _ _ O
+completion _ _ O
+of _ _ O
+the _ _ O
+music _ _ O
+the _ _ O
+band _ _ O
+plays _ _ O
+o _ _ B-MusicalWork
+canada _ _ I-MusicalWork
+followed _ _ O
+by _ _ O
+god _ _ B-MusicalWork
+save _ _ I-MusicalWork
+the _ _ I-MusicalWork
+queen _ _ I-MusicalWork
+. _ _ O
+
+
+
+this _ _ O
+is _ _ O
+followed _ _ O
+by _ _ O
+the _ _ O
+sanctus _ _ B-MusicalWork
+which _ _ O
+is _ _ O
+sung _ _ O
+by _ _ O
+the _ _ O
+congregation _ _ O
+. _ _ O
+
+
+
+all _ _ B-MusicalWork
+er _ _ I-MusicalWork
+nothin' _ _ I-MusicalWork
+( _ _ O
+grahame _ _ O
+nelson _ _ O
+) _ _ O
+– _ _ O
+2 _ _ O
+: _ _ O
+59 _ _ O
+
+
+
+il _ _ B-VisualWork
+re _ _ I-VisualWork
+pastore _ _ I-VisualWork
+( _ _ O
+pietro _ _ O
+metastasio _ _ O
+) _ _ O
+( _ _ O
+spring _ _ O
+1756 _ _ O
+cremona _ _ O
+) _ _ O
+
+
+
+i _ _ B-MusicalWork
+pity _ _ I-MusicalWork
+the _ _ I-MusicalWork
+fool _ _ I-MusicalWork
+( _ _ O
+malone _ _ B-Artist
+) _ _ O
+– _ _ O
+3 _ _ O
+: _ _ O
+36 _ _ O
+
+
+
+little _ _ O
+bad _ _ B-MusicalGRP
+girl _ _ I-MusicalGRP
+sweat _ _ O
+where _ _ B-VisualWork
+them _ _ I-VisualWork
+girls _ _ I-VisualWork
+at _ _ O
+who _ _ B-VisualWork
+'s _ _ I-VisualWork
+that _ _ I-VisualWork
+chick _ _ I-VisualWork
+? _ _ I-VisualWork
+without _ _ I-VisualWork
+you _ _ I-VisualWork
+
+
+
+blacksmoke _ _ O
+produced _ _ O
+two _ _ O
+versions _ _ O
+appearing _ _ O
+within _ _ O
+the _ _ O
+movie _ _ O
+and _ _ O
+on _ _ O
+the _ _ O
+fully _ _ O
+loaded _ _ O
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+released _ _ O
+as _ _ O
+the _ _ O
+lead _ _ O
+single _ _ O
+from _ _ O
+his _ _ O
+debut _ _ O
+studio _ _ O
+album _ _ O
+before _ _ B-MusicalWork
+the _ _ I-MusicalWork
+storm _ _ I-MusicalWork
+. _ _ O
+
+
+
+adele _ _ B-Artist
+– _ _ O
+someone _ _ B-MusicalWork
+like _ _ I-MusicalWork
+you _ _ I-MusicalWork
+( _ _ O
+director _ _ O
+of _ _ O
+photography _ _ O
+: _ _ O
+david _ _ B-Artist
+johnson _ _ I-Artist
+) _ _ O
+
+
+
+the _ _ O
+album _ _ O
+pisces _ _ B-MusicalWork
+, _ _ I-MusicalWork
+aquarius _ _ I-MusicalWork
+, _ _ I-MusicalWork
+capricorn _ _ I-MusicalWork
+& _ _ I-MusicalWork
+jones _ _ I-MusicalWork
+ltd. _ _ B-ORG
+sold _ _ O
+over _ _ O
+five _ _ O
+million _ _ O
+copies _ _ O
+. _ _ O
+
+
+
+reverse _ _ O
+is _ _ O
+the _ _ O
+fourth _ _ O
+album _ _ O
+of _ _ O
+the _ _ O
+progressive _ _ O
+metal _ _ O
+band _ _ O
+eldritch _ _ B-MusicalGRP
+containing _ _ O
+a _ _ O
+cover _ _ O
+of _ _ O
+my _ _ B-MusicalWork
+sharona _ _ I-MusicalWork
+. _ _ O
+
+
+
+all _ _ O
+u.d.o. _ _ B-MusicalGRP
+releases _ _ O
+from _ _ O
+steelfactory _ _ B-Facility
+onwards _ _ O
+
+
+
+america _ _ B-MusicalWork
+( _ _ O
+paul _ _ B-Artist
+simon _ _ I-Artist
+) _ _ O
+( _ _ O
+originally _ _ O
+by _ _ O
+simon _ _ B-MusicalGRP
+& _ _ I-MusicalGRP
+garfunkel _ _ I-MusicalGRP
+) _ _ O
+
+
+
+it _ _ O
+is _ _ O
+considered _ _ O
+as _ _ O
+a _ _ O
+second _ _ O
+national _ _ O
+anthem _ _ O
+of _ _ O
+hungary _ _ B-HumanSettlement
+beside _ _ O
+the _ _ O
+himnusz _ _ B-MusicalWork
+. _ _ O
+
+
+
+the _ _ O
+tour _ _ O
+was _ _ O
+in _ _ O
+support _ _ O
+of _ _ O
+his _ _ O
+ninth _ _ O
+studio _ _ O
+album _ _ O
+wheelhouse _ _ B-MusicalWork
+and _ _ O
+was _ _ O
+presented _ _ O
+by _ _ O
+cracker _ _ B-Artist
+barrel _ _ I-Artist
+. _ _ O
+
+
+
+earth _ _ B-MusicalWork
+song _ _ I-MusicalWork
+( _ _ O
+hani _ _ O
+'s _ _ O
+club _ _ O
+experience _ _ O
+) _ _ O
+– _ _ O
+7 _ _ O
+: _ _ O
+55 _ _ O
+
+
+
+jordu _ _ B-MusicalWork
+( _ _ O
+duke _ _ B-OtherPER
+jordan _ _ I-OtherPER
+) _ _ O
+– _ _ O
+10 _ _ O
+: _ _ O
+38 _ _ O
+
+
+
+the _ _ O
+barry _ _ B-Artist
+manilow _ _ I-Artist
+song _ _ O
+copacabana _ _ B-MusicalWork
+is _ _ O
+named _ _ O
+after _ _ O
+and _ _ O
+set _ _ O
+in _ _ O
+the _ _ O
+club _ _ O
+. _ _ O
+
+
+
+old _ _ B-MusicalWork
+devil _ _ I-MusicalWork
+moon _ _ I-MusicalWork
+( _ _ O
+burton _ _ B-Artist
+lane _ _ I-Artist
+yip _ _ B-Artist
+harburg _ _ I-Artist
+) _ _ O
+6 _ _ O
+: _ _ O
+45 _ _ O
+
+
+
+public _ _ B-ORG
+enemy _ _ I-ORG
+sampled _ _ O
+the _ _ O
+get _ _ O
+in _ _ O
+that _ _ O
+cell _ _ O
+nigger _ _ O
+in _ _ O
+their _ _ O
+song _ _ O
+black _ _ B-MusicalWork
+steel _ _ I-MusicalWork
+in _ _ I-MusicalWork
+the _ _ I-MusicalWork
+hour _ _ I-MusicalWork
+of _ _ I-MusicalWork
+chaos _ _ I-MusicalWork
+. _ _ O
+
+
+
+2017 _ _ O
+: _ _ O
+she _ _ B-VisualWork
+rocks _ _ I-VisualWork
+, _ _ I-VisualWork
+vol. _ _ I-VisualWork
+1 _ _ I-VisualWork
+“ _ _ O
+a _ _ O
+matter _ _ O
+of _ _ O
+perception _ _ O
+” _ _ O
+
+
+
+don't _ _ B-MusicalWork
+save _ _ I-MusicalWork
+it _ _ I-MusicalWork
+all _ _ I-MusicalWork
+for _ _ I-MusicalWork
+christmas _ _ I-MusicalWork
+day _ _ I-MusicalWork
+( _ _ O
+bonus _ _ O
+track _ _ O
+) _ _ O
+4 _ _ O
+: _ _ O
+44 _ _ O
+
+
+
+the _ _ B-MusicalWork
+shadow _ _ I-MusicalWork
+of _ _ I-MusicalWork
+your _ _ I-MusicalWork
+smile _ _ I-MusicalWork
+( _ _ O
+johnny _ _ B-Artist
+mandel _ _ I-Artist
+paul _ _ B-Artist
+francis _ _ I-Artist
+webster _ _ I-Artist
+) _ _ O
+– _ _ O
+2 _ _ O
+: _ _ O
+15 _ _ O
+
+
+
+summertime _ _ B-MusicalWork
+( _ _ O
+george _ _ B-Artist
+gershwin _ _ I-Artist
+ira _ _ B-Artist
+gershwin _ _ I-Artist
+dubose _ _ B-Artist
+heyward _ _ I-Artist
+) _ _ O
+5 _ _ O
+: _ _ O
+49 _ _ O
+
+
+
+tha _ _ B-Artist
+carter _ _ I-Artist
+iii _ _ I-Artist
+( _ _ O
+as _ _ O
+producer _ _ O
+and _ _ O
+featured _ _ O
+artist _ _ O
+) _ _ O
+
+
+
+donna _ _ B-Artist
+summer _ _ I-Artist
+love _ _ B-MusicalWork
+'s _ _ I-MusicalWork
+about _ _ I-MusicalWork
+to _ _ I-MusicalWork
+change _ _ I-MusicalWork
+my _ _ I-MusicalWork
+heart _ _ I-MusicalWork
+( _ _ O
+pwl _ _ O
+7 _ _ O
+remix _ _ O
+) _ _ O
+
+
+
+in _ _ B-MusicalWork
+the _ _ I-MusicalWork
+wee _ _ I-MusicalWork
+small _ _ I-MusicalWork
+hours _ _ I-MusicalWork
+of _ _ I-MusicalWork
+the _ _ I-MusicalWork
+morning _ _ I-MusicalWork
+( _ _ O
+bob _ _ B-Artist
+hilliard _ _ I-Artist
+david _ _ B-Artist
+mann _ _ I-Artist
+) _ _ O
+– _ _ O
+3 _ _ O
+: _ _ O
+16 _ _ O
+
+
+
+it _ _ O
+is _ _ O
+the _ _ O
+composer _ _ O
+'s _ _ O
+final _ _ O
+completed _ _ O
+score _ _ O
+for _ _ O
+orchestra _ _ O
+and _ _ O
+was _ _ O
+composed _ _ O
+in _ _ O
+the _ _ O
+summer _ _ O
+of _ _ O
+1965 _ _ O
+during _ _ O
+work _ _ O
+on _ _ O
+his _ _ O
+requiem _ _ B-MusicalWork
+canticles _ _ B-MusicalWork
+. _ _ O
+
+
+
+pump _ _ B-MusicalWork
+up _ _ I-MusicalWork
+the _ _ I-MusicalWork
+jam _ _ I-MusicalWork
+( _ _ O
+terry _ _ B-Artist
+dome _ _ O
+mix _ _ O
+) _ _ O
+( _ _ O
+5 _ _ O
+: _ _ O
+26 _ _ O
+) _ _ O
+( _ _ O
+kamosi _ _ B-Artist
+bogaert _ _ I-Artist
+) _ _ O
+
+
+
+ladybird _ _ B-MusicalWork
+( _ _ O
+tadd _ _ B-Artist
+dameron _ _ I-Artist
+) _ _ O
+– _ _ O
+20 _ _ O
+: _ _ O
+11 _ _ O
+
+
+
+the _ _ O
+final _ _ O
+four _ _ O
+crews _ _ O
+kicked _ _ O
+off _ _ O
+the _ _ O
+show _ _ O
+with _ _ O
+a _ _ O
+group _ _ O
+number _ _ O
+to _ _ O
+massive _ _ B-MusicalWork
+attack _ _ I-MusicalWork
+featuring _ _ O
+sean _ _ B-Artist
+garrett _ _ I-Artist
+. _ _ O
+
+
+
+he _ _ O
+shared _ _ O
+his _ _ O
+nomination _ _ O
+with _ _ O
+lon _ _ B-Athlete
+bender _ _ I-Athlete
+. _ _ O
+
+
+
+she _ _ O
+joined _ _ O
+sheryl _ _ B-Artist
+sandberg _ _ I-Artist
+'s _ _ O
+movement _ _ O
+to _ _ O
+encourage _ _ O
+young _ _ O
+women _ _ O
+to _ _ O
+be _ _ O
+more _ _ O
+assertive _ _ O
+in _ _ O
+professional _ _ O
+interactions _ _ O
+. _ _ O
+
+
+
+description _ _ O
+the _ _ O
+instrument _ _ O
+made _ _ O
+by _ _ O
+john _ _ B-OtherPER
+isaac _ _ I-OtherPER
+hawkins _ _ I-OtherPER
+
+
+
+alice _ _ B-Scientist
+agogino _ _ I-Scientist
+leader _ _ O
+in _ _ O
+engineering _ _ O
+diversity _ _ O
+
+
+
+the _ _ O
+movie _ _ O
+was _ _ O
+loosely _ _ O
+based _ _ O
+on _ _ O
+the _ _ O
+career _ _ O
+of _ _ O
+oil _ _ O
+well _ _ O
+firefighter _ _ O
+red _ _ B-OtherPER
+adair _ _ I-OtherPER
+. _ _ O
+
+
+
+karsten _ _ B-Politician
+solheim _ _ I-Politician
+( _ _ O
+1911 _ _ O
+– _ _ O
+2000 _ _ O
+) _ _ O
+– _ _ O
+creator _ _ O
+and _ _ O
+founder _ _ O
+of _ _ O
+ping _ _ B-HumanSettlement
+
+
+
+the _ _ O
+pilot _ _ O
+robert _ _ B-OtherPER
+kronfeld _ _ I-OtherPER
+initiated _ _ O
+a _ _ O
+stall _ _ O
+that _ _ O
+progressed _ _ O
+into _ _ O
+an _ _ O
+uncontrollable _ _ O
+dive _ _ B-OtherPROD
+that _ _ O
+caused _ _ O
+both _ _ O
+crew _ _ O
+to _ _ O
+lose _ _ O
+consciousness _ _ O
+. _ _ O
+
+
+
+: _ _ B-Scientist
+fanny _ _ B-Scientist
+gates _ _ I-Scientist
+further _ _ O
+investigated _ _ O
+the _ _ O
+properties _ _ O
+of _ _ O
+radiation _ _ O
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+designed _ _ O
+by _ _ O
+architect _ _ O
+eugenius _ _ B-OtherPER
+birch _ _ I-OtherPER
+as _ _ O
+a _ _ O
+place _ _ O
+for _ _ O
+seaside _ _ O
+visitors _ _ O
+to _ _ O
+enjoy _ _ O
+fresh _ _ O
+sea _ _ O
+air _ _ O
+. _ _ O
+
+
+
+robert _ _ B-Scientist
+taylor _ _ I-Scientist
+computer _ _ O
+scientist _ _ O
+( _ _ O
+b _ _ O
+. _ _ O
+1932 _ _ O
+) _ _ O
+
+
+
+mto _ _ O
+was _ _ O
+established _ _ O
+by _ _ O
+arati _ _ B-Politician
+prabhakar _ _ I-Politician
+. _ _ O
+
+
+
+built _ _ O
+to _ _ O
+a _ _ O
+design _ _ O
+by _ _ O
+william _ _ B-Scientist
+wardell _ _ I-Scientist
+from _ _ O
+a _ _ O
+foundation _ _ O
+stone _ _ O
+laid _ _ O
+in _ _ O
+1868 _ _ O
+the _ _ O
+spires _ _ O
+of _ _ O
+the _ _ O
+cathedral _ _ O
+were _ _ O
+not _ _ O
+finally _ _ O
+added _ _ O
+until _ _ O
+the _ _ O
+year _ _ O
+2000 _ _ O
+. _ _ O
+
+
+
+vladimir _ _ B-OtherPER
+simonov _ _ I-OtherPER
+undertook _ _ O
+the _ _ O
+job _ _ O
+of _ _ O
+developing _ _ O
+an _ _ O
+underwater _ _ O
+assault _ _ O
+rifle _ _ O
+. _ _ O
+
+
+
+mangini _ _ O
+first _ _ O
+caught _ _ O
+the _ _ O
+attention _ _ O
+of _ _ O
+bill _ _ B-Athlete
+belichick _ _ I-Athlete
+under _ _ O
+whom _ _ O
+he _ _ O
+would _ _ O
+coach _ _ O
+for _ _ O
+nine _ _ O
+seasons _ _ O
+as _ _ O
+a _ _ O
+23 _ _ O
+year _ _ O
+old _ _ O
+ball _ _ O
+boy _ _ O
+with _ _ O
+the _ _ O
+cleveland _ _ B-SportsGRP
+browns _ _ I-SportsGRP
+. _ _ O
+
+
+
+troels _ _ B-SportsManager
+bech _ _ I-SportsManager
+( _ _ O
+born _ _ O
+1966 _ _ O
+in _ _ O
+svendborg _ _ O
+) _ _ O
+a _ _ O
+former _ _ O
+footballer _ _ O
+with _ _ O
+177 _ _ O
+caps _ _ O
+; _ _ O
+sports _ _ O
+director _ _ O
+for _ _ O
+brøndby _ _ B-SportsGRP
+if _ _ I-SportsGRP
+
+
+
+he _ _ O
+would _ _ O
+return _ _ O
+to _ _ O
+his _ _ O
+alma _ _ O
+mater _ _ O
+as _ _ O
+a _ _ O
+full _ _ O
+assistant _ _ O
+coach _ _ O
+in _ _ O
+2005 _ _ O
+under _ _ O
+ben _ _ B-SportsManager
+braun _ _ I-SportsManager
+. _ _ O
+
+
+
+tommy _ _ B-SportsManager
+tuberville _ _ I-SportsManager
+— _ _ O
+american _ _ O
+football _ _ O
+coach _ _ O
+and _ _ O
+former _ _ O
+player _ _ O
+. _ _ O
+
+
+
+however _ _ O
+he _ _ O
+then _ _ O
+struggled _ _ O
+with _ _ O
+injuries _ _ O
+and _ _ O
+was _ _ O
+released _ _ O
+by _ _ O
+new _ _ O
+manager _ _ O
+jürgen _ _ B-SportsManager
+klopp _ _ I-SportsManager
+after _ _ O
+his _ _ O
+contract _ _ O
+expired _ _ O
+in _ _ O
+summer _ _ O
+2016 _ _ O
+. _ _ O
+
+
+
+in _ _ O
+its _ _ O
+first _ _ O
+season _ _ O
+under _ _ O
+head _ _ O
+coach _ _ O
+j. _ _ B-Athlete
+burton _ _ I-Athlete
+rix _ _ I-Athlete
+the _ _ O
+team _ _ O
+compiled _ _ O
+an _ _ O
+overall _ _ O
+record _ _ O
+of _ _ O
+3 _ _ O
+– _ _ O
+2 _ _ O
+– _ _ O
+3 _ _ O
+and _ _ O
+outscored _ _ O
+opponents _ _ O
+by _ _ O
+a _ _ O
+total _ _ O
+of _ _ O
+74 _ _ O
+to _ _ O
+49 _ _ O
+. _ _ O
+
+
+
+hossein _ _ B-SportsManager
+faraki _ _ I-SportsManager
+was _ _ O
+awarded _ _ O
+as _ _ O
+the _ _ O
+best _ _ O
+coach _ _ O
+of _ _ O
+the _ _ O
+season _ _ O
+. _ _ O
+
+
+
+in _ _ O
+1921 _ _ O
+the _ _ O
+first _ _ O
+full _ _ O
+time _ _ O
+manager _ _ O
+dori _ _ B-SportsManager
+kürschner _ _ I-SportsManager
+was _ _ O
+appointed _ _ O
+. _ _ O
+
+
+
+six _ _ O
+minutes _ _ O
+later _ _ O
+in _ _ O
+the _ _ O
+81st _ _ O
+minute _ _ O
+of _ _ O
+play _ _ O
+alejandro _ _ B-Athlete
+villanueva _ _ I-Athlete
+scored _ _ O
+the _ _ O
+equalizer _ _ O
+. _ _ O
+
+
+
+they _ _ O
+were _ _ O
+led _ _ O
+by _ _ O
+eleventh _ _ O
+year _ _ O
+head _ _ O
+coach _ _ O
+rod _ _ B-SportsManager
+reed _ _ I-SportsManager
+and _ _ O
+played _ _ O
+their _ _ O
+home _ _ O
+games _ _ O
+at _ _ O
+hale _ _ B-Facility
+stadium _ _ I-Facility
+. _ _ O
+
+
+
+she _ _ O
+studied _ _ O
+for _ _ O
+the _ _ O
+award _ _ O
+alongside _ _ O
+hope _ _ B-SportsManager
+powell _ _ I-SportsManager
+as _ _ O
+the _ _ O
+only _ _ O
+two _ _ O
+women _ _ O
+in _ _ O
+a _ _ O
+group _ _ O
+of _ _ O
+male _ _ O
+candidates _ _ O
+. _ _ O
+
+
+
+the _ _ O
+team _ _ O
+was _ _ O
+coached _ _ O
+by _ _ O
+geno _ _ B-SportsManager
+auriemma _ _ I-SportsManager
+. _ _ O
+
+
+
+tommy _ _ B-SportsManager
+wright _ _ I-SportsManager
+was _ _ O
+kept _ _ O
+as _ _ O
+manager _ _ O
+and _ _ O
+remained _ _ O
+for _ _ O
+the _ _ O
+season _ _ O
+. _ _ O
+
+
+
+brown _ _ O
+is _ _ O
+the _ _ O
+only _ _ O
+living _ _ O
+son _ _ O
+of _ _ O
+paul _ _ B-Politician
+brown _ _ I-Politician
+. _ _ O
+
+
+
+roxy _ _ B-MusicalGRP
+music _ _ I-MusicalGRP
+: _ _ O
+virginia _ _ B-MusicalGRP
+plain _ _ I-MusicalGRP
+love _ _ B-MusicalWork
+is _ _ I-MusicalWork
+the _ _ I-MusicalWork
+drug _ _ I-MusicalWork
+do _ _ O
+the _ _ O
+strand _ _ O
+jealous _ _ B-MusicalWork
+guy _ _ I-MusicalWork
+( _ _ O
+b _ _ O
+19 _ _ O
+: _ _ O
+37 _ _ O
+) _ _ O
+
+
+
+in _ _ O
+2012 _ _ O
+tame _ _ B-OtherPER
+impala _ _ I-OtherPER
+won _ _ O
+the _ _ O
+award _ _ O
+for _ _ O
+a _ _ O
+second _ _ O
+time _ _ O
+this _ _ O
+time _ _ O
+with _ _ O
+lonerism _ _ O
+. _ _ O
+
+
+
+john _ _ B-Artist
+baker _ _ I-Artist
+saunders _ _ I-Artist
+founding _ _ O
+member _ _ O
+and _ _ O
+bassist _ _ O
+for _ _ O
+the _ _ O
+grunge _ _ O
+rock _ _ O
+supergroup _ _ O
+mad _ _ B-MusicalGRP
+season _ _ I-MusicalGRP
+
+
+
+performed _ _ O
+live _ _ O
+in _ _ O
+hull _ _ B-HumanSettlement
+with _ _ O
+the _ _ O
+bbc _ _ B-MusicalGRP
+philharmonic _ _ I-MusicalGRP
+
+
+
+speake _ _ O
+studied _ _ O
+classical _ _ O
+saxophone _ _ O
+at _ _ O
+trinity _ _ B-MusicalGRP
+college _ _ I-MusicalGRP
+of _ _ I-MusicalGRP
+music _ _ I-MusicalGRP
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+used _ _ O
+for _ _ O
+the _ _ O
+filming _ _ O
+of _ _ O
+the _ _ O
+spice _ _ B-VisualWork
+girls _ _ I-VisualWork
+1996 _ _ O
+video _ _ O
+wannabe _ _ O
+. _ _ O
+
+
+
+he _ _ O
+currently _ _ O
+plays _ _ O
+keyboards _ _ O
+and _ _ O
+guitar _ _ O
+for _ _ O
+stephen _ _ B-Artist
+malkmus _ _ I-Artist
+and _ _ O
+the _ _ B-MusicalGRP
+jicks _ _ I-MusicalGRP
+. _ _ O
+
+
+
+x-press _ _ B-OtherPROD
+2 _ _ I-OtherPROD
+– _ _ O
+arrangement _ _ O
+production _ _ O
+art _ _ O
+direction _ _ O
+design _ _ O
+
+
+
+adam _ _ B-Artist
+schlesinger _ _ I-Artist
+( _ _ O
+1967 _ _ O
+– _ _ O
+2020 _ _ O
+) _ _ O
+musician _ _ O
+bass _ _ O
+player _ _ O
+for _ _ O
+fountains _ _ B-MusicalGRP
+of _ _ I-MusicalGRP
+wayne _ _ I-MusicalGRP
+and _ _ I-MusicalGRP
+ivy _ _ I-MusicalGRP
+
+
+
+26 _ _ O
+– _ _ O
+charles _ _ B-Artist
+neville _ _ I-Artist
+79 _ _ O
+american _ _ O
+r&b _ _ O
+saxophonist _ _ O
+( _ _ O
+the _ _ B-MusicalGRP
+neville _ _ I-MusicalGRP
+brothers _ _ I-MusicalGRP
+) _ _ O
+
+
+
+drive-by _ _ B-MusicalGRP
+truckers _ _ I-MusicalGRP
+southern _ _ B-MusicalGRP
+rock _ _ I-MusicalGRP
+opera _ _ I-MusicalGRP
+2 _ _ O
+× _ _ O
+cd _ _ O
+studio _ _ O
+
+
+
+moonsie _ _ O
+is _ _ O
+mentioned _ _ O
+in _ _ O
+the _ _ O
+lyrics _ _ O
+of _ _ O
+the _ _ O
+timex _ _ B-ORG
+social _ _ I-ORG
+club _ _ I-ORG
+hit _ _ O
+song _ _ O
+rumors _ _ B-MusicalWork
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+written _ _ O
+by _ _ O
+the _ _ O
+hardcore _ _ O
+punk _ _ O
+band _ _ O
+bad _ _ B-MusicalGRP
+brains _ _ I-MusicalGRP
+and _ _ O
+released _ _ O
+on _ _ O
+their _ _ O
+1982 _ _ O
+album _ _ O
+bad _ _ B-MusicalWork
+brains _ _ I-MusicalWork
+. _ _ O
+
+
+
+regular _ _ O
+guests _ _ O
+tripod _ _ B-OtherPROD
+often _ _ O
+performed _ _ O
+in _ _ O
+this _ _ O
+segment _ _ O
+. _ _ O
+
+
+
+rudd _ _ O
+a _ _ O
+harpist _ _ O
+and _ _ O
+pianist _ _ O
+had _ _ O
+been _ _ O
+a _ _ O
+member _ _ O
+of _ _ O
+the _ _ O
+band _ _ O
+renaissance _ _ B-MusicalGRP
+between _ _ O
+1984 _ _ O
+87 _ _ O
+. _ _ O
+
+
+
+tulin _ _ O
+met _ _ O
+billy _ _ B-Artist
+corgan _ _ I-Artist
+in _ _ O
+2008 _ _ O
+when _ _ O
+the _ _ O
+latter _ _ O
+was _ _ O
+recording _ _ O
+music _ _ O
+with _ _ O
+the _ _ B-MusicalGRP
+seeds _ _ I-MusicalGRP
+front _ _ O
+man _ _ O
+sky _ _ B-Artist
+saxon _ _ I-Artist
+. _ _ O
+
+
+
+nick _ _ B-VisualWork
+jonas _ _ I-VisualWork
+& _ _ I-VisualWork
+the _ _ I-VisualWork
+administration _ _ I-VisualWork
+( _ _ O
+nick _ _ O
+jonas _ _ O
+went _ _ O
+solo _ _ O
+also _ _ O
+pursuing _ _ O
+an _ _ O
+acting _ _ O
+and _ _ O
+modelling _ _ O
+career _ _ O
+) _ _ O
+
+
+
+the _ _ O
+song _ _ O
+was _ _ O
+covered _ _ O
+by _ _ O
+hall _ _ B-MusicalGRP
+& _ _ I-MusicalGRP
+oates _ _ I-MusicalGRP
+on _ _ O
+their _ _ O
+1991 _ _ O
+tribute _ _ O
+album _ _ O
+two _ _ B-MusicalWork
+rooms _ _ I-MusicalWork
+. _ _ O
+
+
+
+de _ _ O
+donde _ _ O
+vengo _ _ O
+yo _ _ O
+by _ _ O
+chocquibtown _ _ B-MusicalGRP
+
+
+
+these _ _ O
+works _ _ O
+were _ _ O
+recorded _ _ O
+in _ _ O
+2008 _ _ O
+by _ _ O
+the _ _ O
+michigan _ _ B-MusicalGRP
+philharmonic _ _ I-MusicalGRP
+. _ _ O
+
+
+
+reveal _ _ O
+is _ _ O
+an _ _ O
+album _ _ O
+by _ _ O
+the _ _ O
+new _ _ O
+wave _ _ O
+rock _ _ O
+band _ _ O
+fischer-z _ _ B-MusicalGRP
+. _ _ O
+
+
+
+yorke _ _ O
+cited _ _ O
+remain _ _ O
+in _ _ O
+light _ _ O
+by _ _ O
+talking _ _ B-MusicalGRP
+heads _ _ I-MusicalGRP
+as _ _ O
+a _ _ O
+massive _ _ O
+reference _ _ O
+point _ _ O
+. _ _ O
+
+
+
+he _ _ O
+is _ _ O
+also _ _ O
+leader _ _ O
+of _ _ O
+the _ _ O
+multi _ _ O
+genre _ _ O
+outfit _ _ O
+secret _ _ B-Software
+chiefs _ _ I-Software
+3 _ _ I-Software
+. _ _ O
+
+
+
+soda _ _ B-MusicalGRP
+stereo _ _ I-MusicalGRP
+'s _ _ O
+frontman _ _ O
+gustavo _ _ B-Artist
+cerati _ _ I-Artist
+could _ _ O
+foresee _ _ O
+the _ _ O
+musical _ _ O
+trends _ _ O
+putting _ _ O
+his _ _ O
+own _ _ O
+band _ _ O
+in _ _ O
+front _ _ O
+of _ _ O
+it _ _ O
+. _ _ O
+
+
+
+millard _ _ O
+is _ _ O
+featured _ _ O
+as _ _ O
+a _ _ O
+vocalist _ _ O
+on _ _ O
+i _ _ B-MusicalWork
+see _ _ I-MusicalWork
+love _ _ I-MusicalWork
+a _ _ O
+2004 _ _ O
+single _ _ O
+by _ _ O
+third _ _ B-MusicalGRP
+day _ _ I-MusicalGRP
+and _ _ O
+steven _ _ B-Artist
+curtis _ _ I-Artist
+chapman _ _ I-Artist
+. _ _ O
+
+
+
+greg _ _ B-Artist
+puciato _ _ I-Artist
+singer _ _ O
+of _ _ O
+metal _ _ O
+band _ _ O
+the _ _ B-MusicalGRP
+dillinger _ _ I-MusicalGRP
+escape _ _ I-MusicalGRP
+plan _ _ I-MusicalGRP
+
+
+
+they _ _ O
+grew _ _ O
+up _ _ O
+listening _ _ O
+to _ _ O
+outkast _ _ B-MusicalGRP
+gucci _ _ I-MusicalGRP
+mane _ _ I-MusicalGRP
+hot _ _ B-MusicalGRP
+boys _ _ I-MusicalGRP
+lil _ _ B-Artist
+wayne _ _ I-Artist
+and _ _ O
+master _ _ B-Artist
+p _ _ I-Artist
+. _ _ O
+
+
+
+rigid _ _ O
+ladders _ _ O
+were _ _ O
+originally _ _ O
+made _ _ O
+of _ _ O
+wood _ _ B-Facility
+but _ _ O
+in _ _ O
+the _ _ O
+20th _ _ O
+century _ _ O
+aluminium _ _ O
+became _ _ O
+more _ _ O
+common _ _ O
+because _ _ O
+of _ _ O
+its _ _ O
+lighter _ _ O
+weight _ _ O
+. _ _ O
+
+
+
+it _ _ O
+has _ _ O
+pinnate _ _ O
+leaves _ _ O
+long _ _ O
+with _ _ O
+four _ _ O
+to _ _ O
+eight _ _ O
+egg _ _ O
+shaped _ _ O
+leaflets _ _ O
+long _ _ O
+and _ _ O
+wide _ _ O
+on _ _ O
+petiolules _ _ B-AnatomicalStructure
+long _ _ O
+. _ _ O
+
+
+
+within _ _ O
+a _ _ O
+nerve _ _ O
+each _ _ O
+axon _ _ O
+is _ _ O
+surrounded _ _ O
+by _ _ O
+a _ _ O
+layer _ _ O
+of _ _ O
+connective _ _ O
+tissue _ _ O
+called _ _ O
+the _ _ O
+endoneurium _ _ B-AnatomicalStructure
+. _ _ O
+
+
+
+a _ _ O
+caesarean _ _ O
+section _ _ O
+leaves _ _ O
+a _ _ O
+scar _ _ O
+in _ _ O
+the _ _ O
+wall _ _ O
+of _ _ O
+the _ _ O
+uterus _ _ B-AnatomicalStructure
+which _ _ O
+is _ _ O
+considered _ _ O
+weaker _ _ O
+than _ _ O
+the _ _ O
+normal _ _ O
+uterine _ _ O
+wall _ _ O
+. _ _ O
+
+
+
+the _ _ O
+flowers _ _ O
+are _ _ O
+dark _ _ O
+purple _ _ O
+to _ _ O
+bluish _ _ O
+purple _ _ O
+narrow _ _ O
+oblong _ _ O
+helmet _ _ B-Clothing
+shaped _ _ O
+tall _ _ O
+. _ _ O
+
+
+
+pudendal _ _ B-Symptom
+nerve _ _ I-Symptom
+entrapment _ _ I-Symptom
+can _ _ O
+occur _ _ O
+when _ _ O
+the _ _ O
+pudendal _ _ O
+nerve _ _ O
+is _ _ O
+compressed _ _ O
+while _ _ O
+it _ _ O
+passes _ _ O
+through _ _ O
+the _ _ O
+pudendal _ _ B-AnatomicalStructure
+canal _ _ O
+. _ _ O
+
+
+
+the _ _ O
+bark _ _ B-AnatomicalStructure
+is _ _ O
+gray _ _ O
+and _ _ O
+usually _ _ O
+smooth _ _ O
+. _ _ O
+
+
+
+under _ _ O
+rare _ _ O
+conditions _ _ O
+edema _ _ O
+of _ _ O
+the _ _ O
+ciliary _ _ B-AnatomicalStructure
+body _ _ I-AnatomicalStructure
+can _ _ O
+cause _ _ O
+an _ _ O
+anterior _ _ O
+displacement _ _ O
+of _ _ O
+the _ _ O
+lens _ _ O
+inducing _ _ O
+a _ _ O
+myopia _ _ O
+shift _ _ O
+in _ _ O
+refractive _ _ O
+error _ _ O
+. _ _ O
+
+
+
+the _ _ O
+flesh _ _ B-AnatomicalStructure
+is _ _ O
+yellowish _ _ O
+thick _ _ O
+and _ _ O
+soft _ _ O
+. _ _ O
+
+
+
+the _ _ O
+sessile _ _ O
+pungent _ _ O
+phyllodes _ _ O
+have _ _ O
+a _ _ O
+narrowly _ _ O
+triangular _ _ O
+shape _ _ O
+and _ _ O
+are _ _ O
+in _ _ O
+length _ _ O
+and _ _ O
+wide _ _ O
+with _ _ O
+unequal _ _ O
+base _ _ O
+and _ _ O
+a _ _ O
+central _ _ O
+midrib _ _ B-AnatomicalStructure
+. _ _ O
+
+
+
+the _ _ O
+branches _ _ O
+of _ _ O
+this _ _ O
+species _ _ O
+are _ _ O
+in _ _ O
+diameter _ _ O
+and _ _ O
+reach _ _ O
+in _ _ O
+length _ _ O
+and _ _ O
+are _ _ O
+covered _ _ O
+with _ _ O
+sparse _ _ O
+villous _ _ B-AnatomicalStructure
+hairs _ _ O
+( _ _ O
+trichomes _ _ B-AnatomicalStructure
+) _ _ O
+. _ _ O
+
+
+
+in _ _ O
+the _ _ O
+human _ _ O
+ear _ _ O
+this _ _ O
+is _ _ O
+accomplished _ _ O
+via _ _ O
+the _ _ O
+organs _ _ O
+of _ _ O
+the _ _ O
+middle _ _ O
+ear _ _ O
+in _ _ O
+conjunction _ _ O
+with _ _ O
+the _ _ O
+hair _ _ O
+cells _ _ O
+and _ _ O
+endolymph _ _ B-AnatomicalStructure
+of _ _ O
+your _ _ O
+inner _ _ O
+ear _ _ O
+. _ _ O
+
+
+
+the _ _ O
+columella _ _ B-OtherPROD
+is _ _ O
+subproduced _ _ O
+at _ _ O
+the _ _ O
+base _ _ O
+. _ _ O
+
+
+
+regeneration _ _ O
+is _ _ O
+from _ _ O
+fresh _ _ O
+seed _ _ O
+after _ _ O
+removing _ _ O
+the _ _ O
+fleshy _ _ O
+aril _ _ B-AnatomicalStructure
+around _ _ O
+the _ _ O
+seed _ _ O
+. _ _ O
+
+
+
+the _ _ O
+palpebral _ _ B-AnatomicalStructure
+branches _ _ I-AnatomicalStructure
+ascend _ _ O
+deep _ _ O
+to _ _ O
+the _ _ O
+orbicularis _ _ B-AnatomicalStructure
+oculi _ _ O
+and _ _ O
+pierce _ _ O
+the _ _ O
+muscle _ _ O
+to _ _ O
+supply _ _ O
+the _ _ O
+skin _ _ O
+of _ _ O
+the _ _ O
+lower _ _ O
+eyelid _ _ O
+. _ _ O
+
+
+
+s _ _ O
+cuspidatus _ _ O
+inflorescences _ _ O
+1 _ _ O
+. _ _ O
+jpg _ _ O
+| _ _ O
+flowering _ _ O
+heads _ _ O
+( _ _ O
+inflorescence _ _ O
+) _ _ O
+
+
+
+filtering _ _ O
+facepiece _ _ O
+respirator _ _ O
+( _ _ O
+ffps _ _ O
+) _ _ O
+are _ _ O
+disposable _ _ O
+face _ _ B-OtherPROD
+masks _ _ I-OtherPROD
+produced _ _ O
+from _ _ O
+a _ _ O
+whole _ _ O
+piece _ _ O
+of _ _ O
+filtering _ _ O
+material _ _ O
+. _ _ O
+
+
+
+the _ _ B-OtherPER
+almond _ _ B-OtherPER
+holds _ _ O
+petticoats _ _ B-Clothing
+which _ _ O
+she _ _ O
+also _ _ O
+sells _ _ O
+. _ _ O
+
+
+
+staple _ _ O
+has _ _ O
+a _ _ O
+following _ _ O
+as _ _ O
+an _ _ O
+underground _ _ O
+streetwear _ _ B-Clothing
+company _ _ O
+. _ _ O
+
+
+
+in _ _ O
+which _ _ O
+we _ _ O
+see _ _ O
+him _ _ O
+without _ _ O
+his _ _ O
+trademark _ _ O
+sunglasses _ _ O
+and _ _ O
+his _ _ O
+home _ _ O
+interior _ _ O
+along _ _ O
+with _ _ O
+an _ _ O
+ageing _ _ O
+dog _ _ B-OtherPROD
+that _ _ O
+requires _ _ O
+medication _ _ O
+. _ _ O
+
+
+
+coving _ _ O
+often _ _ O
+links _ _ O
+the _ _ O
+ceiling _ _ O
+to _ _ O
+the _ _ O
+surrounding _ _ O
+walls _ _ O
+. _ _ O
+
+
+
+they _ _ O
+were _ _ O
+provided _ _ O
+with _ _ O
+a _ _ O
+uniform _ _ O
+of _ _ O
+blue _ _ O
+frocks _ _ B-Clothing
+with _ _ O
+white _ _ O
+cuffs _ _ O
+and _ _ O
+collars _ _ O
+. _ _ O
+
+
+
+the _ _ O
+members _ _ O
+of _ _ O
+the _ _ O
+pipes _ _ O
+and _ _ O
+drums _ _ O
+wear _ _ O
+scarlet _ _ B-OtherPROD
+tunics _ _ I-OtherPROD
+trousers _ _ O
+or _ _ O
+a _ _ O
+kilt _ _ O
+shoes _ _ O
+and _ _ O
+a _ _ O
+feather _ _ O
+bonnet _ _ O
+or _ _ O
+glengarry _ _ O
+cap _ _ O
+. _ _ O
+
+
+
+the _ _ O
+driver _ _ O
+and _ _ O
+his _ _ O
+passenger _ _ O
+were _ _ O
+reported _ _ O
+as _ _ O
+being _ _ O
+men _ _ O
+in _ _ O
+their _ _ O
+30s _ _ O
+or _ _ O
+40s _ _ O
+both _ _ O
+unkempt _ _ O
+and _ _ O
+at _ _ O
+least _ _ O
+one _ _ O
+of _ _ O
+them _ _ O
+wearing _ _ O
+just _ _ O
+an _ _ O
+undershirt _ _ B-Clothing
+. _ _ O
+
+
+
+file _ _ O
+: _ _ O
+amulet _ _ O
+kilim _ _ O
+motif _ _ O
+. _ _ O
+jpg _ _ O
+| _ _ O
+amulet _ _ O
+( _ _ O
+muska _ _ O
+) _ _ O
+for _ _ O
+protection _ _ O
+and _ _ O
+good _ _ O
+luck _ _ O
+
+
+
+petta _ _ O
+was _ _ O
+buried _ _ O
+in _ _ O
+her _ _ O
+wedding _ _ O
+dress _ _ O
+. _ _ O
+
+
+
+theodore _ _ B-OtherPER
+beza _ _ I-OtherPER
+produced _ _ O
+the _ _ O
+1574 _ _ O
+work _ _ O
+right _ _ B-WrittenWork
+of _ _ I-WrittenWork
+magistrates _ _ O
+; _ _ O
+it _ _ O
+was _ _ O
+followed _ _ O
+by _ _ O
+the _ _ O
+anonymous _ _ O
+vindiciae _ _ B-WrittenWork
+contra _ _ I-WrittenWork
+tyrannos _ _ I-WrittenWork
+. _ _ O
+
+
+
+it _ _ O
+is _ _ O
+named _ _ O
+after _ _ O
+pope _ _ B-OtherPER
+julius _ _ I-OtherPER
+i _ _ I-OtherPER
+. _ _ O
+
+
+
+his _ _ O
+repudiation _ _ O
+of _ _ O
+the _ _ O
+appointment _ _ O
+opened _ _ O
+the _ _ O
+way _ _ O
+for _ _ O
+the _ _ O
+appointment _ _ O
+of _ _ O
+jakub _ _ B-Politician
+świnka _ _ I-Politician
+in _ _ O
+1283 _ _ O
+. _ _ O
+
+
+
+he _ _ O
+was _ _ O
+replaced _ _ O
+by _ _ O
+alphonsus _ _ B-OtherPER
+j. _ _ I-OtherPER
+donlon _ _ I-OtherPER
+. _ _ O
+
+
+
+athanasius _ _ B-Scientist
+kircher _ _ I-Scientist
+found _ _ O
+the _ _ O
+number _ _ O
+of _ _ O
+multiset _ _ O
+permutations _ _ O
+when _ _ O
+one _ _ O
+element _ _ O
+can _ _ O
+be _ _ O
+repeated _ _ O
+. _ _ O
+
+
+
+ercole _ _ B-Cleric
+gonzaga _ _ I-Cleric
+born _ _ O
+1506 _ _ O
+died _ _ O
+1565 _ _ O
+. _ _ O
+
+
+
+394 _ _ O
+epiphanius _ _ B-WrittenWork
+of _ _ I-WrittenWork
+salamis _ _ I-WrittenWork
+( _ _ O
+cyprus _ _ O
+) _ _ O
+attacks _ _ O
+teachings _ _ O
+of _ _ O
+origen _ _ B-OtherPER
+as _ _ O
+heretical _ _ O
+. _ _ O
+
+
+
+he _ _ O
+also _ _ O
+claimed _ _ O
+that _ _ O
+he _ _ O
+did _ _ O
+not _ _ O
+oppose _ _ O
+pope _ _ B-Politician
+paul _ _ I-Politician
+vi _ _ I-Politician
+. _ _ O
+
+
+
+muhammad _ _ B-Cleric
+went _ _ O
+to _ _ O
+the _ _ O
+city _ _ O
+of _ _ O
+ta _ _ O
+if _ _ O
+seeking _ _ O
+refuge _ _ O
+but _ _ O
+they _ _ O
+refused _ _ O
+his _ _ O
+message _ _ O
+. _ _ O
+
+
+
+dear _ _ O
+stream _ _ O
+dear _ _ O
+bank _ _ O
+soprano _ _ O
+henry _ _ B-Artist
+vaughan _ _ I-Artist
+; _ _ O
+george _ _ B-Artist
+herbert _ _ I-Artist
+
+
+
+the _ _ O
+name _ _ O
+of _ _ O
+his _ _ O
+father _ _ O
+might _ _ O
+point _ _ O
+to _ _ O
+a _ _ O
+familial _ _ O
+relation _ _ O
+with _ _ O
+popes _ _ B-Cleric
+: _ _ O
+felix _ _ B-Cleric
+iii _ _ I-Cleric
+( _ _ O
+483 _ _ O
+– _ _ O
+492 _ _ O
+) _ _ O
+and _ _ O
+gregory _ _ B-Cleric
+i _ _ I-Cleric
+( _ _ O
+590 _ _ O
+– _ _ O
+604 _ _ O
+) _ _ O
+. _ _ O
+
+
+
+this _ _ O
+is _ _ O
+the _ _ O
+tablet _ _ O
+that _ _ O
+started _ _ O
+jaussen _ _ B-PublicCorp
+'s _ _ O
+collection _ _ O
+. _ _ O
+
+
+
+he _ _ O
+visited _ _ O
+sebastian _ _ B-Artist
+kneipp _ _ I-Artist
+'s _ _ O
+water _ _ O
+cure _ _ O
+sanatorium _ _ O
+in _ _ O
+wörishofen _ _ B-HumanSettlement
+. _ _ O
+
+
+
+adhesions _ _ O
+form _ _ O
+as _ _ O
+a _ _ O
+natural _ _ O
+part _ _ O
+of _ _ O
+the _ _ O
+body _ _ O
+'s _ _ O
+healing _ _ O
+process _ _ O
+after _ _ O
+surgery _ _ B-MedicalProcedure
+in _ _ O
+a _ _ O
+similar _ _ O
+way _ _ O
+that _ _ O
+a _ _ O
+scar _ _ O
+forms _ _ O
+. _ _ O
+
+
+
+it _ _ O
+is _ _ O
+more _ _ O
+toxic _ _ O
+to _ _ O
+females _ _ O
+than _ _ O
+to _ _ O
+males _ _ O
+when _ _ O
+administered _ _ O
+via _ _ O
+subcutaneous _ _ B-MedicalProcedure
+injection _ _ I-MedicalProcedure
+or _ _ O
+intraperitoneal _ _ B-MedicalProcedure
+injection _ _ O
+. _ _ O
+
+
+
+brumpt _ _ O
+is _ _ O
+credited _ _ O
+for _ _ O
+introducing _ _ O
+a _ _ O
+technique _ _ O
+known _ _ O
+as _ _ O
+xenodiagnosis _ _ B-MedicalProcedure
+into _ _ O
+parasitological _ _ O
+research _ _ O
+. _ _ O
+
+
+
+bosler _ _ O
+began _ _ O
+a _ _ O
+new _ _ O
+career _ _ O
+teaching _ _ O
+yoga _ _ B-MedicalProcedure
+in _ _ O
+1997 _ _ O
+at _ _ O
+the _ _ O
+age _ _ O
+of _ _ O
+seventy _ _ O
+. _ _ O
+
+
+
+tachyphylaxis _ _ B-MedicalProcedure
+and _ _ O
+tolerance _ _ O
+have _ _ O
+been _ _ O
+demonstrated _ _ O
+with _ _ O
+all _ _ O
+drugs _ _ O
+of _ _ O
+this _ _ O
+class _ _ O
+. _ _ O
+
+
+
+mcleod _ _ O
+has _ _ O
+been _ _ O
+known _ _ O
+to _ _ O
+rely _ _ O
+on _ _ O
+meditation _ _ B-MedicalProcedure
+to _ _ O
+deal _ _ O
+with _ _ O
+mental _ _ O
+fatigue _ _ O
+and _ _ O
+mentally _ _ O
+prepare _ _ O
+for _ _ O
+games _ _ O
+. _ _ O
+
+
+
+he _ _ O
+became _ _ O
+a _ _ O
+televangelist _ _ O
+and _ _ O
+supporter _ _ O
+of _ _ O
+faith _ _ O
+healing _ _ O
+in _ _ O
+the _ _ O
+late _ _ O
+1960s _ _ O
+after _ _ O
+reading _ _ O
+a _ _ O
+book _ _ O
+by _ _ O
+t. _ _ B-Politician
+l. _ _ I-Politician
+osborn _ _ I-Politician
+. _ _ O
+
+
+
+neuroimaging _ _ B-MedicalProcedure
+techniques _ _ O
+are _ _ O
+used _ _ O
+to _ _ O
+investigate _ _ O
+the _ _ O
+activity _ _ O
+of _ _ O
+neural _ _ O
+networks _ _ O
+as _ _ O
+well _ _ O
+as _ _ O
+the _ _ O
+structure _ _ O
+and _ _ O
+function _ _ O
+of _ _ O
+the _ _ O
+brain _ _ O
+. _ _ O
+
+
+
+again _ _ O
+3d _ _ O
+imaging _ _ O
+using _ _ O
+rotational _ _ B-MedicalProcedure
+angiography _ _ B-MedicalProcedure
+should _ _ O
+be _ _ O
+the _ _ O
+concept _ _ O
+of _ _ O
+choice _ _ O
+. _ _ O
+
+
+
+the _ _ O
+advanced _ _ B-MedicalProcedure
+life _ _ I-MedicalProcedure
+support _ _ I-MedicalProcedure
+protocols _ _ O
+are _ _ O
+partly _ _ O
+integrated _ _ O
+in _ _ O
+the _ _ O
+intermediate _ _ O
+life _ _ O
+support _ _ O
+. _ _ O
+
+
+
+the _ _ O
+skeleton _ _ O
+probably _ _ O
+a _ _ O
+girl _ _ O
+aged _ _ O
+between _ _ O
+6 _ _ O
+and _ _ O
+12 _ _ O
+under _ _ O
+two _ _ O
+flat _ _ O
+stones _ _ O
+in _ _ O
+a _ _ O
+shallow _ _ O
+pit _ _ O
+grave _ _ O
+was _ _ O
+revealed _ _ O
+with _ _ O
+the _ _ O
+help _ _ O
+of _ _ O
+ct _ _ B-MedicalProcedure
+(cat) _ _ I-MedicalProcedure
+scan _ _ I-MedicalProcedure
+. _ _ O
+
+
+
+bodmin _ _ B-Station
+parkway _ _ I-Station
+railway _ _ I-Station
+station _ _ O
+is _ _ O
+1 _ _ O
+km _ _ O
+to _ _ O
+the _ _ O
+north _ _ O
+of _ _ O
+the _ _ O
+hamlet _ _ O
+. _ _ O
+
+
+
+« _ _ O
+geologicheskaya _ _ O
+» _ _ O
+( _ _ O
+« _ _ O
+tsirk _ _ O
+» _ _ O
+stop _ _ O
+) _ _ O
+« _ _ O
+chkalovskaya _ _ O
+» _ _ O
+( _ _ O
+« _ _ O
+avtovokzal _ _ O
+» _ _ O
+stop _ _ O
+) _ _ O
+
+
+
+the _ _ O
+city _ _ O
+is _ _ O
+served _ _ O
+by _ _ O
+the _ _ O
+seve _ _ B-Station
+ballesteros–santander _ _ I-Station
+airport _ _ I-Station
+( _ _ O
+sdr _ _ O
+) _ _ O
+located _ _ O
+south _ _ O
+of _ _ O
+the _ _ O
+city _ _ O
+centre _ _ O
+. _ _ O
+
+
+
+the _ _ O
+nearest _ _ O
+airport _ _ O
+with _ _ O
+national _ _ O
+service _ _ O
+is _ _ O
+albany _ _ B-Station
+international _ _ I-Station
+airport _ _ I-Station
+. _ _ O
+
+
+
+it _ _ O
+is _ _ O
+also _ _ O
+contracted _ _ O
+out _ _ O
+to _ _ O
+cfb _ _ B-ORG
+moose _ _ I-ORG
+jaw _ _ I-ORG
+to _ _ O
+provide _ _ O
+structural _ _ O
+fire _ _ O
+suppression _ _ O
+services _ _ O
+. _ _ O
+
+
+
+shipdham _ _ B-Station
+airfield _ _ I-Station
+( _ _ O
+formerly _ _ O
+raf _ _ O
+shipdham _ _ O
+) _ _ O
+is _ _ O
+located _ _ O
+east _ _ O
+of _ _ O
+the _ _ O
+village _ _ O
+. _ _ O
+
+
+
+2 _ _ O
+tph _ _ O
+to _ _ O
+london _ _ B-Station
+charing _ _ I-Station
+cross _ _ I-Station
+( _ _ O
+non _ _ O
+stop _ _ O
+from _ _ O
+to _ _ O
+) _ _ O
+
+
+
+there _ _ O
+are _ _ O
+also _ _ O
+some _ _ O
+infrequent _ _ O
+services _ _ O
+to _ _ O
+dewsbury _ _ B-HumanSettlement
+via _ _ O
+brighouse _ _ B-Station
+. _ _ O
+
+
+
+it _ _ O
+is _ _ O
+located _ _ O
+near _ _ O
+the _ _ O
+ketchikan _ _ B-Station
+international _ _ I-Station
+airport _ _ I-Station
+which _ _ O
+also _ _ O
+has _ _ O
+its _ _ O
+own _ _ O
+seaplane _ _ B-OtherPROD
+landing _ _ O
+area _ _ O
+. _ _ O
+
+
+
+however _ _ O
+he _ _ O
+managed _ _ O
+to _ _ O
+get _ _ O
+a _ _ O
+transfer _ _ O
+to _ _ O
+pilot _ _ O
+training _ _ O
+and _ _ O
+was _ _ O
+soon _ _ O
+himself _ _ O
+an _ _ O
+instructor _ _ O
+at _ _ O
+raf _ _ B-Facility
+cranwell _ _ I-Facility
+. _ _ O
+
+
+
+in _ _ O
+1995 _ _ O
+the _ _ O
+first _ _ O
+train _ _ O
+station _ _ O
+location _ _ O
+opened _ _ O
+at _ _ O
+penn _ _ B-Station
+station _ _ I-Station
+in _ _ O
+new _ _ B-HumanSettlement
+york _ _ I-HumanSettlement
+city _ _ I-HumanSettlement
+. _ _ O
+
+
+
+the _ _ O
+building _ _ O
+is _ _ O
+served _ _ O
+by _ _ O
+queen _ _ B-Station
+'s _ _ I-Station
+park _ _ I-Station
+station _ _ I-Station
+on _ _ O
+the _ _ O
+toronto _ _ B-ORG
+subway _ _ O
+. _ _ O
+
+
+
+however _ _ O
+current _ _ O
+service _ _ O
+patterns _ _ O
+dictate _ _ O
+that _ _ O
+all _ _ O
+passenger _ _ O
+rail _ _ O
+service _ _ O
+on _ _ O
+the _ _ O
+line _ _ O
+begins _ _ O
+west _ _ O
+at _ _ O
+30th _ _ B-Station
+street _ _ I-Station
+station _ _ I-Station
+. _ _ O
+
+
+
+pau _ _ O
+is _ _ O
+served _ _ O
+by _ _ O
+the _ _ O
+pau _ _ B-Station
+pyrénées _ _ I-Station
+airport _ _ I-Station
+away _ _ O
+. _ _ O
+
+
+
+auraon _ _ O
+can _ _ O
+be _ _ O
+accessed _ _ O
+by _ _ O
+road _ _ O
+and _ _ O
+does _ _ O
+not _ _ O
+have _ _ O
+a _ _ O
+railway _ _ B-Station
+station _ _ I-Station
+of _ _ O
+its _ _ O
+own _ _ O
+. _ _ O
+
+
+
+the _ _ O
+market _ _ O
+also _ _ O
+had _ _ O
+an _ _ O
+extensive _ _ O
+goods _ _ O
+depot _ _ O
+and _ _ O
+a _ _ O
+nearby _ _ O
+railway _ _ O
+station. _ _ O
+
+
+
+even _ _ B-CarManufacturer
+ferrari _ _ B-CarManufacturer
+had _ _ O
+needed _ _ O
+to _ _ O
+sell _ _ O
+his _ _ O
+company _ _ O
+to _ _ O
+fiat _ _ B-CarManufacturer
+before _ _ O
+making _ _ O
+such _ _ O
+a _ _ O
+move _ _ O
+. _ _ O
+
+
+
+he _ _ O
+rode _ _ O
+a _ _ O
+scott _ _ B-CarManufacturer
+motorcycle _ _ O
+winning _ _ O
+several _ _ O
+trophies _ _ O
+. _ _ O
+
+
+
+so _ _ O
+she _ _ O
+sort _ _ O
+of _ _ O
+rocks _ _ O
+in _ _ O
+from _ _ O
+out _ _ O
+of _ _ O
+town _ _ O
+with _ _ O
+a _ _ O
+porsche _ _ B-OtherPROD
+and _ _ O
+some _ _ O
+high _ _ O
+heels _ _ O
+and _ _ O
+a _ _ O
+bit _ _ O
+of _ _ O
+attitude _ _ O
+. _ _ O
+
+
+
+the _ _ O
+final _ _ O
+entry _ _ O
+was _ _ O
+from _ _ O
+leyland _ _ B-CarManufacturer
+and _ _ O
+birmingham _ _ B-ORG
+railway _ _ I-ORG
+carriage _ _ I-ORG
+& _ _ I-ORG
+wagon _ _ I-ORG
+( _ _ O
+brc&w _ _ O
+) _ _ O
+. _ _ O
+
+
+
+infrastructure _ _ O
+and _ _ O
+its _ _ O
+associated _ _ O
+dealer _ _ O
+network _ _ O
+are _ _ O
+currently _ _ O
+placed _ _ O
+under _ _ O
+volkswagen _ _ B-CarManufacturer
+of _ _ I-CarManufacturer
+south _ _ I-CarManufacturer
+africa _ _ I-CarManufacturer
+. _ _ O
+
+
+
+packard _ _ B-CarManufacturer
+motors _ _ I-CarManufacturer
+was _ _ O
+the _ _ O
+only _ _ O
+sponsor _ _ O
+initially _ _ O
+. _ _ O
+
+
+
+mhi _ _ O
+is _ _ O
+one _ _ O
+of _ _ O
+the _ _ O
+core _ _ O
+companies _ _ O
+of _ _ O
+the _ _ O
+mitsubishi _ _ B-PublicCorp
+group _ _ I-PublicCorp
+and _ _ O
+its _ _ O
+automobile _ _ O
+division _ _ O
+is _ _ O
+the _ _ O
+predecessor _ _ O
+of _ _ O
+mitsubishi _ _ B-CarManufacturer
+motors _ _ I-CarManufacturer
+. _ _ O
+
+
+
+after _ _ O
+2 _ _ O
+years _ _ O
+of _ _ O
+its _ _ O
+3 _ _ O
+year _ _ O
+program _ _ O
+ford _ _ B-CarManufacturer
+had _ _ O
+very _ _ O
+little _ _ O
+to _ _ O
+show _ _ O
+for _ _ O
+its _ _ O
+immense _ _ O
+investment _ _ O
+. _ _ O
+
+
+
+however _ _ O
+it _ _ O
+suffered _ _ O
+from _ _ O
+reliability _ _ O
+problems _ _ O
+and _ _ O
+a _ _ O
+ford _ _ B-CarManufacturer
+engine _ _ O
+was _ _ O
+also _ _ O
+tried _ _ O
+in _ _ O
+later _ _ O
+years _ _ O
+. _ _ O
+
+
+
+he _ _ O
+is _ _ O
+best _ _ O
+known _ _ O
+for _ _ O
+his _ _ O
+work _ _ O
+with _ _ O
+car _ _ O
+manufacturer _ _ O
+panhard _ _ B-CarManufacturer
+. _ _ O
+
+
+
+in _ _ O
+2004 _ _ O
+student _ _ O
+activism _ _ O
+led _ _ O
+to _ _ O
+a _ _ O
+campus _ _ O
+wide _ _ O
+ban _ _ O
+on _ _ O
+sales _ _ O
+of _ _ O
+coca-cola _ _ B-Drink
+products _ _ O
+. _ _ O
+
+
+
+crush _ _ B-Drink
+a _ _ O
+soft _ _ O
+drink _ _ O
+brand _ _ O
+
+
+
+image _ _ O
+: _ _ O
+cappiello _ _ O
+contratto _ _ O
+. _ _ O
+jpg _ _ O
+| _ _ O
+contratto _ _ O
+( _ _ O
+liquor _ _ O
+ad _ _ O
+1922 _ _ O
+) _ _ O
+
+
+
+vino _ _ O
+a _ _ O
+word _ _ O
+for _ _ O
+wine _ _ B-Drink
+in _ _ O
+some _ _ O
+languages _ _ O
+
+
+
+popularly _ _ O
+it _ _ O
+is _ _ O
+mixed _ _ O
+with _ _ O
+non _ _ O
+alcoholic _ _ O
+beverages _ _ O
+like _ _ O
+coca-cola _ _ B-Drink
+or _ _ O
+fanta _ _ B-Drink
+. _ _ O
+
+
+
+though _ _ O
+breastfeeding _ _ O
+helps _ _ O
+prevent _ _ O
+many _ _ O
+kinds _ _ O
+of _ _ O
+sicknesses _ _ O
+among _ _ O
+infants _ _ O
+caregivers _ _ O
+often _ _ O
+choose _ _ O
+to _ _ O
+use _ _ O
+infant _ _ B-Drink
+formula _ _ I-Drink
+. _ _ O
+
+
+
+liqueurs _ _ B-Drink
+produced _ _ O
+from _ _ O
+the _ _ O
+colonial _ _ O
+era _ _ O
+are _ _ O
+also _ _ O
+commonly _ _ O
+sold _ _ O
+as _ _ O
+wine _ _ O
+. _ _ O
+
+
+
+many _ _ O
+of _ _ O
+their _ _ O
+traditions _ _ O
+are _ _ O
+still _ _ O
+practiced _ _ O
+such _ _ O
+as _ _ O
+ayahuasca _ _ B-MedicalProcedure
+medicine _ _ O
+work _ _ O
+. _ _ O
+
+
+
+one _ _ O
+herb _ _ O
+is _ _ O
+mixed _ _ O
+with _ _ O
+rice _ _ B-Drink
+wine _ _ I-Drink
+in _ _ O
+equal _ _ O
+parts _ _ O
+and _ _ O
+fermented _ _ O
+for _ _ O
+1 _ _ O
+– _ _ O
+2 _ _ O
+days _ _ O
+. _ _ O
+
+
+
+thermos _ _ O
+brand _ _ O
+vacuum _ _ O
+flask _ _ O
+used _ _ O
+for _ _ O
+maintaining _ _ O
+the _ _ O
+temperature _ _ O
+of _ _ O
+fluids _ _ O
+such _ _ O
+as _ _ O
+coffee _ _ B-Drink
+. _ _ O
+] _ _ O
+] _ _ O
+
+
+
+english _ _ O
+electric _ _ O
+split _ _ O
+the _ _ O
+construction _ _ O
+between _ _ O
+vulcan _ _ B-ORG
+foundry _ _ I-ORG
+at _ _ O
+newton-le-willows _ _ B-HumanSettlement
+and _ _ O
+robert _ _ B-OtherPER
+stephenson _ _ I-OtherPER
+and _ _ O
+hawthorns _ _ B-ORG
+of _ _ I-ORG
+darlington _ _ I-ORG
+. _ _ O
+
+
+
+twenty _ _ O
+four _ _ O
+fuselages _ _ O
+of _ _ O
+the _ _ O
+f _ _ O
+. _ _ O
+k _ _ O
+. _ _ O
+51 _ _ O
+were _ _ O
+assembled _ _ O
+at _ _ O
+aviolanda _ _ B-Station
+. _ _ O
+
+
+
+later _ _ O
+in _ _ O
+1911 _ _ O
+he _ _ O
+joined _ _ O
+the _ _ O
+bristol _ _ B-AerospaceManufacturer
+aeroplane _ _ I-AerospaceManufacturer
+company _ _ I-AerospaceManufacturer
+as _ _ O
+a _ _ O
+staff _ _ O
+pilot _ _ O
+but _ _ O
+was _ _ O
+soon _ _ O
+recognised _ _ O
+as _ _ O
+a _ _ O
+designer _ _ O
+. _ _ O
+
+
+
+mbda _ _ B-CarManufacturer
+owned _ _ O
+the _ _ O
+guided _ _ O
+weapons _ _ O
+facilities _ _ O
+. _ _ O
+
+
+
+a _ _ O
+beechcraft _ _ B-OtherPROD
+18 _ _ I-OtherPROD
+and _ _ O
+a _ _ O
+convair _ _ B-OtherPROD
+400 _ _ I-OtherPROD
+were _ _ O
+both _ _ O
+deliberately _ _ O
+sunk _ _ O
+about _ _ O
+offshore _ _ O
+to _ _ O
+create _ _ O
+a _ _ O
+diving _ _ O
+site _ _ O
+. _ _ O
+
+
+
+( _ _ O
+chikuhei _ _ B-Scientist
+nakajima _ _ I-Scientist
+founder _ _ O
+of _ _ O
+nakajima _ _ B-AerospaceManufacturer
+aircraft _ _ I-AerospaceManufacturer
+company _ _ I-AerospaceManufacturer
+was _ _ O
+a _ _ O
+1912 _ _ O
+graduate _ _ O
+. _ _ O
+) _ _ O
+
+
+
+he _ _ O
+took _ _ O
+the _ _ O
+document _ _ O
+from _ _ O
+lockheed _ _ B-AerospaceManufacturer
+corporation _ _ I-AerospaceManufacturer
+before _ _ O
+his _ _ O
+retirement _ _ O
+in _ _ O
+1989 _ _ O
+. _ _ O
+
+
+
+it _ _ O
+was _ _ O
+produced _ _ O
+by _ _ O
+lockheed _ _ B-AerospaceManufacturer
+and _ _ O
+made _ _ O
+its _ _ O
+first _ _ O
+flight _ _ O
+in _ _ O
+1948 _ _ O
+. _ _ O
+
+
+
+partnerships _ _ O
+were _ _ O
+promptly _ _ O
+formed _ _ O
+with _ _ O
+various _ _ O
+other _ _ O
+aerospace _ _ O
+companies _ _ O
+on _ _ O
+the _ _ O
+programme _ _ O
+including _ _ O
+enaer _ _ B-AerospaceManufacturer
+ogma _ _ B-AerospaceManufacturer
+and _ _ O
+boeing _ _ B-AerospaceManufacturer
+. _ _ O
+
+
+
+her _ _ O
+father _ _ O
+was _ _ O
+initially _ _ O
+a _ _ O
+musician _ _ O
+but _ _ O
+later _ _ O
+worked _ _ O
+for _ _ O
+lockheed _ _ B-AerospaceManufacturer
+corporation _ _ I-AerospaceManufacturer
+. _ _ O
+
+
+
+the _ _ O
+inhalation _ _ B-MedicalProcedure
+form _ _ O
+presents _ _ O
+with _ _ O
+fever _ _ O
+chest _ _ O
+pain _ _ O
+and _ _ O
+shortness _ _ O
+of _ _ O
+breath _ _ O
+. _ _ O
+
+
+
+under _ _ O
+his _ _ O
+direction _ _ O
+scientists _ _ O
+cloned _ _ O
+and _ _ O
+sequenced _ _ O
+hiv _ _ B-OtherPROD
+. _ _ O
+
+
+
+later _ _ O
+: _ _ O
+gummas _ _ O
+( _ _ O
+soft _ _ O
+growths _ _ O
+) _ _ O
+neurological _ _ O
+or _ _ O
+heart _ _ O
+symptoms _ _ O
+. _ _ O
+
+
+
+visibly _ _ O
+shaken _ _ O
+by _ _ O
+her _ _ O
+actions _ _ O
+she _ _ O
+goes _ _ O
+into _ _ O
+the _ _ O
+bathroom _ _ O
+to _ _ O
+engage _ _ O
+in _ _ O
+self-harm _ _ B-MedicalProcedure
+by _ _ O
+burning _ _ O
+herself _ _ O
+on _ _ O
+the _ _ O
+thighs _ _ O
+with _ _ O
+a _ _ O
+cigarette _ _ O
+. _ _ O
+
+
+
+this _ _ O
+gene _ _ O
+is _ _ O
+deleted _ _ O
+in _ _ O
+williams _ _ B-Symptom
+syndrome _ _ I-Symptom
+a _ _ O
+multisystem _ _ B-Disease
+developmental _ _ I-Disease
+disorder _ _ I-Disease
+caused _ _ O
+by _ _ O
+the _ _ O
+deletion _ _ O
+of _ _ O
+contiguous _ _ O
+genes _ _ O
+at _ _ O
+7q11 _ _ O
+. _ _ O
+23 _ _ O
+. _ _ O
+
+
+
+in _ _ O
+their _ _ O
+use _ _ O
+as _ _ O
+medicine _ _ O
+they _ _ O
+are _ _ O
+often _ _ O
+inhaled _ _ O
+for _ _ O
+relief _ _ O
+of _ _ O
+angina _ _ B-Symptom
+and _ _ O
+other _ _ O
+heart _ _ O
+related _ _ O
+symptoms _ _ O
+of _ _ O
+disease _ _ O
+. _ _ O
+
+
+
+the _ _ O
+median _ _ O
+time _ _ O
+to _ _ O
+definitive _ _ O
+repair _ _ O
+from _ _ O
+fistula _ _ B-Symptom
+onset _ _ O
+was _ _ O
+6 _ _ O
+months _ _ O
+( _ _ O
+range _ _ O
+1 _ _ O
+day _ _ O
+to _ _ O
+28 _ _ O
+months _ _ O
+) _ _ O
+. _ _ O
+
+
+
+dried _ _ O
+up _ _ O
+fruit _ _ O
+slices _ _ O
+are _ _ O
+valued _ _ O
+as _ _ O
+a _ _ O
+traditional _ _ O
+remedy _ _ O
+for _ _ O
+dysentery _ _ B-Disease
+. _ _ O
+
+
+
+the _ _ O
+most _ _ O
+common _ _ O
+symptoms _ _ O
+for _ _ O
+epithelial _ _ O
+insertion _ _ O
+of _ _ O
+foreign _ _ O
+objects _ _ O
+are _ _ O
+infection _ _ B-Disease
+abscess _ _ O
+formation _ _ O
+or _ _ O
+sepsis _ _ B-Symptom
+at _ _ O
+the _ _ O
+site _ _ O
+of _ _ O
+insertion _ _ O
+. _ _ O
+
+
+
+the _ _ O
+most _ _ O
+common _ _ O
+adverse _ _ O
+event _ _ O
+is _ _ O
+moderate _ _ O
+to _ _ O
+severe _ _ O
+rash _ _ B-Symptom
+which _ _ O
+occurs _ _ O
+in _ _ O
+up _ _ O
+to _ _ O
+20 _ _ O
+% _ _ O
+of _ _ O
+patients _ _ O
+. _ _ O
+
+
+
+roaming _ _ O
+the _ _ O
+fuchun _ _ B-MusicalWork
+mountains _ _ I-MusicalWork
+with _ _ O
+huang _ _ B-Artist
+gongwang _ _ I-Artist
+
+
+
+file _ _ O
+: _ _ O
+tampuhan _ _ O
+by _ _ O
+juan _ _ O
+luna _ _ O
+. _ _ O
+jpg _ _ O
+| _ _ O
+filipino _ _ O
+couple _ _ O
+in _ _ O
+tampuhan _ _ B-VisualWork
+by _ _ I-VisualWork
+juan _ _ I-VisualWork
+luna _ _ I-VisualWork
+
+
+
+he _ _ O
+has _ _ O
+created _ _ O
+music _ _ O
+pieces _ _ O
+for _ _ O
+theater _ _ O
+dance _ _ O
+installations _ _ B-ArtWork
+television _ _ O
+and _ _ O
+films _ _ O
+. _ _ O
+
+
+
+four _ _ B-SportsGRP
+handscrolls _ _ B-SportsGRP
+( _ _ O
+2 _ _ O
+5 _ _ O
+6 _ _ O
+7 _ _ O
+) _ _ O
+
+
+
+file _ _ O
+: _ _ O
+bathers _ _ O
+with _ _ O
+a _ _ O
+turtle _ _ O
+. _ _ O
+jpg _ _ O
+| _ _ O
+bathers _ _ B-ArtWork
+with _ _ I-ArtWork
+a _ _ I-ArtWork
+turtle _ _ I-ArtWork
+by _ _ O
+henri _ _ B-Artist
+matisse _ _ I-Artist
+
+
+
+these _ _ O
+paintings _ _ O
+among _ _ O
+them _ _ O
+the _ _ B-ArtWork
+feast _ _ I-ArtWork
+of _ _ I-ArtWork
+the _ _ I-ArtWork
+gods _ _ I-ArtWork
+and _ _ O
+bacchus _ _ B-ArtWork
+and _ _ I-ArtWork
+ariadne _ _ I-ArtWork
+were _ _ O
+executed _ _ O
+by _ _ O
+giovanni _ _ B-OtherPER
+bellini _ _ I-OtherPER
+and _ _ O
+titian _ _ B-OtherPER
+. _ _ O
+
+
+
+its _ _ O
+treasures _ _ O
+include _ _ O
+the _ _ O
+mona _ _ B-OtherPER
+lisa _ _ I-OtherPER
+( _ _ O
+la _ _ O
+joconde _ _ O
+) _ _ O
+the _ _ O
+venus _ _ B-OtherPER
+de _ _ I-OtherPER
+milo _ _ I-OtherPER
+statue _ _ B-ArtWork
+liberty _ _ B-ArtWork
+leading _ _ I-ArtWork
+the _ _ I-ArtWork
+people _ _ I-ArtWork
+. _ _ O
+
+
+
+inlay _ _ O
+: _ _ O
+the _ _ B-WrittenWork
+execution _ _ I-WrittenWork
+of _ _ I-WrittenWork
+lady _ _ I-WrittenWork
+jane _ _ I-WrittenWork
+grey _ _ I-WrittenWork
+by _ _ O
+paul _ _ B-Artist
+delaroche _ _ I-Artist
+1834 _ _ O
+
+
+
+animation _ _ O
+still _ _ O
+today _ _ O
+bases _ _ O
+some _ _ O
+visual _ _ O
+styles _ _ O
+off _ _ O
+of _ _ O
+descending _ _ O
+from _ _ O
+the _ _ O
+chōjū-jinbutsu-giga _ _ B-PrivateCorp
+because _ _ O
+of _ _ O
+how _ _ O
+effective _ _ O
+the _ _ O
+line _ _ O
+work _ _ O
+is _ _ O
+. _ _ O
+
+
+
+also _ _ O
+he _ _ O
+used _ _ O
+often _ _ O
+to _ _ O
+be _ _ O
+attributed _ _ O
+as _ _ O
+the _ _ O
+painter _ _ O
+of _ _ O
+a _ _ O
+famous _ _ O
+early _ _ O
+ukiyo _ _ B-OtherPROD
+e _ _ O
+screen _ _ O
+known _ _ O
+as _ _ O
+the _ _ O
+hikone _ _ B-OtherPROD
+screen _ _ O
+but _ _ O
+this _ _ O
+is _ _ O
+now _ _ O
+considered _ _ O
+incorrect _ _ O
+. _ _ O
+
+
+
+the _ _ O
+brand _ _ O
+name _ _ O
+was _ _ O
+acquired _ _ O
+by _ _ O
+the _ _ O
+retail _ _ O
+company _ _ O
+shinola _ _ B-PublicCorp
+in _ _ O
+2011 _ _ O
+. _ _ O
+
+
+
+steve _ _ B-Artist
+sabol _ _ I-Artist
+– _ _ O
+film _ _ O
+producer _ _ O
+and _ _ O
+one _ _ O
+of _ _ O
+the _ _ O
+founders _ _ O
+of _ _ O
+nfl _ _ B-PrivateCorp
+films _ _ I-PrivateCorp
+
+
+
+weir _ _ O
+'s _ _ O
+wonderful _ _ O
+1887 _ _ O
+steinway _ _ B-PrivateCorp
+piano _ _ O
+has _ _ O
+now _ _ O
+been _ _ O
+fully _ _ O
+restored _ _ O
+. _ _ O
+
+
+
+she _ _ O
+won _ _ O
+competitions _ _ O
+sponsored _ _ O
+by _ _ O
+yamaha _ _ B-CarManufacturer
+kawai _ _ B-CarManufacturer
+and _ _ O
+steinway _ _ B-PublicCorp
+. _ _ O
+
+
+
+a _ _ O
+profoto _ _ B-OtherPROD
+studio _ _ I-OtherPROD
+light _ _ I-OtherPROD
+will _ _ O
+be _ _ O
+available _ _ O
+as _ _ O
+an _ _ O
+accessory _ _ O
+as _ _ O
+well _ _ O
+. _ _ O
+
+
+
+he _ _ O
+started _ _ O
+the _ _ O
+theatre _ _ O
+group _ _ O
+delfont _ _ B-ORG
+mackintosh _ _ I-ORG
+theatres _ _ I-ORG
+in _ _ O
+1991 _ _ O
+. _ _ O
+
+
+
+first _ _ O
+full _ _ O
+length _ _ O
+production _ _ O
+from _ _ O
+nfl _ _ B-PrivateCorp
+films _ _ I-PrivateCorp
+. _ _ O
+
+
+
+in _ _ O
+1832 _ _ O
+aged _ _ O
+about _ _ O
+23 _ _ O
+he _ _ O
+took _ _ O
+a _ _ O
+position _ _ O
+at _ _ O
+robert _ _ B-ORG
+stephenson _ _ I-ORG
+and _ _ I-ORG
+company _ _ I-ORG
+newcastle _ _ B-HumanSettlement
+upon _ _ I-HumanSettlement
+tyne _ _ I-HumanSettlement
+. _ _ O
+
+
+
+afpm _ _ O
+represents _ _ O
+companies _ _ O
+including _ _ O
+chevron _ _ B-ORG
+corporation _ _ I-ORG
+exxonmobil _ _ B-ORG
+koch _ _ I-ORG
+industries _ _ I-ORG
+marathon _ _ B-AerospaceManufacturer
+petroleum _ _ I-AerospaceManufacturer
+and _ _ O
+valero _ _ B-PublicCorp
+energy _ _ I-PublicCorp
+. _ _ O
+
+
+
+the _ _ O
+jockey _ _ B-PrivateCorp
+club _ _ I-PrivateCorp
+decided _ _ O
+not _ _ O
+to _ _ O
+re _ _ O
+run _ _ O
+the _ _ O
+race _ _ O
+and _ _ O
+as _ _ O
+a _ _ O
+result _ _ O
+it _ _ O
+has _ _ O
+often _ _ O
+been _ _ O
+called _ _ O
+the _ _ O
+race _ _ O
+that _ _ O
+never _ _ O
+was _ _ O
+. _ _ O
+
+

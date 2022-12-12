@@ -20,6 +20,6 @@
 # python ner_train.py --num_workers 8 --train_data data/kb/fr-train-kb.conll --valid_data data/MultiCoNER2/fr-dev.conll --log_dir ./logs/kb/fr-train-kb --n_epochs 20 --device cuda:1
 # python ner_train.py --num_workers 8 --train_data data/kb/fr-mulda-partial-kb.conll --valid_data data/MultiCoNER2/fr-dev.conll --log_dir ./logs/kb/fr-mulda-partial-kb --n_epochs 20 --device cuda:1
 # python ner_train.py --num_workers 8 --train_data data/kb/fr-mulda-full-kb.conll --valid_data data/MultiCoNER2/fr-dev.conll --log_dir ./logs/kb/fr-mulda-full-kb --n_epochs 20 --device cuda:1
-python ner_train.py --num_workers 8 --train_data data/kb/en-train-kb.conll --valid_data data/MultiCoNER2/en-dev.conll --log_dir ./logs/kb/en-train-kb --n_epochs 20 --device cuda:0
-python ner_train.py --num_workers 8 --train_data data/kb/en-mulda-partial-kb.conll --valid_data data/MultiCoNER2/en-dev.conll --log_dir ./logs/kb/en-mulda-partial-kb --n_epochs 20 --device cuda:0
-# python ner_train.py --num_workers 8 --train_data data/kb/en-mulda-full-kb.conll --valid_data data/MultiCoNER2/en-dev.conll --log_dir ./logs/kb/en-mulda-full-kb --n_epochs 20 --device cuda:0
+# python ner_train.py --num_workers 8 --train_data data/kb/en-train-kb.conll --valid_data data/MultiCoNER2/en-dev.conll --log_dir ./logs/kb/en-train-kb --n_epochs 20 --device cuda:0
+# python ner_train.py --num_workers 8 --train_data data/kb/en-mulda-partial-kb.conll --valid_data data/MultiCoNER2/en-dev.conll --log_dir ./logs/kb/en-mulda-partial-kb --n_epochs 20 --device cuda:0
+python ner_train.py --num_workers 8 --train_data data/kb/en-mulda-full-kb.conll --valid_data data/MultiCoNER2/en-dev.conll --log_dir ./logs/kb/en-mulda-full-kb --n_epochs 20 --device cuda:0

@@ -8,7 +8,7 @@ from allennlp.training.metrics.metric import Metric
 
 
 class SpanF1(Metric):
-    def __init__(self, non_entity_labels=['O']) -> None:
+    def __init__(self, non_entity_labels=['O', 'X']) -> None:
         self._num_gold_mentions = 0
         self._num_recalled_mentions = 0
         self._num_predicted_mentions = 0

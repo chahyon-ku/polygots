@@ -80,12 +80,10 @@ if __name__ == '__main__':
             tokens, tags, mask, token_mask, eos_masks, metadata = [e.to(args.device) if i_e < 5 else e for i_e, e in enumerate(batch)]
 
             token_scores = model(tokens, mask)
+            # print(token_scores, metadata)
             output = model.compute_results(token_scores, eos_masks, tags, metadata, 'predict')
             for i_sent, token_tags in enumerate(output['token_tags']):
                 s_tokens = test_data.tokenizer.convert_ids_to_tokens(tokens[i_sent])
-                # print(test_data.tokenizer.eos_token, test_data.tokenizer.eos_token_id)
-                # print(tokens[i_sent])
-                # print(s_tokens)
                 conll[i_sample]['preds'] = [tag for i_token, tag in enumerate(token_tags) if s_tokens[i_token][0] == '▁']
                 if not len(conll[i_sample]['words']) == len(conll[i_sample]['labels']) >= len(conll[i_sample]['preds']):
                     print(conll[i_sample]['words'], conll[i_sample]['labels'], conll[i_sample]['preds'])
