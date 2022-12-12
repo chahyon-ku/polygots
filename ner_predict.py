@@ -1,5 +1,6 @@
 import argparse
 import collections
+import json
 import os
 import torch
 from torch.utils.data import DataLoader
@@ -20,27 +21,35 @@ if __name__ == '__main__':
     parser.add_argument('--cache_dir', type=str, default='cache')
 
     # predict
-    parser.add_argument('--resume', type=str, default='logs/transv2/base_en-london-trans_20/19.pt')
+    parser.add_argument('--resume', type=str, default='logs/kb/fr-trans-mulda/best.pt')
     parser.add_argument('--device', type=str, default='cuda')
 
     # output
-    parser.add_argument('--output_path', type=str, default='output/transv2/base_en-london-trans_20/en-dev-pred.conll')
+    parser.add_argument('--output_path', type=str, default='output/kb/fr-trans-mulda/en-dev-pred.conll')
     args = parser.parse_args()
 
     # data
     conll = []
+    name = ''
+    words = []
+    labels = []
     with open(args.test_data, 'r', encoding='utf-8') as f:
         for i_line, line in enumerate(f):
             line = line.strip()
-            if line == '':
-                continue
-            elif line[0] == '#':
-                conll.append({'name': line, 'words': [], 'labels': []})
+            if line.strip() == '' or line.startswith('# id'):
+                if len(words):
+                    conll.append({'name': name, 'words': words, 'labels': labels})
+                name = line
+                words = []
+                labels = []
             else:
-                words = line.split(' _')[0].strip()
-                labels = line.split(' _')[2].strip()
-                conll[-1]['words'].append(words)
-                conll[-1]['labels'].append(labels)
+                word = line.split(' ')[0].strip()
+                label = line.split(' ')[3].strip()
+                words.append(word)
+                labels.append(label)
+        
+        if len(words):
+            conll.append({'name': name, 'words': words, 'labels': labels})
     print('conll built')
 
     tags_to_id = lib.dataset.tags_v1 if args.data_version == 1 else lib.dataset.tags_v2
@@ -52,14 +61,14 @@ if __name__ == '__main__':
 
     # model
     os.makedirs(args.cache_dir, exist_ok=True)
-    model = lib.model.NERModel(args.encoder_model, args.cache_dir, tags_to_id)
-    model = model.cuda()
+    model = lib.model.NERModel(args.encoder_model, args.cache_dir, tags_to_id, 0.1, 0, 1)
+    model = model.to(args.device)
 
     # test
     if args.resume is not None:
-        state_dicts = torch.load(args.resume)
-        model.load_state_dict(state_dicts['model'])
+        model.load_state_dict(torch.load(args.resume))
 
+    model.eval()
     with torch.no_grad():
         losses = []
         f1s = []
@@ -68,28 +77,39 @@ if __name__ == '__main__':
         test_tqdm = tqdm.tqdm(enumerate(test_loader), total=len(test_loader), leave=False)
         for i_batch, batch in test_tqdm:
             test_tqdm.set_postfix(test_postfix)
-            tokens, tags, mask, token_mask, metadata = [e.to(args.device) if i_e < 4 else e for i_e, e in enumerate(batch)]
+            tokens, tags, mask, token_mask, eos_masks, metadata = [e.to(args.device) if i_e < 5 else e for i_e, e in enumerate(batch)]
 
             token_scores = model(tokens, mask)
-            output = model.compute_results(token_scores, mask, tags, metadata, 'predict')
+            output = model.compute_results(token_scores, eos_masks, tags, metadata, 'predict')
             for i_sent, token_tags in enumerate(output['token_tags']):
                 s_tokens = test_data.tokenizer.convert_ids_to_tokens(tokens[i_sent])
+                # print(test_data.tokenizer.eos_token, test_data.tokenizer.eos_token_id)
+                # print(tokens[i_sent])
+                # print(s_tokens)
                 conll[i_sample]['preds'] = [tag for i_token, tag in enumerate(token_tags) if s_tokens[i_token][0] == '▁']
-                assert(len(conll[i_sample]['words']) == len(conll[i_sample]['labels']) == len(conll[i_sample]['preds']))
+                if not len(conll[i_sample]['words']) == len(conll[i_sample]['labels']) >= len(conll[i_sample]['preds']):
+                    print(conll[i_sample]['words'], conll[i_sample]['labels'], conll[i_sample]['preds'])
+                assert(len(conll[i_sample]['words']) == len(conll[i_sample]['labels']) >= len(conll[i_sample]['preds']))
                 i_sample += 1
 
             test_postfix['test_loss'] = output['loss'].item()
             test_postfix['test_f1'] = output['results']['MD-F1']
             losses.append(test_postfix['test_loss'])
             f1s.append(test_postfix['test_f1'])
-        print(f'mean test loss: {sum(losses) / len(f1s):.6f}, mean test f1: {sum(f1s) / len(f1s):.6f}')
 
-    # output
-    print('writing predictions to', args.output_path)
     os.makedirs(os.path.dirname(args.output_path), exist_ok=True)
+    # eval
+    with open(args.output_path.replace('.conll', '.eval'), 'w', encoding='utf-8') as f:
+        json.dump({'loss': sum(losses) / len(losses),
+                   'f1': output['results']['MD-F1'],
+                   'p': output['results']['MD-P'],
+                   'r': output['results']['MD-R']}, f)
+
+    # predict
+    print('writing predictions to', args.output_path)
     with open(args.output_path, 'w', encoding='utf-8') as f:
         for conll_one in tqdm.tqdm(conll):
             f.write(conll_one['name'] + '\n')
-            for i_word, word in enumerate(conll_one['words']):
-                f.write('{} _ _ {}\n'.format(word, conll_one['preds'][i_word]))
+            for i_pred, pred in enumerate(conll_one['preds']):
+                f.write('{} _ _ {}\n'.format(conll_one['words'][i_pred], pred))
             f.write('\n\n')

@@ -9,13 +9,14 @@ import lib.reader_utils
 
 
 class NERModel(torch.nn.Module):
-    def __init__(self, encoder_model, cache_dir, tag_to_id, dropout_rate=0.1, pad_token_id=1):
+    def __init__(self, encoder_model, cache_dir, tag_to_id, dropout_rate, eos_token_id, pad_token_id):
         super(NERModel, self).__init__()
         self.id_to_tag = {v: k for k, v in tag_to_id.items()}
         self.tag_to_id = tag_to_id
 
         self.target_size = len(self.id_to_tag)
 
+        self.eos_token_id = eos_token_id
         self.pad_token_id = pad_token_id
 
         self.encoder_model = encoder_model

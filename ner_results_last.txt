@@ -1,0 +1,21 @@
+
+base/fr.eval, 0.821415
+midterm/fr-full.eval, 0.809825
+midterm/fr-partial.eval, 0.807292
+midterm/fr-stable-full.eval, 0.807043
+midterm/fr-stable-partial.eval, 0.822882
+final/fr-mulda-full.eval, 0.822437
+kb/fr-train-kb.eval, 0.808294
+kb/fr-mulda-full-kb.eval, 0.808416
+kb/fr-mulda-partial-kb.eval, 0.818444
+
+base/en.eval, 0.779778
+midterm/en-full.eval, 0.793876
+midterm/en-partial.eval, 0.784087
+midterm/en-stable-full.eval, 0.795254
+midterm/en-stable-partial.eval, 0.780356
+final/en-mulda-full.eval, 0.789784
+final/en-mulda-partial.eval, 0.806267
+final/en-helsinki.eval, 0.720336
+kb/en-train-kb.eval, 0.739550
+kb/en-mulda-partial-kb.eval, 0.735893

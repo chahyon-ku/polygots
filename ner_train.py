@@ -52,8 +52,8 @@ if __name__ == '__main__':
 
     # model
     os.makedirs(args.cache_dir, exist_ok=True)
-    model = lib.model.NERModel(args.encoder_model, args.cache_dir, target_vocab)
-    model = model.cuda()
+    model = lib.model.NERModel(args.encoder_model, args.cache_dir, target_vocab, dropout_rate=0.1, eos_token_id=0, pad_token_id=1)
+    model = model.to(args.device)
 
     # optim
     optim = torch.optim.AdamW(model.parameters(), lr=args.lr, weight_decay=args.weight_decay)
@@ -74,11 +74,11 @@ if __name__ == '__main__':
         train_tqdm = tqdm.tqdm(enumerate(train_loader), total=len(train_loader), leave=False)
         for i_train, batch in train_tqdm:
             epoch_tqdm.set_postfix(epoch_postfix)
-            tokens, tags, mask, token_mask, metadata = [e.to(args.device) if i_e < 4 else e for i_e, e in enumerate(batch)]
+            tokens, tags, mask, token_mask, eos_masks, metadata = [e.to(args.device) if i_e < 5 else e for i_e, e in enumerate(batch)]
 
             optim.zero_grad()
             token_scores = model(tokens, mask)
-            output = model.compute_results(token_scores, mask, tags, metadata)
+            output = model.compute_results(token_scores, eos_masks, tags, metadata)
             output['loss'].backward()
             optim.step()
 
@@ -97,10 +97,10 @@ if __name__ == '__main__':
                 model.reset_metrics()
                 valid_losses = []
                 for i_train, batch in enumerate(valid_loader):
-                    tokens, tags, mask, token_mask, metadata = [e.to(args.device) if i_e < 4 else e for i_e, e in enumerate(batch)]
+                    tokens, tags, mask, token_mask, eos_masks, metadata = [e.to(args.device) if i_e < 5 else e for i_e, e in enumerate(batch)]
 
                     token_scores = model(tokens, mask)
-                    output = model.compute_results(token_scores, mask, tags, metadata)
+                    output = model.compute_results(token_scores, eos_masks, tags, metadata)
 
                     valid_losses.append(output['loss'].item())
                 epoch_postfix['valid_loss'] = numpy.mean(valid_losses)
@@ -114,14 +114,14 @@ if __name__ == '__main__':
 
             
             os.makedirs(args.log_dir, exist_ok=True)
-            torch.save(model.state_dict,
+            torch.save(model.state_dict(),
                         os.path.join(args.log_dir, f'last.pt'))
 
             if epoch_postfix['valid_loss'] < best_valid_loss:
-                torch.save(model.state_dict,
+                torch.save(model.state_dict(),
                            os.path.join(args.log_dir, f'best.pt'))
 
             if (epoch + 1) % args.f_save == 0:
-                torch.save(model.state_dict,
+                torch.save(model.state_dict(),
                            os.path.join(args.log_dir, f'{epoch}.pt'))
             train_tqdm.reset()

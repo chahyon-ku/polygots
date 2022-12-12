@@ -1,4 +1,15 @@
 /google_api.json
 */__pycache__/
-/logs
 /cache/
+*.pth
+*.pt
+/kb/
+/data/
+/stsb/
+/preds/
+/logs/
+/logs_old/
+/output/
+/old/
+/pca/
+/tsne/
