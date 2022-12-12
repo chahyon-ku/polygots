@@ -1,5 +1,15 @@
-# Folder Structure
+# CSCI 5980-002: Natural Language Processing Final Project
 
+## Team Members
+- [Chahyon Ku](ku000045@umn.edu)
+- [Asal Shavandi](shava006@umn.edu)
+- [Josh Spitzer-Resnick](spitz123@umn.edu)
+- [London Lowmanstone IV](lowma016@umn.edu)
+
+## Project Description
+Translation techniques for improving NER performance on MultiCoNER II dataset.
+
+## Project Structure
     .
     ├── data                    # Data CONLL files (No KB-NER data due to +100MB limit)
     │   ├── augment_only        # Augmented data only
@@ -25,3 +35,6 @@
     ├── Error analysis.ipynb    # Error analysis
     ├── README.md               # This file
     └── ...
+
+## Data
+- [MultiCoNER II]
