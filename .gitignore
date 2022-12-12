@@ -3,7 +3,9 @@
 /cache/
 *.pth
 *.pt
-/kb/
+/kb/dumps/
+/kb/v1/
+/kb/processed_conll_rank_eos/
 /data/
 /stsb/
 /logs/
